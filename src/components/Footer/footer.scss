@@ -4,7 +4,7 @@
     background-color: #002650;
 
     position:sticky;
-    position:absolute;
+   
     bottom:0;
 
     display: flex;
@@ -17,12 +17,14 @@
     display:flex;
     align-items: center;
     justify-content: center;
+    background-color: yellow
 }
 .footerRight{
     flex:1;
     display:flex;
     align-items: center;
     justify-content: center;
+    background-color: green;
 }
 
 .footerImg{
@@ -40,10 +42,12 @@
     align-items: center;
     justify-content: center;
     color:white;
+    font-size: 15px;
+    flex-direction: column;
+    background-color: red;
 }
-.firstline{
-    white-space: pre-wrap;
+.infoTitle1{
+    margin-bottom: 30px;
 }
-
 
 

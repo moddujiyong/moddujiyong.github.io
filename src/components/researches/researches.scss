@@ -1,0 +1,56 @@
+.researches{
+    width:100%;
+    background-color: lightcoral;
+    display:flex;
+    align-items:center;
+   
+    justify-content: center;
+}
+
+.researchInfo{
+   
+    display:flex;
+    width:100%;
+    align-items:center;
+    margin:10px;
+    background-color: blueviolet;
+}
+
+.researchLeft
+{
+    display:flex;
+    flex-direction: column;
+    margin:10px;
+    flex:1;
+    background-color: red;
+}
+
+.researchCenter
+{
+    display:flex;
+    flex-direction: column;
+    margin:10px;
+    flex:1;
+    background-color: greenyellow;
+}
+.researchRight
+{
+    display:flex;
+    flex-direction: column;
+    margin:10px;
+    flex:1;
+    background-color: yellow;
+}
+
+.researchImg{
+    width:400px;
+    height:500px;
+    
+}
+.researchTitle{
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Segoe UI', sans-serif;
+    font-weight: bold;
+    background-color: white;
+}

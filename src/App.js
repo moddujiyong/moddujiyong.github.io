@@ -1,7 +1,8 @@
 import React from 'react';
-import Top from './Top/Top';
+import Top from './components/top/Top';
+
 import Home from './pages/home/Home';
-import Footer from './Footer/Footer';
+import Footer from './components/Footer/Footer';
 function App() {
   return (
      <>

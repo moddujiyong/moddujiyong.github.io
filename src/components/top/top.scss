@@ -5,7 +5,7 @@
 
     position:sticky;
     top:0;
-
+    z-index:1000;
     display: flex;
     align-items:center;
     justify-content: center;
@@ -13,15 +13,13 @@
 }
 .topSet{
     display:flex;
-    margin: left 100px;
+    margin-left: 100px;
     margin-right:100px;
 
     align-items:center;
-   
     background-color: orange;
 
 }
-
 
 
 .topImg{
@@ -29,12 +27,10 @@
     width: 200px;
     height: 50px;
     border-radius: 10%;
-    object-fit: contain;
+    object-fit:cover;
     background-color: skyblue;
+    margin-right:10px;
 }
-
-
-
 
 
 .topList{
@@ -43,13 +39,15 @@
     margin:0;
     padding:0;
     list-style:none;
+
+    background-color: red;
 }
 .topListItem{
     margin-right: 50px;
     font-size:18px;
     font-weight:300;
     cursor:pointer;
-
+    background-color: green;
 }
 .topSearchIcon{
    

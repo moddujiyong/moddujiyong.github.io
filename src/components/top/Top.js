@@ -1,7 +1,6 @@
 import React from 'react';
 import "./top.scss";
-import {FontAwesomeIcon} from "@fortawesome/react-fontawesome"
-import {faFacebook} from '@fortawesome/free-brands-svg-icons';
+
 import Logo_Design from '../img/Logo Design.png'
 export default function Top(){
     return(
@@ -11,7 +10,8 @@ export default function Top(){
            
                     <img className="topImg" src={Logo_Design} alt=""/> 
           
-                </div>            
+                </div>    
+                        
                 <div className="topCenter">
                     <ul className="topList">
                      <li className="topListItem">Introduction</li>
