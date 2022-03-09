@@ -12,6 +12,7 @@
     display:flex;
     width:100%;
     align-items:center;
+    justify-content: center;
     margin:10px;
     background-color: blueviolet;
 }
@@ -22,15 +23,18 @@
     flex-direction: column;
     margin:10px;
     flex:1;
+    align-items: center;
     background-color: red;
 }
 
 .researchCenter
 {
+    
     display:flex;
     flex-direction: column;
     margin:10px;
     flex:1;
+    align-items: center;
     background-color: greenyellow;
 }
 .researchRight
@@ -39,13 +43,15 @@
     flex-direction: column;
     margin:10px;
     flex:1;
+    align-items: center;
     background-color: yellow;
 }
 
 .researchImg{
-    width:400px;
-    height:500px;
     
+    width:100%;
+    
+    background-color: lightgray;
 }
 .researchTitle{
     font-size: 30px;

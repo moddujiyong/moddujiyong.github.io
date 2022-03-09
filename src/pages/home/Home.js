@@ -10,13 +10,12 @@ export default function Home(){
     return (
         <>
         <Header/>
-        <div className="home">
-            <Researches/>
-        </div>
+        <Researches/>
         <div className="home">
             <Notice/>
             <Calendar/>
         </div>
+
         </>
     )
 }

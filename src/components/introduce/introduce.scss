@@ -1,7 +1,7 @@
 .introduce{
     width:100%;
     display: flex;
-
+    justify-content: center;
     background-color: blue;
 }
 
@@ -10,6 +10,7 @@
     margin-left: 330px;
     margin-right: 330px;
     align-items: center;
+    justify-content: center;
     background-color: orange;
 
 
@@ -17,11 +18,15 @@
 .introLeft{
     flex:1;
     background-color: pink;
+    display: flex;
+    justify-content: center;
 }
 
 .introRight{
     flex:1;
     background-color: aquamarine;
+    display: flex;
+    justify-content: center;
 }
 
 

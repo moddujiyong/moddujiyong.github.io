@@ -19,6 +19,8 @@ export default function Footer(){
             <div className="footerRight">
                 <img className="footerImg" src={Logo_Design_Footer} alt=""/> 
             </div>
+
         </div>
+
     )
 }
