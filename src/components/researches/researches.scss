@@ -7,7 +7,7 @@
     justify-content: center;
 }
 
-.researchInfo{
+.researchesInfo{
    
     display:flex;
     width:100%;
@@ -17,7 +17,7 @@
     background-color: blueviolet;
 }
 
-.researchLeft
+.researchesLeft
 {
     display:flex;
     flex-direction: column;
@@ -27,7 +27,7 @@
     background-color: red;
 }
 
-.researchCenter
+.researchesCenter
 {
     
     display:flex;
@@ -37,7 +37,7 @@
     align-items: center;
     background-color: greenyellow;
 }
-.researchRight
+.researchesRight
 {
     display:flex;
     flex-direction: column;
@@ -47,13 +47,13 @@
     background-color: yellow;
 }
 
-.researchImg{
+.researchesImg{
     
     width:100%;
     
     background-color: lightgray;
 }
-.researchTitle{
+.researchesTitle{
     font-size: 30px;
     text-align: center;
     font-family: 'Segoe UI', sans-serif;

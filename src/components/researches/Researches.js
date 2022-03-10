@@ -3,21 +3,21 @@ import researchImg from "../img/Logo Design.png";
 export default function Researches() {
   return (
     <div className="researches">
-      <div className="researchInfo">
+      <div className="researchesInfo">
          
-          <div className="researchLeft">
-                <img className="researchImg" src={researchImg} alt=""/>
-                <span className="researchTitle">Clinical Study Design</span>
+          <div className="researchesLeft">
+                <img className="researchesImg" src={researchImg} alt=""/>
+                <span className="researchesTitle">Clinical Study Design</span>
          </div>
 
-          <div className="researchCenter">
-              <img className="researchImg" src={researchImg} alt=""/>
-              <span className="researchTitle">UX/UI Design & Usability</span>
+          <div className="researchesCenter">
+              <img className="researchesImg" src={researchImg} alt=""/>
+              <span className="researchesTitle">UX/UI Design & Usability</span>
           </div>
 
-          <div className="researchRight">
-             <img className="researchImg" src={researchImg} alt=""/>  
-             <span className="researchTitle">Medical Industry Policy</span> 
+          <div className="researchesRight">
+             <img className="researchesImg" src={researchImg} alt=""/>  
+             <span className="researchesTitle">Medical Industry Policy</span> 
               
           </div>
        

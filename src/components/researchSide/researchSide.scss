@@ -1,0 +1,32 @@
+.researchSide{
+    background-color: skyblue;
+    margin:10px;
+    
+}
+.title_research{
+    display:flex;
+    font-size: 25px;
+    background-color: red;
+}
+
+.researchList{
+    display:flex;
+    left:0;
+    background-color: pink;
+}
+
+.researchContent{
+    
+    list-style: none;
+    margin-bottom: 10px;
+    background-color: green;
+    
+}
+
+.researchListItem{
+
+    font-size:16px;
+    margin-top:10px;
+    margin-bottom: 10px;
+    background-color: yellow;
+}

@@ -1,33 +1,35 @@
 import React from 'react';
 import "./top.scss";
-
-import Logo_Design from '../img/Logo Design.png'
+import {Link} from "react-router-dom";
+import Logo_Design_Eng from '../img/Logo Design_Eng.png'
 export default function Top(){
     return(
         <div className="top">
              <div className="topSet">
+                 
                  <div className="topLeft">
            
-                    <img className="topImg" src={Logo_Design} alt=""/> 
-          
+                   <Link to="/"><img className="topImg" src={Logo_Design_Eng} alt=""></img> </Link> 
+                   <i className="topSearchIcon fa-solid fa-magnifying-glass">Search</i>
+                  
                  </div>    
-                        
+                
                 <div className="topCenter">
                     <ul className="topList">
-                     <li className="topListItem">Introduction</li>
-                     <li className="topListItem">Members</li>
-                     <li className="topListItem">Research</li>
-                     <li className="topListItem">Publication</li>
-                     <li className="topListItem">Board</li>
-                     <i className="topSearchIcon fa-solid fa-magnifying-glass"></i>
+                     <li className="topListItem"><Link className="link" to ="/introduction">Introduction</Link></li>
+                     <li className="topListItem"><Link className="link" to ="/members" >Members</Link></li>
+                     <li className="topListItem"><Link className="link" to ="/research">Research</Link></li>
+                     <li className="topListItem"><Link className="link" to ="/publication">Publication</Link></li>
+                     <li className="topListItem"><Link className="link" to ="/contact">Contact</Link></li>
+                 
                     </ul>
                    
                  </div> 
-                 
+                
             </div>
             
             
-           
+         
             
         </div>
     )

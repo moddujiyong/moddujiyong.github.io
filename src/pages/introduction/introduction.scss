@@ -1,0 +1,15 @@
+.introduction{
+    display:flex;
+    background-color: orange;
+
+}
+
+.introductionLeft{
+    flex:1;
+    background-color: greenyellow;
+}
+
+.introductionRight{
+    flex:5;
+    background-color: lightcoral;
+}

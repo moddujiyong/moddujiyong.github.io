@@ -1,0 +1,30 @@
+.memberSide{
+    background-color: skyblue;
+    margin:10px;
+    
+}
+.title_member{
+    display:flex;
+    font-size: 25px;
+    background-color: red;
+}
+
+.memberList{
+    display:flex;
+    left:0;
+    background-color: pink;
+}
+
+.memberContent{
+    list-style: none;
+    margin-bottom: 10px;
+    background-color: green;
+}
+
+.memberListItem{
+
+    font-size:16px;
+    margin-top:10px;
+    margin-bottom: 10px;
+    background-color: yellow;
+}

@@ -1,0 +1,15 @@
+.members{
+    display:flex;
+    background-color: orange;
+
+}
+
+.membersLeft{
+    flex:1;
+    background-color: greenyellow;
+}
+
+.membersRight{
+    flex:5;
+    background-color: lightcoral;
+}

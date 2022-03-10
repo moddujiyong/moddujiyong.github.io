@@ -1,0 +1,15 @@
+.publication{
+    display:flex;
+    background-color: orange;
+
+}
+
+.publicationLeft{
+    flex:1;
+    background-color: greenyellow;
+}
+
+.publicationRight{
+    flex:5;
+    background-color: lightcoral;
+}
