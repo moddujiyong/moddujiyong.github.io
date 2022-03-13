@@ -1,7 +1,7 @@
 .top{
     width:100%;
     height:150px;
-    background-color: aqua;
+    background-color:  #002650;
   // background-color: white;
     position:sticky;
     top:0;
@@ -24,7 +24,7 @@
     margin:10px;
     height:140px;
     align-items:center;
-    background-color: orange;
+    background-color:  #002650;
   
 }
 
@@ -37,7 +37,7 @@
     border-radius: 10%;
 
     object-fit:contain;
-    background-color: skyblue;
+    background-color:  #002650;
     display: flex;
    
     
@@ -75,11 +75,11 @@
     display: flex;
     position:absolute;
     right:0;
-    background-color: greenyellow;
+    background-color:  #002650;;
 }
 .topLeft{
     width:100%;
-    background-color: red;
+    background-color:  #002650;
     height: 100%;
     flex:2;
     
@@ -89,7 +89,7 @@
 
 .topCenter{
     flex:1;
-    background-color: green;
+    background-color:  #002650;;
     align-items: center;
     width:100%;
     justify-content: center;
@@ -115,7 +115,7 @@
             width:100vw;
             height: 10vw;
             justify-content:center;
-            
+            color:white;
             display: flex;
            }
 
@@ -124,7 +124,7 @@
             width:100vw;
             justify-content: center;
             align-items: center;
-           
+            color:white;
             display: flex;
            }
            .topListItem{
@@ -133,10 +133,11 @@
             display: flex;
             margin-right: 50px;
            
+           
            }
            .topSearchIcon{
             
-            
+                color:white;
                 display: flex;
                 justify-content:center;
             
