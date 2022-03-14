@@ -33,16 +33,52 @@ export default function Members() {
 
     
     return (
+
+      
       <div className="members">
+
+        {select === 'Professor' ?
+          <>
         <div className="membersLeft">
               <MemberSide select={select} setSelect={setSelect}/>
         </div>
         <div className="membersRight">
         
-         <p>{page}</p>
+         <p>Professor</p>
 
         
         </div>
+        </>
+
+        :
+            select === 'Student'?
+            <>
+            <div className="membersLeft">
+                  <MemberSide select={select} setSelect={setSelect}/>
+            </div>
+            <div className="membersRight">
+            
+            <p>Student</p>
+              
+            
+            </div>
+
+            </>
+            :
+            <>
+            <div className="membersLeft">
+                  <MemberSide select={select} setSelect={setSelect}/>
+            </div>
+            <div className="membersRight">
+            
+            <p>no Professor</p>
+
+            
+            </div>
+
+        </>
+        }
+        
         
       </div>
     )
