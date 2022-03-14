@@ -16,7 +16,7 @@ export default function Top(){
                 
                 <div className="topCenter">
                     <ul className="topList">
-                     <li className="topListItem"><Link className="link" to ="/introduction">Introduction</Link></li>
+                     <li className="topListItem"><Link className="link" to ="/introduction" >Introduction</Link></li>
                      <li className="topListItem"><Link className="link" to ="/members" >Members</Link></li>
                      <li className="topListItem"><Link className="link" to ="/research">Research</Link></li>
                      <li className="topListItem"><Link className="link" to ="/publication">Publication</Link></li>
