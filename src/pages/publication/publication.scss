@@ -1,15 +1,22 @@
 .publication{
     display:flex;
     background-color: orange;
-
+    margin-bottom:200px;
+    
+    width:100%;
+    height:100%;
 }
 
 .publicationLeft{
     flex:1;
     background-color: greenyellow;
+    margin-bottom:200px;
+    height:100%;
 }
 
 .publicationRight{
     flex:5;
     background-color: lightcoral;
+ 
+    height:100%;
 }

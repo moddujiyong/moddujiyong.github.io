@@ -1,15 +1,21 @@
 .research{
     display:flex;
     background-color: orange;
-
+    margin-bottom:200px;
+    
+    width:100%;
+    height:100%;
 }
 
 .researchLeft{
     flex:1;
     background-color: greenyellow;
+    margin-bottom:200px;
+    height:100%;
 }
 
 .researchRight{
     flex:5;
     background-color: lightcoral;
+    height: 100%;
 }

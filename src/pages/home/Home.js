@@ -5,15 +5,17 @@ import Notice from '../../components/notice/Notice';
 
 import "./home.scss";
 import Calendar from '../../components/calendar/Calendar';
+
 //<Notice/>
 //<Calendar/>
 export default function Home(){
     return (
         <>
+       
+        <div className="home">
         <Header/>
         <Researches/>
-        <div className="home">
-          
+       
         </div>
 
         </>

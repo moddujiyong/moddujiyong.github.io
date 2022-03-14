@@ -5,7 +5,7 @@
     
     position:sticky;
     top:0;
-   
+  
     z-index:1000;
     display: flex;
     align-items: center;
@@ -53,14 +53,14 @@
 .topList{
     
     display:flex;
-   
+    width:100%;
     margin:0;
     //padding:10;
     list-style:none;
     justify-content: space-around;
     
     
-    //background-color: pink;
+   // background-color: pink;
    
 }
 .topListItem{
@@ -103,8 +103,8 @@
     background-color:  #001E42;
     align-items: center;
     width:100%;
-    
-    
+    display:flex;
+    align-self: center;
     border-style: solid;
     border-width: 1px;
     border-color: white;

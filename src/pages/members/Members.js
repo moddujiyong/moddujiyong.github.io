@@ -1,4 +1,7 @@
 import React,{useEffect, useState} from 'react'
+import Header from '../../components/header/Header';
+import Researches from '../../components/researches/Researches';
+import Research from '../research/Research';
 import "./members.scss"
 import MemberSide from "./memberSide/MemberSide"
 export default function Members() {
@@ -23,64 +26,44 @@ export default function Members() {
     }
   },[select])
     
-      
 
-     
-    
-
-   
-   
 
     
     return (
-
-      
+    
       <div className="members">
-
+        
+          <div className="membersLeft">
+          <MemberSide select={select} setSelect={setSelect}/>
+        </div>
+      
         {select === 'Professor' ?
           <>
-        <div className="membersLeft">
-              <MemberSide select={select} setSelect={setSelect}/>
-        </div>
+       
         <div className="membersRight">
-        
-         <p>Professor</p>
-
-        
+         {page}
         </div>
         </>
 
         :
             select === 'Student'?
             <>
-            <div className="membersLeft">
-                  <MemberSide select={select} setSelect={setSelect}/>
-            </div>
+           
             <div className="membersRight">
-            
-            <p>Student</p>
-              
-            
+            {page}
             </div>
-
             </>
             :
             <>
-            <div className="membersLeft">
-                  <MemberSide select={select} setSelect={setSelect}/>
-            </div>
             <div className="membersRight">
-            
-            <p>no Professor</p>
-
-            
+            {page}
             </div>
-
-        </>
-        }
+            </>
+        } 
         
         
       </div>
+     
     )
   }
   

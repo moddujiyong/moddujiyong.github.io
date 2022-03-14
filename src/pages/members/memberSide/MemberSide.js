@@ -1,20 +1,9 @@
 import React from 'react'
-import {useState} from 'react';
+//import {useState} from 'react';
 import "./memberSide.scss"
 export default function MemberSide({ select, setSelect} ) {
 
  
-
-  // function changeMember(){
-  //   setMember(mem==='Professor'?'Students':'Professor');
-  //   console.log(mem);
-  // }
-
-  // const changeMember = () => {
-  //   setMember(mem==='Professor'?'Students':'Professor');
-  //   console.log(mem);
-  // }
-
   const clickPro = () => {
     setSelect('Professor')
   }

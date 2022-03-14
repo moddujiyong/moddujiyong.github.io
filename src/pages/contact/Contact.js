@@ -1,6 +1,6 @@
 import React from 'react'
 import "./contact.scss"
-import ContactSide from "../../components/contactSide/ContactSide"
+import ContactSide from "./contactSide/ContactSide"
 
 export default function contact() {
   return (

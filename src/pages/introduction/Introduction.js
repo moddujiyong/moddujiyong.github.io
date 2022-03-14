@@ -1,6 +1,6 @@
 import React from 'react'
 import "./introduction.scss"
-import IntroductionSide from "../../components/introductionSide/IntroductionSide"
+import IntroductionSide from "./introductionSide/IntroductionSide"
 
 export default function Introduction() {
   return (

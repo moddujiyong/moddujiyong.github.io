@@ -1,7 +1,8 @@
 .memberSide{
     background-color: skyblue;
     margin:10px;
-    
+    display: flex;
+    flex-direction: column;
 }
 .title_member{
     display:flex;
@@ -17,6 +18,8 @@
 }
 
 .memberContent{
+    
+  
     list-style: none;
     margin-bottom: 10px;
     background-color: green;
