@@ -1,9 +1,10 @@
 import React,{useEffect, useState} from 'react'
-import Header from '../../components/header/Header';
-import Researches from '../../components/researches/Researches';
-import Research from '../research/Research';
+
 import "./members.scss"
 import MemberSide from "./memberSide/MemberSide"
+import Professor from './professor/Professor';
+import Student from './student/Student';
+import Alumni from './alumni/Alumni';
 export default function Members() {
 
   const [select,setSelect]=useState('');
@@ -15,14 +16,14 @@ export default function Members() {
   
   useEffect(() => {
 
-    if(select === 'Professor') {
-      setPage('Professor')
+    if(select === 'Alumni') {
+      setPage('Alumni')
         
       
     } else if (select === 'Student'){
       setPage('Student')
     } else {
-      setPage('Alumni')
+      setPage('Professor')
     }
   },[select])
     
@@ -37,11 +38,11 @@ export default function Members() {
           <MemberSide select={select} setSelect={setSelect}/>
         </div>
       
-        {select === 'Professor' ?
+        {select === 'Alumni' ?
           <>
        
         <div className="membersRight">
-         {page}
+          <Alumni/>
         </div>
         </>
 
@@ -50,13 +51,13 @@ export default function Members() {
             <>
            
             <div className="membersRight">
-            {page}
+            <Student/>
             </div>
             </>
             :
             <>
             <div className="membersRight">
-            {page}
+            <Professor/>
             </div>
             </>
         } 

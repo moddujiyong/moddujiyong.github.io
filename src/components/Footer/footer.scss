@@ -2,11 +2,11 @@
     width:100%;
     
     background-color: #002650;
-
-    position:fixed;
-    //position:sticky;
-    bottom:0;
-    height:200px;
+    
+    //position:fixed;
+    position:sticky;
+    margin:0;
+    height: 200px;
     display: flex;
     align-items:center;
     font-family: 'Josefin Snas', sans-serif;
@@ -30,7 +30,7 @@
 
 .footerImg{
     width: 200px;
-    height: 200px;
+ //   height: 200px;
     border-radius: 10%;
     object-fit: contain;
 }

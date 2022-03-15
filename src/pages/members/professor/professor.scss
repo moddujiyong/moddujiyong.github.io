@@ -1,0 +1,64 @@
+.professor{
+    display:flex;
+    flex-direction: column;
+    background-color: bisque;
+    
+}
+
+.prof-header{
+    background-color: aquamarine;
+   
+    display: flex;
+    font-size: 26px;
+    flex-direction: column;
+   
+}
+.header-title{
+    margin-left:50px;
+}
+.prof-scrollMenu{
+    margin-left: 100px;
+    margin-right:200px ;
+    background-color: skyblue;
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+}
+.profList{
+    font-size: 22px;
+    list-style: none;
+    display:flex;
+    width: 100%;
+    justify-content: space-around;
+    background-color: pink;
+    cursor:pointer;
+}
+
+.prof-profile{
+    margin-right:200px ;
+    margin-left:50px;
+    background-color: aqua;
+    padding:5px;
+}
+
+.main-career{
+    margin-right:200px ;
+    margin-left:50px;
+    background-color: yellowgreen;
+    padding:5px;
+}
+
+.scolarship-career{
+    margin-right:200px ;
+    margin-left:50px;
+    background-color: yellow;
+    padding:5px;
+
+}
+
+.research-subject{
+    margin-right:200px ;
+    margin-left:50px;
+    padding:5px;
+    background-color: green;
+}

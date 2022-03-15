@@ -6,6 +6,7 @@ import Notice from '../../components/notice/Notice';
 import "./home.scss";
 import Calendar from '../../components/calendar/Calendar';
 
+
 //<Notice/>
 //<Calendar/>
 export default function Home(){
@@ -15,7 +16,7 @@ export default function Home(){
         <div className="home">
         <Header/>
         <Researches/>
-       
+        
         </div>
 
         </>

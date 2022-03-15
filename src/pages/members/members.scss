@@ -3,28 +3,30 @@
     display:flex;
     
     background-color: orange;
+   
     
-    margin-bottom:200px;
-    
+     margin-bottom: 200px;
     width:100%;
-    height:100%;
+   
+
 
 }
 
 .membersLeft{
     flex:1;
     
-    
+    margin-bottom: 200px;
     background-color: greenyellow;
-    margin-bottom:200px;
+ 
     height:100%;
+  
 }
 
 .membersRight{
     flex:5;
-   
+    height:100%;
     
-    height: 100%;
+   
     background-color: lightcoral;
     
 }

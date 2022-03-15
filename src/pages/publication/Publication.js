@@ -34,6 +34,8 @@ export default function Publication() {
        <div className="publicationRight">
         {page}
       </div>
+      
+      
       </>
         : select==='Conference'?
         <>

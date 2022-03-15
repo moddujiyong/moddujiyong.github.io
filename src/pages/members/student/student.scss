@@ -1,0 +1,64 @@
+.student{
+    display:flex;
+    flex-direction: column;
+    background-color: bisque;
+    
+}
+
+.stu-header{
+    background-color: aquamarine;
+   
+    display: flex;
+    font-size: 26px;
+    flex-direction: column;
+   
+}
+.stu-title{
+    margin-left:50px;
+}
+.stu-scrollMenu{
+    margin-left: 100px;
+    margin-right:200px ;
+    background-color: skyblue;
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+}
+.stuList{
+    font-size: 22px;
+    list-style: none;
+    display:flex;
+    width: 100%;
+    justify-content: space-around;
+    background-color: pink;
+    cursor:pointer;
+}
+
+.stu-profile{
+    margin-right:200px ;
+    margin-left:50px;
+    background-color: aqua;
+    padding:5px;
+}
+
+.phd{
+    margin-right:200px ;
+    margin-left:50px;
+    background-color: yellowgreen;
+    padding:5px;
+}
+
+.msphd{
+    margin-right:200px ;
+    margin-left:50px;
+    background-color: yellow;
+    padding:5px;
+
+}
+
+.ms{
+    margin-right:200px ;
+    margin-left:50px;
+    padding:5px;
+    background-color: green;
+}
