@@ -1,6 +1,9 @@
 import React,{useEffect,useState} from 'react'
 
 import "./research.scss"
+import ResearchCD from './researchCD/ResearchCD';
+import ResearchUD from './researchUD/ResearchUD';
+import ResearchMI from './researchMI/ResearchMI';
 import ResearchSide from "./researchSide/ResearchSide"
 export default function Research() {
   const [select,setSelect]=useState('');
@@ -8,14 +11,14 @@ export default function Research() {
 
   useEffect(() => {
 
-    if(select === 'CD') {
-      setPage('CD')
+    if(select === 'MI') {
+      setPage('MI')
     } 
     else if (select === 'UD'){
       setPage('UD')
     } 
     else {
-      setPage('MI')
+      setPage('CD')
     }
   },[select])
     
@@ -27,23 +30,23 @@ export default function Research() {
       <div className="researchLeft">
             <ResearchSide select={select} setSelect={setSelect}/>
       </div>
-      {select==="CD"?
+      {select==="MI"?
       <>
       <div className="researchRight">
-        {page}
+        <ResearchMI/>
       </div>
       </>
       :
         select==="UD"?
         <>
           <div className="researchRight">
-           {page}
+            <ResearchUD/>
           </div>
         </>
         :
         <>
           <div className="researchRight">
-           {page}
+           <ResearchCD/>
           </div>
         </>
       } 

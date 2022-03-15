@@ -1,6 +1,7 @@
 import React, {useEffect,useState} from 'react'
 import "./publication.scss"
 import PublicationSide from "./publicationSide/PublicationSide"
+import Journal from './journal/Journal';
 export default function Publication() {
 
   const [select,setSelect]=useState('');
@@ -9,14 +10,14 @@ export default function Publication() {
     
   useEffect(() => {
 
-    if(select === 'Journal') {
-      setPage('Journal')
+    if(select === 'Patent') {
+      setPage('Patent')
         
       
     } else if (select === 'Conference'){
       setPage('Conference')
     } else {
-      setPage('Patent')
+      setPage('Journal')
     }
   },[select])
     
@@ -29,7 +30,7 @@ export default function Publication() {
       <div className="publicationLeft">
             <PublicationSide select={select} setSelect={setSelect}/>
       </div>
-      {select==='Journal'? 
+      {select==='Patent'? 
       <>
        <div className="publicationRight">
         {page}
@@ -46,7 +47,8 @@ export default function Publication() {
         : 
         <>
         <div className="publicationRight">
-          {page}
+        
+          <Journal/>
         </div>
         </>
 

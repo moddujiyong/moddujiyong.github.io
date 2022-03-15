@@ -1,11 +1,11 @@
-.student{
+.researchMI{
     display:flex;
     flex-direction: column;
     background-color: bisque;
     
 }
 
-.stu-header{
+.mi-header{
     background-color: aquamarine;
    
     display: flex;
@@ -13,10 +13,10 @@
     flex-direction: column;
    
 }
-.stu-title{
+.mi-title{
     margin-left:50px;
 }
-.stu-scrollMenu{
+.mi-scrollMenu{
     margin-left: 100px;
     margin-right:200px ;
     background-color: skyblue;
@@ -24,7 +24,7 @@
     padding: 10px;
     justify-content: space-around;
 }
-.stuList{
+.miList{
     font-size: 22px;
     list-style: none;
     display:flex;
@@ -33,35 +33,25 @@
     background-color: pink;
     cursor:pointer;
 }
-.stuListItem{
-    background-color: red;
-}
 
-.stu-profile{
+.mi-profile{
     margin-right:200px ;
     margin-left:50px;
     background-color: aqua;
     padding:5px;
 }
 
-.phd{
+.mi-prog{
     margin-right:200px ;
     margin-left:50px;
     background-color: yellowgreen;
     padding:5px;
 }
 
-.msphd{
+.mi-closing{
     margin-right:200px ;
     margin-left:50px;
     background-color: yellow;
     padding:5px;
 
-}
-
-.ms{
-    margin-right:200px ;
-    margin-left:50px;
-    padding:5px;
-    background-color: green;
 }
