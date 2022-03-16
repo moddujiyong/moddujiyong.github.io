@@ -1,7 +1,7 @@
 import React, {useRef} from 'react';
 
 import "./journal.scss"
-export default function ResearchCD() {
+export default function Journal() {
 
   const allJRef=useRef(null);
   const JRef2022=useRef(null);
@@ -48,9 +48,9 @@ export default function ResearchCD() {
             <li className="journalListItem" onClick={onAllJRefClick}>All</li>
             <li className="journalListItem" onClick={onJRef2022Click}>2022</li>
             <li className="journalListItem" onClick={onJRef2021Click}>2021</li>
-            <li className="journalListItem" onClick={onJRef2021Click}>2020</li>
-            <li className="journalListItem" onClick={onJRef2021Click}>2019</li>
-            <li className="journalListItem" onClick={onJRef2021Click}>2018</li>
+            <li className="journalListItem" onClick={onJRef2020Click}>2020</li>
+            <li className="journalListItem" onClick={onJRef2019Click}>2019</li>
+            <li className="journalListItem" onClick={onJRef2018Click}>2018</li>
 
            </ul>
         </div>
@@ -62,28 +62,32 @@ export default function ResearchCD() {
       
 
       <div className="journal2022" ref={JRef2022}>
-        
+        2022
       </div>
 
       <div className="journal2021" ref={JRef2021}>
-        
+        2021
         
       </div>
 
       <div className="journal2020" ref={JRef2020}>
         
-        
+        2020
      </div>
 
-    <div className="journal2019" ref={JRef2019}>
+      <div className="journal2019" ref={JRef2019}>
         
-        
-     </div>
+        2019
+       </div>
 
-     <div className="journal2018" ref={JRef2018}>
+      <div className="journal2018" ref={JRef2018}>
+        2018
         
-        
-     </div>
+      </div>
+
+      <div className="journalSearch">
+        검색
+      </div>
 
     </div>
   )

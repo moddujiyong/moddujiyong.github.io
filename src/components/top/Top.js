@@ -10,8 +10,12 @@ export default function Top(){
                  <div className="topLeft">
            
                    <Link to="/"><img className="topImg" src={Logo_Design_Eng} alt=""></img> </Link> 
-                   <i className="topSearchIcon fa-solid fa-magnifying-glass">Search</i>
-                  
+                   <i className="topSearchIcon fa-solid fa-magnifying-glass"></i>
+                   <i className="topSearchIcon fa-thin fa-magnifying-glass"></i>
+                
+                        <div className="searchText">
+                            Search
+                        </div>
                  </div>    
                 
                 <div className="topCenter">

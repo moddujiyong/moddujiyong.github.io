@@ -2,6 +2,8 @@ import React, {useEffect,useState} from 'react'
 import "./publication.scss"
 import PublicationSide from "./publicationSide/PublicationSide"
 import Journal from './journal/Journal';
+import Conference from './conference/Conference';
+import Patent from './patent/Patent';
 export default function Publication() {
 
   const [select,setSelect]=useState('');
@@ -33,7 +35,7 @@ export default function Publication() {
       {select==='Patent'? 
       <>
        <div className="publicationRight">
-        {page}
+        <Patent/>
       </div>
       
       
@@ -41,7 +43,7 @@ export default function Publication() {
         : select==='Conference'?
         <>
         <div className="publicationRight">
-         {page}
+         <Conference/>
         </div>
         </>
         : 

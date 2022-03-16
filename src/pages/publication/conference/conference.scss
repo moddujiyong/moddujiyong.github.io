@@ -1,11 +1,11 @@
-.journal{
+.conference{
     display:flex;
     flex-direction: column;
     background-color: bisque;
     
 }
 
-.journal-header{
+.conference-header{
     background-color: aquamarine;
    
     display: flex;
@@ -13,10 +13,10 @@
     flex-direction: column;
    
 }
-.journal-title{
+.conference-title{
     margin-left:50px;
 }
-.journal-scrollMenu{
+.conference-scrollMenu{
     margin-left: 100px;
     margin-right:200px ;
     background-color: skyblue;
@@ -24,7 +24,7 @@
     padding: 10px;
     justify-content: space-around;
 }
-.journalList{
+.conferenceList{
     font-size: 22px;
     list-style: none;
     display:flex;
@@ -35,21 +35,21 @@
 }
 
 
-.journal-profile{
+.conference-profile{
     margin-right:200px ;
     margin-left:50px;
     background-color: aqua;
     padding:5px;
 }
 
-.journal2022{
+.conference2022{
     margin-right:200px ;
     margin-left:50px;
     background-color: yellowgreen;
     padding:5px;
 }
 
-.journal2021{
+.conference2021{
     margin-right:200px ;
     margin-left:50px;
     background-color: yellow;
@@ -57,25 +57,25 @@
 
 }
 
-.journal2020{
+.conference2020{
     margin-right:200px ;
     margin-left:50px;
     padding:5px;
     background-color: green;
 }
-.journal2019{
+.conference2019{
     margin-right:200px ;
     margin-left:50px;
     padding:5px;
     background-color: skyblue;
 }
-.journal2018{
+.conference2018{
     margin-right:200px ;
     margin-left:50px;
     padding:5px;
     background-color: blue;
 }
 
-.journalSearch{
+.conferenceSearch{
     background-color: red;
 }
