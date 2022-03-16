@@ -1,6 +1,6 @@
 .top{
     width:100%;
-    height:150px;
+    height:193px;
     background-color:   #002A5C;
     
     position:sticky;
@@ -25,9 +25,9 @@
     object-fit: contain;
     width:100%;
   
-    height:140px;
+    height:192px;
     align-items:center;
-   // background-color:   #002A5C;
+    
     
   
 
@@ -36,8 +36,8 @@
 
 
 .topImg{
-    margin-top: 10px;
-    width:300px;
+    width:525px;
+    height:117px;
     object-fit:contain;
     background-color:   #002A5C;
     display: flex;
@@ -78,9 +78,10 @@
     color:#444;
     cursor:pointer;
     display: flex;
-    
-    margin-top: 10px;
-    margin-right:15px;
+    position: absolute;
+    right:0;
+   
+    margin-right:164px;
     color:white;
 
 }
@@ -88,6 +89,9 @@
     display:flex;
     font-size: 20px;
     color:white;
+    position: absolute;
+    margin-right: 77px;
+    right:0;
     background-color:  #002A5C ;
 }
 
@@ -105,6 +109,7 @@
 
 .topCenter{
     flex:1;
+    
     background-color:  #001E42;
     align-items: center;
     width:100%;
@@ -114,6 +119,7 @@
     border-width: 1px;
     border-color: white;
     border-bottom: none;
+   
 }
 
 
