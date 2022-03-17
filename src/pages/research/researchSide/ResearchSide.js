@@ -3,12 +3,15 @@ import "./researchSide.scss"
 export default function ResearchSide({select,setSelect}) {
   const clickCD=()=>{
      setSelect('CD')
+      
   }
   const clickUD=()=>{
       setSelect('UD')
+     
   }
   const clickMI=()=>{
        setSelect('MI')
+       
   }
   
   

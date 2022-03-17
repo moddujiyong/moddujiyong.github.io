@@ -1,11 +1,19 @@
-import React from 'react';
+import React, {useRef} from 'react';
+import { useEffect } from 'react';
+import {useLocation} from 'react-router-dom';
 import "./footer.scss";
 import {Link} from "react-router-dom";
 import Logo_Mark from '../img/Logo_White.png'
 import Logo_Design_Footer from '../img/Yonsei_White.png'
-import ResearchCD from '../../pages/research/researchCD/ResearchCD';
-import ResearchUD from '../../pages/research/researchUD/ResearchUD';
-export default function Footer(){
+
+export default function Footer({select,setSelect}){
+  
+   const {pathname}=useLocation();
+   useEffect(()=>{
+       window.scrollTo(0,0);
+   },[pathname]);
+
+
    
     const footerText='Dept. of Medical Device \n Engineering & Management'
 
@@ -32,10 +40,10 @@ export default function Footer(){
 
                 <div className="footerRight">
                     <ul className="footerList">
-                       
-                       <li className="footerRListItem"><Link className="link" to ="/research/clinical">Clinical Study Design</Link></li>
-                       <li className="footerRListItem"><Link className="link" to ="/research/uxui">UX/UI Design & Usability</Link></li>
-                       <li className="footerRListItem"><Link className="link" to ="/research/industry">Medical Industry Policy</Link></li>
+                      
+                       <li className="footerRListItem"><Link className="link"  to ="/research/clinical">Clinical Study Design</Link></li>
+                       <li className="footerRListItem"><Link className="link"  to ="/research/uxui">UX/UI Design & Usability</Link></li>
+                       <li className="footerRListItem"><Link className="link"  to ="/research/industry">Medical Industry Policy</Link></li>
                        <li className="footerRListItem"><Link className="link" to ="/">{footerText}</Link></li>
                     
                      </ul>
