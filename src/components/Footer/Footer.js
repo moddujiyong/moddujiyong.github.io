@@ -3,8 +3,12 @@ import "./footer.scss";
 import {Link} from "react-router-dom";
 import Logo_Mark from '../img/Logo_White.png'
 import Logo_Design_Footer from '../img/Yonsei_White.png'
+import ResearchCD from '../../pages/research/researchCD/ResearchCD';
+import ResearchUD from '../../pages/research/researchUD/ResearchUD';
 export default function Footer(){
-  
+   
+    const footerText='Dept. of Medical Device \n Engineering & Management'
+
     return(
         <div className="footer">
             <div className="footerSet">
@@ -27,7 +31,14 @@ export default function Footer(){
                 </div>
 
                 <div className="footerRight">
-                    R
+                    <ul className="footerList">
+                       
+                       <li className="footerRListItem"><Link className="link" to ="/research/clinical">Clinical Study Design</Link></li>
+                       <li className="footerRListItem"><Link className="link" to ="/research/uxui">UX/UI Design & Usability</Link></li>
+                       <li className="footerRListItem"><Link className="link" to ="/research/industry">Medical Industry Policy</Link></li>
+                       <li className="footerRListItem"><Link className="link" to ="/">{footerText}</Link></li>
+                    
+                     </ul>
                 </div>
 
             </div>
