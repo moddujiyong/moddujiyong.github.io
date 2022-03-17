@@ -14,7 +14,9 @@
 }
 
 .footerSet{
+    width:100%;
     display: flex;
+    background-color: green;
    
 }
 .footerLeft{
@@ -22,8 +24,34 @@
     display:flex;
     align-items: center;
     justify-content: center;
-    background-color: yellow
+    background-color: #002650;;
+    
 }
+.footerList{
+    
+    display:flex;
+    flex-direction: column;
+    margin:0;
+    //padding:10;
+    list-style:none;
+    
+    
+    
+   // background-color: pink;
+   
+}
+.footerListItem{
+    
+    display: flex;
+    font-size:15px;
+    font-weight:300;
+    cursor:pointer;
+    color: white;
+    padding:10px;
+    
+   
+}
+
 .footerRight{
     flex:1;
     display:flex;

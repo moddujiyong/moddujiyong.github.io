@@ -1,26 +1,34 @@
 import React from 'react';
 import "./footer.scss";
+import {Link} from "react-router-dom";
 import Logo_Mark from '../img/Logo_White.png'
-import Logo_Design_Footer from '../img/Logo Design_Eng.png'
+import Logo_Design_Footer from '../img/Yonsei_White.png'
 export default function Footer(){
   
     return(
         <div className="footer">
             <div className="footerSet">
 
-            <div className="footerLeft">
-                L
-            </div>    
+                <div className="footerLeft">
+                     <ul className="footerList">
+                       
+                        <li className="footerListItem"><Link className="link" to ="/members" >Members</Link></li>
+                        <li className="footerListItem"><Link className="link" to ="/research">Research</Link></li>
+                        <li className="footerListItem"><Link className="link" to ="/publication">Publication</Link></li>
+                        <li className="footerListItem"><Link className="link" to ="/contact">Contact</Link></li>
+                        <li className="footerListItem"><Link className="link" to ="/gallery" >Gallery</Link></li>
+                    </ul>
+                </div>    
         
-            <div className="footerCenter">
-            <img className="markImg" src={Logo_Mark} alt=""/>
-            <img className="footerImg" src={Logo_Design_Footer} alt=""/> 
+                <div className="footerCenter">  
+                    <img className="markImg" src={Logo_Mark} alt=""/>
+                    <img className="footerImg" src={Logo_Design_Footer} alt=""/> 
                
-            </div>
+                </div>
 
-            <div className="footerRight">
-              R
-            </div>
+                <div className="footerRight">
+                    R
+                </div>
 
             </div>
 

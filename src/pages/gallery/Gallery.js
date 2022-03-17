@@ -1,5 +1,5 @@
 import React from 'react'
-import "./introduction.scss"
+import "./gallery.scss"
 import IntroductionSide from "./introductionSide/IntroductionSide"
 
 export default function Introduction() {
