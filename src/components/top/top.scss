@@ -37,9 +37,11 @@
 
 .topImg{
     width:525px;
-    height:117px;
-    object-fit:content;
+    height:77px;
+    object-fit:cover;
     background-color:   #002A5C;
+    
+    
     display: flex;
    
     
@@ -50,19 +52,19 @@
     
     display:flex;
     width:100%;
-    margin:0;
+    height: 33px;
     //padding:10;
     list-style:none;
     justify-content: space-around;
     
     
-   // background-color: pink;
    
 }
 .topListItem{
     
     display: flex;
     font-size:25px;
+    
     font-weight:300;
     cursor:pointer;
     color: white;
@@ -120,6 +122,7 @@
     border-width: 1px;
     border-color: white;
     border-bottom: none;
+  
    
 }
 

@@ -22,7 +22,7 @@ export default function MemberSide({ select, setSelect} ) {
   return (
     <div className="memberSide">
        <div className='title_member'>
-          Member
+          Members
        </div>
 
       <div className="memberList">
