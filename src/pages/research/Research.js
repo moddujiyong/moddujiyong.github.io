@@ -14,63 +14,47 @@ export default function Research() {
   const location = useLocation();
 
   const [select,setSelect]=useState('');
-  console.log('select',select)
   
-
-  //const [page,setPage]=useState('');
-
-
- /*useEffect(() => {
-
-    if(select === 'MI') {
-      setPage('MI')
-    } 
-    else if (select === 'UD'){
-      setPage('UD')
-    } 
-    else {
-      setPage('CD')
-      
-    }
-  },[select])*/
-
-    useEffect(()=>{
-    if(recv==='industry'){
-      setSelect('MI')
-      console.log(recv,'확인')
-    }
-    
-    else if (recv==='uxui'){
-      setSelect('UD')
-      console.log(recv,'확인')
-    }
-    else if(recv==='clinical'){
-      setSelect('CD')
-      console.log(recv,'확인')
-    }
-    console.log('ERROR')    
-   
-  });
-
-
+  console.log('select',select)
 
   if(location.pathname.includes("clinical")){
-     recv='clinical'
-     
+    recv='clinical'
     
-      
-  } 
-  else if (location.pathname.includes("uxui")){
     
-    recv="uxui"
+ } 
+ else if (location.pathname.includes("uxui")){
+   
+   recv="uxui"
 
-  } 
-  
-  else if (location.pathname.includes('industry')) {
-  
-    recv="industry"
+ } 
+ 
+ else if (location.pathname.includes('industry')) {
+ 
+   recv="industry"
+ }
+
+
+ useEffect(()=>{
+  if(recv==='industry'){
+    setSelect('MI')
+    console.log(recv,'확인')
   }
+  
+  else if (recv==='uxui'){
+    setSelect('UD')
+    console.log(recv,'확인')
+  }
+  else if(recv==='clinical'){
+    setSelect('CD')
+    console.log(recv,'확인')
+  }
+  console.log('ERROR')    
+ 
+},[recv]);
+   
 
+
+  
 
 
 
