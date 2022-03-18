@@ -6,18 +6,18 @@ import "./research.scss"
 import ResearchCD from './researchCD/ResearchCD';
 import ResearchUD from './researchUD/ResearchUD';
 import ResearchMI from './researchMI/ResearchMI';
-import ResearchSide from "./researchSide/ResearchSide"
-
+import ResearchSide from "./researchSide/ResearchSide";
 
 export default function Research() {
+ 
   let recv;
-
   const location = useLocation();
 
+  const [select,setSelect]=useState('');
+  console.log('select',select)
+  
 
- 
   //const [page,setPage]=useState('');
-
 
 
  /*useEffect(() => {
@@ -32,130 +32,74 @@ export default function Research() {
       setPage('CD')
       
     }
-  },[select])
-*/
+  },[select])*/
+
+    useEffect(()=>{
+    if(recv==='industry'){
+      setSelect('MI')
+      console.log(recv,'확인')
+    }
+    
+    else if (recv==='uxui'){
+      setSelect('UD')
+      console.log(recv,'확인')
+    }
+    else if(recv==='clinical'){
+      setSelect('CD')
+      console.log(recv,'확인')
+    }
+    console.log('ERROR')    
+   
+  });
+
 
 
   if(location.pathname.includes("clinical")){
+     recv='clinical'
+     
     
-    recv='clinical'
-
+      
   } 
   else if (location.pathname.includes("uxui")){
-  
-   recv="uxui"
+    
+    recv="uxui"
 
   } 
   
   else if (location.pathname.includes('industry')) {
   
-  recv="industry"
-
-
+    recv="industry"
   }
 
-
-  const [select,setSelect]=useState('');
 
 
 
   return(
     <div className="research">
       <div className="researchLeft">
-          
-          <ResearchSide select={select} setSelect={setSelect}/>
+      <ResearchSide select={select} setSelect={setSelect}/>
+        {console.log(select,'ok')}
       </div>
     
-    {select==="MI"?
+    {select==='MI'?
       
       <div className="researchRight">
         <ResearchMI/>
       </div>
       :
-        select==="UD"?
+        select==='UD'?
        
            <div className="researchRight">
             <ResearchUD/>
           </div>
-          :
+          : 
           <div className="researchRight">
            <ResearchCD />
           </div>
         
          }
-{recv==="industry"?
-  <>
-  <div className="researchRight">
-    <ResearchMI/>
-  </div>
-  </>
-  :
-    recv==="uxui"?
-    <>
-      <div className="researchRight">
-        <ResearchUD/>
-      </div>
-    </>
-    :
-    <>
-      <div className="researchRight">
-       <ResearchCD />
-      
-      </div>
-    </>
-  } 
-
    
   </div>
   )
 }
- 
 
-
-/*{recv==="industry"?
-  <>
-  <div className="researchRight">
-    <ResearchMI/>
-  </div>
-  </>
-  :
-    recv==="uxui"?
-    <>
-      <div className="researchRight">
-        <ResearchUD/>
-      </div>
-    </>
-    :
-    <>
-      <div className="researchRight">
-       <ResearchCD />
-      
-      </div>
-    </>
-  }
-  </div>
-  )
- }*/
-
-
- /* {recv==="industry"?
-  <>
-  <div className="researchRight">
-    <ResearchMI/>
-  </div>
-  </>
-  :
-    recv==="uxui"?
-    <>
-      <div className="researchRight">
-        <ResearchUD/>
-      </div>
-    </>
-    :
-    <>
-      <div className="researchRight">
-       <ResearchCD />
-      
-      </div>
-    </>
-  } */

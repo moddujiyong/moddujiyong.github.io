@@ -7,13 +7,12 @@ import Logo_Mark from '../img/Logo_White.png'
 import Logo_Design_Footer from '../img/Yonsei_White.png'
 
 export default function Footer({select,setSelect}){
-  
+
    const {pathname}=useLocation();
    useEffect(()=>{
        window.scrollTo(0,0);
    },[pathname]);
-
-
+ 
    
     const footerText='Dept. of Medical Device \n Engineering & Management'
 
@@ -40,7 +39,6 @@ export default function Footer({select,setSelect}){
 
                 <div className="footerRight">
                     <ul className="footerList">
-                      
                        <li className="footerRListItem"><Link className="link"  to ="/research/clinical">Clinical Study Design</Link></li>
                        <li className="footerRListItem"><Link className="link"  to ="/research/uxui">UX/UI Design & Usability</Link></li>
                        <li className="footerRListItem"><Link className="link"  to ="/research/industry">Medical Industry Policy</Link></li>
