@@ -38,10 +38,9 @@
 .topImg{
     width:525px;
     height:117px;
-    object-fit:contain;
+    object-fit:content;
     background-color:   #002A5C;
     display: flex;
-    
    
     
 }
@@ -97,13 +96,15 @@
 
 .topLeft{
     width:100%;
+    margin-top: 20px;
     background-color:   #002A5C ;
     
-    flex:2;
+    flex:1;
     
     display: flex;
     justify-content: center;
     align-items: center;
+    
 
 }
 
