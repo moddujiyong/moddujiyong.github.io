@@ -1,13 +1,13 @@
 .patent{
     display:flex;
     flex-direction: column;
-    background-color: bisque;
-    
+    //background-color: bisque;
+    margin-right:319.5px;
 }
 
 .patent-header{
-    background-color: aquamarine;
-   
+    //background-color: aquamarine;
+    
     display: flex;
     font-size: 26px;
     flex-direction: column;
@@ -15,14 +15,20 @@
 }
 .patent-title{
     margin-left:50px;
+    margin-bottom: 23.5px;
 }
 .patent-scrollMenu{
-    margin-left: 100px;
-    margin-right:200px ;
-    background-color: skyblue;
+    
+    //`background-color: skyblue;
     display: flex;
     padding: 10px;
     justify-content: space-around;
+    border-style: solid;
+    border-top-width:1px;
+    border-left-width:0px;
+    border-right-width:0px;
+    border-bottom-width:1px;
+    border-color: #707070;
 }
 .patentList{
     font-size: 22px;
@@ -30,27 +36,27 @@
     display:flex;
     width: 100%;
     justify-content: space-around;
-    background-color: pink;
+ //   background-color: pink;
     cursor:pointer;
 }
 
 
 .patent-profile{
-    margin-right:200px ;
+   // margin-right:200px ;
     margin-left:50px;
     background-color: aqua;
     padding:5px;
 }
 
 .patent2022{
-    margin-right:200px ;
+    //margin-right:200px ;
     margin-left:50px;
     background-color: yellowgreen;
     padding:5px;
 }
 
 .patent2021{
-    margin-right:200px ;
+ //   margin-right:200px ;
     margin-left:50px;
     background-color: yellow;
     padding:5px;
@@ -58,24 +64,25 @@
 }
 
 .patent2020{
-    margin-right:200px ;
+  //  margin-right:200px ;
     margin-left:50px;
     padding:5px;
     background-color: green;
 }
 .patent2019{
-    margin-right:200px ;
+ //   margin-right:200px ;
     margin-left:50px;
     padding:5px;
     background-color: skyblue;
 }
 .patent2018{
-    margin-right:200px ;
+  //  margin-right:200px ;
     margin-left:50px;
     padding:5px;
     background-color: blue;
 }
 
 .patentSearch{
+    margin-left: 50px;
     background-color: red;
 }

@@ -1,12 +1,12 @@
 .student{
     display:flex;
     flex-direction: column;
-    background-color: bisque;
-    
+   // background-color: bisque;
+   margin-right: 319.5px;
 }
 
 .stu-header{
-    background-color: aquamarine;
+  //  background-color: aquamarine;
    
     display: flex;
     font-size: 26px;
@@ -15,14 +15,20 @@
 }
 .stu-title{
     margin-left:50px;
+    margin-bottom: 23.5px;
 }
 .stu-scrollMenu{
-    margin-left: 100px;
-    margin-right:200px ;
-    background-color: skyblue;
+    
+   // background-color: skyblue;
     display: flex;
     padding: 10px;
     justify-content: space-around;
+    border-style: solid;
+    border-top-width:1px;
+    border-left-width:0px;
+    border-right-width:0px;
+    border-bottom-width:1px;
+    border-color: #707070;
 }
 .stuList{
     font-size: 22px;
@@ -30,29 +36,29 @@
     display:flex;
     width: 100%;
     justify-content: space-around;
-    background-color: pink;
+  //  background-color: pink;
     cursor:pointer;
 }
 .stuListItem{
-    background-color: red;
+   // background-color: red;
 }
 
 .stu-profile{
-    margin-right:200px ;
+    
     margin-left:50px;
     background-color: aqua;
     padding:5px;
 }
 
 .phd{
-    margin-right:200px ;
+    
     margin-left:50px;
     background-color: yellowgreen;
     padding:5px;
 }
 
 .msphd{
-    margin-right:200px ;
+    
     margin-left:50px;
     background-color: yellow;
     padding:5px;
@@ -60,7 +66,7 @@
 }
 
 .ms{
-    margin-right:200px ;
+    
     margin-left:50px;
     padding:5px;
     background-color: green;

@@ -1,5 +1,5 @@
 import React, {useRef} from 'react';
-
+import BarImgProf from "../../../components/img/design_bar.png";
 import "./professor.scss"
 export default function Professor() {
 
@@ -27,6 +27,7 @@ export default function Professor() {
       <div className="prof-header" >
         <div className="header-title">
           Professor
+      
         </div>
   
         <div className="prof-scrollMenu">
@@ -63,50 +64,7 @@ export default function Professor() {
         <div>
         research-subject
         </div>
-        <div>
-        research-subject
-        </div>
-        <div>
-        research-subject
-        </div>
-        <div>
-        research-subject
-        </div>
-        <div>
-        research-subject
-        </div>
-        <div>
-        research-subject
-        </div>
-        <div>
-        research-subject
-        </div>
-        <div>
-        research-subject
-        </div>
-        <div>
-        research-subject
-        </div>
-        <div>
-        research-subject
-        </div>
-        <div>
-        research-subject
-        </div>
-        <div>
-        research-subject
-        </div>
-        <div>
-        research-subject
-        </div>
-         <div>
-        research-subject
-        </div>
-        <div>
-        research-subject
-        </div> <div>
-        research-subject
-        </div>
+       
       </div>
       
 

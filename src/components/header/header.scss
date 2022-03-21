@@ -2,7 +2,7 @@
 .header{
    display:flex;
    flex-direction: column;
-  background-color: greenyellow;
+ //background-color: greenyellow;
 }
 
 .headerTitles{
@@ -18,12 +18,22 @@
 
 .headerTitleSmall{
     position:absolute;
-    top:18%;
+    top:148px;
     left:10px;
-    font-size:40px;
-    
-    background-color: lightcoral;
+    color:white;
+    margin-left: 330px;
+    font-size: 35px;
+   // background-color: lightcoral;
  
+}
+
+.headerTitleSmaller{
+    position:absolute;
+    top:210px;
+    left:10px;
+    color:white;
+    margin-left:330px;
+    font-size:28px;
 }
 
 
@@ -32,5 +42,5 @@
     width:100%;
    
     object-fit: cover;
-    background-color: beige;
+    background-color: #00102D;
 }

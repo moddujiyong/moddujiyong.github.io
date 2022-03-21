@@ -1,12 +1,12 @@
 .researchMI{
     display:flex;
     flex-direction: column;
-    background-color: bisque;
-    
+  //  background-color: bisque;
+  margin-right: 319.5px;
 }
 
 .mi-header{
-    background-color: aquamarine;
+   // background-color: aquamarine;
    
     display: flex;
     font-size: 26px;
@@ -15,11 +15,16 @@
 }
 .mi-title{
     margin-left:50px;
+    margin-bottom:23.5px;
 }
 .mi-scrollMenu{
-    margin-left: 100px;
-    margin-right:200px ;
-    background-color: skyblue;
+    border-style: solid;
+    border-top-width:1px;
+    border-left-width:0px;
+    border-right-width:0px;
+    border-bottom-width:1px;
+    border-color: #707070;
+  //  background-color: skyblue;
     display: flex;
     padding: 10px;
     justify-content: space-around;
@@ -30,26 +35,26 @@
     display:flex;
     width: 100%;
     justify-content: space-around;
-    background-color: pink;
+   // background-color: pink;
     cursor:pointer;
 }
 
 .mi-profile{
-    margin-right:200px ;
+   // margin-right:200px ;
     margin-left:50px;
     background-color: aqua;
     padding:5px;
 }
 
 .mi-prog{
-    margin-right:200px ;
+  //  margin-right:200px ;
     margin-left:50px;
     background-color: yellowgreen;
     padding:5px;
 }
 
 .mi-closing{
-    margin-right:200px ;
+  //  margin-right:200px ;
     margin-left:50px;
     background-color: yellow;
     padding:5px;

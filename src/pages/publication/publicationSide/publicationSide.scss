@@ -1,33 +1,65 @@
 .publicationSide{
-    background-color: skyblue;
+ //   background-color: skyblue;
     margin:10px;
-    
+    display:flex;
+    flex-direction: column; 
 }
 .title_publication{
     display:flex;
-    font-size: 25px;
-    background-color: red;
+    font-size: 27px;
+    opacity:1;
+    font-weight: 1000;
+    flex-direction: column;
+    width:208px;
+    margin-left: 51px;
+    //background-color: red;
+}
+.titlePub_border{
+    display:flex;
+}
+.titlePub_left{
+    border-style:solid;
+    width:104px;
+    border-color:#002650;
+}
+.titlePub_right{
+    width:104px;
+    background-color: #FFC341;
 }
 
 .publicationList{
     display:flex;
+    margin-left:10px;
     left:0;
-    background-color: pink;
+   // background-color: pink;
 }
 
 .publicationContent{
-    
+    display: flex;
+    flex-direction: column;
     list-style: none;
-    margin-bottom: 10px;
-    background-color: green;
+    margin-top:51px;
+    //background-color: green;
     
 }
 
 .publicationListItem{
 
-    font-size:16px;
-    margin-top:10px;
-    margin-bottom: 10px;
-    background-color: yellow;
+    font-size:22px;
+    width:208px;
+    
+    margin-bottom: 33px;
+  //  background-color: yellow;
     cursor:pointer;
+
+
+    border-style: solid;
+    
+    height: 46.5px;
+    border-top-width: 0;
+    border-left-width:0;
+    border-right-width:0;
+    border-bottom-width:1px;
+    border-color: #FFC341;
+
 }

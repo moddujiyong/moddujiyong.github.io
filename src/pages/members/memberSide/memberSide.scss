@@ -9,14 +9,26 @@
     font-size: 27px;
     opacity: 1;
     font-weight: 1000;
-    border-style: solid;
-    border-top-width: 0;
-    border-left-width:0;
-    border-right-width:0;
-    border-bottom-width: 9px;
+    flex-direction: column;
+   // border-style: solid;
+
     width:208px;
-    border-color: yellow;
+   
     margin-left:51px;
+}
+.title_border{
+    display:flex;
+    
+}
+.title_left{
+    border-style: solid;
+    width:104px;
+    border-color:#002650;
+}
+.title_right{
+     
+    width:104px;
+    background-color: #FFC341;
 }
 
 .memberList{

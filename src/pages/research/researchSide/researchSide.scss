@@ -1,34 +1,68 @@
 .researchSide{
-    background-color: skyblue;
+    //background-color: skyblue;
     margin:10px;
     display: flex;
     flex-direction: column;
 }
 .title_research{
     display:flex;
-    font-size: 25px;
-    background-color: red;
+    font-size: 27px;
+    opacity:1;
+    font-weight:1000;
+    flex-direction: column;
+    //background-color: red;
+    width:208px;
+    margin-left:51px;
 }
+
+.titleResearch_border{
+    display:flex;
+}
+
+.titleResearch_left{
+    border-style: solid;
+    width:104px;
+    
+    border-color: #002650;
+}
+.titleResearch_right{
+    width:104px;
+    background-color: #FFC341;
+}
+
 
 .researchList{
     display:flex;
     left:0;
-    background-color: pink;
+    //background-color: pink;
+    margin-left:10px;
 }
 
 .researchContent{
-    
+    display:flex;
+    flex-direction: column;
+
     list-style: none;
-    margin-bottom: 10px;
-    background-color: green;
+    margin-top: 51px;
+    
+
     
 }
 
 .researchListItem{
-
-    font-size:16px;
-    margin-top:10px;
-    margin-bottom: 10px;
-    background-color: yellow;
+    font-size:22px;
+    width:208px;
+    margin-bottom: 33px;
+   
     cursor:pointer;
+    border-style: solid;
+    //height: 46.5px;
+    height: 70px;
+    border-top-width: 0;
+    border-left-width:0;
+    border-right-width:0;
+    border-bottom-width:1px;
+    border-color: #FFC341;
+
+   // background-color: beige;
 }

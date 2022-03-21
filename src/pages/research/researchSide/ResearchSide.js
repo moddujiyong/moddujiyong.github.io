@@ -19,6 +19,14 @@ export default function ResearchSide({select,setSelect}) {
     <div className="researchSide">
        <div className='title_research'>
           Research
+          <div className="titleResearch_border">
+            <div className="titleResearch_left">
+              
+            </div>
+            <div className="titleResearch_right">
+              
+            </div>
+        </div>  
        </div>
 
       <div className="researchList">

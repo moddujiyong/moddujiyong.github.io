@@ -23,6 +23,15 @@ export default function MemberSide({ select, setSelect} ) {
     <div className="memberSide">
        <div className='title_member'>
           Members
+        <div className="title_border">
+            <div className="title_left">
+              
+            </div>
+            <div className="title_right">
+              
+            </div>
+        </div>  
+         
        </div>
 
       <div className="memberList">

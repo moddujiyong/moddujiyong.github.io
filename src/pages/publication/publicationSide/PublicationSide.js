@@ -22,6 +22,14 @@ export default function publicationSide({select,setSelect}) {
     <div className="publicationSide">
        <div className='title_publication'>
           Publication
+          <div className="titlePub_border">
+            <div className="titlePub_left">
+              
+            </div>
+            <div className="titlePub_right">
+              
+            </div>
+        </div>  
        </div>
 
       <div className="publicationList">

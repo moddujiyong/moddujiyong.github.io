@@ -6,18 +6,21 @@ export default function Researches() {
       <div className="researchesInfo">
          
           <div className="researchesLeft">
-                <img className="researchesImg" src={researchImg} alt=""/>
                 <span className="researchesTitle">Clinical Study Design</span>
+                <img className="researchesImg" src={researchImg} alt=""/>
+              
          </div>
 
           <div className="researchesCenter">
+               <span className="researchesTitle">UX/UI Design & Usability</span>
               <img className="researchesImg" src={researchImg} alt=""/>
-              <span className="researchesTitle">UX/UI Design & Usability</span>
+             
           </div>
 
           <div className="researchesRight">
+            <span className="researchesTitle">Medical Industry Policy</span> 
              <img className="researchesImg" src={researchImg} alt=""/>  
-             <span className="researchesTitle">Medical Industry Policy</span> 
+            
               
           </div>
        
