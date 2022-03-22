@@ -1,15 +1,61 @@
 .contact{
     display:flex;
-    background-color: orange;
+    margin-bottom:200px;
+    width:100%;
 
 }
 
 .contactLeft{
     flex:1;
-    background-color: greenyellow;
+    margin-top: 64px;
+    margin-bottom: 200px;
+    background-color: skyblue;
+    height: 100%;
 }
 
 .contactRight{
     flex:5;
+    margin-top: 64px;
+    height:100%;
+   
+    background-color: pink;
+}
+.contact-content{
+    display:flex;
+    margin-right:319.5px;
+    background-color: greenyellow;
+    flex-direction: column;
+    border-style: solid;
+    border-top-width:1px;
+    border-left-width:0px;
+    border-right-width:0px;
+    border-bottom-width:0px;
+    border-color: #707070;
+   
+}
+.contact-header{
+    display: flex;
+    font-size:26px;
     background-color: lightcoral;
+    margin-left:50px;
+    margin-bottom: 23.5px;
+   
+}
+
+.google_Map{
+    display:flex;
+    justify-content: center;
+    background-color: skyblue;
+}
+.address{
+    background-color:pink;
+}
+.email{
+    background-color: mediumaquamarine;
+}
+.application{
+    background-color: blue;
+}
+.department{
+    background-color: greenyellow;
 }

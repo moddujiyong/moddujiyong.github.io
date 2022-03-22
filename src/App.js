@@ -17,6 +17,7 @@ function App() {
   return (
      <div className="App">
        <Router>
+         <>
          <Top/>
       
          <Switch>
@@ -37,6 +38,7 @@ function App() {
 
          </Switch>
          <Footer/>
+         </>
        </Router>
 
       

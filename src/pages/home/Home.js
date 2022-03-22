@@ -4,7 +4,7 @@ import Researches from '../../components/researches/Researches';
 import Notice from '../../components/notice/Notice';
 
 import "./home.scss";
-import Calendar from '../../components/calendar/Calendar';
+//import Calendar from '../../components/map/Map';
 
 
 //<Notice/>
