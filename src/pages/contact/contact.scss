@@ -9,7 +9,7 @@
     flex:1;
     margin-top: 64px;
     margin-bottom: 200px;
-    background-color: skyblue;
+ //   background-color: skyblue;
     height: 100%;
 }
 
@@ -18,12 +18,12 @@
     margin-top: 64px;
     height:100%;
    
-    background-color: pink;
+  //  background-color: pink;
 }
 .contact-content{
     display:flex;
     margin-right:319.5px;
-    background-color: greenyellow;
+  //  background-color: greenyellow;
     flex-direction: column;
     border-style: solid;
     border-top-width:1px;
@@ -36,7 +36,7 @@
 .contact-header{
     display: flex;
     font-size:26px;
-    background-color: lightcoral;
+   // background-color: lightcoral;
     margin-left:50px;
     margin-bottom: 23.5px;
    
@@ -44,18 +44,118 @@
 
 .google_Map{
     display:flex;
+    margin-top: 24.5px;
     justify-content: center;
-    background-color: skyblue;
+  //  background-color: skyblue;
+    margin-bottom: 24px;
+   
 }
 .address{
-    background-color:pink;
+    margin-right: 50px;
+    margin-left: 50px;
+    background-color: white;
+    display:flex;
+    flex-direction: column;
+    border-style: solid;
+    border-bottom-width:0;
+    border-top-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-color: #707070;
+}
+.address_title{
+    font-size: 25px;
+    font-family: 'Segoe UI';
+    padding:15px;
+    background-color: #858B96;
+    color:white;
+}
+.address_content{
+    padding:18px;
+    font-size: 22px;
+    color: #707070;
 }
 .email{
-    background-color: mediumaquamarine;
+    margin-right: 50px;
+    margin-left: 50px;
+    display:flex;
+    flex-direction: column;
+    background-color: white;
+    border-style: solid;
+    border-bottom-width:0;
+    border-top-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-color: #707070;
 }
+
+.email_title{
+    font-size: 25px;
+    font-family: 'Segoe UI';
+    padding:15px;
+    background-color: #858B96;
+    color:white;
+}
+.email_content{
+    padding:18px;
+    font-size: 22px;
+    color: #707070;
+
+}
+
+
 .application{
-    background-color: blue;
+    margin-right: 50px;
+    margin-left: 50px;
+    display:flex;
+    flex-direction: column;
+    background-color: white;
+    border-style: solid;
+    border-bottom-width:0;
+    border-top-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-color: #707070;
+}
+
+.application_title{
+    font-size: 25px;
+    font-family: 'Segoe UI';
+    padding:15px;
+    background-color: #858B96;
+    color:white;
+}
+.application_content{
+    padding:18px;
+    font-size: 22px;
+    color: #707070;
+
 }
 .department{
-    background-color: greenyellow;
+    margin-left: 50px;
+    margin-right: 50px;
+    display:flex;
+    flex-direction: column;
+    background-color: white;
+    border-style: solid;
+    border-bottom-width:1px;
+    border-top-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-color: #707070;
+}
+
+
+.department_title{
+    font-size: 25px;
+    font-family: 'Segoe UI';
+    padding:15px;
+    background-color: #858B96;
+    color:white;
+}
+.department_content{
+    padding:18px;
+    font-size: 22px;
+    color: #707070;
+
 }
