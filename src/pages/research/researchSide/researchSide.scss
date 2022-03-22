@@ -34,7 +34,7 @@
 .researchList{
     display:flex;
     left:0;
-    //background-color: pink;
+ //   background-color: pink;
     margin-left:10px;
 }
 
@@ -45,24 +45,24 @@
     list-style: none;
     margin-top: 51px;
     
-
-    
+   //background-color: orange;
+    width:100%;
 }
 
 .researchListItem{
     font-size:22px;
-    width:208px;
+    //width:208px;
     margin-bottom: 33px;
-   
+    width:100%;
     cursor:pointer;
     border-style: solid;
-    //height: 46.5px;
-    height: 70px;
+    height: 46.5px;
+  
     border-top-width: 0;
     border-left-width:0;
     border-right-width:0;
     border-bottom-width:1px;
     border-color: #FFC341;
-
-   // background-color: beige;
+    font-family: 'Segoe UI';
+  //  background-color: beige;
 }
