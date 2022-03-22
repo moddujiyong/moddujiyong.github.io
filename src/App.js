@@ -21,7 +21,7 @@ function App() {
       
          <Switch>
 
-           <Route exact path="/">
+           <Route exact path="/Mddu">
               <Home/>
            </Route>
 
