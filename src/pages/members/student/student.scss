@@ -17,49 +17,77 @@
     margin-left:50px;
     margin-bottom: 23.5px;
 }
-.stu-scrollMenu{
-    
-   // background-color: skyblue;
-    display: flex;
-    padding: 10px;
-    justify-content: space-around;
+
+
+
+.stu-profile{
+    border-color: #707070;
     border-style: solid;
     border-top-width:1px;
     border-left-width:0px;
     border-right-width:0px;
-    border-bottom-width:1px;
-    border-color: #707070;
-}
-.stuList{
-    font-size: 22px;
-    list-style: none;
-    display:flex;
-    width: 100%;
-    justify-content: space-around;
-  //  background-color: pink;
-    cursor:pointer;
-}
-.stuListItem{
-   // background-color: red;
-}
-
-.stu-profile{
-    
-    margin-left:50px;
+    border-bottom-width:0px;
     background-color: aqua;
     padding:5px;
+    display:flex;
 }
+
+.stu-left{
+margin-top:23.5px;
+ flex:1;
+ display: flex;
+ flex-direction: column;
+ 
+ background-color: yellow;
+}
+.stu-course{
+ font-size:22px;
+ font-family: 'Roboto';
+ color: #002650;
+ opacity: 1;
+ font-weight: 1000;
+}
+.stu-photo{
+    
+}
+
+.stu-right{
+    margin-top:23.5px;
+    background-color: green;
+    flex:2;
+    display: flex;
+    flex-direction: column;
+}
+.stu-name{
+    
+    font-size:26px;
+    font-weight: 700;
+    font-family: 'Roboto';
+}
+.stu-pos{
+    font-size:23px;
+}
+.stu-eng{
+    margin-left: 20px;
+    font-size: 23px;
+}
+
+.stu-field{
+    
+}
+
+
 
 .phd{
     
-    margin-left:50px;
+  
     background-color: yellowgreen;
     padding:5px;
 }
 
 .msphd{
     
-    margin-left:50px;
+    
     background-color: yellow;
     padding:5px;
 
@@ -67,7 +95,7 @@
 
 .ms{
     
-    margin-left:50px;
+    
     padding:5px;
     background-color: green;
 }

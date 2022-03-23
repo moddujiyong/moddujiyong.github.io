@@ -4,6 +4,7 @@ import "./members.scss"
 import MemberSide from "./memberSide/MemberSide"
 import Professor from './professor/Professor';
 import Student from './student/Student';
+import Staffs from './staffs/Staffs';
 import Alumni from './alumni/Alumni';
 export default function Members() {
 
@@ -22,7 +23,11 @@ export default function Members() {
       
     } else if (select === 'Student'){
       setPage('Student')
-    } else {
+    } else if (select === 'Staffs') {
+      setPage('Staffs')
+      
+    }
+    else{
       setPage('Professor')
     }
   },[select])
@@ -48,18 +53,23 @@ export default function Members() {
 
         :
             select === 'Student'?
-            <>
+            
            
             <div className="membersRight">
             <Student/>
             </div>
-            </>
-            :
-            <>
-            <div className="membersRight">
-            <Professor/>
-            </div>
-            </>
+            
+              :
+               select === 'Staffs'?
+                 
+                <div className="membersRight">
+                <Staffs/>
+                </div>
+                
+                :
+                <div className="membersRight">
+                <Professor/>
+                </div>
         } 
         
         

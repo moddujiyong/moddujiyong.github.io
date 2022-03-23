@@ -1,20 +1,37 @@
-import React from 'react'
-//import {useState} from 'react';
+import { faBlackberry } from '@fortawesome/free-brands-svg-icons'
+import React,{useState} from 'react'
 import "./memberSide.scss"
 export default function MemberSide({ select, setSelect} ) {
 
- 
+
+  const [color,setColor]=useState('');
+  
+  
+
   const clickPro = () => {
-    setSelect('Professor')
+    setSelect('Professor') 
+    if(color==='#707070'){
+      setColor('black')
+    }
+      else{
+        setColor('#707070')
+      }
   }
 
   const clickStu = () => {
     setSelect('Student')
+  
+  }
+
+  const clickStaffs=()=>{
+    setSelect('Staffs')
+  
   }
   
 
   const clickAlu = () => {
     setSelect('Alumni')
+  
   }
   
 
@@ -36,17 +53,13 @@ export default function MemberSide({ select, setSelect} ) {
 
       <div className="memberList">
         <ul className="memberContent">
-          <li className="memberListItem" onClick={clickPro}>Professor</li>
-          <li className="memberListItem" onClick={clickStu}>Student</li>
-          <li className="memberListItem" onClick={clickAlu}>Alumni</li>
+          <li className="memberListItem" onClick={clickPro} >professor</li>
+          <li className="memberListItem" onClick={clickStu}  >Students</li>
+          <li className="memberListItem" onClick={clickStaffs}>Staffs</li>
+          <li className="memberListItem" onClick={clickAlu} >Alumni</li>
         </ul>
       </div>
 
     </div>
   )
 }
-/*<ul className="memberContent">
-<li className="memberListItem">Professor</li>
-<li className="memberListItem">Students</li>
-<li className="memberListItem">Alumni</li>
-</ul>*/

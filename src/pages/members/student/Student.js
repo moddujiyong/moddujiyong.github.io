@@ -28,233 +28,55 @@ export default function Professor() {
         <div className="stu-title">
           Students
         </div>
-  
-        <div className="stu-scrollMenu">
-           <ul className="stuList">
-            <li className="stuListItem" onClick={onAlClick}>All</li>
-            <li className="stuListItem" onClick={onPhdClick}>Ph.D course</li>
-            <li className="stuListItem" onClick={onMsPhClick}>MS/Ph.D course</li>
-            <li className="stuListItem" onClick={onMsClick}>MS course</li>        
-                 
-           </ul>
-        </div>
       </div>
 
-      <div className="stu-profile" ref={allRef}>
-        stu-profile
+      <div className="stu-profile">
+        <div className="stu-left">
+           <div className="stu-course">
+               Ph.D course
+            </div>
+        
+            <div className="stu-photo"> 
+               ..
+            </div>
+        </div>
+        <div className="stu-right">
+          <div className="stu-name">
+              김유림
+              <span className="stu-pos"> 연구원 </span>
+              <span className="stu-eng"> Yourim Kim</span>
+          </div>
+
+          <div className="stu-field"> 
+            <span className="stu-edu">| Education |</span>
+            <span className="stu-edul1">M.S in Medical Device Engineering & Management (2020) </span>
+            <span className="stu-edul2">B.S in Biomedical Engineering, Konkuk University (2017)</span>
+            <span className="stu-ri">| Research Interest |</span>
+            <span className="stu-ril">Medical Device Clinical Study Design, Clinical Effectiveness Evaluation </span>
+            <span className="stu-contact">| Contact |</span>
+            <span className="stu-contactl">yxxrm_k@naver.com / yxxrmk@yonsei.ac.kr</span>
+         
+          </div>
+        </div>
         
       </div>
       
 
-      <div className="phd" ref={phdRef}>
+      <div className="phd">
         phd
-        <div>
-        research-subject
-        </div>
-        <div>
-        research-subject
-        </div>
-        <div>
-        research-subject
-        </div>
-        <div>
-        research-subject
-        </div>
-        <div>
-        research-subject
-        </div>
-        <div>
-        research-subject
-        </div>
-        <div>
-        research-subject
-        </div>
-        <div>
-        research-subject
-        </div>
-        <div>
-        research-subject
-        </div>
-        <div>
-        research-subject
-        </div>
-        <div>
-        research-subject
-        </div>
-        <div>
-        research-subject
-        </div>
-        <div>
-        research-subject
-        </div>
-        <div>
-        research-subject
-        </div>
-        <div>
-        research-subject
-        </div>
-        <div>
-        research-subject
-        </div>
-        <div>
-        research-subject
-        </div>
-        <div>
-        research-subject
-        </div>
-        <div>
-        research-subject
-        </div>
-         <div>
-        research-subject
-        </div>
-        <div>
-        research-subject
-        </div> <div>
-        research-subject
-        </div>
+       
       </div>
 
-      <div className="msphd" ref={msphRef}>
+      <div className="msphd" >
         scolarship-career
-        <div>
-        research-subject
-        </div>
-        <div>
-        research-subject
-        </div>
-        <div>
-        research-subject
-        </div>
-        <div>
-        research-subject
-        </div>
-        <div>
-        research-subject
-        </div>
-        <div>
-        research-subject
-        </div>
-        <div>
-        research-subject
-        </div>
-        <div>
-        research-subject
-        </div>
-        <div>
-        research-subject
-        </div>
-        <div>
-        research-subject
-        </div>
-        <div>
-        research-subject
-        </div>
-        <div>
-        research-subject
-        </div>
-        <div>
-        research-subject
-        </div>
-        <div>
-        research-subject
-        </div>
-        <div>
-        research-subject
-        </div>
-        <div>
-        research-subject
-        </div>
-        <div>
-        research-subject
-        </div>
-        <div>
-        research-subject
-        </div>
-        <div>
-        research-subject
-        </div>
-         <div>
-        research-subject
-        </div>
-        <div>
-        research-subject
-        </div> <div>
-        research-subject
-        </div>
+        
         
       </div>
 
-      <div className="ms" ref={msRef}>
+      <div className="ms">
         research-subject22
         
-        <div>
-        research-subject
-        </div>
-        <div>
-        research-subject
-        </div>
-        <div>
-        research-subject
-        </div>
-        <div>
-        research-subject
-        </div>
-        <div>
-        research-subject
-        </div>
-        <div>
-        research-subject
-        </div>
-        <div>
-        research-subject
-        </div>
-        <div>
-        research-subject
-        </div>
-        <div>
-        research-subject
-        </div>
-        <div>
-        research-subject
-        </div>
-        <div>
-        research-subject
-        </div>
-        <div>
-        research-subject
-        </div>
-        <div>
-        research-subject
-        </div>
-        <div>
-        research-subject
-        </div>
-        <div>
-        research-subject
-        </div>
-        <div>
-        research-subject
-        </div>
-        <div>
-        research-subject
-        </div>
-        <div>
-        research-subject
-        </div>
-        <div>
-        research-subject
-        </div>
-         <div>
-        research-subject
-        </div>
-        <div>
-        research-subject
-        </div> <div>
-        research-subject
-        </div>
-
-
+        
       </div>
     </div>
   )

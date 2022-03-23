@@ -1,6 +1,6 @@
 .researches{
     width:100%;
-    background-color: lightcoral;
+  //  background-color: lightcoral;
     display:flex;
     align-items:center;
   
@@ -13,8 +13,9 @@
     width:100%;
     align-items:center;
     justify-content: center;
-    margin-left:320px;
-    margin-right:322px;
+    margin-left: 353px;
+    margin-right: 341px;
+    flex-direction: column;
    // background-color: blueviolet;
 }
 
@@ -25,18 +26,19 @@
     padding:10px;
     flex:1;
     align-items: center;
-    
+    justify-content: center;
   //  background-color: red;
 }
 
 .researchesCenter
 {
-    
+    justify-content: center;
     display:flex;
     flex-direction: column;
     padding:10px;
     flex:1;
     align-items: center;
+  
   //  background-color: greenyellow;
 }
 .researchesRight
@@ -46,24 +48,36 @@
     padding:10px;
     flex:1;
     align-items: center;
-  
+    justify-content: center;
+ //   background-color: yellow;
+}
+.researchesLast
+{
+    display:flex;
+    flex-direction: column;
+    padding:10px;
+    flex:1;
+    align-items: center;
+    justify-content: center;
  //   background-color: yellow;
 }
 
+
 .researchesImg{
-    
-    width:413px;
-    height:337px;
-    
+    display:flex;
+    width:100%;
+    height:735px;
+    margin-left: 393px;
+    margin-right: 393px;
     background-color: lightgray;
 }
 .researchesTitle{
-    padding:20px;
+    padding:17px;
     display: flex;
     font-size: 30px;
     height:71px;
     align-items: center;
-    justify-content: center;    
+    margin-right:800px;
     color:white;
     font-family: 'Segoe UI', sans-serif;
     opacity: 1;

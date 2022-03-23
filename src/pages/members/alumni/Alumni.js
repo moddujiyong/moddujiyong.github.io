@@ -22,7 +22,7 @@ export default function Alumni() {
     <div className="alumni" >
       <div className="alu-header" >
         <div className="alu-title">
-          Students
+         Alumni
         </div>
   
         <div className="alu-scrollMenu">

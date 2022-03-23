@@ -32,6 +32,7 @@
     border-right-width:0px;
     border-bottom-width:1px;
     border-color: #707070;
+    font-family: 'Roboto' ;
 }
 .profList{
     font-size: 22px;
@@ -39,36 +40,321 @@
     display:flex;
     width: 100%;
     justify-content: space-around;
-  
+    font-family: 'Roboto' ;
+    
     cursor:pointer;
+}
+.profListItem{
+    font-family: 'roboto' ;
+    
 }
 
 .prof-profile{
-    
+    margin-bottom: 53.5px;
     margin-left:50px;
-   
-    background-color: aqua;
+    display: flex;
+ //   background-color: aqua;
     padding:5px;
+   // justify-content: center;
+    
 }
+
+.prof-summary{
+    margin-left: 37px;
+ //   background-color: red;
+    width:699px;
+    height:301px;
+    margin-bottom:20px;
+    width:100%;
+}
+
+.profImg{
+    width:288px;
+    height:350px;
+}
+
+.prof-name{
+    
+    font-size: 26px;
+   // font-family: 'Segoe UI';
+    opacity:1;
+    font-weight: 700;
+    font-family: 'Roboto' ;
+    margin-top:15px;
+    
+ //   background-color: pink;
+}
+.prof-pos{
+    font-size:23px;
+    font-family: 'Roboto' ;
+}
+.prof-eng{
+    margin-left: 20px;
+    font-size:23px;
+    font-family: 'Roboto';
+}
+
+.prof-field{
+
+    border-style: solid;
+    border-color:#707070;
+    border-left-width: 0 ;
+    border-right-width: 0 ;
+    border-top-width: 1px;
+    border-bottom-width: 0;
+    display:flex;
+    flex-direction: column;
+    padding-top: 37px;
+    
+    //background-color: yellow;
+    
+}
+
+.fos{
+    
+    font-size: 20px;
+    font-family: 'Roboto' ;
+    opacity:1;
+    font-weight: 700;
+    
+}
+.fosCont{
+    font-size: 20px;
+    font-family: 'Roboto' ;
+    opacity:1;
+   
+    
+}
+
+
+.prof-email{
+    font-size: 20px;
+    font-family: 'Roboto' ;
+    opacity:1;
+    font-weight: 700;
+    
+}
+.prof-emailCont{
+    font-size: 20px;
+    font-family: 'Roboto' ;
+    opacity:1;
+   
+   
+}
+
+.loc{
+    font-size: 20px;
+    font-family: 'Roboto' ;
+    opacity:1;
+    font-weight: 700;
+    
+}
+.locCont{
+    font-size: 20px;
+    font-family: 'Roboto' ;
+    opacity:1;
+   
+   
+}
+
+.tel{
+    font-size: 20px;
+    font-family: 'Roboto' ;
+    opacity:1;
+    font-weight: 700;
+    
+}
+.telCont{
+    font-size: 20px;
+    font-family: 'Roboto' ;
+    opacity:1;
+}
+
+.ri{
+    margin-top: 20px;
+    font-size: 20px;
+    color:#002650;
+    opacity: 1;
+    font-weight: 700;
+}
+
+.ril1{
+    font-size: 20px;
+    font-family: 'Roboto' ;
+}
+.ril2{
+    font-size: 20px;
+    font-family: 'Roboto' ;
+}
+.ril3{
+    font-size: 20px;
+    font-family: 'Roboto' ;
+}
+.ril4{
+    font-size: 20px;
+    font-family: 'Roboto' ;
+}.ril5{
+    font-size: 20px;
+    font-family: 'Roboto' ;
+}
+
+
+
+
+
+
+
 
 .main-career{
     margin-left:50px;
+    display: flex;
+    border-top: solid;
+    border-top-width: 1px;
     
-    background-color: yellowgreen;
     padding:5px;
+    flex-direction: column;
 }
+
+.mc{
+    font-size: 20px;
+    color:#002650;
+    opacity: 1;
+    font-weight: 700;
+    margin-bottom: 29px;
+}
+
+.mcl{
+    font-size: 20px;
+    font-family: 'Segoe UI';
+    margin-bottom: 29px;
+}
+
+
+.other-career{
+    margin-left:50px;
+    display: flex;
+   
+    padding:5px;
+    flex-direction: column;
+}
+
+.oc{
+    font-size: 20px;
+    color:#002650;
+    opacity: 1;
+    font-weight: 700;
+    margin-bottom: 29px;
+}
+
+.ocl{
+    font-size: 20px;
+    font-family: 'Segoe UI';
+    margin-bottom: 29px;
+}
+
+.edu-career{
+  
+    margin-left:50px;
+    display: flex;
+   
+    padding:5px;
+    flex-direction: column;
+
+}
+
+.ec{
+    font-size: 20px;
+    color:#002650;
+    opacity: 1;
+    font-weight: 700;
+    margin-bottom: 29px;
+}
+
+.ecl{
+    font-size: 20px;
+    font-family: 'Segoe UI';
+    margin-bottom: 29px;
+}
+
+
+
+.void-career{
+    background-color: beige;
+}
+
+
 
 .scolarship-career{
   
     margin-left:50px;
-    background-color: yellow;
+    display: flex;
+   
     padding:5px;
+    flex-direction: column;
 
+}
+
+.sc{
+    font-size: 20px;
+    color:#002650;
+    opacity: 1;
+    font-weight: 700;
+    margin-bottom: 29px;
+}
+
+.scl{
+    font-size: 20px;
+    font-family: 'Segoe UI';
+    margin-bottom: 29px;
 }
 
 .research-subject{
     
     margin-left:50px;
+    display: flex;
+   
     padding:5px;
-    background-color: green;
+    flex-direction: column;
+
+}
+
+
+.rs{
+    font-size: 20px;
+    color:#002650;
+    opacity: 1;
+    font-weight: 700;
+    margin-bottom: 29px;
+}
+
+.rsl{
+    font-size: 20px;
+    font-family: 'Segoe UI';
+    margin-bottom: 29px;
+}
+
+
+.reward-career{
+    
+    margin-left:50px;
+    display: flex;
+   
+    padding:5px;
+    flex-direction: column;
+
+}
+
+
+.rec{
+    font-size: 20px;
+    color:#002650;
+    opacity: 1;
+    font-weight: 700;
+    margin-bottom: 29px;
+}
+
+.recl{
+    font-size: 20px;
+    font-family: 'Segoe UI';
+    margin-bottom: 29px;
 }
