@@ -18,10 +18,8 @@ import YujeongPhoto from "../../../components/img/yujeong.jpg";
 
 
 import "./student.scss"
-export default function Professor() {
+export default function Student() {
 
-  
- 
   return (   
     <div className="student" >
       <div className="stu-header" >

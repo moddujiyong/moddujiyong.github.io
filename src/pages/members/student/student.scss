@@ -28,7 +28,7 @@
     border-left-width:0px;
     border-right-width:0px;
     border-bottom-width:0px;
-  //  background-color: aqua;
+    //background-color: aqua;
     display:flex;
     justify-content: center;
 }
@@ -42,16 +42,17 @@
    // background-color: yellow;
 }
 .stu-course{
-display:flex;
-justify-content: start;
- font-size:22px;
- font-family: 'Roboto';
- color: #002650;
- opacity: 1;
- font-weight: 1000;
- margin-top: 40px;
- margin-left:38px;
- margin-bottom: 22.6px;
+  //  background-color: green;
+    display:flex;
+    justify-content: start;
+    font-size:22px;
+    font-family: 'Roboto';
+    color: #002650;
+    opacity: 1;
+    font-weight: 1000;
+    margin-top: 40px;
+    margin-left:38px;
+    margin-bottom: 22.6px;
 }
 .stuImg{
     display:flex;
@@ -65,7 +66,7 @@ justify-content: start;
 
 .stu-right{
     margin-top:23.5px;
-  
+ // background-color: yellow;
     flex:2;
     display: flex;
     flex-direction: column;
@@ -101,6 +102,7 @@ justify-content: start;
     display:flex;
     flex-direction: column;
     padding-top: 37px;
+  //  background-color: blue;
 }
 
 .stu-edu{

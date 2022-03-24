@@ -1,185 +1,222 @@
 import React, {useRef} from 'react';
+import MisoPhoto from "../../../components/img/miso.png";
+import InsikPhoto from "../../../components/img/insik.png";
+import SihyunPhoto from "../../../components/img/sihyun.png";
+import HanjiPhoto from "../../../components/img/hanji.png";
+import JeongukPhoto from "../../../components/img/jeonguk.jpg";
+import MiwonPhoto from "../../../components/img/miwon.jpg";
 
 import "./alumni.scss"
 export default function Alumni() {
 
-  const allAlumRef=useRef(null);
-  const phdAlumRef=useRef(null);
-  const msAlumRef=useRef(null);
-
-  const onAlAlumClick=()=>{
-    allAlumRef.current?.scrollIntoView({block:'nearest',behavior:'smooth'});
-  };
-
-  const onPhdAlumClick=()=>{
-    phdAlumRef.current?.scrollIntoView({block:'nearest',behavior:'smooth'});
-  };
-
-  const onMsAlumClick=()=>{
-    msAlumRef.current?.scrollIntoView({behavior:'smooth',block:'nearest'});
-  };
+ 
   return (   
-    <div className="alumni" >
+  <div className="alumni">
+
       <div className="alu-header" >
         <div className="alu-title">
-         Alumni
-        </div>
-  
-        <div className="alu-scrollMenu">
-           <ul className="aluList">
-            <li className="aluListItem" onClick={onAlAlumClick}>All</li>
-            <li className="aluListItem" onClick={onPhdAlumClick}>Ph.D</li>
-            <li className="aluListItem" onClick={onMsAlumClick}>MS</li>        
-                 
-           </ul>
+          Alumni
         </div>
       </div>
-
-      <div className="alu-profile" ref={allAlumRef}>
-        alu-profile
-      </div>
-      
-
-      <div className="phdAlum" ref={phdAlumRef}>
-        phd alum
-        <div>
-        phd alum
-        </div>
-        <div>
-        research-subject
-        </div>
-        <div>
-        research-subject
-        </div>
-        <div>
-        research-subject
-        </div>
-        <div>
-        research-subject
-        </div>
-        <div>
-        research-subject
-        </div>
-        <div>
-        research-subject
-        </div>
-        <div>
-        research-subject
-        </div>
-        <div>
-        research-subject
-        </div>
-        <div>
-        research-subject
-        </div>
-        <div>
-        research-subject
-        </div>
-        <div>
-        research-subject
-        </div>
-        <div>
-        research-subject
-        </div>
-        <div>
-        research-subject
-        </div>
-        <div>
-        research-subject
-        </div>
-        <div>
-        research-subject
-        </div>
-        <div>
-        research-subject
-        </div>
-        <div>
-        research-subject
-        </div>
-        <div>
-        research-subject
-        </div>
-         <div>
-        research-subject
-        </div>
-        <div>
-        research-subject
-        </div> <div>
-        research-subject
-        </div>
-      </div>
-
-      <div className="msAlum" ref={msAlumRef}>
-        msAlum
+    <div className="alu-profile">
+        <div className="alu-left">
+          <div className="alu-course">
+              MS
+            </div>
         
-        <div>
-        research-subject
+            <div className="alu-photo"> 
+              <img className="aluImg" src={MisoPhoto} alt=""/> 
+            </div>
         </div>
-        <div>
-        research-subject
-        </div>
-        <div>
-        research-subject
-        </div>
-        <div>
-        research-subject
-        </div>
-        <div>
-        research-subject
-        </div>
-        <div>
-        research-subject
-        </div>
-        <div>
-        research-subject
-        </div>
-        <div>
-        research-subject
-        </div>
-        <div>
-        research-subject
-        </div>
-        <div>
-        research-subject
-        </div>
-        <div>
-        research-subject
-        </div>
-        <div>
-        research-subject
-        </div>
-        <div>
-        research-subject
-        </div>
-        <div>
-        research-subject
-        </div>
-        <div>
-        research-subject
-        </div>
-        <div>
-        research-subject
-        </div>
-        <div>
-        research-subject
-        </div>
-        <div>
-        research-subject
-        </div>
-        <div>
-        research-subject
-        </div>
-         <div>
-        research-subject
-        </div>
-        <div>
-        research-subject
-        </div> <div>
-        research-subject
-        </div>
+        <div className="alu-right">
+          <div className="alu-name">
+              최미소     
+              <span className="alu-pos"> 연구원 </span>
+              <span className="alu-eng"> Miso Choi</span>
+          </div>
 
+          <div className="alu-field"> 
+            <span className="alu-edu">| Education |</span>
+            <span className="alu-edul1">M.S in Medical Device Engineering & Management (2020) </span>
+            <span className="alu-aff">| Affiliation |</span>
+            <span className="alu-affl"></span>
+            <span className="alu-dis">| Dissertation |</span>
+            <span className="alu-disl">Strategies for Korean Medical Devices to enter the Chinese market through the Analysis of Chinese Devices System</span>
+            <span className="alu-contact">| Contact |</span>
+            <span className="alu-contactl">msc17@yonsei.ac.kr</span>
+        
+          </div>
+        </div>
+        
+      </div>
+
+      <div className="alu-profile">
+        <div className="alu-left">
+          <div className="alu-course">
+              MS
+            </div>
+        
+            <div className="alu-photo"> 
+              <img className="aluImg" src={InsikPhoto} alt=""/> 
+            </div>
+        </div>
+        <div className="alu-right">
+          <div className="alu-name">
+              임인식       
+              <span className="alu-pos"> 연구원 </span>
+              <span className="alu-eng"> Insik Im</span>
+          </div>
+
+          <div className="alu-field"> 
+            <span className="alu-edu">| Education |</span>
+            <span className="alu-edul1">M.S in Medical Device Engineering & Management (2021) </span>
+            <span className="alu-aff">| Affiliation |</span>
+            <span className="alu-affl">Medrtonic</span>
+            <span className="alu-dis">| Dissertation |</span>
+            <span className="alu-disl">A Study on the Diagnosis Korea Medical Device Industry through Management Performance and Enterprise Value </span>
+            <span className="alu-contact">| Contact |</span>
+            <span className="alu-contactl">insik7410@gmail.com</span>
+        
+          </div>
+        </div>
+        
+      </div>
+
+      <div className="alu-profile">
+        <div className="alu-left">
+          <div className="alu-course">
+              MS
+            </div>
+        
+            <div className="alu-photo"> 
+              <img className="aluImg" src={SihyunPhoto} alt=""/> 
+            </div>
+        </div>
+        <div className="alu-right">
+          <div className="alu-name">
+              한시현       
+              <span className="alu-pos"> 연구원 </span>
+              <span className="alu-eng"> Sihyun Han</span>
+          </div>
+
+          <div className="alu-field"> 
+            <span className="alu-edu">| Education |</span>
+            <span className="alu-edul1">M.S in Medical Device Engineering & Management (2021)  </span>
+            <span className="alu-aff">| Affiliation |</span>
+            <span className="alu-affl"></span>
+            <span className="alu-dis">| Dissertation |</span>
+            <span className="alu-disl">A Study on the Application of Digital Clinical Trial System to Medical Device  </span>
+            <span className="alu-contact">| Contact |</span>
+            <span className="alu-contactl">2007andy@naver.com</span>
+        
+          </div>
+        </div>
+        
+      </div>
+
+
+      <div className="alu-profile">
+        <div className="alu-left">
+          <div className="alu-course">
+              MS
+            </div>
+        
+            <div className="alu-photo"> 
+              <img className="aluImg" src={HanjiPhoto} alt=""/> 
+            </div>
+        </div>
+        <div className="alu-right">
+          <div className="alu-name">
+              이한지       
+              <span className="alu-pos"> 연구원 </span>
+              <span className="alu-eng"> Hanji Lee</span>
+          </div>
+
+          <div className="alu-field"> 
+            <span className="alu-edu">| Education |</span>
+            <span className="alu-edul1">M.S in Medical Device Engineering & Management (2022)  </span>
+            <span className="alu-aff">| Affiliation |</span>
+            <span className="alu-affl">Abbott</span>
+            <span className="alu-dis">| Dissertation |</span>
+            <span className="alu-disl">Improvement of domestic regulation based on analysis of global regulations for digital therapeutics   </span>
+            <span className="alu-contact">| Contact |</span>
+            <span className="alu-contactl">hangilee00@gmail.com</span>
+        
+          </div>
+        </div>
+        
+      </div>
+
+
+      <div className="alu-profile">
+        <div className="alu-left">
+          <div className="alu-course">
+              MS
+            </div>
+        
+            <div className="alu-photo"> 
+              <img className="aluImg" src={JeongukPhoto} alt=""/> 
+            </div>
+        </div>
+        <div className="alu-right">
+          <div className="alu-name">
+              최정욱       
+              <span className="alu-pos"> 연구원 </span>
+              <span className="alu-eng"> Jeonguk Choi</span>
+          </div>
+
+          <div className="alu-field"> 
+            <span className="alu-edu">| Education |</span>
+            <span className="alu-edul1">M.S in Medical Device Engineering & Management (2022)   </span>
+            <span className="alu-aff">| Affiliation |</span>
+            <span className="alu-affl">VUNO </span>
+            <span className="alu-dis">| Dissertation |</span>
+            <span className="alu-disl">User Interface Design for Ventilator Central Monitoring System Applying Human Factors Engineering   </span>
+            <span className="alu-contact">| Contact |</span>
+            <span className="alu-contactl">hrju5110@naver.com</span>
+        
+          </div>
+        </div>
+        
+      </div>
+
+
+      <div className="alu-profile">
+        <div className="alu-left">
+          <div className="alu-course">
+              MS
+            </div>
+        
+            <div className="alu-photo"> 
+              <img className="aluImg" src={MiwonPhoto} alt=""/> 
+            </div>
+        </div>
+        <div className="alu-right">
+          <div className="alu-name">
+              송미원       
+              <span className="alu-pos"> 연구원 </span>
+              <span className="alu-eng"> Mi Won Song</span>
+          </div>
+
+          <div className="alu-field"> 
+            <span className="alu-edu">| Education |</span>
+            <span className="alu-edul1">M.S in Medical Device Engineering & Management (2022)   </span>
+            <span className="alu-aff">| Affiliation |</span>
+            <span className="alu-affl">Gangnam Severance Hospital (Medical Device Usability Research Center) </span>
+            <span className="alu-dis">| Dissertation |</span>
+            <span className="alu-disl">Assessment for usefulness of A-mode sonography for muscle change after training   </span>
+            <span className="alu-contact">| Contact |</span>
+            <span className="alu-contactl">aldnjthd@naver.com / mwsong0529@yuhs.ac</span>
+        
+          </div>
+        </div>
+        
+      </div>
+
+      <div className="alu-profile">
 
       </div>
-    </div>
+  </div>
+   
   )
 }

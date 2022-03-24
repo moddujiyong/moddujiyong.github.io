@@ -2,7 +2,7 @@
     display:flex;
     flex-direction: column;
    // background-color: bisque;
-   margin-right: 319.5px;
+     margin-right: 319.5px;
 }
 
 .staffs-header{
@@ -14,23 +14,145 @@
    
 }
 .staffs-title{
+    display:flex;
     margin-left:50px;
     margin-bottom: 23.5px;
 }
 
+
+
 .staffs-profile{
-    display: flex;
-    padding: 10px;
-    justify-content: space-around;
+    border-color: #707070;
     border-style: solid;
     border-top-width:1px;
     border-left-width:0px;
     border-right-width:0px;
-    border-bottom-width:1px;
-    border-color: #707070;
-    margin-left:50px;
-    background-color: aqua;
-    padding:5px;
+    border-bottom-width:0px;
+//  background-color: aqua;
+    display:flex;
+    justify-content: center;
 }
 
+.staffs-left{
+    margin-top:23.5px;
+    flex:1;
+    display: flex;
+    flex-direction: column;
+  
+   // background-color: yellow;
+}
+.staffs-course{
+display:flex;
+justify-content: start;
+ font-size:22px;
+ font-family: 'Roboto';
+ color: #002650;
+ opacity: 1;
+ font-weight: 1000;
+ margin-top: 40px;
+ margin-left:38px;
+ margin-bottom: 22.6px;
+}
+.staffsImg{
+    display:flex;
+    justify-content: center;
+    margin-left:125.6px;
+    width:212px;
+    height:276px;
+   // background-color: aquamarine;
+}
+
+
+.staffs-right{
+    margin-top:23.5px;
+  
+    flex:2;
+    display: flex;
+    flex-direction: column;
+}
+.staffs-name{
+   // background-color: skyblue;
+    font-size:26px;
+    font-weight: 700;
+    font-family: 'Roboto';
+    margin-left: 10px;
+    margin-bottom: 17px;
+   // display: flex;
+
+}
+.staffs-pos{
+    font-size:23px;
+    
+    
+ 
+}
+.staffs-eng{
+    margin-left: 20px;
+    font-size: 23px;
+}
+
+.staffs-field{
+    border-style: solid;
+    border-color:#707070;
+    border-left-width: 0 ;
+    border-right-width: 0 ;
+    border-top-width: 1px;
+    border-bottom-width: 0;
+    display:flex;
+    flex-direction: column;
+    padding-top: 37px;
+
+   // background-color: blue;
+}
+
+.staffs-edu{
+    margin-left: 10px;
+    font-size: 20px;
+    color:#002650;
+    opacity: 1;
+    font-weight: 700;
+    margin-bottom: 29px;
+}
+
+.staffs-edul1{
+    margin-left: 10px;
+    font-size: 20px;
+    margin-bottom: 29px;
+    font-family: 'Roboto' ;
+    margin-bottom: 29px;
+}
+
+.staffs-ri{
+    margin-left: 10px;
+  
+    font-size: 20px;
+    color:#002650;
+    opacity: 1;
+    font-weight: 700;
+    margin-bottom: 29px;
+}
+
+.staffs-ril{
+    margin-left: 10px;
+    font-size: 20px;
+    font-family: 'Roboto' ;
+    margin-bottom: 29px;
+}
+
+.staffs-contact{
+    margin-left: 10px;
+  
+    font-size: 20px;
+    color:#002650;
+    opacity: 1;
+    font-weight: 700;
+    margin-bottom: 29px;
+}
+
+.staffs-contactl{
+    margin-left: 10px;
+    font-size: 20px;
+    font-family: 'Roboto' ;
+    margin-bottom: 29px;
+}
 

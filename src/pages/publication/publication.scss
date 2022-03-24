@@ -1,25 +1,229 @@
 .publication{
     display:flex;
   //  background-color: orange;
-    margin-bottom:200px;
+    margin-bottom:482px;
     
-    width:100%;
+    margin-right: 339px;
     //height:100%;
 }
 
-.publicationLeft{
-    flex:1;
-  //  background-color: greenyellow;
+.pub-left{
     margin-top:64px;
-    margin-bottom:200px;
-    height:100%;
+    flex:1;
+    //background-color: greenyellow;
+    display:flex;
+    padding:10px;
+
+    flex-direction: column;
+}
+.pub-menuTitle{
+    display:flex;
+    font-size: 27px;
+    opacity: 1;
+    font-weight: 1000;
+    flex-direction: column;
+   // border-style: solid;
+
+    width:208px;
+   
+    margin-left:51px;
+
+    
 }
 
-.publicationRight{
-    flex:5;
- //   background-color: lightcoral;
+.pubContent{
+  display:flex;
+  flex-direction: column;
+  
+  list-style: none;
+  margin-top: 51px;
+  
+ // background-color: green;
+  
+}
 
+.pub-list{
+  list-style: none;
+  display:flex;
+  left:0;
+  flex-direction: column;
+ // background-color: pink;
+  margin-left: 10px;
+}
+
+
+
+
+.pub-item{
+  font-size:22px;
+  width:208px;
+  margin-bottom: 33px;
+  font-family: 'Segoe UI';
+  font-weight: 700;
+  opacity: 1;
+  cursor:pointer;
+  border-style: solid;
+  height: 46.5px;
+  border-top-width: 0;
+  border-left-width:0;
+  border-right-width:0;
+  border-bottom-width:1px;
+  border-color: #FFC341;
+  color:'#707070'
+}
+
+.pub-right{
+    flex:5;
+  //  background-color: lightcoral;
+    margin-left:50px;
     flex-direction: column;
     height:100%;
     margin-top:64px;
+    
+}
+
+
+.pub-header{
+   // background-color: skyblue;
+    display: flex;
+    font-size: 26px;
+    flex-direction: column;   
+    border-color: #707070;
+    border-style: solid;
+    border-top-width:0px;
+    border-left-width:0px;
+    border-right-width:0px;
+    border-bottom-width:1px;
+}
+.pub-title{
+    display:flex;
+    margin-left:50px;
+    margin-bottom: 23.5px;
+
+}
+
+
+.international-journal{
+  //background-color: aqua;
+ 
+  //background-color: aqua;
+  display:flex;
+  justify-content: start;
+  font-size:22px;
+  
+  color: #002650;
+  opacity: 1;
+  font-weight: 1000;
+  margin-top: 40px;
+  margin-left:38px;
+  margin-bottom: 22.6px;
+}
+
+ .journal-content{
+   //background-color: yellow;
+   font-size:22px;
+   margin-bottom:60px;
+   margin-left:38px;
+   
+   font-family: 'Segoe UI';
+ }
+ 
+
+
+
+.domestic-journal{
+ // background-color: aqua;
+  display:flex;
+  justify-content: start;
+  font-size:22px;
+  font-family: 'Roboto';
+  color: #002650;
+  opacity: 1;
+  font-weight: 1000;
+  margin-top: 40px;
+  margin-left:38px;
+  margin-bottom: 22.6px;
+}
+
+.international-conference{
+//  background-color: pink;
+  display:flex;
+  justify-content: start;
+  font-size:22px;
+  font-family: 'Roboto';
+  color: #002650;
+  opacity: 1;
+  font-weight: 1000;
+  margin-top: 40px;
+  margin-left:38px;
+  margin-bottom: 22.6px;
+}
+
+.conference-content{
+  font-size:22px;
+  margin-bottom:60px;
+  margin-left:38px;
+  margin-right: 47px;
+}
+
+.domestic-conference{
+ // background-color: pink;
+  display:flex;
+  justify-content: start;
+  font-size:22px;
+  font-family: 'Roboto';
+  color: #002650;
+  opacity: 1;
+  font-weight: 1000;
+  margin-top: 40px;
+  margin-left:38px;
+  margin-bottom: 22.6px;
+}
+
+.patent{
+ // background-color: pink;
+  display:flex;
+  justify-content: start;
+  font-size:22px;
+  font-family: 'Roboto';
+  color: #002650;
+  opacity: 1;
+  font-weight: 1000;
+  margin-top: 40px;
+  margin-left:38px;
+  margin-bottom: 22.6px;
+}
+
+.patent-content{
+  font-size:22px;
+  margin-bottom:60px;
+  margin-left:38px;
+  margin-right: 47px;
+}
+
+.book{
+ //background-color: pink;
+  display:flex;
+  justify-content: start;
+  font-size:22px;
+  font-family: 'Roboto';
+  color: #002650;
+  opacity: 1;
+  font-weight: 1000;
+  margin-top: 40px;
+  margin-left:38px;
+  margin-bottom: 22.6px;
+}
+
+.book-content{
+  font-size:22px;
+  margin-bottom:60px;
+  margin-left:38px;
+  margin-right: 47px;
+}
+
+.conl{
+  display:flex;
+  
+  margin-bottom: 29px;
 }
