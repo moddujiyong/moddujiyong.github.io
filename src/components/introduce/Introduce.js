@@ -1,5 +1,5 @@
 import "./introduce.scss";
-import IntroduceImg from "../img/mddu_design.png";
+import IntroduceImg from "../img/vision.jpg";
 import BarImg from "../img/design_bar.png";
 export default function Introduce() {
 

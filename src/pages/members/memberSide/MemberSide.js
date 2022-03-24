@@ -53,7 +53,7 @@ export default function MemberSide({ select, setSelect} ) {
 
       <div className="memberList">
         <ul className="memberContent">
-          <li className="memberListItem" onClick={clickPro} >professor</li>
+          <li className="memberListItem" onClick={clickPro} >Professor</li>
           <li className="memberListItem" onClick={clickStu}  >Students</li>
           <li className="memberListItem" onClick={clickStaffs}>Staffs</li>
           <li className="memberListItem" onClick={clickAlu} >Alumni</li>

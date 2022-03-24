@@ -1,7 +1,7 @@
 import React, {useRef} from 'react';
 import Ud1Photo from "../../../components/img/ud01.jpg";
 import Ud2Photo from "../../../components/img/ud02.jpg";
-import Ud3Photo from "../../../components/img/ud03.jpg";
+import Ud3Photo from "../../../components/img/ud03.JPG";
 import Ud4Photo from "../../../components/img/ud04.jpg";
 import Ud5Photo from "../../../components/img/ud05.jpg";
 import Ud6Photo from "../../../components/img/ud06.jpg";

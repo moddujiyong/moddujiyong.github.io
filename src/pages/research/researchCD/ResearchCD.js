@@ -1,8 +1,9 @@
 import React, {useRef} from 'react';
-import Cd1Photo from "../../../components/img/cd01.jpg";
+import Cd1Photo from "../../../components/img/cd01.JPG";
 import Cd2Photo from "../../../components/img/cd02.jpg";
 import Cd3Photo from "../../../components/img/cd03.JPG";
 import Cd4Photo from "../../../components/img/cd04.jpg";
+import Cd5Photo from "../../../components/img/cd05.JPG";
 import Cd6Photo from "../../../components/img/cd06.jpg";
 import Cd7Photo from "../../../components/img/cd07.jpg";
 import "./researchCD.scss"
@@ -58,6 +59,10 @@ export default function ResearchCD() {
         <div className="csdl">
           <span className="csd-title">조산 고위험 산모 예측 알고리즘 개발 및 자궁근전도 무선 모니터링 시스템의 임상적 유효성 검증</span>
           <img className="resImg" src={Cd4Photo} alt=""/> 
+        </div>
+        <div className="csdl">
+          <span className="csd-title">위암영상검출진단보조소프트웨어에 대한 임상시험계획서 개발</span>
+          <img className="resImg" src={Cd5Photo} alt=""/> 
         </div>
         <div className="csdl">
           <span className="csd-title">생체활성 소재 기반의 임상적 요구에 최적화된 기능성 환자 맞춤형 척추 유합 임플란트 및 제조 시스템 개발</span>
