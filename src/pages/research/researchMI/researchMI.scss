@@ -8,10 +8,11 @@
 .mi-header{
    // background-color: aquamarine;
    
-    display: flex;
-    font-size: 26px;
-    flex-direction: column;
-   
+   display: flex;
+   font-size: 26px;
+   font-family:'Roboto';
+   font-weight: 700;
+   flex-direction: column;
 }
 .mi-title{
     margin-left:50px;
@@ -30,33 +31,47 @@
     justify-content: space-around;
 }
 .miList{
-    font-size: 22px;
-    list-style: none;
-    display:flex;
-    width: 100%;
-    justify-content: space-around;
-   // background-color: pink;
-    cursor:pointer;
+  font-size: 22px;
+  list-style: none;
+  display:flex;
+  width: 100%;
+  margin-left: 252px;
+  margin-right: 272px;
+  justify-content: space-around;
+//  background-color: pink;
+  cursor:pointer;
 }
 
-.mi-profile{
-   // margin-right:200px ;
-    margin-left:50px;
-    background-color: aqua;
-    padding:5px;
+.mip-all{
+  margin-left: 30px;
+//  background-color: yellow;
+
 }
 
-.mi-prog{
-  //  margin-right:200px ;
-    margin-left:50px;
-    background-color: yellowgreen;
-    padding:5px;
+.mipl{
+ // background-color: skyblue;
+  margin-top: 22.5px;
+  border-style: solid;
+  border-top-width:0px;
+  border-left-width:0px;
+  border-right-width:0px;
+  border-bottom-width:1px;
+  border-color: #707070;
+ 
 }
 
-.mi-closing{
-  //  margin-right:200px ;
-    margin-left:50px;
-    background-color: yellow;
-    padding:5px;
+.mip-title{
+  margin-right: 10px;
 
+ // background-color: lime;
+  font-size:25px;
+  font-family: 'Segoe UI';
+  color: #002650;
+  font-weight:700;
+}
+.resImg{
+  margin-top: 11px;;
+  width:1146px;
+  height:642px;
+  margin-left: 40px;
 }

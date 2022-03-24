@@ -1,20 +1,23 @@
 .researchCD{
     display:flex;
     flex-direction: column;
-   //background-color: bisque;
+  // background-color: bisque;
+    
     margin-right: 319.5px;
 }
 
 .cd-header{
     //background-color: aquamarine;
-   
+    
     display: flex;
     font-size: 26px;
+    font-family:'Roboto';
+    font-weight: 700;
     flex-direction: column;
    
 }
 .cd-title{
-    margin-left:50px;
+    margin-left:60px;
     margin-bottom: 23.5px;
 }
 .cd-scrollMenu{
@@ -24,7 +27,8 @@
     border-right-width:0px;
     border-bottom-width:1px;
     border-color: #707070;
-  //  background-color: skyblue;
+    margin-left:0px;
+ //   background-color: skyblue;
     display: flex;
     padding: 10px;
     justify-content: space-around;
@@ -34,29 +38,43 @@
     list-style: none;
     display:flex;
     width: 100%;
+    margin-left: 252px;
+    margin-right: 272px;
     justify-content: space-around;
-   // background-color: pink;
+  //  background-color: pink;
     cursor:pointer;
 }
 
-.cd-profile{
-    //margin-right:200px ;
-    margin-left:50px;
-    background-color: aqua;
-    padding:5px;
+.csd-all{
+    margin-left: 30px;
+  //  background-color: yellow;
+
 }
 
-.cd-prog{
-    //margin-right:200px ;
-    margin-left:50px;
-    background-color: yellowgreen;
-    padding:5px;
+.csdl{
+   // background-color: skyblue;
+    margin-top: 22.5px;
+    border-style: solid;
+    border-top-width:0px;
+    border-left-width:0px;
+    border-right-width:0px;
+    border-bottom-width:1px;
+    border-color: #707070;
+   
 }
 
-.cd-closing{
-   // margin-right:200px ;
-    margin-left:50px;
-    background-color: yellow;
-    padding:5px;
-
+.csd-title{
+    margin-right: 10px;
+    font-weight:700;
+   // background-color: lime;
+    font-size:25px;
+    font-family: 'Segoe UI';
+    color: #002650;
+   
+}
+.resImg{
+    margin-top: 11px;;
+    width:1146px;
+    height:642px;
+    margin-left: 40px;
 }

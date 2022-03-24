@@ -1,8 +1,11 @@
 import React, {useRef} from 'react';
+import Mi1Photo from "../../../components/img/mi01.JPG";
+import Mi2Photo from "../../../components/img/mi02.JPG";
+import Mi4Photo from "../../../components/img/mi04.jpg";
 
 import "./researchMI.scss"
 export default function ResearchCD() {
-
+  const title="Research > Medical Industry Policy"
   const aResMIRef=useRef(null);
   const progResMIRef=useRef(null);
   const closingResMIRef=useRef(null);
@@ -24,34 +27,33 @@ export default function ResearchCD() {
     <div className="researchMI" >
       <div className="mi-header" >
         <div className="mi-title">
-          Medical Industry Policy
+          {title}
         </div>
   
         <div className="mi-scrollMenu">
            <ul className="miList">
             <li className="miListItem" onClick={onAllResMIClick}>All</li>
             <li className="miListItem" onClick={onProgResMIClick}>Progressing</li>
-            <li className="miListItem" onClick={onClosingResMIClick}>Closing</li>
+            <li className="miListItem" onClick={onClosingResMIClick}>Closed</li>
 
            </ul>
         </div>
       </div>
 
-      <div className="mi-profile" ref={aResMIRef}>
-        mi-profile
-     
-      </div>
-      
-
-      <div className="mi-prog" ref={progResMIRef}>
-        main-career
-      
-      </div>
-
-      <div className="mi-closing" ref={closingResMIRef}>
-        scolarship-career
-       
-        
+      <div className="mip-all">
+        <div className="mipl">
+          <span className="mip-title">아이콜리에 대한 RA/QA 지원 용역</span>
+          <img className="resImg" src={Mi1Photo} alt=""/> 
+        </div>
+        <div className="mipl">
+        <span className="mip-title">디지털 치료기기 임상설계 가이드라인 개발 연구</span>
+          <img className="resImg" src={Mi2Photo} alt=""/> 
+        </div>
+        <div className="mipl">
+        <span className="mip-title">혁신형 의료기기 기업 인증 기준 및 지원 방안 수립 연구</span>
+          <img className="resImg" src={Mi4Photo} alt=""/> 
+        </div>
+    
       </div>
 
     </div>

@@ -6,6 +6,7 @@ import "./research.scss"
 import ResearchCD from './researchCD/ResearchCD';
 import ResearchUD from './researchUD/ResearchUD';
 import ResearchMI from './researchMI/ResearchMI';
+import ResearchBS from './researchBS/ResearchBS';
 import ResearchSide from "./researchSide/ResearchSide";
 
 export default function Research() {
@@ -33,9 +34,18 @@ export default function Research() {
    recv="industry"
  }
 
+ else if (location.pathname.includes('bio')) {
+ 
+  recv="bio"
+}
+
 
  useEffect(()=>{
-  if(recv==='industry'){
+  if(recv==='bio'){
+    setSelect('BS')
+    console.log(recv,'확인')
+  }
+  else if(recv==='industry'){
     setSelect('MI')
     console.log(recv,'확인')
   }
@@ -64,19 +74,25 @@ export default function Research() {
       <ResearchSide select={select} setSelect={setSelect}/>
         {console.log(select,'ok')}
       </div>
-    
-    {select==='MI'?
-      
-      <div className="researchRight">
-        <ResearchMI/>
+
+    {select==='BS'?
+       <div className="researchRight">
+          <ResearchBS/>
       </div>
       :
+        select==='MI'?
+      
+        <div className="researchRight">
+          <ResearchMI/>
+         </div>
+        :
         select==='UD'?
        
            <div className="researchRight">
             <ResearchUD/>
           </div>
           : 
+
           <div className="researchRight">
            <ResearchCD />
           </div>

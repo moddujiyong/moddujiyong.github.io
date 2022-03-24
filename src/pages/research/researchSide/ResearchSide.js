@@ -13,6 +13,10 @@ export default function ResearchSide({select,setSelect}) {
        setSelect('MI')
        
   }
+
+  const clickBS=()=>{
+     setSelect('BS')
+  }
   
   
    return (
@@ -34,7 +38,7 @@ export default function ResearchSide({select,setSelect}) {
             <li className="researchListItem" onClick={clickCD}>Clinical Study Design</li>
             <li className="researchListItem" onClick={clickUD}>UX/UI Design & Usability</li>
             <li className="researchListItem" onClick={clickMI}>Medical Industry Policy</li>
- 
+            <li className="researchListItem" onClick={clickBS}>Bio Signal processing & AI</li>
          </ul>
         
       </div>
