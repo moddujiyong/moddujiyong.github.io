@@ -46,31 +46,31 @@ export default function ResearchCD() {
       <div className="csd-all">
         <div className="csdl">
           <span className="csd-title">인공지능 기반 중증악화 예측 가능한 고성능 환자감시장치 시스템 개발</span>
-          <img className="resImg" src={Cd1Photo} alt=""/> 
+          <img className="csdImg" src={Cd1Photo} alt=""/> 
         </div>
         <div className="csdl">
           <span className="csd-title">고령자 만성질환, 현장형 진단 및 치료 시스템 임상시험 지원</span>
-          <img className="resImg" src={Cd2Photo} alt=""/> 
+          <img className="csdImg" src={Cd2Photo} alt=""/> 
         </div>
         <div className="csdl">
           <span className="csd-title">디지털 치료기기 임상설계 가이드라인 개발 연구 사진 변경</span>
-          <img className="resImg" src={Cd3Photo} alt=""/> 
+          <img className="csdImg" src={Cd3Photo} alt=""/> 
         </div>
         <div className="csdl">
           <span className="csd-title">조산 고위험 산모 예측 알고리즘 개발 및 자궁근전도 무선 모니터링 시스템의 임상적 유효성 검증</span>
-          <img className="resImg" src={Cd4Photo} alt=""/> 
+          <img className="csdImg" src={Cd4Photo} alt=""/> 
         </div>
         <div className="csdl">
           <span className="csd-title">위암영상검출진단보조소프트웨어에 대한 임상시험계획서 개발</span>
-          <img className="resImg" src={Cd5Photo} alt=""/> 
+          <img className="csdImg" src={Cd5Photo} alt=""/> 
         </div>
         <div className="csdl">
           <span className="csd-title">생체활성 소재 기반의 임상적 요구에 최적화된 기능성 환자 맞춤형 척추 유합 임플란트 및 제조 시스템 개발</span>
-          <img className="resImg" src={Cd6Photo} alt=""/> 
+          <img className="csdImg" src={Cd6Photo} alt=""/> 
         </div>
         <div className="csdl">
           <span className="csd-title">첨단기술 기반 치료형 기기의 임상시험 프로토콜 가이드라인 개발</span>
-          <img className="resImg" src={Cd7Photo} alt=""/> 
+          <img className="csdImg" src={Cd7Photo} alt=""/> 
         </div>
       </div>
 

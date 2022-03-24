@@ -1,6 +1,7 @@
 import React, {useRef} from 'react';
 import Mi1Photo from "../../../components/img/mi01.JPG";
 import Mi2Photo from "../../../components/img/mi02.JPG";
+import Mi3Photo from "../../../components/img/mi03.JPG";
 import Mi4Photo from "../../../components/img/mi04.jpg";
 
 import "./researchMI.scss"
@@ -43,15 +44,19 @@ export default function ResearchCD() {
       <div className="mip-all">
         <div className="mipl">
           <span className="mip-title">아이콜리에 대한 RA/QA 지원 용역</span>
-          <img className="resImg" src={Mi1Photo} alt=""/> 
+          <img className="mipImg" src={Mi1Photo} alt=""/> 
         </div>
         <div className="mipl">
         <span className="mip-title">디지털 치료기기 임상설계 가이드라인 개발 연구</span>
-          <img className="resImg" src={Mi2Photo} alt=""/> 
+          <img className="mipImg" src={Mi2Photo} alt=""/> 
+        </div>
+        <div className="mipl">
+        <span className="mip-title">병원-기업 연계 의료기기 R&D 협력 플랫폼 기술개발 후속 사업을 위한 기획연구</span>
+          <img className="mipImg" src={Mi3Photo} alt=""/> 
         </div>
         <div className="mipl">
         <span className="mip-title">혁신형 의료기기 기업 인증 기준 및 지원 방안 수립 연구</span>
-          <img className="resImg" src={Mi4Photo} alt=""/> 
+          <img className="mipImg" src={Mi4Photo} alt=""/> 
         </div>
     
       </div>
