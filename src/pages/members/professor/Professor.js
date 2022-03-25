@@ -97,9 +97,6 @@ export default function Professor() {
              <span className="tel">Tel:</span> 
              <span className="telCont"> 02-2019-5442</span>
             </div>
-
-
-
               <span className="ri">| Research Interest |</span>
               <span className="ril1">Medical devices usability engineering</span>
               <span className="ril2">Medical devices UX/UI design and evaluation</span>

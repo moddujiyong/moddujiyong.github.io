@@ -34,8 +34,8 @@ export default function publicationSide({select,setSelect}) {
 
       <div className="publicationList">
          <ul className="publicationContent">
-            <li className="publicationListItem" onClick={clickJou}>Journal</li>
-            <li className="publicationListItem" onClick={clickCon}>Conference</li>
+            <li className="publicationListItem" onClick={clickJou} style={{color: select === 'Journal' ? 'grey' : 'black'}}>Journal</li>
+            <li className="publicationListItem" onClick={clickCon} style={{color: select === 'Conference' ? 'grey' : 'black'}}>Conference</li>
             <li className="publicationListItem" onClick={clickPat}>Patent</li>
  
          </ul>

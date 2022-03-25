@@ -35,10 +35,10 @@ export default function ResearchSide({select,setSelect}) {
 
       <div className="researchList">
          <ul className="researchContent">
-            <li className="researchListItem" onClick={clickCD}>Clinical Study Design</li>
-            <li className="researchListItem" onClick={clickUD}>UX/UI Design & Usability</li>
-            <li className="researchListItem" onClick={clickMI}>Medical Industry Policy</li>
-            <li className="researchListItem" onClick={clickBS}>Bio Signal processing & AI</li>
+            <li className="researchListItem" onClick={clickCD} style={{color: select === 'CD' ? 'grey' : 'black'}} >Clinical Study Design</li>
+            <li className="researchListItem" onClick={clickUD} style={{color: select === 'UD' ? 'grey' : 'black'}}>UX/UI Design & Usability</li>
+            <li className="researchListItem" onClick={clickMI} style={{color: select === 'MI' ? 'grey' : 'black'}}>Medical Industry Policy</li>
+            <li className="researchListItem" onClick={clickBS} style={{color: select === 'BS' ? 'grey' : 'black'}}>Bio Signal processing & AI</li>
          </ul>
         
       </div>

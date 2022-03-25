@@ -4,18 +4,9 @@ import "./memberSide.scss"
 export default function MemberSide({ select, setSelect} ) {
 
 
-  const [color,setColor]=useState('');
-  
-  
-
   const clickPro = () => {
     setSelect('Professor') 
-    if(color==='#707070'){
-      setColor('black')
-    }
-      else{
-        setColor('#707070')
-      }
+   
   }
 
   const clickStu = () => {
@@ -53,10 +44,10 @@ export default function MemberSide({ select, setSelect} ) {
 
       <div className="memberList">
         <ul className="memberContent">
-          <li className="memberListItem" onClick={clickPro} >Professor</li>
-          <li className="memberListItem" onClick={clickStu}  >Students</li>
-          <li className="memberListItem" onClick={clickStaffs}>Staffs</li>
-          <li className="memberListItem" onClick={clickAlu} >Alumni</li>
+          <li className="memberListItem" onClick={clickPro} style={{color: select === 'Professor' ? 'black' : 'grey'}}  >Professor</li>
+          <li className="memberListItem" onClick={clickStu} style={{color: select === 'Student' ? 'grey' : 'black'}} >Students</li>
+          <li className="memberListItem" onClick={clickStaffs}style={{color: select === 'Staffs' ? 'grey' : 'black'}}>Staffs</li>
+          <li className="memberListItem" onClick={clickAlu} style={{color: select === 'Alumni' ? 'grey' : 'black'}}>Alumni</li>
         </ul>
       </div>
 
