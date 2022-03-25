@@ -59,7 +59,7 @@ export default function Members() {
            
             <div className="membersRight">
               
-            <Student selectStudent = {selectStudent }   setSelectStudent = {setSelectStudent} />
+            <Student select={select} setSelect={setSelect} selectStudent = {selectStudent }   setSelectStudent = {setSelectStudent} />
             </div>
             
               :
