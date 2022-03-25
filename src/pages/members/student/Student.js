@@ -16,8 +16,12 @@ import SehoPhoto from "../../../components/img/seho.jpg";
 import YujeongPhoto from "../../../components/img/yujeong.jpg";
 
 
+import StudentLayout from '../studentLayout/studentLayout';
+
+
 
 import "./student.scss"
+import { faPhabricator } from '@fortawesome/free-brands-svg-icons';
 export default function Student() {
 
   return (   
@@ -28,495 +32,167 @@ export default function Student() {
         </div>
       </div>
 
-      <div className="stu-profile">
-        <div className="stu-left">
-           <div className="stu-course">
-               Ph.D course
-            </div>
+      <StudentLayout 
+        course = {'Ph.D course'}
+        photo = {YourimPhoto}
+        name = {'김유림'}
+        EName = {'Yourim Kim'} 
+        edu1 = {'M.S in Medical Device Engineering & Management (2020)'} 
+        edu2 = {'B.S in Biomedical Engineering, Konkuk University (2017)'} 
+        int = {'Medical Device Clinical Study Design, Clinical Effectiveness Evaluation'}
+        con = {'yxxrm_k@naver.com / yxxrmk@yonsei.ac.kr'}/>
+
+      <StudentLayout 
+        course = {'MS / Ph.D course'}
+        photo = {SangeunPhoto}
+        name = {'박상은'}
+        EName = {'Sangeun Park'} 
+        edu1 = {'B.S in Biomedical Engineering, Yonsei University (2018)'} 
+        edu2 = {null} 
+        int = {'UX/UI Design, Android Programming, Usability/Human Factors Engineering '}
+        con = {'pse7036@naver.com / sang-eun.park@yonsei.ac.kr'}/>
+
+      <StudentLayout 
+        course = {'MS / Ph.D course'}
+        photo = {HyeonkyeongPhoto}
+        name = {'최현경'}
+        EName = {'Hyeonkyeong Choi'} 
+        edu1 = {'B.S in Healthcare Industry, Cha University (2021)'} 
+        edu2 = {null} 
+        int = {'UX/UI Design, Usability/Human Factors Engineering'}
+        con = {'hyeonkyeong97@daum.net / hyeonk@yonsei.ac.kr'}/>
+
+      <StudentLayout 
+        course = {'MS / Ph.D course'}
+        photo = {JiyongPhoto}
+        name = {'정지용'}
+        EName = {'Jiyong Chung'} 
+        edu1 = {'B.S in Computer Engineering, Tech University of Korea (2022)'} 
+        edu2 = {null} 
+        int = {'Bio-signal processing, AI & Deep learning'}
+        con = {'cowjy0427@yonsei.ac.kr'}/>
+
+      <StudentLayout 
+        course = {'MS coursee'}
+        photo = {ChoroPhoto}
+        name = {'최초로'}
+        EName = {'Choro Choi'} 
+        edu1 = {'B.S in Biomedical Engineering, Yonsei University (2020)'} 
+        edu2 = {null} 
+        int = {'Signal & Image processing, AI & Deep learning, Programming, UI design'}
+        con = {'hisstoryxx@gmail.com / chororo@yonsei.ac.kr'}/>
+
+       <StudentLayout 
+        course = {'MS coursee'}
+        photo = {HeeyoungPhoto}
+        name = {'최희영'}
+        EName = {'Heeyoung Choi'} 
+        edu1 = {'B.S in Biomedical Engineering, Yonsei University (2021)'} 
+        edu2 = {null} 
+        int = {'Medical Device Clinical Study Design, Clinical Effectiveness Evaluation'}
+        con = {'chy980423@naver.com'}/>
+
+      <StudentLayout 
+        course = {'MS coursee'}
+        photo = {JiyunPhoto}
+        name = {'정지윤'}
+        EName = {'Jiyun Jeong'} 
+        edu1 = {'B.S in Biomedical Engineering, Yonsei University (2014)'} 
+        edu2 = {null} 
+        int = {'Usability/Human Factors Engineering'}
+        con = {'ravissante25@gmail.com / jiyunj@yonsei.ac.kr'}/>
         
-            <div className="stu-photo"> 
-              <img className="stuImg" src={YourimPhoto} alt=""/> 
-            </div>
-        </div>
-        <div className="stu-right">
-          <div className="stu-name">
-              김유림
-              <span className="stu-pos"> 연구원 </span>
-              <span className="stu-eng"> Yourim Kim</span>
-          </div>
+      <StudentLayout 
+        course = {'MS coursee'}
+        photo = {SeulbiPhoto}
+        name = {'이슬비'}
+        EName = {'Seulbi Lee'} 
+        edu1 = {'B.S in Biomedical Engineering, Yonsei University (2021)'} 
+        edu2 = {null} 
+        int = {'Medical Device Clinical Study Design, Clinical Effectiveness Evaluation'}
+        con = {'bee5747@naver.com / bee5747@yonsei.ac.kr'}/>
 
-          <div className="stu-field"> 
-            <span className="stu-edu">| Education |</span>
-            <span className="stu-edul1">M.S in Medical Device Engineering & Management (2020) </span>
-            <span className="stu-edul2">B.S in Biomedical Engineering, Konkuk University (2017)</span>
-            <span className="stu-ri">| Research Interest |</span>
-            <span className="stu-ril">Medical Device Clinical Study Design, Clinical Effectiveness Evaluation </span>
-            <span className="stu-contact">| Contact |</span>
-            <span className="stu-contactl">yxxrm_k@naver.com / yxxrmk@yonsei.ac.kr</span>
-         
-          </div>
-        </div>
-        
-      </div>
-      
+      <StudentLayout 
+        course = {'MS coursee'}
+        photo = {JeonghwaPhoto}
+        name = {'임정화'}
+        EName = {'Jeonghwa Lim'} 
+        edu1 = {'B.S in Biomedical Engineering, Yonsei University (2021)'} 
+        edu2 = {null} 
+        int = {'Bio-signal processing, AI & Deep learning'}
+        con = {'lim9234@hanmail.net'}/>
 
-      <div className="stu-profile">
-        <div className="stu-left">
-           <div className="stu-course">
-               MS / Ph.D course
-            </div>
-        
-            <div className="stu-photo"> 
-              <img className="stuImg" src={SangeunPhoto} alt=""/> 
-            </div>
-        </div>
-        <div className="stu-right">
-          <div className="stu-name">
-              박상은  
-              <span className="stu-pos"> 연구원 </span>
-              <span className="stu-eng"> Sangeun Park</span>
-          </div>
+      <StudentLayout 
+        course = {'MS coursee'}
+        photo = {null}
+        name = {'임창현'}
+        EName = {'Changhyun Lim'} 
+        edu1 = {'B.S in Healthcare Industry, Cha University (2021)'} 
+        edu2 = {null} 
+        int = {'Medical Device Clinical Study Design, Clinical Effectiveness Evaluation, Medical Regulatory Affairs'}
+        con = {'julius1231@naver.com'}/>
 
-          <div className="stu-field"> 
-            <span className="stu-edu">| Education |</span>
-            <span className="stu-edul1">B.S in Biomedical Engineering, Yonsei University (2018)  </span>
-            <span className="stu-ri">| Research Interest |</span>
-            <span className="stu-ril">UX/UI Design, Android Programming, Usability/Human Factors Engineering </span>
-            <span className="stu-contact">| Contact |</span>
-            <span className="stu-contactl">pse7036@naver.com / sang-eun.park@yonsei.ac.kr</span>
-         
-          </div>
-        </div>
-        
-      </div>
+      <StudentLayout 
+        course = {'MS coursee'}
+        photo = {KanghyeonPhoto}
+        name = {'유강현'}
+        EName = {'Kanghyeon You'} 
+        edu1 = {'B.S in Healthcare Industry, Cha University (2021)'} 
+        edu2 = {null} 
+        int = {'Medical Device Industry Policy, Medical Regulatory Affairs'}
+        con = {'hap2boy@naver.com / hap2boy@yonsei.ac.kr'}/>
 
-      <div className="stu-profile">
-        <div className="stu-left">
-           <div className="stu-course">
-               MS / Ph.D course
-            </div>
-        
-            <div className="stu-photo"> 
-              <img className="stuImg" src={HyeonkyeongPhoto} alt=""/> 
-            </div>
-        </div>
-        <div className="stu-right">
-          <div className="stu-name">
-              최현경  
-              <span className="stu-pos"> 연구원 </span>
-              <span className="stu-eng"> Hyeonkyeong Choi</span>
-          </div>
+      <StudentLayout 
+        course = {'MS coursee'}
+        photo = {JiminPhoto}
+        name = {'손지민'}
+        EName = {'Jimin Son'} 
+        edu1 = {'B.S in Biomedical Engineering, Dongguk University (2021)'} 
+        edu2 = {null} 
+        int = {'Medical Device Clinical Study Design, Medical Regulatory Affairs'}
+        con = {'wlals2qj@naver.com / jmson1707@yonsei.ac.kr'}/>
 
-          <div className="stu-field"> 
-            <span className="stu-edu">| Education |</span>
-            <span className="stu-edul1">B.S in Healthcare Industry, Cha University (2021)  </span>
-            <span className="stu-ri">| Research Interest |</span>
-            <span className="stu-ril">UX/UI Design, Usability/Human Factors Engineering</span>
-            <span className="stu-contact">| Contact |</span>
-            <span className="stu-contactl">hyeonkyeong97@daum.net / hyeonk@yonsei.ac.kr</span>
-         
-          </div>
-        </div>
-        
-      </div>
+      <StudentLayout 
+        course = {'MS coursee'}
+        photo = {SeungheePhoto}
+        name = {'김승희'}
+        EName = {'Seunghee Kim'} 
+        edu1 = {'B.S in Healthcare Industry, Cha University (2021)'} 
+        edu2 = {null} 
+        int = {'Usability/Human Factors Engineering, Medical Device Industry Policy'}
+        con = {'sshee0710@naver.com'}/>
 
-      <div className="stu-profile">
-        <div className="stu-left">
-           <div className="stu-course">
-               MS / Ph.D course
-            </div>
-        
-            <div className="stu-photo"> 
-              <img className="stuImg" src={JiyongPhoto} alt=""/> 
-            </div>
-        </div>
-        <div className="stu-right">
-          <div className="stu-name">
-              정지용      
-              <span className="stu-pos"> 연구원 </span>
-              <span className="stu-eng"> Jiyong Chung</span>
-          </div>
+      <StudentLayout 
+        course = {'MS coursee'}
+        photo = {GyeongminPhoto}
+        name = {'권경민'}
+        EName = {'Gyeongmin Kwon'} 
+        edu1 = {'Korean language and literature, Yonsei University(2020)'} 
+        edu2 = {null} 
+        int = {'Usability/Human Factors Engineering, Medical Regulatory Affairs'}
+        con = {'kdskkm12@naver.com'}/>
 
-          <div className="stu-field"> 
-            <span className="stu-edu">| Education |</span>
-            <span className="stu-edul1">B.S in Computer Engineering, Tech University of Korea (2022) </span>
-            <span className="stu-ri">| Research Interest |</span>
-            <span className="stu-ril">Bio-signal processing, AI & Deep learning</span>
-            <span className="stu-contact">| Contact |</span>
-            <span className="stu-contactl">cowjy0427@yonsei.ac.kr</span>
-         
-          </div>
-        </div>
-        
-      </div>
+      <StudentLayout 
+        course = {'MS coursee'}
+        photo = {SehoPhoto}
+        name = {'김세호'}
+        EName = {'Seho Kim'} 
+        edu1 = {'Life science, Dongguk University(2022)'} 
+        edu2 = {null} 
+        int = {'Medical Device Clinical Study Design, Clinical Effectiveness Evaluation'}
+        con = {'shkim2022@yonsei.ac.kr'}/>
+
+      <StudentLayout 
+        course = {'MS coursee'}
+        photo = {YujeongPhoto}
+        name = {'마유정'}
+        EName = {'Yujeong Ma'} 
+        edu1 = {`Bachelor of Science in Chemistry, Duksung Women's University(2022)`} 
+        edu2 = {null} 
+        int = {'Medical Device Clinical Study Design, Clinical Effectiveness Evaluation'}
+        con = {'lemontree1235@naver.com'}/>
 
 
-      <div className="stu-profile">
-        <div className="stu-left">
-           <div className="stu-course">
-               MS course
-            </div>
-        
-            <div className="stu-photo"> 
-              <img className="stuImg" src={ChoroPhoto} alt=""/> 
-            </div>
-        </div>
-        <div className="stu-right">
-          <div className="stu-name">
-              최초로      
-              <span className="stu-pos"> 연구원 </span>
-              <span className="stu-eng"> Choro Choi</span>
-          </div>
-
-          <div className="stu-field"> 
-            <span className="stu-edu">| Education |</span>
-            <span className="stu-edul1">B.S in Biomedical Engineering, Yonsei University (2020) </span>
-            <span className="stu-ri">| Research Interest |</span>
-            <span className="stu-ril">Signal & Image processing, AI & Deep learning, Programming, UI design</span>
-            <span className="stu-contact">| Contact |</span>
-            <span className="stu-contactl">hisstoryxx@gmail.com</span>
-         
-          </div>
-        </div>
-        
-      </div>
-      
-      <div className="stu-profile">
-        <div className="stu-left">
-           <div className="stu-course">
-               MS course
-            </div>
-        
-            <div className="stu-photo"> 
-              <img className="stuImg" src={HeeyoungPhoto} alt=""/> 
-            </div>
-        </div>
-        <div className="stu-right">
-          <div className="stu-name">
-              최희영      
-              <span className="stu-pos"> 연구원 </span>
-              <span className="stu-eng"> Heeyoung Choi</span>
-          </div>
-
-          <div className="stu-field"> 
-            <span className="stu-edu">| Education |</span>
-            <span className="stu-edul1">B.S in Biomedical Engineering, Yonsei University (2021) </span>
-            <span className="stu-ri">| Research Interest |</span>
-            <span className="stu-ril">Medical Device Clinical Study Design, Clinical Effectiveness Evaluation</span>
-            <span className="stu-contact">| Contact |</span>
-            <span className="stu-contactl">chy980423@naver.com</span>
-         
-          </div>
-        </div>
-        
-      </div>
-
-      <div className="stu-profile">
-        <div className="stu-left">
-           <div className="stu-course">
-               MS course
-            </div>
-        
-            <div className="stu-photo"> 
-              <img className="stuImg" src={JiyunPhoto} alt=""/> 
-            </div>
-        </div>
-        <div className="stu-right">
-          <div className="stu-name">
-              정지윤      
-              <span className="stu-pos"> 연구원 </span>
-              <span className="stu-eng"> Jiyun Jeong</span>
-          </div>
-
-          <div className="stu-field"> 
-            <span className="stu-edu">| Education |</span>
-            <span className="stu-edul1">B.S in Biomedical Engineering, Yonsei University (2014) </span>
-            <span className="stu-ri">| Research Interest |</span>
-            <span className="stu-ril">Usability/Human Factors Engineering</span>
-            <span className="stu-contact">| Contact |</span>
-            <span className="stu-contactl">ravissante25@gmail.com / jiyunj@yonsei.ac.kr</span>
-         
-          </div>
-        </div>
-        
-      </div>
-     
-
-
-      <div className="stu-profile">
-        <div className="stu-left">
-           <div className="stu-course">
-               MS course
-            </div>
-        
-            <div className="stu-photo"> 
-              <img className="stuImg" src={SeulbiPhoto} alt=""/> 
-            </div>
-        </div>
-        <div className="stu-right">
-          <div className="stu-name">
-              이슬비      
-              <span className="stu-pos"> 연구원 </span>
-              <span className="stu-eng"> Seulbi Lee</span>
-          </div>
-
-          <div className="stu-field"> 
-            <span className="stu-edu">| Education |</span>
-            <span className="stu-edul1">B.S in Biomedical Engineering, Yonsei University (2021) </span>
-            <span className="stu-ri">| Research Interest |</span>
-            <span className="stu-ril">Medical Device Clinical Study Design, Clinical Effectiveness Evaluation</span>
-            <span className="stu-contact">| Contact |</span>
-            <span className="stu-contactl">bee5747@naver.com / bee5747@yonsei.ac.kr</span>
-         
-          </div>
-        </div>
-        
-      </div>
-
-
-      <div className="stu-profile">
-        <div className="stu-left">
-           <div className="stu-course">
-               MS course
-            </div>
-        
-            <div className="stu-photo"> 
-              <img className="stuImg" src={JeonghwaPhoto} alt=""/> 
-            </div>
-        </div>
-        <div className="stu-right">
-          <div className="stu-name">
-              임정화      
-              <span className="stu-pos"> 연구원 </span>
-              <span className="stu-eng"> Jeonghwa Lim</span>
-          </div>
-
-          <div className="stu-field"> 
-            <span className="stu-edu">| Education |</span>
-            <span className="stu-edul1">B.S in Biomedical Engineering, Yonsei University (2021) </span>
-            <span className="stu-ri">| Research Interest |</span>
-            <span className="stu-ril">Bio-signal processing, AI & Deep learning</span>
-            <span className="stu-contact">| Contact |</span>
-            <span className="stu-contactl">lim9234@hanmail.net</span>
-         
-          </div>
-        </div>
-        
-      </div>
-      
-
-      <div className="stu-profile">
-        <div className="stu-left">
-           <div className="stu-course">
-               MS course
-            </div>
-        
-            <div className="stu-photo"> 
-           
-            </div>
-        </div>
-        <div className="stu-right">
-          <div className="stu-name">
-              임창현      
-              <span className="stu-pos"> 연구원 </span>
-              <span className="stu-eng"> Changhyun Lim</span>
-          </div>
-
-          <div className="stu-field"> 
-            <span className="stu-edu">| Education |</span>
-            <span className="stu-edul1">B.S in Healthcare Industry, Cha University (2021)  </span>
-            <span className="stu-ri">| Research Interest |</span>
-            <span className="stu-ril">Medical Device Clinical Study Design, Clinical Effectiveness Evaluation, Medical Regulatory Affairs </span>
-            <span className="stu-contact">| Contact |</span>
-            <span className="stu-contactl">julius1231@naver.com</span>
-         
-          </div>
-        </div>
-        
-      </div>
-
-
-      <div className="stu-profile">
-        <div className="stu-left">
-           <div className="stu-course">
-               MS course
-            </div>
-        
-            <div className="stu-photo"> 
-              <img className="stuImg" src={KanghyeonPhoto} alt=""/> 
-            </div>
-        </div>
-        <div className="stu-right">
-          <div className="stu-name">
-              유강현     
-              <span className="stu-pos"> 연구원 </span>
-              <span className="stu-eng"> Kanghyeon You</span>
-          </div>
-
-          <div className="stu-field"> 
-            <span className="stu-edu">| Education |</span>
-            <span className="stu-edul1">B.S in Healthcare Industry, Cha University (2021) </span>
-            <span className="stu-ri">| Research Interest |</span>
-            <span className="stu-ril">Medical Device Industry Policy, Medical Regulatory Affairs</span>
-            <span className="stu-contact">| Contact |</span>
-            <span className="stu-contactl">hap2boy@naver.com / hap2boy@yonsei.ac.kr</span>
-         
-          </div>
-        </div>
-        
-      </div>
-
-      <div className="stu-profile">
-        <div className="stu-left">
-           <div className="stu-course">
-               MS course
-            </div>
-        
-            <div className="stu-photo"> 
-              <img className="stuImg" src={JiminPhoto} alt=""/> 
-            </div>
-        </div>
-        <div className="stu-right">
-          <div className="stu-name">
-              손지민     
-              <span className="stu-pos"> 연구원 </span>
-              <span className="stu-eng"> Jimin Son</span>
-          </div>
-
-          <div className="stu-field"> 
-            <span className="stu-edu">| Education |</span>
-            <span className="stu-edul1">B.S in Biomedical Engineering, Dongguk University (2021) </span>
-            <span className="stu-ri">| Research Interest |</span>
-            <span className="stu-ril">Medical Device Clinical Study Design, Medical Regulatory Affairs</span>
-            <span className="stu-contact">| Contact |</span>
-            <span className="stu-contactl">wlals2qj@naver.com / jmson1707@yonsei.ac.kr</span>
-         
-          </div>
-        </div>
-        
-      </div>
-
-      <div className="stu-profile">
-        <div className="stu-left">
-           <div className="stu-course">
-               MS course
-            </div>
-        
-            <div className="stu-photo"> 
-              <img className="stuImg" src={SeungheePhoto} alt=""/> 
-            </div>
-        </div>
-        <div className="stu-right">
-          <div className="stu-name">
-              김승희     
-              <span className="stu-pos"> 연구원 </span>
-              <span className="stu-eng"> Seunghee Kim</span>
-          </div>
-
-          <div className="stu-field"> 
-            <span className="stu-edu">| Education |</span>
-            <span className="stu-edul1">B.S in Healthcare Industry, Cha University (2021) </span>
-            <span className="stu-ri">| Research Interest |</span>
-            <span className="stu-ril">Usability/Human Factors Engineering, Medical Device Industry Policy</span>
-            <span className="stu-contact">| Contact |</span>
-            <span className="stu-contactl">sshee0710@naver.com</span>
-         
-          </div>
-        </div>
-        
-      </div>
-     
-
-      <div className="stu-profile">
-        <div className="stu-left">
-           <div className="stu-course">
-               MS course
-            </div>
-        
-            <div className="stu-photo"> 
-              <img className="stuImg" src={GyeongminPhoto} alt=""/> 
-            </div>
-        </div>
-        <div className="stu-right">
-          <div className="stu-name">
-              권경민     
-              <span className="stu-pos"> 연구원 </span>
-              <span className="stu-eng"> Gyeongmin Kwon</span>
-          </div>
-
-          <div className="stu-field"> 
-            <span className="stu-edu">| Education |</span>
-            <span className="stu-edul1">Korean language and literature, Yonsei University(2020) </span>
-            <span className="stu-ri">| Research Interest |</span>
-            <span className="stu-ril">Usability/Human Factors Engineering, Medical Regulatory Affairs</span>
-            <span className="stu-contact">| Contact |</span>
-            <span className="stu-contactl">kdskkm12@naver.com</span>
-         
-          </div>
-        </div>
-        
-      </div>
-
-      <div className="stu-profile">
-        <div className="stu-left">
-           <div className="stu-course">
-               MS course
-            </div>
-        
-            <div className="stu-photo"> 
-              <img className="stuImg" src={SehoPhoto} alt=""/> 
-            </div>
-        </div>
-        <div className="stu-right">
-          <div className="stu-name">
-              김세호     
-              <span className="stu-pos"> 연구원 </span>
-              <span className="stu-eng"> Seho Kim</span>
-          </div>
-
-          <div className="stu-field"> 
-            <span className="stu-edu">| Education |</span>
-            <span className="stu-edul1">Life science, Dongguk University(2022) </span>
-            <span className="stu-ri">| Research Interest |</span>
-            <span className="stu-ril">Medical Device Clinical Study Design, Clinical Effectiveness Evaluation </span>
-            <span className="stu-contact">| Contact |</span>
-            <span className="stu-contactl">shkim2022@yonsei.ac.kr</span>
-         
-          </div>
-        </div>
-        
-      </div>
-
-      <div className="stu-profile">
-        <div className="stu-left">
-           <div className="stu-course">
-               MS course
-            </div>
-        
-            <div className="stu-photo"> 
-              <img className="stuImg" src={YujeongPhoto} alt=""/> 
-            </div>
-        </div>
-        <div className="stu-right">
-          <div className="stu-name">
-              마유정     
-              <span className="stu-pos"> 연구원 </span>
-              <span className="stu-eng"> Yujeong Ma</span>
-          </div>
-
-          <div className="stu-field"> 
-            <span className="stu-edu">| Education |</span>
-            <span className="stu-edul1">Bachelor of Science in Chemistry, Duksung Women's University(2022) </span>
-            <span className="stu-ri">| Research Interest |</span>
-            <span className="stu-ril">Medical Device Clinical Study Design, Clinical Effectiveness Evaluation</span>
-            <span className="stu-contact">| Contact |</span>
-            <span className="stu-contactl">lemontree1235@naver.com</span>
-         
-          </div>
-        </div>
-        
-      </div>
-      
       <div className="stu-profile">
      
       </div>

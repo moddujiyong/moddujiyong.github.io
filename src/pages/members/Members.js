@@ -8,7 +8,7 @@ import Staffs from './staffs/Staffs';
 import Alumni from './alumni/Alumni';
 export default function Members() {
 
-  const [select,setSelect]=useState('');
+  const [select,setSelect]=useState('Professor');
 
   const [page, setPage] = useState('')
 

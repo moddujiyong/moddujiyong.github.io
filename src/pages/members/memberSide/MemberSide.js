@@ -45,9 +45,9 @@ export default function MemberSide({ select, setSelect} ) {
       <div className="memberList">
         <ul className="memberContent">
           <li className="memberListItem" onClick={clickPro} style={{color: select === 'Professor' ? 'black' : 'grey'}}  >Professor</li>
-          <li className="memberListItem" onClick={clickStu} style={{color: select === 'Student' ? 'grey' : 'black'}} >Students</li>
-          <li className="memberListItem" onClick={clickStaffs}style={{color: select === 'Staffs' ? 'grey' : 'black'}}>Staffs</li>
-          <li className="memberListItem" onClick={clickAlu} style={{color: select === 'Alumni' ? 'grey' : 'black'}}>Alumni</li>
+          <li className="memberListItem" onClick={clickStu} style={{color: select === 'Student' ? 'black' : 'grey'}} >Students</li>
+          <li className="memberListItem" onClick={clickStaffs}style={{color: select === 'Staffs' ? 'black' : 'grey'}}>Staffs</li>
+          <li className="memberListItem" onClick={clickAlu} style={{color: select === 'Alumni' ? 'black' : 'grey'}}>Alumni</li>
         </ul>
       </div>
 
