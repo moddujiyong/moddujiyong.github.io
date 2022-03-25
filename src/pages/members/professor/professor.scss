@@ -16,6 +16,7 @@
     
 }
 .header-title{
+    
     display: flex;
    margin-left:50px;
    margin-bottom: 23.5px;
@@ -23,7 +24,7 @@
 
 .prof-scrollMenu{
     
-   
+    margin-left:50px;
     display: flex;
     padding: 10px;
     justify-content: space-around;
@@ -34,10 +35,11 @@
     border-bottom-width:1px;
     border-color: #707070;
     font-family: 'Roboto' ;
-
+    
 //    background-color: red;
 }
 .profList{
+    
     font-size: 22px;
     list-style: none;
     display:flex;
@@ -46,7 +48,7 @@
     font-family: 'Roboto' ;
     margin-left: 80px;
     cursor:pointer;
-
+    font-weight: 1000;
     
 }
 .profListItem{
@@ -223,7 +225,7 @@
 
 
 .main-career{
-  
+    margin-left:50px;
     display: flex;
     border-top: solid;
     border-top-width: 1px;
@@ -250,7 +252,7 @@
 
 
 .other-career{
-  
+    margin-left:50px;
     display: flex;
    
     padding:5px;
@@ -275,7 +277,7 @@
 }
 
 .edu-career{
-  
+    margin-left:50px;
     
     display: flex;
    
@@ -304,7 +306,7 @@
 
 .scolarship-career{
   
-  
+    margin-left:50px;
     display: flex;
    
     padding:5px;
@@ -330,7 +332,7 @@
 
 .research-subject{
     
-   
+    margin-left:50px;
     display: flex;
    
     padding:5px;
@@ -365,7 +367,7 @@
 
 .reward-career{
     
-   
+    margin-left:50px;
     display: flex;
    
     padding:5px;
@@ -392,7 +394,7 @@
 
 .book-career{
     
-   
+    margin-left:50px;
     display: flex;
    
     padding:5px;
@@ -419,7 +421,7 @@
 
 .intell-career{
     
-   
+    margin-left:50px;
     display: flex;
    
     padding:5px;

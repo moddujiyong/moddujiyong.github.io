@@ -6,7 +6,7 @@
     
     //position:fixed;
     position:sticky;
-    margin:0;
+    
     height: 457px;
     display: flex;
     align-items:center;
@@ -107,12 +107,14 @@
 
 
 .infoTitle1{
+    margin-top: 23px;
     margin-bottom: 30px;
 }
 
 
 
 .footerBottom{
+    
     display: flex;
     height:133px;
     flex-direction: column;
@@ -120,6 +122,7 @@
     color:white;
     align-items: center;
     width:100%;
+   
 }
 
 

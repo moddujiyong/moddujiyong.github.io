@@ -14,7 +14,7 @@ export default function Research() {
   let recv;
   const location = useLocation();
 
-  const [select,setSelect]=useState('');
+  const [select,setSelect]=useState('CD');
   
   console.log('select',select)
 

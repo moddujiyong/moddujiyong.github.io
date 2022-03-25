@@ -32,9 +32,10 @@ function App() {
            <Route exact path="/research/clinical"><Research/></Route>
            <Route exact path="/research/uxui"><Research/></Route>
            <Route exact path="/research/industry" ><Research/></Route>
+           <Route exact path="/research/bio"><Research/></Route>
            <Route path="/publication"><Publication/></Route>
            <Route path="/contact"><Contact/></Route>
-
+           <Route path="/gallery"><Gallery/></Route>
 
          </Switch>
          <Footer/>

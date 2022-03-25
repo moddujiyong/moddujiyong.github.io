@@ -1,11 +1,4 @@
-/*import React, {useEffect,useState} from 'react'
-import "./publication.scss"
-import PublicationSide from "./publicationSide/PublicationSide"
-import Journal from './journal/Journal';
-import Conference from './conference/Conference';
-import Patent from './patent/Patent';*/
-
-import React,{useRef} from 'react';
+import React,{useRef,useState} from 'react';
 import "./publication.scss";
 
 
@@ -15,18 +8,22 @@ export default function Publication() {
   const confRef=useRef(null);
   const patRef=useRef(null);
   const bookRef=useRef(null);
-
+  const [select,setSelect]=useState("Journal");
   const onJourClick=()=>{
     jourRef.current?.scrollIntoView({behavior:'smooth',block:'center'})
+    setSelect('Journal')
   }
   const onConfClick=()=>{
     confRef.current?.scrollIntoView({behavior:'smooth',block:'center'})
+    setSelect('Conference')
   }
   const onPatClick=()=>{
     patRef.current?.scrollIntoView({behavior:'smooth',block:'center'})
+    setSelect('Patent')
   }
   const onBookClick=()=>{
     bookRef.current?.scrollIntoView({behavior:'smooth',block:'center'})
+    setSelect('Books')
   }
 
 
@@ -48,10 +45,10 @@ export default function Publication() {
               </div>
               <div className="pubContent">
                   <ul className="pub-list">
-                    <li className="pub-item" onClick={onJourClick} >Journal</li>
-                    <li className="pub-item" onClick={onConfClick} >Conference</li>
-                    <li className="pub-item" onClick={onPatClick} >Patent</li>
-                    <li className="pub-item" onClick={onBookClick} >Books</li>
+                    <li className="pub-item" onClick={onJourClick} style={{color: select === 'Journal' ? 'black' : 'grey'}}>Journal</li>
+                    <li className="pub-item" onClick={onConfClick} style={{color: select === 'Conference' ? 'black' : 'grey'}}>Conference</li>
+                    <li className="pub-item" onClick={onPatClick} style={{color: select === 'Patent' ? 'black' : 'grey'}}>Patent</li>
+                    <li className="pub-item" onClick={onBookClick} style={{color: select === 'Books' ? 'black' : 'grey'}}>Books</li>
                 </ul>
               </div>
            

@@ -53,7 +53,7 @@
 }
 
 .memberListItem{
-
+    
     font-size:22px;
     width:208px;
     margin-bottom: 33px;
@@ -68,5 +68,21 @@
     border-right-width:0;
     border-bottom-width:1px;
     border-color: #FFC341;
-    color:'#707070'
+    
+}
+
+.memberSmallItem{
+    font-size: 22px;
+    margin-left: 38px;
+    margin-bottom:26px;
+    border-style: solid;
+    border-top-width: 0;
+    border-left-width:0;
+    border-right-width:0;
+    border-bottom-width:1px;
+    border-color: #FFC341;
+    font-family: 'Segoe UI';
+    opacity: 1;
+    font-weight: 600;
+    cursor:pointer;
 }

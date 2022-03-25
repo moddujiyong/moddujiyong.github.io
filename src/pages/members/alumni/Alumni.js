@@ -5,8 +5,10 @@ import SihyunPhoto from "../../../components/img/sihyun.png";
 import HanjiPhoto from "../../../components/img/hanji.png";
 import JeongukPhoto from "../../../components/img/jeonguk.jpg";
 import MiwonPhoto from "../../../components/img/miwon.jpg";
+import EunseonPhoto from "../../../components/img/eunseon.jpg";
+import "./alumni.scss";
 
-import "./alumni.scss"
+
 export default function Alumni() {
 
  
@@ -103,7 +105,7 @@ export default function Alumni() {
             <span className="alu-edu">| Education |</span>
             <span className="alu-edul1">M.S in Medical Device Engineering & Management (2021)  </span>
             <span className="alu-aff">| Affiliation |</span>
-            <span className="alu-affl"></span>
+            <span className="alu-affl">Synex</span>
             <span className="alu-dis">| Dissertation |</span>
             <span className="alu-disl">A Study on the Application of Digital Clinical Trial System to Medical Device  </span>
             <span className="alu-contact">| Contact |</span>
@@ -212,6 +214,39 @@ export default function Alumni() {
         </div>
         
       </div>
+
+      <div className="alu-profile">
+        <div className="alu-left">
+          <div className="alu-course">
+              MS
+            </div>
+        
+            <div className="alu-photo"> 
+              <img className="aluImg" src={EunseonPhoto} alt=""/> 
+            </div>
+        </div>
+        <div className="alu-right">
+          <div className="alu-name">
+              이은선       
+              <span className="alu-pos"> 연구원 </span>
+              <span className="alu-eng"> EunSeon Lee</span>
+          </div>
+
+          <div className="alu-field"> 
+            <span className="alu-edu">| Education |</span>
+            <span className="alu-edul1">M.S in Medical Device Engineering & Management (2022) </span>
+            <span className="alu-aff">| Affiliation |</span>
+            <span className="alu-affl">Seegene</span>
+            <span className="alu-dis">| Dissertation |</span>
+            <span className="alu-disl">Analysis of Emergency Use Authorization (EUA) for In Vitro Diagnostic Medical Devices (IVD) on Emerging Infectious Disease </span>
+            <span className="alu-contact">| Contact |</span>
+            <span className="alu-contactl">eunseon.lee92@gmail.com</span>
+        
+          </div>
+        </div>
+        
+      </div>
+
 
       <div className="alu-profile">
 

@@ -7,13 +7,14 @@
 
 .stu-header{
   //  background-color: aquamarine;
-   
+  margin-left:50px;
     display: flex;
     font-size: 26px;
     flex-direction: column;
    
 }
 .stu-title{
+    
     display:flex;
     margin-left:50px;
     margin-bottom: 23.5px;
@@ -22,6 +23,7 @@
 
 
 .stu-profile{
+    margin-left:50px;
     border-color: #707070;
     border-style: solid;
     border-top-width:1px;

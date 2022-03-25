@@ -8,7 +8,9 @@ import Staffs from './staffs/Staffs';
 import Alumni from './alumni/Alumni';
 export default function Members() {
 
-  const [select,setSelect]=useState('');
+  const [select,setSelect]=useState('Professor');
+
+  const [selectStudent,setSelectStudent]=useState()
 
   const [page, setPage] = useState('')
 
@@ -40,7 +42,7 @@ export default function Members() {
       <div className="members">
         
           <div className="membersLeft">
-          <MemberSide select={select} setSelect={setSelect}/>
+          <MemberSide select={select} setSelect={setSelect} selectStudent = {selectStudent }   setSelectStudent = {setSelectStudent}  />
         </div>
       
         {select === 'Alumni' ?
@@ -56,7 +58,8 @@ export default function Members() {
             
            
             <div className="membersRight">
-            <Student/>
+              
+            <Student selectStudent = {selectStudent }   setSelectStudent = {setSelectStudent} />
             </div>
             
               :

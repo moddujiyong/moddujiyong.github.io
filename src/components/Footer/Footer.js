@@ -14,7 +14,13 @@ export default function Footer({select,setSelect}){
    },[pathname]);
  
    
-    const footerText='Dept. of Medical Device \n Engineering & Management'
+    const footerText='Medical Device Engineering & \n Management';
+
+    const toHomepage = () => {
+        window.location.href='http://mdi.yonsei.ac.kr/'
+
+        return false
+    }
 
     return(
         <div className="footer">
@@ -42,8 +48,9 @@ export default function Footer({select,setSelect}){
                        <li className="footerRListItem"><Link className="link"  to ="/research/clinical">Clinical Study Design</Link></li>
                        <li className="footerRListItem"><Link className="link"  to ="/research/uxui">UX/UI Design & Usability</Link></li>
                        <li className="footerRListItem"><Link className="link"  to ="/research/industry">Medical Industry Policy</Link></li>
-                       <li className="footerRListItem"><Link className="link" to ="/">{footerText}</Link></li>
-                    
+                       <li className="footerRListItem"><Link className="link"  to ="/research/bio">Bio Signal Processing & AI</Link></li>
+                       <li className="footerRListItem"  onClick={toHomepage} >{footerText}</li>
+                      
                      </ul>
                 </div>
 

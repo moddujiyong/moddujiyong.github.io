@@ -1,4 +1,4 @@
-import React, {useRef} from 'react';
+import React, {useRef,useState} from 'react';
 import BarImgProf from "../../../components/img/design_bar.png";
 import ProfPhoto from "../../../components/img/JangWonSuk.jpg";
 import "./professor.scss"
@@ -22,27 +22,32 @@ export default function Professor() {
   const 한국보건산업진흥원="<한국보건산업진흥원>"
   const 한국산업기술평가관리원="<한국산업기술평가관리원>"
 
-
+  const [select,setSelect]=useState("All");
 
   const aRef=useRef(null);
   const mRef=useRef(null);
   const sRef=useRef(null);
   const rRef=useRef(null);
+
+
   const onAllClick=()=>{
     aRef.current?.scrollIntoView({block:'end',behavior:'smooth'});
+    setSelect('All')
   };
 
   const onMainCareerClick=()=>{
     mRef.current?.scrollIntoView({block:'end',behavior:'smooth'});
+    setSelect('주요경력')
   };
 
   const onScolarCareerClick=()=>{
     sRef.current?.scrollIntoView({block:'start',behavior:'smooth'});
+    setSelect('학술경력')
   };
-
   const onResearchSubjectClick=()=>{
    
     rRef.current?.scrollIntoView({block:'start',behavior:'smooth'});
+    setSelect('연구과제')
   };
   return (   
     <div className="professor" >
@@ -54,10 +59,10 @@ export default function Professor() {
   
         <div className="prof-scrollMenu">
            <ul className="profList">
-            <li className="profListItem" onClick={onAllClick}>All</li>
-            <li className="profListItem" onClick={onMainCareerClick}>주요경력</li>
-            <li className="profListItem" onClick={onScolarCareerClick}>학술경력</li>
-            <li className="profListItem" onClick={onResearchSubjectClick}>연구과제</li>        
+            <li className="profListItem" onClick={onAllClick} style={{color: select === 'All' ? 'black' : 'grey'}}>All</li>
+            <li className="profListItem" onClick={onMainCareerClick} style={{color: select === '주요경력' ? 'black' : 'grey'}}>주요경력</li>
+            <li className="profListItem" onClick={onScolarCareerClick}style={{color: select === '학술경력' ? 'black' : 'grey'}}>학술경력</li>
+            <li className="profListItem" onClick={onResearchSubjectClick}style={{color: select === '연구과제' ? 'black' : 'grey'}}>연구과제</li>        
                  
            </ul>
         </div>
