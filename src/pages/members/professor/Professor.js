@@ -5,6 +5,25 @@ import "./professor.scss"
 export default function Professor() {
   const intJournal="< 국외 논문 >"
   const domJournal="< 국내 논문 >"
+
+  const 보건복지부="<보건복지부>"
+  const 식품의약품안전처="<식품의약품안전처>"
+  const 한국연구재단="<한국연구재단>"
+  const 산업통상자원부="<산업통상자원부>"
+  const 지식경제부="<지식경제부>"
+  const 식품의약품안전평가원="<식품의약품안전평가원>"
+  const 범부처전주기의료기기연구개발사업단="<범부처전주기의료기기연구개발사업단>"
+  const 뉴풍="<(주)뉴풍>"
+  const 시지바이오="<(주)시지바이오>"
+  const 엣지케어="<(주)엣지케어>"
+  const 웨이센="<(주)웨이센>"
+  const 다나="<특허법인 다나>"
+  const 서울산업진흥원="<서울산업진흥원>"
+  const 한국보건산업진흥원="<한국보건산업진흥원>"
+  const 한국산업기술평가관리원="<한국산업기술평가관리원>"
+
+
+
   const aRef=useRef(null);
   const mRef=useRef(null);
   const sRef=useRef(null);
@@ -43,8 +62,8 @@ export default function Professor() {
            </ul>
         </div>
       </div>
-
-      <div className="prof-profile" ref={aRef}>
+   
+    <div className="prof-profile" ref={aRef}>
        <div className="prof-photo">
            <img className="profImg" src={ProfPhoto} alt=""/>
        </div>
@@ -59,7 +78,7 @@ export default function Professor() {
           <div className="prof-field">
             <div>
              <span className="fos">Field of specialty: </span>
-             <span clasName="fosCont">Medical Engineering</span>
+             <span className="fosCont">Medical Engineering</span>
             </div>
             
             <div>
@@ -70,13 +89,13 @@ export default function Professor() {
            
             <div>
               <span className="loc">Location: </span>
-              <span className="locCon"> Future Medicine Research Center</span>
+              <span className="locCont"> Future Medicine Research Center</span>
             </div>
 
 
             <div>
              <span className="tel">Tel:</span> 
-             <span className="telCon"> 02-2019-5442</span>
+             <span className="telCont"> 02-2019-5442</span>
             </div>
 
 
@@ -160,10 +179,14 @@ export default function Professor() {
         <span className="ecl">1991 ~ 1995 : 연세대학교 보건과학대학 의용전자공학과 공학사</span>
       </div>
 
-      <div className="void-career">
-          입력
 
-      </div>
+      <div className="reward-career">
+        
+        <div className="rec">| 수상 경력 |</div>
+         
+         <span className="recl">2021 의료기기산업특성화대학원 유공자 포상 “한국보건산업진흥원 표창장”, 보건복지부, 2021.09.14</span>
+         <span className="recl">2010 대한민국기술대상 산업진흥유공분야“지식경제부장관상”, 지식경제부, 2010.12.09</span>
+       </div>
 
       <div className="scolarship-career" ref={sRef}>
       <div className="sc">
@@ -190,53 +213,99 @@ export default function Professor() {
         <span className="scl">대퇴근활성화에 대한 자전거 운동 시 근전도와 슬관절 각도와의 상관관계 연구 (전자공학회논문지–SC, 46권, 4호, 2009. 7)</span>
       </div>
 
+
+      
+      <div className="book-career">
+        
+        <div className="bc">| 저역서 |</div>
+         
+         <span className="bcl">디지털헬스케어를 위한 웨어러블기술 (2021.7)</span>
+         <span className="bcl">디지털헬스케어 시스템설계학 (2021. 4) </span>
+         <span className="bcl">의료영상처리 이해 및 응용 (2020. 7)  </span>
+         <span className="bcl">알기쉬운 의료기기 임상총론 (2019. 12)  </span>
+         <span className="bcl">의료기기 설계학 제4판 (2018. 11)  </span>
+         <span className="bcl">의료기기품질경영시스템 : MDSAP: 의료기기 단일 심사 프로그램 (2018. 10)</span>
+       </div>
+
+
+         
+      <div className="intell-career">
+        
+        <div className="ic">| 지식재산권 |</div>
+         
+         <span className="icl">배터리 소모 감소 기능이 구비된 산모 자궁수축도 검사장치 (2020. 12)</span>
+         <span className="icl">산모 자궁수축도 검사장치 (2020. 12)</span>
+         <span className="icl">모바일 기반 방광 모니터링를 위한 패치형 초음파센서의 포지셔닝 최적화 장치 및 방법 (2020. 11) </span>
+         <span className="icl">모바일 기반 방광 모니터링를 위한 패치형 초음파센서의 포지셔닝 최적화 장치 및 방법 (2019. 11) </span>
+         <span className="icl">방광 모니터링 헬스케어 시스템 및 방광 모니터링 방법 (2018. 12) </span>
+         <span className="icl">맥파 및 심박변이도를 이용한 통증 분류 방법 (2018. 8) </span>
+         <span className="icl">배뇨장애 관리 및 개선을 위한 어플리케이션 프로세스 및 UX/UI 시스템 (2017. 12) </span>
+         <span className="icl">초음파 영상을 표시하는 장치 및 방법 (2017. 11) </span>
+         <span className="icl">맥파 및 심박변이도를 이용한 통증 분류 방법 (2017. 10)</span>
+         <span className="icl">초음파 영상 내 선택 지점의 위치를 조절하는 방법 및 그 장치 (2017. 4) </span>
+         <span className="icl">하드웨어 및 그래픽 인터페이스를 이용한 사용자 입력에 기초하여 무선 초음파 영상을 제어하는 방법 및 장치 (2017. 4) </span>
+         <span className="icl">하드웨어 및 그래픽 인터페이스를 이용한 사용자 입력에 기초하여 무선 초음파 영상을 제어하는 방법 및 장치 (2016. 5) </span>
+         <span className="icl">초음파 영상 모드 별 그래픽 인터페이스에 기초하여 초음파 영상을 제어하는 방법 및 장치 (2016. 5) </span>
+         <span className="icl">토모신세시스 시스템에서 사용되는 방사선 차폐장치 및 방사선 차폐장치를 이용한 방사선 촬영방법 (2013. 12)</span>
+
+      </div>
+
       <div className="research-subject" ref={rRef}>
         
 
         <div className="rs">| 연구 과제 |</div>
         
-        <span className="rsl">| 보건복지부 | 2018. 4 ~ 2021. 12</span>
-        <span className="rsl">조산 고위험 산모 예측 알고리즘 개발 및 자궁 근전도 무선 모니터링 시스템의 임상적 유효성 검증 (공동연구)</span>
-        <span className="rsl">| 식품의약품안전처 | 2018. 2 ~ 2018. 11 </span>
-        <span className="rsl">첨단기술 기반 치료형기기에 대한 임상시험프로토콜가이드라인개발 (세부과제책임자) </span>
-        <span className="rsl">| 한국연구재단 | 2017. 4 ~ 2022. 3 </span>
-        <span className="rsl">초음파기반의 패치형 방광모니터링 헬스케어 시스템 개발 (세부과제책임자)</span>
-        <span className="rsl"> | 산업통상자원부 | </span>
-        <span className="rsl">2014 ~ 2018: 현장진단응급현장시장선도를 위한 ICT기반의 무선초음파솔루션 개발 (참여기관 책임자)</span>
-        <span className="rsl">2015 ~ 2017: 전후두부 정보흐름을 이용한 마취심도 및 통증수준 진단 시스템 개발 (참여기관 책임자) </span>
+        <span className="rslt">{보건복지부}</span>
+        <span className="rsl">2018. 4 ~ 2021. 12: 조산 고위험 산모 예측 알고리즘 개발 및 자궁 근전도 무선 모니터링 시스템의 임상적 유효성 검증 (공동연구)</span>
+        <span className="rsl">2019. 8 ~ 2019. 12: 혁신형의료기기 기업인증기준 및 지원방안수립연구</span>
+        <span className="rsl">2019. 1 ~ 2019. 12: 의료기기산업특성화대학원 지원사업</span>
+        <span className="rslt">{식품의약품안전처}</span>
+        <span className="rsl">2020. 1 ~ 2020. 6: 첨단기술 기반 치료형기기에 대한 임상시험프로토콜가이드라인개발 (세부과제책임자)</span>
+        <span className="rslt">{한국연구재단}</span>
+        <span className="rsl">2017. 4 ~ 2022. 3: 초음파기반의 패치형 방광모니터링 헬스케어 시스템 개발 (세부과제책임자)</span>
+        <span className="rslt">{산업통상자원부}</span>
+        <span className="rsl">2020. 9 ~ 2021. 8: 디지털 헬스케어 확산을 위한 오픈 이노베이션 생태계 구축사업 </span>
+        <span className="rsl">2014 ~ 2018: 현장진단응급현장시장선도를 위한 ICT기반의 무선초음파솔루션 개발 (참여기관 책임자) </span>
+        <span className="rsl">2015 ~ 2017: 전후두부 정보흐름을 이용한 마취심도 및 통증수준 진단 시스템 개발 (참여기관 책임자)</span>
         <span className="rsl">2015 ~ 2016: 급/만성 뇌질환/심혈관질환자 모니터링용 인체친화형 스마트 패치 및 재택 건강관리 서비스 솔루션 개발 (참여기관 책임자, 산업통상자원부)</span>
-        <span className="rsl">| 지식경제부 |</span>
-        <span className="rsl">| 2005. 12 ~ 2010. 11 </span>
-        <span className="rsl">차세대 의료용 영상진단시스템 개발 (총괄책임자)</span>
-  
-
+        <span className="rslt">{지식경제부}</span>
+        <span className="rsl">2005. 12 ~ 2010. 11: 차세대 의료용 영상진단시스템 개발 (총괄책임자)</span>
+        <span className="rslt">{식품의약품안전평가원}</span>
+        <span className="rsl">2019. 2 ~ 2019. 7: 의료기기임상시험의 국제동향파악및 제도운영방안마련연구</span>
+        <span className="rsl">2017. 2 ~ 2018. 11: 첨단기술 기반 치료형기기 평가기술 개발</span>
+        <span className="rslt">{범부처전주기의료기기연구개발사업단}</span>
+        <span className="rsl">2020. 9 ~ 2025. 12: 기능 융합형 초음파 영상기기(4세부) </span>
+        <span className="rsl">2020. 9 ~ 2023. 12: 신생아 집중치료에 적합한 다기능 스마트 보육기 개발(3세부)</span>
+        <span className="rsl">2021. 3 ~ 2022. 2: 의료공공복지구현 및 사회문제해결’분야 맞춤형 의료기기 평가기술 개발(4세부) </span>
+        <span className="rsl">2020. 9 ~ 2024. 12: 인공지능 기반 중증악화 예측 가능한 고성능 환자감시장치 시스템 개발(총괄)</span>
+        <span className="rsl">2020. 9 ~ 2022. 12: 고령자 만성질환, 현장형 진단 및 치료 시스템 임상시험 지원(세부) </span>
+        <span className="rsl">2020. 9 ~ 2024. 12: 급만성 폐질환 치료를 위한 생체신호 분석기반 스마트 호흡치료기 개발</span>
+        <span className="rsl">2020. 9 ~ 2021. 2: (간호대) 스마트 헬스케어 의료기기 핵심기술 개발(RFP명) </span>
+        <span className="rsl">020. 8 ~ 2021. 1: 의료기기 평가기술 개발</span>
+        <span className="rslt">{뉴풍}</span>
+        <span className="rsl"> 2020. 3 ~ 2020. 8: 하안검 치료용 정밀 초음파 수술기에 대한 사용적합성 평가</span>
+        <span className="rslt">{시지바이오}</span>
+        <span className="rsl">2020. 1 ~ 2020. 6: 생체활성 소재 기반의 임상적 요구에 최적화된 기능성 환자 맞춤형 척추 유합 임플란트 및 제조 시스템 개발</span>
+        <span className="rslt">{엣지케어}</span>
+        <span className="rsl">2021. 12 ~ 2022. 11: 아이콜리에 대한 RA/QA 지원 용역</span>
+        <span className="rslt">{웨이센}</span>
+        <span className="rsl">2020. 12 ~ 2021. 9: 위암영상검출진단보조소프트웨어에 대한 임상시험계획서 개발</span>
+        <span className="rslt">{다나}</span>
+        <span className="rsl">2017. 12: 산업자문: 보건산업진흥원 미래융합의료기기개발 연구계획서 작성 자문(컨설팅)</span>
+        <span className="rslt">{서울산업진흥원}</span>
+        <span className="rsl">2019. 11 ~ 2020. 10 초음파 영상기반 체외충격파 융합기기의 새로운 치료기능에 대한 임상적 유효성 평가 </span>
+        <span className="rslt">{한국보건산업진흥원}</span>
+        <span className="rsl">2021. 5 ~ 2021. 10: 디지털 치료기기 임상설계 가이드라인 개발 연구 </span>
+        <span className="rslt">{한국산업기술평가관리원}</span>
+        <span className="rsl">2020. 11 ~ 2021. 1: 병원-기업 연계 의료기기 R&D 협력 플랫폼 기획연구</span>
       </div>
 
-      <div className="reward-career">
-        
-       <div className="rec">| 수상 경력 |</div>
-        
-        <span className="recl">2021 의료기기산업특성화대학원 유공자 포상 “한국보건산업진흥원 표창장”, 보건복지부, 2021.09.14</span>
-        <span className="recl">2010 대한민국기술대상 산업진흥유공분야“지식경제부장관상”, 지식경제부, 2010.12.09</span>
-      </div>
+
+ 
+     
+    
 
 
-
-
-      <div className="void-career">
-          입력
-
-      </div>
-
-      <div className="void-career">
-          입력
-
-      </div>
-
-      <div className="void-career">
-          입력
-
-      </div>
     </div>
   )
 }

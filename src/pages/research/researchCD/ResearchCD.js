@@ -1,5 +1,5 @@
 import React, {useRef} from 'react';
-import Cd1Photo from "../../../components/img/cd01.JPG";
+import Cd1Photo from "../../../components/img/cd01.jpg";
 import Cd2Photo from "../../../components/img/cd02.jpg";
 import Cd3Photo from "../../../components/img/cd03.JPG";
 import Cd4Photo from "../../../components/img/cd04.jpg";
