@@ -48,12 +48,12 @@ export default function ResearchBS() {
 
         :
           choose==='Progressing'?
-         <div className="csd-all">
+        
            <div className="bsp-all">
               <ResearchLayout title={'급만성 폐질환 치료를 위한 생체신호 분석기반 스마트 호흡치료기 개발'} img={Bs1Photo}/>
        
            </div>
-         </div>
+        
          : 
          <div className="Closed">
            <div className="bsp-all">

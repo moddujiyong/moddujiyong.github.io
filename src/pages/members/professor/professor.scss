@@ -11,6 +11,7 @@
     display: flex;
     font-size: 26px;
     flex-direction: column;
+    font-weight:700;
    // background-color: green;
     
     
@@ -225,25 +226,72 @@
 
 
 .main-career{
+    
     margin-left:50px;
     display: flex;
     border-top: solid;
     border-top-width: 1px;
     
     padding:5px;
-    flex-direction: column;
+    justify-content: space-between;
+   
 }
 
+.mc-container{
+    flex-direction: column;
+    display: flex;
+    
+  
+}
+.bar-right{
+    
+    margin-top: 80px;
+    display: flex;
+    object-fit:cover;
+    width:9px;
+    height:208px;
+}
+
+.bar-left1{
+    
+    margin-top: 100px;
+    display: flex;
+    object-fit:cover;
+    width:9px;
+    height:208px;
+}
+.bar-left2{
+    
+    margin-top: 10px;
+    display: flex;
+    object-fit:cover;
+    width:9px;
+    height:208px;
+}
+
+.bar-left3{
+    
+    margin-top: 60px;
+    display: flex;
+    object-fit:cover;
+    width:9px;
+    height:208px;
+}
 .mc{
+    display:flex;
+    margin-top: 29px;
     font-size: 20px;
     color:#002650;
     opacity: 1;
     font-weight: 700;
     margin-bottom: 29px;
     margin-left:70px;
+   
 }
 
+
 .mcl{
+    display: flex;
     font-size: 20px;
     font-family: 'Segoe UI';
     margin-bottom: 29px;
@@ -256,20 +304,30 @@
     display: flex;
    
     padding:5px;
-    flex-direction: column;
+    //flex-direction: column;
+    
 }
 
 .oc{
+   
     font-size: 20px;
     color:#002650;
     opacity: 1;
     font-weight: 700;
     margin-bottom: 29px;
     margin-left: 70px;
+    margin-top: 34px;
+  
    
 }
-
+.oc-container{
+    flex-direction: column;
+    display: flex;
+    
+  
+}
 .ocl{
+   
     font-size: 20px;
     font-family: 'Segoe UI';
     margin-bottom: 29px;
@@ -282,10 +340,15 @@
     display: flex;
    
     padding:5px;
-    flex-direction: column;
-
+    justify-content: space-between;
+   
 }
-
+.edu-container{
+    flex-direction: column;
+    display: flex;
+    
+  
+}
 .ec{
     font-size: 20px;
     color:#002650;
@@ -293,6 +356,7 @@
     font-weight: 700;
     margin-bottom: 29px;
     margin-left: 70px;
+   
 }
 
 .ecl{
@@ -310,10 +374,13 @@
     display: flex;
    
     padding:5px;
-    flex-direction: column;
+   // flex-direction: column;
 
 }
-
+.sc-container{
+    flex-direction: column;
+    display: flex;
+}
 .sc{
     margin-left: 70px;
     margin-left: 70px;
@@ -322,9 +389,12 @@
     opacity: 1;
     font-weight: 700;
     margin-bottom: 29px;
+    display: flex;
+    justify-content: space-between;
 }
 
-.scl{ margin-left: 70px;
+.scl{ 
+    margin-left: 70px;
     font-size: 20px;
     font-family: 'Segoe UI';
     margin-bottom: 29px;
@@ -336,10 +406,13 @@
     display: flex;
    
     padding:5px;
-    flex-direction: column;
 
+    margin-top: 30px;
 }
-
+.rs-container{
+    display: flex;
+    flex-direction: column;
+}
 
 .rs{
     margin-left: 70px;
@@ -371,10 +444,13 @@
     display: flex;
    
     padding:5px;
-    flex-direction: column;
-
+ //   flex-direction: column;
+    
 }
-
+.rec-container{
+    flex-direction: column;
+    display: flex;
+}
 
 .rec{
     margin-left: 70px;
@@ -398,8 +474,12 @@
     display: flex;
    
     padding:5px;
-    flex-direction: column;
+  //  flex-direction: column;
 
+}
+.book-container{
+    flex-direction: column;
+    display: flex;
 }
 
 
@@ -425,10 +505,14 @@
     display: flex;
    
     padding:5px;
+   // flex-direction: column;
+
+}
+.intell-container{
+    display: flex;
     flex-direction: column;
 
 }
-
 
 .ic{
     margin-left: 70px;

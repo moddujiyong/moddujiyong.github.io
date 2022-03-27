@@ -61,7 +61,7 @@ export default function ResearchCD() {
           <ResearchLayout title={'고령자 만성질환, 현장형 진단 및 치료 시스템 임상시험 지원'} img={Cd2Photo}/>
          </div>
          : 
-         <div className="Closed">
+         <div className="csd-all">
          <ResearchLayout title={'디지털 치료기기 임상설계 가이드라인 개발 연구 사진 변경'} img={Cd3Photo}/>
          <ResearchLayout title={'조산 고위험 산모 예측 알고리즘 개발 및 자궁근전도 무선 모니터링 시스템의 임상적 유효성 검증'} img={Cd4Photo}/>
          <ResearchLayout title={'위암영상검출진단보조소프트웨어에 대한 임상시험계획서 개발'} img={Cd5Photo}/>

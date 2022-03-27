@@ -103,7 +103,7 @@ export default function Student({select ,setSelect, selectStudent, setSelectStud
             </div>
           </div>
         <StudentLayout 
-        course = {'MS coursee'}
+        course = {'MS course'}
         photo = {ChoroPhoto}
         name = {'최초로'}
         EName = {'Choro Choi'} 
@@ -113,7 +113,7 @@ export default function Student({select ,setSelect, selectStudent, setSelectStud
         con = {'hisstoryxx@gmail.com / chororo@yonsei.ac.kr'}/>
 
        <StudentLayout 
-        course = {'MS coursee'}
+        course = {'MS course'}
         photo = {HeeyoungPhoto}
         name = {'최희영'}
         EName = {'Heeyoung Choi'} 
@@ -123,7 +123,7 @@ export default function Student({select ,setSelect, selectStudent, setSelectStud
         con = {'chy980423@naver.com'}/>
 
       <StudentLayout 
-        course = {'MS coursee'}
+        course = {'MS course'}
         photo = {JiyunPhoto}
         name = {'정지윤'}
         EName = {'Jiyun Jeong'} 
@@ -133,7 +133,7 @@ export default function Student({select ,setSelect, selectStudent, setSelectStud
         con = {'ravissante25@gmail.com / jiyunj@yonsei.ac.kr'}/>
         
       <StudentLayout 
-        course = {'MS coursee'}
+        course = {'MS course'}
         photo = {SeulbiPhoto}
         name = {'이슬비'}
         EName = {'Seulbi Lee'} 
@@ -143,7 +143,7 @@ export default function Student({select ,setSelect, selectStudent, setSelectStud
         con = {'bee5747@naver.com / bee5747@yonsei.ac.kr'}/>
 
       <StudentLayout 
-        course = {'MS coursee'}
+        course = {'MS course'}
         photo = {JeonghwaPhoto}
         name = {'임정화'}
         EName = {'Jeonghwa Lim'} 
@@ -153,7 +153,7 @@ export default function Student({select ,setSelect, selectStudent, setSelectStud
         con = {'lim9234@hanmail.net'}/>
 
       <StudentLayout 
-        course = {'MS coursee'}
+        course = {'MS course'}
         photo = {null}
         name = {'임창현'}
         EName = {'Changhyun Lim'} 
@@ -163,7 +163,7 @@ export default function Student({select ,setSelect, selectStudent, setSelectStud
         con = {'julius1231@naver.com'}/>
 
       <StudentLayout 
-        course = {'MS coursee'}
+        course = {'MS course'}
         photo = {KanghyeonPhoto}
         name = {'유강현'}
         EName = {'Kanghyeon You'} 
@@ -173,7 +173,7 @@ export default function Student({select ,setSelect, selectStudent, setSelectStud
         con = {'hap2boy@naver.com / hap2boy@yonsei.ac.kr'}/>
 
       <StudentLayout 
-        course = {'MS coursee'}
+        course = {'MS course'}
         photo = {JiminPhoto}
         name = {'손지민'}
         EName = {'Jimin Son'} 
@@ -183,7 +183,7 @@ export default function Student({select ,setSelect, selectStudent, setSelectStud
         con = {'wlals2qj@naver.com / jmson1707@yonsei.ac.kr'}/>
 
       <StudentLayout 
-        course = {'MS coursee'}
+        course = {'MS course'}
         photo = {SeungheePhoto}
         name = {'김승희'}
         EName = {'Seunghee Kim'} 
@@ -193,7 +193,7 @@ export default function Student({select ,setSelect, selectStudent, setSelectStud
         con = {'sshee0710@naver.com'}/>
 
       <StudentLayout 
-        course = {'MS coursee'}
+        course = {'MS course'}
         photo = {GyeongminPhoto}
         name = {'권경민'}
         EName = {'Gyeongmin Kwon'} 
@@ -203,7 +203,7 @@ export default function Student({select ,setSelect, selectStudent, setSelectStud
         con = {'kdskkm12@naver.com'}/>
 
       <StudentLayout 
-        course = {'MS coursee'}
+        course = {'MS course'}
         photo = {SehoPhoto}
         name = {'김세호'}
         EName = {'Seho Kim'} 
@@ -213,7 +213,7 @@ export default function Student({select ,setSelect, selectStudent, setSelectStud
         con = {'shkim2022@yonsei.ac.kr'}/>
 
       <StudentLayout 
-        course = {'MS coursee'}
+        course = {'MS course'}
         photo = {YujeongPhoto}
         name = {'마유정'}
         EName = {'Yujeong Ma'} 
@@ -240,6 +240,7 @@ export default function Student({select ,setSelect, selectStudent, setSelectStud
 
          </>
          :
+
          <>
           <div className="stu-header" >
              <div className="stu-title">
@@ -285,7 +286,7 @@ export default function Student({select ,setSelect, selectStudent, setSelectStud
          int = {'Bio-signal processing, AI & Deep learning'}
          con = {'cowjy0427@yonsei.ac.kr'}/>
           <StudentLayout 
-        course = {'MS coursee'}
+        course = {'MS course'}
         photo = {ChoroPhoto}
         name = {'최초로'}
         EName = {'Choro Choi'} 
@@ -295,7 +296,7 @@ export default function Student({select ,setSelect, selectStudent, setSelectStud
         con = {'hisstoryxx@gmail.com / chororo@yonsei.ac.kr'}/>
 
        <StudentLayout 
-        course = {'MS coursee'}
+        course = {'MS course'}
         photo = {HeeyoungPhoto}
         name = {'최희영'}
         EName = {'Heeyoung Choi'} 
@@ -305,7 +306,7 @@ export default function Student({select ,setSelect, selectStudent, setSelectStud
         con = {'chy980423@naver.com'}/>
 
       <StudentLayout 
-        course = {'MS coursee'}
+        course = {'MS course'}
         photo = {JiyunPhoto}
         name = {'정지윤'}
         EName = {'Jiyun Jeong'} 
@@ -315,7 +316,7 @@ export default function Student({select ,setSelect, selectStudent, setSelectStud
         con = {'ravissante25@gmail.com / jiyunj@yonsei.ac.kr'}/>
         
       <StudentLayout 
-        course = {'MS coursee'}
+        course = {'MS course'}
         photo = {SeulbiPhoto}
         name = {'이슬비'}
         EName = {'Seulbi Lee'} 
@@ -325,7 +326,7 @@ export default function Student({select ,setSelect, selectStudent, setSelectStud
         con = {'bee5747@naver.com / bee5747@yonsei.ac.kr'}/>
 
       <StudentLayout 
-        course = {'MS coursee'}
+        course = {'MS course'}
         photo = {JeonghwaPhoto}
         name = {'임정화'}
         EName = {'Jeonghwa Lim'} 
@@ -335,7 +336,7 @@ export default function Student({select ,setSelect, selectStudent, setSelectStud
         con = {'lim9234@hanmail.net'}/>
 
       <StudentLayout 
-        course = {'MS coursee'}
+        course = {'MS course'}
         photo = {null}
         name = {'임창현'}
         EName = {'Changhyun Lim'} 
@@ -345,7 +346,7 @@ export default function Student({select ,setSelect, selectStudent, setSelectStud
         con = {'julius1231@naver.com'}/>
 
       <StudentLayout 
-        course = {'MS coursee'}
+        course = {'MS course'}
         photo = {KanghyeonPhoto}
         name = {'유강현'}
         EName = {'Kanghyeon You'} 
@@ -355,7 +356,7 @@ export default function Student({select ,setSelect, selectStudent, setSelectStud
         con = {'hap2boy@naver.com / hap2boy@yonsei.ac.kr'}/>
 
       <StudentLayout 
-        course = {'MS coursee'}
+        course = {'MS course'}
         photo = {JiminPhoto}
         name = {'손지민'}
         EName = {'Jimin Son'} 
@@ -365,7 +366,7 @@ export default function Student({select ,setSelect, selectStudent, setSelectStud
         con = {'wlals2qj@naver.com / jmson1707@yonsei.ac.kr'}/>
 
       <StudentLayout 
-        course = {'MS coursee'}
+        course = {'MS course'}
         photo = {SeungheePhoto}
         name = {'김승희'}
         EName = {'Seunghee Kim'} 
@@ -375,7 +376,7 @@ export default function Student({select ,setSelect, selectStudent, setSelectStud
         con = {'sshee0710@naver.com'}/>
 
       <StudentLayout 
-        course = {'MS coursee'}
+        course = {'MS course'}
         photo = {GyeongminPhoto}
         name = {'권경민'}
         EName = {'Gyeongmin Kwon'} 
@@ -385,7 +386,7 @@ export default function Student({select ,setSelect, selectStudent, setSelectStud
         con = {'kdskkm12@naver.com'}/>
 
       <StudentLayout 
-        course = {'MS coursee'}
+        course = {'MS course'}
         photo = {SehoPhoto}
         name = {'김세호'}
         EName = {'Seho Kim'} 
@@ -395,7 +396,7 @@ export default function Student({select ,setSelect, selectStudent, setSelectStud
         con = {'shkim2022@yonsei.ac.kr'}/>
 
       <StudentLayout 
-        course = {'MS coursee'}
+        course = {'MS course'}
         photo = {YujeongPhoto}
         name = {'마유정'}
         EName = {'Yujeong Ma'} 

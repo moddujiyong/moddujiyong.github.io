@@ -116,25 +116,32 @@ export default function Professor() {
       
 
       <div className="main-career" ref={mRef}>
-        <div className="mc">
-        | 주요 경력 |
-        </div>
-        
-        <span className="mcl">2020. 3 ~ 현재 : 연세대학교 의과대학 대학원 융합의학과(디지털헬스케어전공) 교수</span>
-        <span className="mcl">2018. 3 ~ 현재 : 연세대학교 의과대학 대학원 의료기기산업학과 교수</span>
-        <span className="mcl">2014. 9 ~ 2018. 2 : 연세대학교 의과대학 의학공학교실 연구조교수</span>
-        <span className="mcl">2012. 12 ~ 2014. 8 : 연세대학교 보건과학대학 방사선학과 조교수</span>
-        <span className="mcl">2012. 7 ~ 2012. 11 : 삼성메디슨㈜ 수석연구원</span>
-        <span className="mcl">2004. 8 ~ 2011. 4 : 지멘스㈜ SIEMENS Medical R&D Center, 수석연구원</span>
-        <span className="mcl">2002. 5 ~ 2004. 7 : 한국보건산업진흥원 의료기기팀, 연구원</span>
-        <span className="mcl">1997. 7 ~ 2002. 5 : ㈜바이오시스 연구소 S/W팀 , 전임연구원</span>
+          <div className='mc-container'>
+         
+            <div className="mc">
+            | 주요 경력 |
+            </div>
+            
+            <span className="mcl">2020. 3 ~ 현재 : 연세대학교 의과대학 대학원 융합의학과(디지털헬스케어전공) 교수</span>
+            <span className="mcl">2018. 3 ~ 현재 : 연세대학교 의과대학 대학원 의료기기산업학과 교수</span>
+            <span className="mcl">2014. 9 ~ 2018. 2 : 연세대학교 의과대학 의학공학교실 연구조교수</span>
+            <span className="mcl">2012. 12 ~ 2014. 8 : 연세대학교 보건과학대학 방사선학과 조교수</span>
+            <span className="mcl">2012. 7 ~ 2012. 11 : 삼성메디슨㈜ 수석연구원</span>
+            <span className="mcl">2004. 8 ~ 2011. 4 : 지멘스㈜ SIEMENS Medical R&D Center, 수석연구원</span>
+            <span className="mcl">2002. 5 ~ 2004. 7 : 한국보건산업진흥원 의료기기팀, 연구원</span>
+            <span className="mcl">1997. 7 ~ 2002. 5 : ㈜바이오시스 연구소 S/W팀 , 전임연구원</span>
+          </div>
+            <img className="bar-right" src={BarImgProf} alt="" />
+     
       </div>
 
       <div className="other-career">
+      <img className="bar-left1" src={BarImgProf} alt="" />
+      <div className='oc-container'>
         <div className="oc">
           | 기타 경력 |
         </div>
-
+       
         <span className="ocl">2021.9 ~ 현재 : 강남세브란스병원 의료기기사용적합성 연구센터 소장</span>
         
         <span className="ocl">2021.7 ~ 현재 : 소비자정책위원회, 국무총리실, 전문위원(식의약품분야)</span>
@@ -173,52 +180,69 @@ export default function Professor() {
         <span className="ocl">2003 : 의료기기법 연구회, 식품의약품안전처, 위원</span>
      
       </div>
+        
+      </div>
       <div className="edu-career">
-        <div className="ec">| 학력 사항 |</div>
-        <span className="ecl">2007 ~ 2010 : 연세대학교 대학원 생체공학협동과정 공학박사</span>
-        <span className="ecl">* 학위 논문: Development of Portable Ultrasound Imaging System with Wireless Patient Monitor</span>
-        <span className="ecl">1995 ~ 1997 : 연세대학교 대학원 의용전자공학과 공학석사</span>
-        <span className="ecl">1991 ~ 1995 : 연세대학교 보건과학대학 의용전자공학과 공학사</span>
+     
+        <div className="edu-container">
+          <div className="ec">| 학력 사항 |</div>
+          <span className="ecl">2007 ~ 2010 : 연세대학교 대학원 생체공학협동과정 공학박사</span>
+          <span className="ecl">* 학위 논문: Development of Portable Ultrasound Imaging System with Wireless Patient Monitor</span>
+          <span className="ecl">1995 ~ 1997 : 연세대학교 대학원 의용전자공학과 공학석사</span>
+          <span className="ecl"ref={sRef}>1991 ~ 1995 : 연세대학교 보건과학대학 의용전자공학과 공학사</span>
+          </div>
+          <img className="bar-right" src={BarImgProf} alt="" />
       </div>
 
 
-      <div className="reward-career">
-        
-        <div className="rec">| 수상 경력 |</div>
+      <div className="reward-career" >
+      <img className="bar-left2" src={BarImgProf} alt="" />
+        <div className='rec-container'>
+          
+          <div className="rec">| 수상 경력 |</div>
          
-         <span className="recl">2021 의료기기산업특성화대학원 유공자 포상 “한국보건산업진흥원 표창장”, 보건복지부, 2021.09.14</span>
-         <span className="recl">2010 대한민국기술대상 산업진흥유공분야“지식경제부장관상”, 지식경제부, 2010.12.09</span>
+          <span className="recl">2021 의료기기산업특성화대학원 유공자 포상 “한국보건산업진흥원 표창장”, 보건복지부, 2021.09.14</span>
+          <span className="recl">2010 대한민국기술대상 산업진흥유공분야“지식경제부장관상”, 지식경제부, 2010.12.09</span>
+         
+         </div>  
        </div>
 
-      <div className="scolarship-career" ref={sRef}>
-      <div className="sc">
-        | 학술 경력 |
-        </div>
-        
-        <span className="scl">{intJournal}</span>
-        <span className="scl">High PRF ultrafast sliding compound doppler imaging: fully qualitative and quantitative analysis of blood flow (Physics in Medicine & Biology, Vol 63, No 4 , Feb 2018) </span>
-        <span className="scl">Tooth Segmentation Using Gaussian Mixture Model and Genetic Algorithm (JOURNAL OF MEDICAL IMAGING AND HEALTH INFORMATICS, Vol 7, No 6, Oct 2017) </span>
-        <span className="scl">Texture Analysis of Supraspinatus Ultrasound Image for Computer Aided Diagnostic System (Healthcare Informatics Research, Vol 22, no 4, Oct 2016)</span>
-        <span className="scl">Continuous monitoring of arthritis in animal models using optical imaging modalities (JOURNAL OF BIOMEDICAL OPTICS, Vol 19, No 10, Oct 2014) </span>
-        <span className="scl">Digital tomosynthesis (DTS) with a Circular X-ray tube: Its image reconstruction based on total-variation minimization and the image characteristics (JOURNAL OF THE KOREAN PHYSICAL SOCIETY, Vol 63, No 5, Sep 2013)</span>
-        <span className="scl">{domJournal}</span>
-        <span className="scl">폐 결절 검출을 위한 합성곱 신경망의 성능 개선 (의공학회지, 38권, 5호, 2017. 10) </span>
-        <span className="scl">이산 웨이브렛 변환을 이용한 고각성 부정 감성의 GSR 신호 분석 (감성과학, 20권, 3호, 2017. 9) </span>
-        <span className="scl">컴퓨터 보조진단을 위한 초음파 영상에서갑상선 결절의 텍스쳐 분석 (멀티미디어학회논문지, 20권, 1호, 2017. 1) </span>
-        <span className="scl">깊이 카메라를 이용한 호흡률 측정에 미치는 영향 요인 분석 (감성과학, 19권, 3호, 2016. 9) </span>
-        <span className="scl">선형-비선형 특징추출에 의한 비정상 심전도 신호의 랜덤포레스트 기반 분류 (의공학회지, 37권, 2호, 2016. 4)</span>
-        <span className="scl">운동 의도에 따른 뇌파-근전도 신호 간 연결성 분석 (감성과학, 19권, 1호, 2016. 3) </span>
-        <span className="scl">Distance Regularized Level Set Evolution 방법을 이용한 간암 Segmentation(대한의학영상정보학회지, 21권, 2015. 8) </span>
-        <span className="scl">Design of Optimized Ultrasound Clinical Work-flow; Usability Perspective (Journal of International Society for Simulation Surgery, 2권, 1호, 2015. 6) </span>
-        <span className="scl">심초음파용 생체신호측정모듈의 개발 (전자공학회논문지–SC, 47권, 4호, 2010. 7) </span>
-        <span className="scl">심초음파용 실시간 심전도 QRS 검출 모듈에 관한 연구 (전자공학회논문지–SC, 47권, 3호, 2010. 5) </span>
-        <span className="scl">대퇴근활성화에 대한 자전거 운동 시 근전도와 슬관절 각도와의 상관관계 연구 (전자공학회논문지–SC, 46권, 4호, 2009. 7)</span>
+      <div className="scolarship-career" >
+        <div className="sc-container">
+          <div className="sc">
+            | 학술 경력 |
+            </div>
+            
+            <span className="scl">{intJournal}</span>
+            <span className="scl">High PRF ultrafast sliding compound doppler imaging: fully qualitative and quantitative analysis of blood flow (Physics in Medicine & Biology, Vol 63, No 4 , Feb 2018) </span>
+            <span className="scl">Tooth Segmentation Using Gaussian Mixture Model and Genetic Algorithm (JOURNAL OF MEDICAL IMAGING AND HEALTH INFORMATICS, Vol 7, No 6, Oct 2017) </span>
+            <span className="scl">Texture Analysis of Supraspinatus Ultrasound Image for Computer Aided Diagnostic System (Healthcare Informatics Research, Vol 22, no 4, Oct 2016)</span>
+            <span className="scl">Continuous monitoring of arthritis in animal models using optical imaging modalities (JOURNAL OF BIOMEDICAL OPTICS, Vol 19, No 10, Oct 2014) </span>
+            <span className="scl">Digital tomosynthesis (DTS) with a Circular X-ray tube: Its image reconstruction based on total-variation minimization and the image characteristics (JOURNAL OF THE KOREAN PHYSICAL SOCIETY, Vol 63, No 5, Sep 2013)</span>
+            <span className="scl"></span>
+            <span className="scl">{domJournal}</span>
+            
+            <span className="scl">폐 결절 검출을 위한 합성곱 신경망의 성능 개선 (의공학회지, 38권, 5호, 2017. 10) </span>
+            <span className="scl">이산 웨이브렛 변환을 이용한 고각성 부정 감성의 GSR 신호 분석 (감성과학, 20권, 3호, 2017. 9) </span>
+            <span className="scl">컴퓨터 보조진단을 위한 초음파 영상에서 갑상선 결절의 텍스쳐 분석 (멀티미디어학회논문지, 20권, 1호, 2017. 1) </span>
+            <span className="scl">깊이 카메라를 이용한 호흡률 측정에 미치는 영향 요인 분석 (감성과학, 19권, 3호, 2016. 9) </span>
+            <span className="scl">선형-비선형 특징추출에 의한 비정상 심전도 신호의 랜덤포레스트 기반 분류 (의공학회지, 37권, 2호, 2016. 4)</span>
+            <span className="scl">운동 의도에 따른 뇌파-근전도 신호 간 연결성 분석 (감성과학, 19권, 1호, 2016. 3) </span>
+            <span className="scl">Distance Regularized Level Set Evolution 방법을 이용한 간암 Segmentation(대한의학영상정보학회지, 21권, 2015. 8) </span>
+            <span className="scl">Design of Optimized Ultrasound Clinical Work-flow; Usability Perspective (Journal of International Society for Simulation Surgery, 2권, 1호, 2015. 6) </span>
+            <span className="scl">심초음파용 생체신호측정모듈의 개발 (전자공학회논문지–SC, 47권, 4호, 2010. 7) </span>
+            <span className="scl">심초음파용 실시간 심전도 QRS 검출 모듈에 관한 연구 (전자공학회논문지–SC, 47권, 3호, 2010. 5) </span>
+            <span className="scl">대퇴근활성화에 대한 자전거 운동 시 근전도와 슬관절 각도와의 상관관계 연구 (전자공학회논문지–SC, 46권, 4호, 2009. 7)</span>
+          
+            </div>
+        <img className="bar-right" src={BarImgProf} alt="" />
       </div>
 
 
       
       <div className="book-career">
-        
+      <img className="bar-left3" src={BarImgProf} alt="" />
+        <div className='book-container'>
         <div className="bc">| 저역서 |</div>
          
          <span className="bcl">디지털헬스케어를 위한 웨어러블기술 (2021.7)</span>
@@ -227,34 +251,37 @@ export default function Professor() {
          <span className="bcl">알기쉬운 의료기기 임상총론 (2019. 12)  </span>
          <span className="bcl">의료기기 설계학 제4판 (2018. 11)  </span>
          <span className="bcl">의료기기품질경영시스템 : MDSAP: 의료기기 단일 심사 프로그램 (2018. 10)</span>
+         </div>
        </div>
 
 
          
       <div className="intell-career">
-        
+        <div className="intell-container">
         <div className="ic">| 지식재산권 |</div>
          
          <span className="icl">배터리 소모 감소 기능이 구비된 산모 자궁수축도 검사장치 (2020. 12)</span>
          <span className="icl">산모 자궁수축도 검사장치 (2020. 12)</span>
-         <span className="icl">모바일 기반 방광 모니터링를 위한 패치형 초음파센서의 포지셔닝 최적화 장치 및 방법 (2020. 11) </span>
-         <span className="icl">모바일 기반 방광 모니터링를 위한 패치형 초음파센서의 포지셔닝 최적화 장치 및 방법 (2019. 11) </span>
+         <span className="icl">모바일 기반 방광 모니터링을 위한 패치형 초음파센서의 포지셔닝 최적화 장치 및 방법 (2020. 11) </span>
+         <span className="icl">모바일 기반 방광 모니터링을 위한 패치형 초음파센서의 포지셔닝 최적화 장치 및 방법 (2019. 11) </span>
          <span className="icl">방광 모니터링 헬스케어 시스템 및 방광 모니터링 방법 (2018. 12) </span>
          <span className="icl">맥파 및 심박변이도를 이용한 통증 분류 방법 (2018. 8) </span>
          <span className="icl">배뇨장애 관리 및 개선을 위한 어플리케이션 프로세스 및 UX/UI 시스템 (2017. 12) </span>
          <span className="icl">초음파 영상을 표시하는 장치 및 방법 (2017. 11) </span>
          <span className="icl">맥파 및 심박변이도를 이용한 통증 분류 방법 (2017. 10)</span>
          <span className="icl">초음파 영상 내 선택 지점의 위치를 조절하는 방법 및 그 장치 (2017. 4) </span>
-         <span className="icl">하드웨어 및 그래픽 인터페이스를 이용한 사용자 입력에 기초하여 무선 초음파 영상을 제어하는 방법 및 장치 (2017. 4) </span>
+         <span className="icl"ref={rRef}>하드웨어 및 그래픽 인터페이스를 이용한 사용자 입력에 기초하여 무선 초음파 영상을 제어하는 방법 및 장치 (2017. 4) </span>
          <span className="icl">하드웨어 및 그래픽 인터페이스를 이용한 사용자 입력에 기초하여 무선 초음파 영상을 제어하는 방법 및 장치 (2016. 5) </span>
          <span className="icl">초음파 영상 모드 별 그래픽 인터페이스에 기초하여 초음파 영상을 제어하는 방법 및 장치 (2016. 5) </span>
          <span className="icl">토모신세시스 시스템에서 사용되는 방사선 차폐장치 및 방사선 차폐장치를 이용한 방사선 촬영방법 (2013. 12)</span>
-
+         </div>
+         <img className="bar-right" src={BarImgProf} alt="" />
       </div>
 
-      <div className="research-subject" ref={rRef}>
+      <div className="research-subject" >
         
-
+      <img className="bar-left3" src={BarImgProf} alt="" />
+        <div className="rs-container">
         <div className="rs">| 연구 과제 |</div>
         
         <span className="rslt">{보건복지부}</span>
@@ -301,7 +328,7 @@ export default function Professor() {
         <span className="rslt">{한국산업기술평가관리원}</span>
         <span className="rsl">2020. 11 ~ 2021. 1: 병원-기업 연계 의료기기 R&D 협력 플랫폼 기획연구</span>
       </div>
-
+      </div>
 
  
      
