@@ -1,10 +1,10 @@
 .researches{
     width:1920px;
-  //  background-color: lightcoral;
+  // background-color: lightcoral;
     display:flex;
     align-items:center;
   
-    justify-content: center;
+   
 }
 
 .researchesInfo{
@@ -12,7 +12,7 @@
     display:flex;
     width:100%;
     align-items:center;
-    justify-content: center;
+   // justify-content: center;
     margin-left: 353px;
     margin-right: 341px;
     flex-direction: column;
@@ -26,7 +26,7 @@
     padding:10px;
     flex:1;
     align-items: center;
-    justify-content: center;
+ 
   //  background-color: red;
 }
 
@@ -78,9 +78,64 @@
     height:71px;
     align-items: center;
     margin-right:800px;
+   // justify-self: start;
     color:white;
     font-family: 'Segoe UI', sans-serif;
     opacity: 1;
     background-color: #858B96;
     margin-bottom: 17px;
 }
+
+
+@media screen and(max-width: 768px){
+
+  .researches{
+      display: flex;
+      justify-content: center;
+    
+      width:100%;
+    
+      .researchesTitle{
+        margin-left: 500px;
+        display: flex;
+        font-size: 20px;
+        
+      }
+      .researchesLeft{
+        
+        display:flex;
+        width:100%;
+        justify-content: center;
+        
+      }
+      
+      .researchesCenter{
+        display:flex;
+        width:100%;
+        justify-content: center;
+      }
+      .researchesRight{
+        display:flex;
+        width:100%;
+        justify-content: center;
+      }
+      .researchesLast{
+        display:flex;
+        width:100%;
+        justify-content: center;
+      }
+      .researchesImg{
+        display: flex;
+        width:90%;
+        justify-content: center;
+      }
+     
+    
+      
+    
+     
+      
+  }
+  
+  
+} 

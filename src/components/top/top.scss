@@ -1,6 +1,7 @@
 .top{
     width:1920px;
-    height:193px;
+   //width:100vh; 
+   height:193px;
     background-color:   #002A5C;
     
     position:sticky;
@@ -53,10 +54,10 @@
     width:100%;
     height: 33px;
     //padding:10;
-    margin-right:100px;
+    //margin-right:100px;
     list-style:none;
     justify-content: space-around;
-    
+    //background-color: blue;
     
    
 }
@@ -122,46 +123,49 @@
    
 }
 
-/*
-@media screen and(max-width: 1200px){
-   
+
+@media screen and(max-width: 768px){
+   .top{
+    display: flex;
+       width: 100%;
        .topSet{
-        width:100vw;
+        width:100%;
+        display: flex;
            .topLeft{
-              
-               width:100vw;
-               height:5vw;
-               justify-content: center;
-           }
-           .topImg{
-               width:70%;
+            display: flex;
+            width:100%;
+            justify-content: center;
              
            }
-          
            .topCenter{
-            width:100vw;
-            height: 10vw;
-            justify-content:center;
-            
+          
             display: flex;
+            width:100%;
+            
+            justify-content: center;
+
            }
 
-           .topList{
-          
-            width:100vw;
-            justify-content: center;
-            align-items: center;
+           
+            .topList{
+                
+                display:flex;
+                width:100%;
+                list-style:none;
+                justify-content: space-around;   
             
-            display: flex;
-           }
+            }   
            .topListItem{
-        
-            justify-content:center;
+    
             display: flex;
-            margin-right: 50px;
+            font-size:15px;
+            
+            font-weight:300;
+            cursor:pointer;
+            color: white;
+            
            
-           
-           }
+        }
            .topSearchIcon{
             
                
@@ -174,9 +178,9 @@
     }
 
  
-    
+}
 
-}*/
+}
 
 /*@media screen and(max-width:200px){
    

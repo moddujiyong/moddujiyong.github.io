@@ -86,3 +86,67 @@
     font-weight: 600;
     cursor:pointer;
 }
+@media screen and(max-width: 768px){
+
+    .memberSide{
+        width: 100%;
+     //  background-color: blue;
+       margin-left: 0;
+        .title_member{
+            width: 100%;
+            font-size: 20px;
+            display: flex;
+            margin-left: 0;
+        }
+        .memberList{
+            width: 100%;
+            display: flex;
+            margin-left: 0;
+        }
+        .memberContent{
+            display: flex;
+            margin-top: 10px;
+            margin-left: 0;
+        }
+
+        .memberListItem{
+            width: 100%;
+            font-size: 15px;
+            margin-bottom: 10px;
+            height: 20px;
+            margin-left: 0;
+        }
+
+        .title_border{
+            display:flex;
+            
+        }
+        .title_left{
+           // border-style: solid;
+            width:0;
+           // border-color:#002650;
+        }
+        .title_right{
+             
+            width:0;
+          //  background-color: #FFC341;
+        }
+
+        .memberSmallItem{
+            font-size: 10px;
+            
+            margin-bottom:26px;
+            border-style: solid;
+            border-top-width: 0;
+            border-left-width:0;
+            border-right-width:0;
+            border-bottom-width:1px;
+            border-color: #FFC341;
+            font-family: 'Segoe UI';
+            opacity: 1;
+            font-weight: 600;
+            cursor:pointer;
+        }
+    }
+
+} 

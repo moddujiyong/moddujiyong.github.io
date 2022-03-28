@@ -74,7 +74,7 @@
     flex-direction: column;
     background-color: #002650;
  
-  
+ 
 }
 .markImg{
     margin-top:110px;
@@ -126,10 +126,70 @@
 }
 
 
-@media screen and(min-width:2000px) {
+@media screen and(max-width:768px) {
     .footer{
        
-        position: fixed;
+       display: flex;
+        width:100%;
+    }
+
+    .footerCenter{
+       display: flex;
+      // background-color:blue;
+       .footerImg{
+           display: flex;
+           width: 90%;
+           
+       } 
+       .markImg{
+           display: flex;
+           width: 60%;
+           
+       }
+    }
+
+    .footerRight{
+        display: flex;
+        width:100%;
+       // background-color: red;
+    }
+    .footerRListItem{
+    
+        display: flex;
+        font-size:15px;
+        width: 80%;
+       // background-color: red;
+        cursor:pointer;
+        color: white;
+        margin-top:20px;
+
+        text-align: center;
+        opacity: 0.5;
        
     }
+    .footerList{
+    
+        display:flex;
+        flex-direction: column;
+        
+        //padding:10;
+        list-style:none;
+        
+        width:100%;
+        
+       // background-color: pink;
+       
+    }
+    .footerListItem{
+        
+        display: flex;
+        font-size:15px;
+        text-align: center;
+        cursor:pointer;
+        color: white;
+        margin-top:20px;
+        opacity: 0.5;
+       
+    }
+ 
 }

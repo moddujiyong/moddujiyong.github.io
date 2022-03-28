@@ -1,6 +1,7 @@
 header{
     display:flex;
     width:1920px;
+  // width:100%;
     flex-direction: column;
    // background-color: greenyellow;
  }
@@ -70,18 +71,38 @@ header{
      
  }
  
- @media screen and(max-width: 1200px){
+ @media screen and(max-width: 768px){
 
     .container{
         display: flex;
         position: absolute;
         flex-direction: column;
         // background-color: red;
-        margin-left: 100px;
+        margin-left: 10px;
         top: 10px;
     
         z-index: 3;
         
     }
-    
+
+    .headerImg{
+        display:flex;
+        
+        justify-content: center;
+    }
+     .headerTitles{
+ 
+         display: flex;
+         width: 100%;
+
+     .headerTitleSmall{
+         display: flex;
+         font-size: 20px;
+     }
+     .headerTitleSmaller{
+        display: flex;
+        font-size: 15px;
+    }
+     
+ }
 } 

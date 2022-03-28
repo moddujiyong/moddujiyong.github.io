@@ -550,3 +550,243 @@
     font-family: 'Segoe UI';
     margin-bottom: 29px;
 }
+
+@media screen and(max-width: 768px){
+    .professor{
+        display: flex;
+        width:inherit;
+      //  background-color: blue;
+        
+    }
+    
+.prof-header{
+    
+    position: sticky;
+    width: 100%;
+    z-index: 1; 
+    display: flex;
+    font-size: 18px;
+    flex-direction: column;
+    font-weight:700;
+    background-color: white;
+    font-size: 15px;
+    
+}
+.header-title{
+    
+    display: flex;
+    
+    width: 100%;
+ }
+ .profList{
+    
+    font-size: 14px;
+    list-style: none;
+    display:flex;
+    width: 100%;
+    font-family: 'Roboto' ;
+    margin: 0;
+    cursor:pointer;
+   
+  // background-color: red;
+    
+}
+    .prof-scrollMenu{
+    
+  
+        display: flex;
+        width:100%;
+        
+        border-style: solid;
+        border-top-width:1px;
+        border-left-width:0px;
+        border-right-width:0px;
+        border-bottom-width:1px;
+        border-color: #707070;
+        font-family: 'Roboto' ;
+        
+       //background-color: red;
+    }
+    .profListItem{
+        //background-color: red;
+        font-family: 'roboto' ;
+        display: flex;
+        width: 100%;
+        
+    }
+    .prof-profile{
+        width: 100%;
+        display: flex;
+        background-color: aqua;
+        margin:0;
+    }
+    .prof-summary{
+        display: flex;
+        flex-direction: column;
+       // background-color: red;
+        width:100%;
+        margin:0;
+        
+        
+    }
+    .prof-photo{
+        display: flex;
+        width:100%;
+        height:100%;
+        
+    }
+    .profImg{
+        
+        display: flex;
+        
+        object-fit: cover;
+        width:100%;
+        height:100%;
+    
+    }
+  
+    .prof-name{
+        width:100%;
+        font-size: 17px;
+       // font-family: 'Segoe UI';
+        opacity:1;
+        font-weight: 700;
+        font-family: 'Roboto' ;
+       
+        
+     //   background-color: pink;
+    }
+    .prof-pos{
+        font-size:14px;
+        font-family: 'Roboto' ;
+        
+    }
+    .prof-eng{
+       
+        font-size:17px;
+        font-family: 'Roboto';
+    }
+    .prof-field{
+        width: 100%;
+        border-style: solid;
+        border-color:#707070;
+        border-left-width: 0 ;
+        border-right-width: 0 ;
+        border-top-width: 1px;
+        border-bottom-width: 0;
+        display:flex;
+      //  background-color: green;
+        flex-direction: column;
+      
+        
+       
+        
+    }
+
+    .fos-container{
+        display:flex;
+        width: 100%;
+    }
+    
+    .fos{
+      
+        display: flex;
+        font-size: 17px;
+        font-family: 'Roboto' ;
+        opacity:1;
+        font-weight: 700;
+        
+    }
+    .fosCont{
+        display: flex;
+        
+        font-size: 17px;
+        font-family: 'Roboto' ;
+        opacity:1;
+       
+        
+    }
+    .email-container{
+        display: flex;
+        width:100%;
+    }
+    
+    .prof-email{
+        font-size: 17px;
+        font-family: 'Roboto' ;
+        opacity:1;
+        font-weight: 700;
+        display: flex;
+    }
+    .prof-emailCont{
+        font-size: 17px;
+        font-family: 'Roboto' ;
+        opacity:1;
+        margin-left: 10px;
+        display: flex;
+    }
+    
+    .loc-container{
+        display:flex;
+    }
+    
+    .loc{
+        font-size: 17px;
+        font-family: 'Roboto' ;
+        opacity:1;
+        font-weight: 700;
+        display: flex;
+    }
+    .locCont{
+       
+        font-size: 17px;
+        font-family: 'Roboto' ;
+        opacity:1;
+       
+        display: flex;
+    }
+    
+    .tel-container{
+        display: flex;
+    }
+    
+    .tel{
+        display: flex;
+        font-size: 17px;
+        font-family: 'Roboto' ;
+        opacity:1;
+        font-weight: 700;
+        
+    }
+    .telCont{
+        display: flex;
+        font-size: 17px;
+        
+        font-family: 'Roboto' ;
+        opacity:1;
+    }
+    .research-interest{
+        display:flex;
+        flex-direction: column;
+        width:100%;
+        
+       // background-color: blue;
+        
+    }
+    .ri{
+        display: flex;
+        
+        font-size: 17px;
+        color:#002650;
+        opacity: 1;
+        font-weight: 700;
+    }
+    
+    .ril{
+        display: flex;
+        font-size: 13px;
+        font-family: 'Roboto' ;
+       // background-color: blue;
+    }
+    
+}

@@ -3,7 +3,7 @@
     display: flex;
     width:1920px;
     justify-content: center;
-  //  background-color: blue;
+   // background-color: blue;
 }
 
 .introduceSet{
@@ -84,3 +84,58 @@
     width:9px;
     height:208px;
 }
+@media screen and(max-width: 768px){
+
+    .introduce{
+        display: flex;
+        width:100%;
+       
+        .introduceSet{
+            display: flex;
+            width:95%;
+          
+        }
+    }
+
+    .intro-container{
+        display: flex;
+        width:100%;
+        flex-direction: column;
+        
+        
+    }
+    .introLeft{
+        display: flex;
+        width:100%;
+        
+    }
+    .introRight{
+        display: flex;
+        width:100%;
+     //   background-color: red;
+        justify-content: center;
+        
+    }
+    
+    .introduceInfo{
+        
+        width: 100%;
+        font-size:20px;
+        display: flex;
+    }
+    .introText{
+        width: 100%;
+        font-size: 12px;
+        display: flex;
+        
+    }
+   
+    .barImg{
+        display: flex;
+        object-fit:cover;
+        width:9px;
+        height:208px;
+        
+    }
+    
+} 
