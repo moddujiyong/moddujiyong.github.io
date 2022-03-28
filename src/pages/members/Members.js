@@ -14,7 +14,7 @@ export default function Members() {
 
   const [page, setPage] = useState('')
 
-  console.log(select)
+  console.log('select',select)
 
   
   useEffect(() => {

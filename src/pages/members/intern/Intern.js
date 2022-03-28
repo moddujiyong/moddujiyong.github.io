@@ -1,7 +1,7 @@
 import React, {useRef,useState} from 'react';
 
 import "./intern.scss"
-export default function Professor() {
+export default function Intern() {
   
 
  

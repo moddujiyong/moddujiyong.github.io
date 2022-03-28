@@ -3,7 +3,7 @@
     flex-direction: column;
  //   background-color: blue;
      margin-right: 319.5px;
-     font-weight:700;
+     font-weight:500;
 }
 
 .alu-header{
@@ -18,12 +18,14 @@
     display:flex;
     margin-left:50px;
     margin-bottom: 23.5px;
+    font-weight: 700;
+    
 }
 
 
 
 .alu-profile{
-    margin-left:50px;
+   //margin-left:50px;
     border-color: #707070;
     border-style: solid;
     border-top-width:1px;
@@ -104,7 +106,9 @@
     display:flex;
     flex-direction: column;
     padding-top: 37px;
-  //  background-color: blue;
+   // background-color: blue;
+    color:#707070;
+
 }
 
 .alu-edu{

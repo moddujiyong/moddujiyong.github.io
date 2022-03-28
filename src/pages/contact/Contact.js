@@ -6,6 +6,14 @@ import {MdContactMail} from "react-icons/md";
 import {MdPersonSearch} from "react-icons/md";
 import { FaGraduationCap} from "react-icons/fa";
 export default function contact() {
+
+   const toHomepage = () => {
+      window.location.href='http://mdi.yonsei.ac.kr/'
+
+      return false
+  }
+
+
   return (
     <div className="contact">
        <div className="contactLeft">
@@ -44,7 +52,7 @@ export default function contact() {
             <div className="department">
                <span className="department_title"><FaGraduationCap className="department_icon"/>Department</span>
                <span className="department_content">Dept. of Medical Device Engineering & Management</span>
-               <span className="department_content"> http://mdi.yonsei.ac.kr/</span>
+               <span className="department_content_mdi"  onClick={toHomepage} > http://mdi.yonsei.ac.kr/</span>
             </div>
         </div>
        </div>

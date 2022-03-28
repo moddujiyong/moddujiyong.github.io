@@ -3,6 +3,7 @@ import Bs1Photo from "../../../components/img/bs01.jpg";
 import Bs2Photo from "../../../components/img/bs02.jpg";
 import ResearchLayout from '../researchLayout/ResearchLayout';
 import "./researchBS.scss"
+import BarImgR from "../../../components/img/design_bar.png";
 export default function ResearchBS() {
   const title="Research >  Bio Signal processing & AI"
 
@@ -42,15 +43,15 @@ export default function ResearchBS() {
 
       {choose ==='All'?
          <div className="bsp-all">
-         <ResearchLayout title={'급만성 폐질환 치료를 위한 생체신호 분석기반 스마트 호흡치료기 개발'} img={Bs1Photo}/>
-         <ResearchLayout title={'조산 고위험 산모의 예측 및 검사 접근성의 향상을 위한 자궁근전도 기반의 무선 모니터링시스템 개발'} img={Bs2Photo}/>
+         <ResearchLayout title={'급만성 폐질환 치료를 위한 생체신호 분석기반 스마트 호흡치료기 개발'} img={Bs1Photo}bar={BarImgR}/>
+         <ResearchLayout barl={BarImgR} title={'조산 고위험 산모의 예측 및 검사 접근성의 향상을 위한 자궁근전도 기반의 무선 모니터링시스템 개발'} img={Bs2Photo}/>
        </div>
 
         :
           choose==='Progressing'?
         
            <div className="bsp-all">
-              <ResearchLayout title={'급만성 폐질환 치료를 위한 생체신호 분석기반 스마트 호흡치료기 개발'} img={Bs1Photo}/>
+              <ResearchLayout title={'급만성 폐질환 치료를 위한 생체신호 분석기반 스마트 호흡치료기 개발'} img={Bs1Photo}bar={BarImgR}/>
        
            </div>
         
@@ -58,7 +59,7 @@ export default function ResearchBS() {
          <div className="Closed">
            <div className="bsp-all">
      
-              <ResearchLayout title={'조산 고위험 산모의 예측 및 검사 접근성의 향상을 위한 자궁근전도 기반의 무선 모니터링시스템 개발'} img={Bs2Photo}/>
+              <ResearchLayout title={'조산 고위험 산모의 예측 및 검사 접근성의 향상을 위한 자궁근전도 기반의 무선 모니터링시스템 개발'} img={Bs2Photo}bar={BarImgR}/>
           </div>
         </div>
       }

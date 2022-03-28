@@ -16,6 +16,17 @@
 
     flex-direction: column;
 }
+.slider{
+  display:flex;
+  flex-direction: column;
+  position:sticky;  
+  z-index: 1;
+  background-color: white;
+  top:200px;
+  
+}
+
+
 .pub-menuTitle{
     display:flex;
     font-size: 27px;
@@ -227,3 +238,4 @@
   
   margin-bottom: 29px;
 }
+

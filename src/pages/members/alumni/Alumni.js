@@ -6,6 +6,7 @@ import HanjiPhoto from "../../../components/img/hanji.png";
 import JeongukPhoto from "../../../components/img/jeonguk.jpg";
 import MiwonPhoto from "../../../components/img/miwon.jpg";
 import EunseonPhoto from "../../../components/img/eunseon.jpg";
+import BarImgAlu from "../../../components/img/design_bar.png";
 import "./alumni.scss";
 
 
@@ -49,10 +50,11 @@ export default function Alumni() {
         
           </div>
         </div>
-        
+        <img className="bar-rights" src={BarImgAlu} alt="" />
       </div>
 
       <div className="alu-profile">
+      <img className="bar-left" src={BarImgAlu} alt="" />
         <div className="alu-left">
           <div className="alu-course">
               MS
@@ -113,11 +115,12 @@ export default function Alumni() {
         
           </div>
         </div>
-        
+        <img className="bar-rights" src={BarImgAlu} alt="" />
       </div>
 
 
       <div className="alu-profile">
+      <img className="bar-left" src={BarImgAlu} alt="" />
         <div className="alu-left">
           <div className="alu-course">
               MS
@@ -151,6 +154,7 @@ export default function Alumni() {
 
 
       <div className="alu-profile">
+        
         <div className="alu-left">
           <div className="alu-course">
               MS
@@ -179,11 +183,12 @@ export default function Alumni() {
         
           </div>
         </div>
-        
+        <img className="bar-rights" src={BarImgAlu} alt="" />
       </div>
 
 
       <div className="alu-profile">
+      <img className="bar-left" src={BarImgAlu} alt="" />
         <div className="alu-left">
           <div className="alu-course">
               MS
@@ -244,7 +249,7 @@ export default function Alumni() {
         
           </div>
         </div>
-        
+        <img className="bar-rights" src={BarImgAlu} alt="" />
       </div>
 
 

@@ -1,5 +1,6 @@
 import React, {useRef} from 'react';
 import BoraPhoto from "../../../components/img/bora.jpg";
+import BarImgAdm from "../../../components/img/design_bar.png";
 import "./staffs.scss"
 export default function Staffs() {
 
@@ -39,8 +40,9 @@ export default function Staffs() {
             <span className="stu-contactl">arobk@naver.com / arobk@yonsei.ac.kr</span>
          
           </div>
+         
         </div>
-        
+        <img className="bar-rights" src={BarImgAdm} alt="" />
       </div>
 
       <div className="staffs-profile">

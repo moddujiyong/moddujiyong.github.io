@@ -12,6 +12,7 @@ export default function MemberSide({ select, setSelect, selectStudent, setSelect
 
   const clickStu = () => {
     setSelect('Student')
+    setSelectStudent('')
   
   }
   const clickphd = () => {

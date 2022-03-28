@@ -1,31 +1,33 @@
 .professor{
     display:flex;
     flex-direction: column;
- //  background-color: bisque;
+  // background-color: bisque;
     margin-right: 319.5px;
 }
 
 .prof-header{
-  
     
+    position: sticky;
+    top:150px;    
+    z-index: 1; 
     display: flex;
     font-size: 26px;
     flex-direction: column;
     font-weight:700;
-   // background-color: green;
+    background-color: white;
     
     
 }
 .header-title{
     
-    display: flex;
+   display: flex;
    margin-left:50px;
    margin-bottom: 23.5px;
 }
 
 .prof-scrollMenu{
     
-    margin-left:50px;
+  
     display: flex;
     padding: 10px;
     justify-content: space-around;
@@ -36,8 +38,8 @@
     border-bottom-width:1px;
     border-color: #707070;
     font-family: 'Roboto' ;
-    
-//    background-color: red;
+  
+   //background-color: red;
 }
 .profList{
     
@@ -50,9 +52,11 @@
     margin-left: 80px;
     cursor:pointer;
     font-weight: 1000;
+  // background-color: red;
     
 }
 .profListItem{
+    //background-color: red;
     font-family: 'roboto' ;
     display: flex;
 }
@@ -61,24 +65,35 @@
     margin-bottom: 53.5px;
     margin-left:91px;
     display: flex;
-  //  background-color: aqua;
+   // background-color: aqua;
     padding:5px;
     justify-content: center;
+    
     
 }
 
 .prof-summary{
     display: flex;
     flex-direction: column;
+  // background-color: red;
     margin-left: 37px;
     
-    width:699px;
-    height:301px;
-    margin-bottom:20px;
+    
+   // height:301px;
+    
     width:100%;
     
 }
-
+.research-interest{
+    display:flex;
+    flex-direction: column;
+   // background-color: blue;
+    
+}
+.prof-photo{
+    display: flex;
+  
+}
 .profImg{
     margin-top:15px;
     display: flex;
@@ -96,12 +111,14 @@
     font-weight: 700;
     font-family: 'Roboto' ;
     margin-top:15px;
+    margin-bottom: 10px;
     
  //   background-color: pink;
 }
 .prof-pos{
     font-size:23px;
     font-family: 'Roboto' ;
+    
 }
 .prof-eng{
     margin-left: 20px;
@@ -118,7 +135,7 @@
     border-top-width: 1px;
     border-bottom-width: 0;
     display:flex;
-    
+  //  background-color: green;
     flex-direction: column;
     padding-top: 37px;
     
@@ -126,9 +143,14 @@
     
 }
 
+.fos-container{
+    display:flex;
+    
+}
+
 .fos{
   
-    
+    display: flex;
     font-size: 20px;
     font-family: 'Roboto' ;
     opacity:1;
@@ -136,28 +158,35 @@
     
 }
 .fosCont{
-    
+    display: flex;
+    margin-left: 10px;
     font-size: 20px;
     font-family: 'Roboto' ;
     opacity:1;
    
     
 }
-
+.email-container{
+    display: flex;
+}
 
 .prof-email{
     font-size: 20px;
     font-family: 'Roboto' ;
     opacity:1;
     font-weight: 700;
-    
+    display: flex;
 }
 .prof-emailCont{
     font-size: 20px;
     font-family: 'Roboto' ;
     opacity:1;
-   
-   
+    margin-left: 10px;
+    display: flex;
+}
+
+.loc-container{
+    display:flex;
 }
 
 .loc{
@@ -165,18 +194,23 @@
     font-family: 'Roboto' ;
     opacity:1;
     font-weight: 700;
-    
+    display: flex;
 }
 .locCont{
+    margin-left: 10px;
     font-size: 20px;
     font-family: 'Roboto' ;
     opacity:1;
    
-   
+    display: flex;
+}
+
+.tel-container{
+    display: flex;
 }
 
 .tel{
-    
+    display: flex;
     font-size: 20px;
     font-family: 'Roboto' ;
     opacity:1;
@@ -184,6 +218,8 @@
     
 }
 .telCont{
+    display: flex;
+    margin-left: 10px;
     font-size: 20px;
     font-family: 'Roboto' ;
     opacity:1;
@@ -198,27 +234,12 @@
     font-weight: 700;
 }
 
-.ril1{
-    
+.ril{
+    display: flex;
     font-size: 20px;
     font-family: 'Roboto' ;
+   // background-color: blue;
 }
-.ril2{
-    font-size: 20px;
-    font-family: 'Roboto' ;
-}
-.ril3{
-    font-size: 20px;
-    font-family: 'Roboto' ;
-}
-.ril4{
-    font-size: 20px;
-    font-family: 'Roboto' ;
-}.ril5{
-    font-size: 20px;
-    font-family: 'Roboto' ;
-}
-
 
 
 
@@ -248,7 +269,7 @@
     margin-top: 80px;
     display: flex;
     object-fit:cover;
-    width:9px;
+    //width:9px;
     height:208px;
 }
 

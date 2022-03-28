@@ -1,6 +1,7 @@
 import React,{useRef,useState} from 'react';
 import "./publication.scss";
 
+import BarImgP from "../../components/img/design_bar.png"
 
 
 export default function Publication() {
@@ -8,6 +9,9 @@ export default function Publication() {
   const confRef=useRef(null);
   const patRef=useRef(null);
   const bookRef=useRef(null);
+
+  const scrollHeight=162;
+ 
   const [select,setSelect]=useState("Journal");
   const onJourClick=()=>{
     jourRef.current?.scrollIntoView({behavior:'smooth',block:'center'})
@@ -19,27 +23,29 @@ export default function Publication() {
   }
   const onPatClick=()=>{
     patRef.current?.scrollIntoView({behavior:'smooth',block:'center'})
+  
     setSelect('Patent')
   }
   const onBookClick=()=>{
     bookRef.current?.scrollIntoView({behavior:'smooth',block:'center'})
+    
     setSelect('Books')
   }
 
+ 
 
 
   return(
     <div className="publication">
         <div className="pub-left">
-          
+            <div className="slider">
+            
               <div className="pub-menuTitle">
                 Publication
                 <div className="title_border">
                   <div className="title_left">
-                    
                   </div>
                   <div className="title_right">
-                    
                   </div>
                  </div>  
               </div>
@@ -49,11 +55,11 @@ export default function Publication() {
                     <li className="pub-item" onClick={onConfClick} style={{color: select === 'Conference' ? 'black' : 'grey'}}>Conference</li>
                     <li className="pub-item" onClick={onPatClick} style={{color: select === 'Patent' ? 'black' : 'grey'}}>Patent</li>
                     <li className="pub-item" onClick={onBookClick} style={{color: select === 'Books' ? 'black' : 'grey'}}>Books</li>
-                </ul>
+                  </ul>
               </div>
-           
+              </div>
             
-        </div>
+         </div>
 
         <div className="pub-right">
             <div className="pub-header" >
@@ -67,17 +73,18 @@ export default function Publication() {
             </div>
 
             <div className="journal-content">
-
-            <span className="conl">Sukjin Ko, Won Seuk Jang, Ji-Hyun Jeong, Ji Woong Ahn, Young-Hwan Kim, Sohyun Kim, Hyeon Kyeong Chae & Seungsoo Chung. (-)-Gallocatechin gallate from green tea rescues cognitive impairment through restoring hippocampal silent synapses in post-menopausal depression (SCIENTIFIC REPORTS, Vol 11, No 1, 910~, Jan 2021)</span>
-            <span className="conl">Jinbum Kang,Kanghee Han,Kang-Sik Kim,Won Seuk Jang,Min Jung Kim. 3D Microcalcification Detection Using a Color Doppler Twinkling Artifact with Optimized Transmit Conditions: Preliminary Results (MEDICAL PHYSICS, Vol 47, No 12, 6171~6178, Dec 2020)</span>
-            <span className="conl">Ilseob Song ,Jongmin Yoon ,Jinbum Kang ,Min Kim ,Won Seuk Jang ,Na-Young Shin andYangmo Yoo,*. Design and Implementation of a New Wireless Carotid Neckband Doppler System with Wearable Ultrasound Sensors: Preliminary Results (APPLIED SCIENCES-BASEL, Vol 9, No 11, e2202~, Jun 2019)</span>
-            <span className="conl">Jinbum Kang, Won Seuk Jang and Yangmo Yoo. High PRF ultrafast sliding compound doppler imaging: fully qualitative and quantitative analysis of blood flow (Physics in Medicine & Biology, Vol 63, No 4, 45,004~45,020, Feb 2018) </span>
-            <span className="conl">Kim, Joo Young; Yoo, Sun K.; Jang, W. S.; Park, Byung Eun; Park, Wonse; Kim, Kee Deog. Tooth Segmentation Using Gaussian Mixture Model and Genetic Algorithm (JOURNAL OF MEDICAL IMAGING AND HEALTH INFORMATICS, Vol 7, No 6, 1,271~1,276, Oct 2017)</span>
-            <span className="conl">Byung Eun Park, BS, Won Seuk Jang, PhD, Sun Kook Yoo, PhD. Texture Analysis of Supraspinatus Ultrasound Image for Computer Aided Diagnostic System (Healthcare Informatics Research, Vol 22, no 4, 299~304, Oct 2016) </span>
-            <span className="conl"> Taeyoon Son, Hyung-Ju Yoon, Saseong Lee, Won Seuk Jang, Byungjo Jung, Wan-Uk Kim. Continuous monitoring of arthritis in animal models using optical imaging modalities (JOURNAL OF BIOMEDICAL OPTICS, Vol 19, No 10, Oct 2014) </span>
-            <span className="conl">Y. O. Park, D. K. Hong, H. S. Cho, U. K. Je, J. E. Oh, M. S. Lee, H. J. Kim, S. H. Lee, W. S. Jang, H. M. Cho, S. I. Choi & Y. S. Koo . Digital tomosynthesis (DTS) with a Circular X-ray tube: Its image reconstruction based on total-variation minimization and the image characteristics (JOURNAL OF THE KOREAN PHYSICAL SOCIETY, Vol 63, No 5, 1060~1065, Sep 2013)</span>
+            
+            <span className="conl">Ko, S., Jang, W. S., Jeong, J. H., Ahn, J. W., Kim, Y. H., Kim, S., ... & Chung, S. (2021). (−)-Gallocatechin gallate from green tea rescues cognitive impairment through restoring hippocampal silent synapses in post-menopausal depression. Scientific reports, 11(1), 1-20. </span>
+            <span className="conl">Kang, J., Han, K., Kim, K. S., Jang, W. S., Kim, M. J., & Yoo, Y. (2020). 3D microcalcification detection using a color Doppler twinkling artifact with optimized transmit conditions: Preliminary results. Medical physics, 47(12), 6171-6178.</span>
+            <span className="conl">Song, I., Yoon, J., Kang, J., Kim, M., Jang, W. S., Shin, N. Y., & Yoo, Y. (2019). Design and implementation of a new wireless carotid neckband doppler system with wearable ultrasound sensors: preliminary results. Applied Sciences, 9(11), 2202. </span>
+            <span className="conl">Jinbum Kang, Won Seuk Jang and Yangmo Yoo. High PRF ultrafast sliding compound doppler imaging: fully qualitative and quantitative analysis of blood flow (Physics in Medicine & Biology, Vol 63, No 4, 45,004~45,020, Feb 2018)  </span>
+            <span className="conl">Kim, J. Y., Yoo, S. K., Jang, W. S., Park, B. E., Park, W., & Kim, K. D. (2017). Tooth segmentation using gaussian mixture model and genetic algorithm. Journal of Medical Imaging and Health Informatics, 7(6), 1271-1276. </span>
+            <span className="conl">Park, B. E., Jang, W. S., & Yoo, S. K. (2016). Texture analysis of supraspinatus ultrasound image for computer aided diagnostic system. Healthcare informatics research, 22(4), 299-304. </span>
+            <span className="conl">Son, T., Yoon, H. J., Lee, S., Jang, W. S., Jung, B., & Kim, W. U. (2014). Continuous monitoring of arthritis in animal models using optical imaging modalities. Journal of Biomedical Optics, 19(10), 106010.  </span>
+            <span className="conl">Park, Y. O., Hong, D. K., Cho, H. S., Je, U. K., Oh, J. E., Lee, M. S., ... & Koo, Y. S. (2013). Digital tomosynthesis (DTS) with a Circular X-ray tube: Its image reconstruction based on total-variation minimization and the image characteristics. Journal of the Korean Physical Society, 63(5), 1060-1065.</span>
+          
             </div>
-
+            
             <div className="domestic-journal">
               | Domestic Journal |
 
@@ -85,19 +92,19 @@ export default function Publication() {
 
             <div className="journal-content">
             
-              <span className="conl">김유림; 유우진; 박호준; 장원석. 다목적 안과용 레이저 시스템 안전성 성능평가 및 임상적 유효성평가 가이드라인 수립을 위한 연구 (의공학회지, 40권, 6호, 250~259, 2019. 12) </span>
-              <span className="conl">김유림; 전성우; 장원석. 내시경용 마그네틱 마킹시스템 임상시험 표준 프로토콜 가이드라인 개발 연구 (FDC 법제연구, 14권, 1호, 43~49, 2019. 6) </span>
-              <span className="conl">김한웅; 김병남; 이지은; 장원석; 유선국 . 폐 결절 검출을 위한 합성곱 신경망의 성능 개선 (의공학회지, 38권, 5호, 237~241, 2017. 10) </span>
-              <span className="conl">임현준 ; 유선 ; 장원석. 이산 웨이브렛 변환을 이용한 고각성 부정 감성의 GSR 신호 분석 ( 감성과학, 20권, 3호, 13~22, 2017.9)</span>
-              <span className="conl">박병은，장원석, 유선국. 컴퓨터 보조진단을 위한 초음파 영상에서갑상선 결절의 텍스쳐 분석 (멀티미디어학회논문지, 20권, 1호, 43~50, 2017. 1) </span>
-              <span className="conl">오경택; 신증수; 김정민 ; 장원석; 유선국. 깊이 카메라를 이용한 호흡률 측정에 미치는 영향 요인 분석 (감성과학, 19권, 3호, 81~88, 2016. 9) </span>
-              <span className="conl">김혜진 ; 김병남 ; 장원석 ; 유선국. 선형-비선형 특징추출에 의한 비정상 심전도 신호의 랜덤포레스트 기반 분류 (의공학회지, 37권, 2호, 61~67, 2016. 4) </span>
-              <span className="conl">김병남; 김연희; 김래현; 권규현; 장원석 ; 유선국. 운동 의도에 따른 뇌파-근전도 신호 간 연결성 분석 (감성과학, 19권, 1호, 31~38, 2016. 3) </span>
-              <span className="conl">오경택; 유선국; 장원석. Distance Regularized Level Set Evolution 방법을 이용한 간암 Segmentation (대한의학영상정보학회지, 21권, 6~8, 2015. 8) </span>
-              <span className="conl">Bag, ByungEun.Yoo, SunKook , Jang, WonSeuk. Design of Optimized Ultrasound Clinical Work-flow; Usability Perspective (Journal of International Society for Simulation Surgery, 2권, 1호, 40~42, 2015. 6) </span>
-              <span className="conl">장원석 ; 김남현; 전대근 . 심초음파용 생체신호측정모듈의 개발 (전자공학회논문지–SC, 47권, 4호, 21~29, 2010. 7) </span>
-              <span className="conl">장원석 ;김남현;김응석;전대근. 심초음파용 실시간 심전도 QRS 검출 모듈에 관한 연구 (전자공학회논문지–SC, 47권, 3호, 40~47, 2010. 5) </span>
-              <span className="conl">장원석 ; 김성민 ; 강승호 ; 김남현 . 대퇴근활성화에 대한 자전거 운동 시 근전도와 슬관절 각도와의 상관관계 연구 (전자공학회논문지–SC, 46권, 4호, 77~83, 2009. 7)</span>
+              <span className="conl">김유림, 유우진, 박호준, & 장원석. (2019). 다목적 안과용 레이저 시스템 안전성 성능평가 및 임상적 유효성평가 가이드라인 수립을 위한 연구. </span>
+              <span className="conl">김유림, 전성우, & 장원석. (2019). 내시경용 마그네틱 마킹시스템 임상시험 표준 프로토콜 가이드라인 개발 연구. FDC 법제연구, 14(1), 43-49. </span>
+              <span className="conl">김한웅, 김병남, 이지은, 장원석, & 유선국. (2017). 폐 결절 검출을 위한 합성곱 신경망의 성능 개선.  </span>
+              <span className="conl">임현준, 유선국, & 장원석. (2017). 이산 웨이브렛 변환을 이용한 고각성 부정 감성의 GSR 신호 분석. </span>
+              <span className="conl">박병은, 장원석, & 유선국. (2017). 컴퓨터 보조진단을 위한 초음파 영상에서 갑상선 결절의 텍스쳐 분석. 멀티미디어학회논문지, 20(1), 43-50.  </span>
+              <span className="conl">오경택, 신증수, 김정민, 장원석, & 유선국. (2016). 깊이 카메라를 이용한 호흡률 측정에 미치는 영향 요인 분석. 감성과학, 19(3), 81-88.  </span>
+              <span className="conl">김혜진, 김병남, 장원석, & 유선국. (2016). 선형-비선형 특징추출에 의한 비정상 심전도 신호의 랜덤포레스트 기반 분류. 의공학회지, 37(2), 61-67.  </span>
+              <span className="conl">김병남, 김연희, 김래현, 권규현, 장원석, & 유선국. (2016). 운동 의도에 따른 뇌파-근전도 신호 간 연결성 분석. 감성과학, 19(1), 31-38.</span>
+              <span className="conl">오경택, 유선국, & 장원석. (2015). Distance Regularized Level Set Evolution 방법을이용한 간암 Segmentation. 대한의학영상정보학회지, 21, 6-8. </span>
+              <span className="conl">Bag, B., Yoo, S., & Jang, W. (2015). Design of Optimized Ultrasound Clinical Work-Flow; Usability Perspective. Journal of International Society for Simulation Surgery, 2(1), 40-42. </span>
+              <span className="conl">장원석, 김남현, & 전대근. (2010). 심초음파용 생체신호측정모듈의 개발. 전자공학회논문지–SC, 47(4), 21-29.  </span>
+              <span className="conl">장원석, 김남현, 김응석, & 전대근. (2010). 심초음파용 실시간 심전도 QRS 검출 모듈에 관한 연구. 전자공학회논문지-SC, 47(3), 40-47.  </span>
+              <span className="conl">장원석, 김성민, 강승호, & 김남현. (2009). 대퇴근활성화에 대한 자전거 운동 시 근전도와 슬관절 각도와의 상관관계 연구. 전자공학회논문지–SC, 46(4), 77-83.</span>
              
            </div>
            
@@ -108,12 +115,12 @@ export default function Publication() {
 
              <div className="conference-content">
 
-              <span className="conl">Jeong, J.Y, Park, S.E & Jang, W.S. "Human Factors Engineering Methods for Risk Analysis of the Breast Imaging Diagnostic System, International Symposium on Human Factors and Ergonomics in Health Care,2022 </span>
-              <span className="conl">Choi, H.K, Park, S.E & Jang, W.S. "Human Factors Analysis to Design of User Interface for Multi-Purpose Neonatal Incubator", International Symposium on Human Factors and Ergonomics in Health Care,2022</span>
-              <span className="conl">Jeong, J.Y, Park, S.E & Jang, W.S. "Applying Human Factor Engineering Methods for Risk Analysis of the Breast Imaging Diagnostic System", International Biomedical Engineering Conference and International Conference on Biomedical and Health Informatics, 2021</span>
-              <span className="conl">Choi, H.K, Park, S.E & Jang, W.S. "User needs analysis for multi-purpose smart neonatal incubator", International Biomedical Engineering Conference and International Conference on Biomedical and Health Informatics, 2021</span>
-              <span className="conl">Choi, J.W., Park, S.e., & Jang, W.S. "Usability Testing of Ultrasonic Surgical System for Lower Eyelid Fat Removal." Proceedings of the International Symposium on Human Factors and Ergonomics in Health Care. 2021.</span>
-              <span className="conl">Park, S.E., Oh, H.K., Choi, J.W., & Jang, W.S. "A Design of Mobile Application for Ultrasound Bladder Monitoring System Based on Usability Engineering." Proceedings of the International Symposium on Human Factors and Ergonomics in Health Care. Vol. 9. No. 1., 2020.</span>
+              <span className="conl">Jeong, J., Park, S., & Jang, W. (2022, Mar). Human Factors Engineering Methods for Risk Analysis of the Breast Imaging Diagnostic System. International Symposium on Human Factors and Ergonomics in Health Care.</span>
+              <span className="conl">Choi, H., Park, S., & Jang, W. (2022, Mar). Human Factors Analysis to Design of User Interface for Multi-Purpose Neonatal Incubator. International Symposium on Human Factors and Ergonomics in Health Care.</span>
+              <span className="conl">Jeong, J., Park, S., & Jang, W. (2021, Nov). Applying Human Factor Engineering Methods for Risk Analysis of the Breast Imaging Diagnostic System. International Biomedical Engineering Conference and International Conference on Biomedical and Health Informatics.</span>
+              <span className="conl">Choi, H., Park, S., & Jang, W. (2021, Nov). User needs analysis for multi-purpose smart neonatal incubator, International Biomedical Engineering Conference and International Conference on Biomedical and Health Informatics. </span>
+              <span className="conl">Choi, J., Park, S., & Jang, W. (2021, June). Usability Testing of Ultrasonic Surgical System for Lower Eyelid Fat Removal. In Proceedings of the International Symposium on Human Factors and Ergonomics in Health Care (Vol. 10, No. 1, pp. 251-256). Sage CA: Los Angeles, CA: SAGE Publications. </span>
+              <span className="conl">Park, S., Oh, H., choi, J., & Jang, W. (2020, September). A Design of Mobile Application for Ultrasound Bladder Monitoring System Based on Usability Engineering. In Proceedings of the International Symposium on Human Factors and Ergonomics in Health Care (Vol. 9, No. 1, pp. 177-180). Sage CA: Los Angeles, CA: SAGE Publications.</span>
             </div>
           
 
@@ -167,7 +174,7 @@ export default function Publication() {
               
             </div>
         </div>
-        
+        <img className="bar-rightcd" src={BarImgP} alt="" />
       </div>
 
   )

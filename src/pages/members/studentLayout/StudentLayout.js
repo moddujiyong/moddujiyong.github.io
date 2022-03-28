@@ -1,17 +1,19 @@
 import React, {useRef} from 'react';
 
-
+import BarImgStu from "../../../components/img/design_bar.png";
 import "./studentLayout.scss"
 
-export default function StudentLayout({course, photo, name, EName, edu1, edu2, int, con }) {
+export default function StudentLayout({course,lphoto,photo, name, EName, edu1, edu2, int, con, rphoto}) {
 
   return (   
     <div className="stu-profile">
+       <img className="bar-left" src={lphoto} alt="" />
         <div className="stu-left">
+       
            <div className="stu-course">
                {course}
             </div>
-        
+           
             <div className="stu-photo"> 
               <img className="stuImg" src={photo} alt=""/> 
             </div>
@@ -31,10 +33,11 @@ export default function StudentLayout({course, photo, name, EName, edu1, edu2, i
             <span className="stu-ril">{int} </span>
             <span className="stu-contact">| Contact |</span>
             <span className="stu-contactl">{con}</span>
-         
+            
           </div>
+         
         </div>
-        
+        <img className="bar-rights" src={rphoto} alt="" />
       </div>
   )
 }
