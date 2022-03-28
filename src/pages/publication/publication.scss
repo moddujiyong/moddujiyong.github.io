@@ -239,3 +239,16 @@
   margin-bottom: 29px;
 }
 
+
+@media screen and(max-width: 768px){
+  
+  .publication{
+    display:flex;
+  //  background-color: orange;
+    margin-bottom:0px;
+    width:100%;
+    margin-right: 0px;
+    //height:100%;
+}
+}
+  

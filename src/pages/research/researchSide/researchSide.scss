@@ -72,3 +72,56 @@
     font-family: 'Segoe UI';
   //  background-color: beige;
 }
+
+@media screen and(max-width: 768px){
+    .researchSide{
+        // background-color: skyblue;
+         width:100%;
+         margin: 0;
+      
+     }
+     .title_research{
+         
+        width: 100%;
+        font-size: 17px;
+        display: flex;
+        margin-left: 0;
+     }
+     
+     .titleResearch_border{
+         display:flex;
+     }
+     
+     .titleResearch_left{
+        border-style: none;
+     }
+     .titleResearch_right{
+             width:0;
+     }
+     
+     
+     .researchList{
+        width: 100%;
+        display: flex;
+       
+        margin-left: 0;
+        
+        // background-color: pink;
+         
+     }
+     
+     .researchContent{
+        display: flex;
+        margin-top: 10px;
+        margin-left: 0;
+     }
+     
+     .researchListItem{
+        width: 100%;
+        font-size: 15px;
+        
+        height: 20px;
+       // margin-right: 10px;
+     }
+
+}

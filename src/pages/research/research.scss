@@ -22,3 +22,31 @@
     height: 100%;
     margin-top: 64px;
 }
+
+@media screen and(max-width: 768px){
+    .research{
+        display:flex;
+       // background-color: orange;
+       
+        margin-bottom: 0px;
+        
+        width:100%;
+    }
+    
+    .researchLeft{
+        flex:1;
+     //   background-color: greenyellow;
+        margin-top: 0px;
+        margin-bottom:0px;
+        height:100%;
+    }
+    
+    .researchRight{
+        flex:5;
+        
+      //  background-color: lightcoral;
+        width: 100%;
+        margin-top: 0px;
+    }
+    
+}

@@ -90,40 +90,45 @@
 
     .memberSide{
         width: 100%;
-     //  background-color: blue;
-       margin-left: 0;
+        // background-color: blue;
+        margin:0;
         .title_member{
             width: 100%;
-            font-size: 20px;
+            font-size: 17px;
             display: flex;
             margin-left: 0;
+         
         }
         .memberList{
             width: 100%;
             display: flex;
+           
             margin-left: 0;
+         //   background-color: red;
         }
         .memberContent{
             display: flex;
             margin-top: 10px;
             margin-left: 0;
+            
         }
 
         .memberListItem{
             width: 100%;
             font-size: 15px;
-            margin-bottom: 10px;
+            
             height: 20px;
-            margin-left: 0;
+           // margin-right: 10px;
+           
         }
 
         .title_border{
             display:flex;
-            
+           
         }
         .title_left{
-           // border-style: solid;
-            width:0;
+            border-style: none;
+            
            // border-color:#002650;
         }
         .title_right{
@@ -134,7 +139,7 @@
 
         .memberSmallItem{
             font-size: 10px;
-            
+            margin-left: 0;
             margin-bottom:26px;
             border-style: solid;
             border-top-width: 0;

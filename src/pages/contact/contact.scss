@@ -199,3 +199,209 @@
     cursor: pointer;
    
 }
+
+@media screen and(max-width: 768px){
+    .contact{
+        display:flex;
+        margin-bottom:0px;
+        width:100%;
+    
+    }
+    
+    .contactLeft{
+        flex:0;
+        margin-top: 0px;
+        margin-bottom: 0px;
+     //   background-color: skyblue;
+        height: 100%;
+    }
+    
+    .contactRight{
+        flex:1;
+        margin-top: 0px;
+        height:100%;
+       width: 100%;
+      //  background-color: pink;
+    }
+    .contact-content{
+        display:flex;
+        margin-right:0px;
+        width:100%;
+      //  background-color: greenyellow;
+        flex-direction: column;
+        border-style: solid;
+        border-top-width:1px;
+        border-left-width:0px;
+        border-right-width:0px;
+        border-bottom-width:0px;
+        border-color: #707070;
+       
+    }
+    .contact-header{
+        display: flex;
+        font-size:26px;
+       // background-color: lightcoral;
+       margin-left:0px;
+        margin-bottom: 0px;
+       
+    }
+    
+    .google_Map{
+        display:flex;
+        margin-top: 0px;
+        justify-content: center;
+        width: 1%;
+      //  background-color: skyblue;
+        margin-bottom: 0px;
+       
+    }
+    .address{
+        margin-right: 0px;
+        margin-left: 0px;
+        background-color: white;
+        display:flex;
+        flex-direction: column;
+        
+    }
+    
+    .address_icon{
+        margin-top: 0px;
+        margin-right: 0px;
+        font-size: 30px;
+    }
+    .email_icon{
+        margin-top: 0px;
+        margin-right: 0px;
+        font-size: 30px;
+    }
+    .application_icon{
+        margin-top: 0px;
+        margin-right: 0px;
+        font-size: 30px;
+    }
+    .department_icon{
+        margin-top: 0px;
+        margin-right: 0px;
+        font-size: 30px;
+    }
+    
+    
+    .address_title{
+        font-size: 25px;
+        font-family: 'Segoe UI';
+        padding:0px;
+        font-weight: 1000;
+      //  background-color: #858B96;
+      //  color:white;
+    }
+    
+    
+    .address_content{
+        padding:0px;
+        font-size: 22px;
+        color: #707070;
+        border-style: solid;
+        border-bottom-width:0;
+        border-top-width: 1px;
+        border-left-width: 0px;
+        border-right-width: 0px;
+        border-color: #707070;
+    }
+    .email{
+        margin-right: 0px;
+        margin-left: 0px;
+        display:flex;
+        flex-direction: column;
+        background-color: white;
+       
+    }
+    
+    .email_title{
+        font-size: 25px;
+        font-family: 'Segoe UI';
+        padding:0px;
+        font-weight: 1000;
+       // background-color: #858B96;
+        //color:white;
+    }
+    .email_content{
+        padding:0px;
+        font-size: 22px;
+        color: #707070;
+        border-style: solid;
+        border-bottom-width:0;
+        border-top-width: 1px;
+        border-left-width: 0px;
+        border-right-width: 0px;
+        border-color: #707070;
+    }
+    
+    
+    .application{
+        margin-right: 0px;
+        margin-left: 0px;
+        display:flex;
+        flex-direction: column;
+        background-color: white;
+      
+    }
+    
+    .application_title{
+        font-size: 25px;
+        font-family: 'Segoe UI';
+        padding:0px;
+      //  background-color: #858B96;
+       // color:white;
+       font-weight: 1000;
+       border-style: solid;
+        border-bottom-width:1px;
+        border-top-width: 0px;
+        border-left-width: 0px;
+        border-right-width: 0px;
+        border-color: #707070;
+    }
+    .application_content{
+        padding:0px;
+        font-size: 0px;
+        color: #707070;
+        
+    }
+    .department{
+        margin-left: 0px;
+        margin-right: 0px;
+        display:flex;
+        flex-direction: column;
+        background-color: white;
+       
+    }
+    
+    
+    .department_title{
+        font-size: 25px;
+        font-family: 'Segoe UI';
+        padding:0px;
+      //  background-color: #858B96;
+        //color:white;
+        font-weight: 1000;
+        border-style: solid;
+        border-bottom-width:1px;
+        border-top-width: 0px;
+        border-left-width: 0px;
+        border-right-width: 0px;
+        border-color: #707070;
+    }
+    .department_content{
+        padding:0px;
+        font-size: 22px;
+        color: #707070;
+       
+    }
+    
+    .department_content_mdi{
+        padding:0px;
+        font-size: 22px;
+        color: #707070;
+        cursor: pointer;
+       
+    }
+}

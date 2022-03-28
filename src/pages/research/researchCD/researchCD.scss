@@ -80,3 +80,94 @@
     height:642px;
     margin-left: 40px;
 }
+
+@media screen and(max-width: 768px){
+   
+    .researchCD{
+        
+        display:flex;
+        //  background-color: orange;
+          margin-bottom:0px;
+         width:768px;
+          margin-right: 0px;
+          //height:100%;
+    }
+    
+    .cd-header{
+        //background-color: aquamarine;
+        
+        margin-left:0px;
+        display: flex;
+        font-size: 17px;
+        flex-direction: column;
+    }
+    .cd-title{
+        font-weight:700;
+        display:flex;
+        margin-left:0px;
+        margin-bottom:0px;
+    }
+    .cd-scrollMenu{
+        border-style: solid;
+        border-top-width:1px;
+        border-left-width:0px;
+        border-right-width:0px;
+        border-bottom-width:1px;
+        border-color: #707070;
+      //  margin-left:0px;
+     //   background-color: skyblue;
+        display: flex;
+        padding: 0px;
+        justify-content: space-around;
+    }
+    .cdList{
+        font-size: 22px;
+        list-style: none;
+        display:flex;
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
+        justify-content: space-around;
+      //  background-color: pink;
+        cursor:pointer;
+    }
+    
+    .csd-all{
+        margin-left: 0px;
+      
+      //  background-color: yellow;
+    
+    }
+    
+    .csdl{
+       
+       // background-color: skyblue;
+        margin-top:0px;
+        border-style: solid;
+        border-top-width:0px;
+        border-left-width:0px;
+        border-right-width:0px;
+        border-bottom-width:1px;
+        border-color: #707070;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .csd-title{
+        margin-right: 0px;
+        font-weight:700;
+       // background-color: lime;
+        font-size:25px;
+        font-family: 'Segoe UI';
+        color: #002650;
+        margin-bottom: 0px;
+        margin-top:0px;
+    }
+    .csdImg{
+        margin-top: 0px;;
+ 
+        margin-left: 0px;
+        object-fit: contain;
+ 
+    }
+}

@@ -178,3 +178,184 @@
     margin-bottom: 29px;
 }
 
+@media screen and(max-width: 768px){
+    .alumni{
+        display:flex;
+        flex-direction: column;
+     //   background-color: blue;
+         width: 100%;
+         margin-right: 0px;
+         font-weight:500;
+    }
+    
+    .alu-header{
+      //  background-color: aquamarine;
+      margin-left:0px;
+        display: flex;
+        font-size: 18px;
+        flex-direction: column;
+       
+    }
+    .alu-title{
+        display:flex;
+        margin-left:0px;
+        margin-bottom: 0px;
+        font-weight: 700;
+        
+    }
+    
+    
+    
+    .alu-profile{
+       //margin-left:50px;
+        border-color: #707070;
+        border-style: solid;
+        border-top-width:1px;
+        border-left-width:0px;
+        border-right-width:0px;
+        border-bottom-width:0px;
+     //   background-color: aqua;
+        display:flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .alu-left{
+        margin-top:0px;
+        flex:1;
+        display: flex;
+        flex-direction: column;
+      
+       // background-color: yellow;
+    }
+    .alu-course{
+     //   background-color: green;
+        display:flex;
+        justify-content: start;
+        font-size:17px;
+        font-family: 'Roboto';
+        color: #002650;
+        opacity: 1;
+        font-weight: 1000;
+        margin-top: 0px;
+        margin-left:0px;
+        margin-bottom: 0px;
+    }
+    .aluImg{
+        display:flex;
+        justify-content: center;
+        margin-left:0px;
+        width:70%;
+      
+       // background-color: aquamarine;
+    }
+    
+    
+    .alu-right{
+        margin-top:0px;
+     // background-color: yellow;
+        flex:2;
+        display: flex;
+        flex-direction: column;
+    }
+    .alu-name{
+       // background-color: skyblue;
+        font-size:18px;
+        font-weight: 700;
+        font-family: 'Roboto';
+        margin-left: 0px;
+        margin-bottom: 0px;
+       // display: flex;
+    
+    }
+    .alu-pos{
+        font-size:17px;
+        
+        
+     
+    }
+    .alu-eng{
+        margin-left: 0px;
+        font-size: 17px;
+    }
+    
+    .alu-field{
+        border-style: solid;
+        border-color:#707070;
+        border-left-width: 0 ;
+        border-right-width: 0 ;
+        border-top-width: 1px;
+        border-bottom-width: 0;
+        display:flex;
+        flex-direction: column;
+        padding-top: 0px;
+       // background-color: blue;
+        color:#707070;
+    
+    }
+    
+    .alu-edu{
+        margin-left: 0px;
+        font-size: 17px;
+        color:#002650;
+        opacity: 1;
+        font-weight: 700;
+        margin-bottom: 0px;
+    }
+    
+    .alu-edul1{
+        margin-left: 0px;
+        font-size: 17px;
+        margin-bottom: 0px;
+        font-family: 'Roboto' ;
+      
+    }
+    
+    .alu-aff{
+        margin-left: 0px;
+        font-size: 17px;
+        color:#002650;
+        opacity: 1;
+        font-weight: 700;
+        margin-bottom: 0px;
+    }
+    
+    .alu-affl{
+        margin-left: 0px;
+        font-size: 17px;
+        margin-bottom: 0px;
+        font-family: 'Roboto' ;
+    }
+    .alu-dis{
+        margin-left: 0px;
+        font-size: 17px;
+        color:#002650;
+        opacity: 1;
+        font-weight: 700;
+        margin-bottom: 0px;
+    }
+    
+    .alu-disl{
+        margin-left: 0px;
+        font-size: 17px;
+        margin-bottom: 0px;
+        font-family: 'Roboto' ;
+    }
+    
+    .alu-contact{
+        margin-left: 0px;
+        font-size: 17px;
+        color:#002650;
+        opacity: 1;
+        font-weight: 700;
+        margin-bottom: 0px;
+    }
+    
+    .alu-contactl{
+        margin-left: 0px;
+        font-size: 17px;
+        margin-bottom: 0px;
+        font-family: 'Roboto' ;
+    }
+    
+}

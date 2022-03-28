@@ -185,3 +185,197 @@
     margin-left:-10px;
     
 }
+@media screen and(max-width: 768px){
+    .stu-profile{
+        border-color: #707070;
+        border-style: solid;
+        border-top-width:1px;
+        border-left-width:0px;
+        border-right-width:0px;
+        border-bottom-width:0px;
+       // background-color: aqua;
+        display:flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .stu-header{
+        //  background-color: aquamarine;
+         
+          display: flex;
+          font-size: 18px;
+          flex-direction: column;
+         
+      }
+      .stu-title{
+         
+          display:flex;
+          margin-left:0px;
+          margin-bottom: 0px;
+      }
+      
+      
+      
+      .stu-profile{
+          border-color: #707070;
+          border-style: solid;
+          border-top-width:1px;
+          border-left-width:0px;
+          border-right-width:0px;
+          border-bottom-width:0px;
+         // background-color: aqua;
+          display:flex;
+          justify-content: center;
+      }
+      
+      .stu-left{
+          margin-top:0px;
+          flex:1;
+          display: flex;
+          flex-direction: column;
+        
+         // background-color: yellow;
+      }
+      .stu-course{
+        //  background-color: green;
+          display:flex;
+          justify-content: start;
+          font-size:17px;
+          font-family: 'Roboto';
+          color: #002650;
+          opacity: 1;
+          font-weight: 1000;
+          margin-top: 0px;
+          margin-left:0px;
+          margin-bottom: 0px;
+      }
+      .stuImg{
+          display:flex;
+          justify-content: center;
+          margin-left:0px;
+          width:100%;
+          height:100%;
+         // background-color: aquamarine;
+      }
+      
+      
+      .stu-right{
+          margin-top:0px;
+       // background-color: yellow;
+          flex:2;
+          display: flex;
+         // margin-left: 91.75px;
+          flex-direction: column;
+      }
+      .stu-name{
+         // background-color: skyblue;
+          font-size:18px;
+          font-weight: 700;
+          font-family: 'Roboto';
+          margin-left: 0px;
+          margin-bottom: 0px;
+         // display: flex;
+      
+      }
+      .stu-pos{
+          font-size:20px;
+          
+          
+       
+      }
+      .stu-eng{
+          margin-left: 0px;
+          font-size: 20px;
+      }
+      
+      .stu-field{
+          border-style: solid;
+          border-color:#707070;
+          border-left-width: 0 ;
+          border-right-width: 0 ;
+          border-top-width: 1px;
+          border-bottom-width: 0;
+          display:flex;
+          flex-direction: column;
+          padding-top: 0px;
+        //  background-color: blue;
+      }
+      
+      .stu-edu{
+          margin-left: 0px;
+          font-size: 17px;
+          color:#002650;
+          opacity: 1;
+          font-weight: 700;
+          margin-bottom: 0px;
+      }
+      
+      .stu-edul1{
+          margin-left: 0px;
+          font-size: 17px;
+          margin-bottom: 0px;
+          font-family: 'Roboto' ;
+        
+      }
+      
+      .stu-edul2{
+          margin-left: 0px;
+          font-size: 17px;
+          font-family: 'Roboto' ;
+          margin-bottom: 0px;
+      }
+      
+      .stu-ri{
+          margin-left: 00px;
+        
+          font-size: 17px;
+          color:#002650;
+          opacity: 1;
+          font-weight: 700;
+          margin-bottom: 0px;
+      }
+      
+      .stu-ril{
+          margin-left: 0px;
+          margin-right: 0px;
+          font-size: 17px;
+          font-family: 'Roboto' ;
+          margin-bottom: 0px;
+      }
+      
+      .stu-contact{
+          margin-left: 0px;
+        
+          font-size: 17px;
+          color:#002650;
+          opacity: 1;
+          font-weight: 700;
+          margin-bottom: 0px;
+      }
+      
+      .stu-contactl{
+          margin-left: 0px;
+          font-size: 17px;
+          font-family: 'Roboto' ;
+          margin-bottom: 0px;
+      }
+      
+      .bar-left{
+        
+         
+          display: flex;
+          height: 0px;
+          width:0px;
+          
+        
+      }
+      
+      .bar-rights{
+         
+          display: flex;
+        
+            width:0px;
+         height: 0px;
+          
+      }
+    
+}

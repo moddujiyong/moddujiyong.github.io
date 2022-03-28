@@ -554,49 +554,53 @@
 @media screen and(max-width: 768px){
     .professor{
         display: flex;
-        width:inherit;
-      //  background-color: blue;
+        width: 100%;
+        margin: 0;
+    // background-color: blue;
         
     }
     
 .prof-header{
-    
+    margin: 0;
     position: sticky;
     width: 100%;
     z-index: 1; 
     display: flex;
-    font-size: 18px;
+    margin-left:0px;
     flex-direction: column;
     font-weight:700;
-    background-color: white;
-    font-size: 15px;
+   // background-color: green;
+    font-size: 17px;
     
 }
 .header-title{
     
     display: flex;
-    
+    font-size: 22px;
     width: 100%;
+    margin: 0;
  }
  .profList{
     
-    font-size: 14px;
+    font-size: 12px;
     list-style: none;
     display:flex;
     width: 100%;
     font-family: 'Roboto' ;
-    margin: 0;
+    margin:0;
+   
     cursor:pointer;
    
-  // background-color: red;
+   // background-color: red;
     
 }
     .prof-scrollMenu{
     
-  
+      
         display: flex;
         width:100%;
-        
+       
+        padding:0;
         border-style: solid;
         border-top-width:1px;
         border-left-width:0px;
@@ -604,50 +608,50 @@
         border-bottom-width:1px;
         border-color: #707070;
         font-family: 'Roboto' ;
-        
-       //background-color: red;
+      
     }
     .profListItem{
-        //background-color: red;
+       // background-color: green;
         font-family: 'roboto' ;
         display: flex;
         width: 100%;
-        
+         margin: 0;
     }
     .prof-profile{
         width: 100%;
         display: flex;
-        background-color: aqua;
-        margin:0;
+        flex-direction: column;
+       // background-color: aqua;
+        margin-left: 0px;
     }
     .prof-summary{
         display: flex;
         flex-direction: column;
-       // background-color: red;
+        margin: 0px;
+      //  background-color: pink;
         width:100%;
-        margin:0;
         
         
     }
     .prof-photo{
         display: flex;
         width:100%;
-        height:100%;
+        
         
     }
     .profImg{
         
         display: flex;
         
-        object-fit: cover;
+        object-fit: contain;
         width:100%;
-        height:100%;
+     
     
     }
   
     .prof-name{
         width:100%;
-        font-size: 17px;
+        font-size: 16px;
        // font-family: 'Segoe UI';
         opacity:1;
         font-weight: 700;
@@ -663,10 +667,11 @@
     }
     .prof-eng{
        
-        font-size:17px;
+        font-size:16px;
         font-family: 'Roboto';
     }
     .prof-field{
+        padding-top: 0px;
         width: 100%;
         border-style: solid;
         border-color:#707070;
@@ -686,16 +691,16 @@
     .fos-container{
         display:flex;
         width: 100%;
+        flex-direction: column;
     }
     
     .fos{
-      
+        
         display: flex;
-        font-size: 17px;
         font-family: 'Roboto' ;
         opacity:1;
         font-weight: 700;
-        
+        font-size: 17px;
     }
     .fosCont{
         display: flex;
@@ -709,9 +714,11 @@
     .email-container{
         display: flex;
         width:100%;
+        flex-direction: column;
     }
     
     .prof-email{
+        
         font-size: 17px;
         font-family: 'Roboto' ;
         opacity:1;
@@ -728,6 +735,8 @@
     
     .loc-container{
         display:flex;
+        width:100%;
+        flex-direction: column;
     }
     
     .loc{
@@ -748,6 +757,8 @@
     
     .tel-container{
         display: flex;
+        width:100%;
+        flex-direction: column;
     }
     
     .tel{
@@ -789,4 +800,268 @@
        // background-color: blue;
     }
     
+.main-career{
+    
+    margin-left:0;
+    display: flex;
+    border-top: solid;
+    border-top-width: 1px;
+    margin-left: 0;
+    
+   
+}
+.mc-container{
+    flex-direction: column;
+    display: flex;
+    margin-left: 0;
+  
+}
+.mc{
+    display:flex;
+    margin-top: 29px;
+    font-size: 17px;
+    color:#002650;
+    opacity: 1;
+    font-weight: 700;
+    margin-bottom: 29px;
+    margin-left:0px;
+   
+}
+.mcl{
+    display: flex;
+    font-size: 17px;
+    font-family: 'Segoe UI';
+    margin-bottom: 29px;
+    margin-left:0px;
+}
+.other-career{
+    
+    display: flex;
+    margin-left: 0;
+  
+    //flex-direction: column;
+    
+}
+
+.oc{
+   
+    font-size: 17px;
+    color:#002650;
+    opacity: 1;
+    font-weight: 700;
+    
+    margin-bottom: 29px;
+    margin-left: 0;
+    margin-top: 34px;
+  
+   
+}
+.oc-container{
+    flex-direction: column;
+    display: flex;
+    margin-left: 0;
+  
+}
+.ocl{
+   
+    font-size: 17px;
+    font-family: 'Segoe UI';
+    margin-bottom: 29px;
+    margin-left: 0px;
+}
+
+.edu-career{
+    margin-left:0px;
+    
+    display: flex;
+   
+   
+   
+}
+.edu-container{
+    flex-direction: column;
+    display: flex;
+    margin-left: 0px;
+  
+}
+.ec{
+    font-size: 17px;
+    color:#002650;
+    opacity: 1;
+    font-weight: 700;
+    margin-bottom: 29px;
+    margin-left: 0px;
+   
+}
+
+.ecl{
+    font-size: 17px;
+    font-family: 'Segoe UI';
+    margin-bottom: 29px;
+    margin-left: 0px;
+}
+
+
+
+.scolarship-career{
+  
+    display: flex;
+    margin-left: 0;
+   // flex-direction: column;
+
+}
+.sc-container{
+    flex-direction: column;
+    display: flex;
+    margin-left: 0;
+}
+.sc{
+    margin-left: 0px;
+    
+    font-size: 17px;
+    color:#002650;
+    opacity: 1;
+    font-weight: 700;
+    margin-bottom: 29px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.scl{ 
+    margin-left: 0px;
+    font-size: 17px;
+    font-family: 'Segoe UI';
+    margin-bottom: 29px;
+}
+
+.research-subject{
+    
+    margin-left:0px;
+    display: flex;
+   
+    
+
+    margin-top: 30px;
+}
+.rs-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.rs{
+    margin-left: 0px;
+    font-size: 17px;
+    color:#002650;
+    opacity: 1;
+    font-weight: 700;
+    margin-bottom: 29px;
+}
+
+.rsl{
+    margin-left: 0px;
+    font-size: 17px;
+    font-family: 'Segoe UI';
+    margin-bottom: 29px;
+}
+.rslt{
+    margin-left: 0px;
+    font-size: 17px;
+    font-family: 'Segoe UI';
+    margin-bottom: 29px;
+    font-weight: 700;
+}
+
+
+.reward-career{
+    
+    
+    display: flex;
+    margin-left: 0;
+ //   flex-direction: column;
+    
+}
+.rec-container{
+    flex-direction: column;
+    display: flex;
+    margin-left: 0;
+}
+
+.rec{
+    margin-left: 0;
+    font-size: 17px;
+    color:#002650;
+    opacity: 1;
+    font-weight: 700;
+    margin-bottom: 29px;
+}
+
+.recl{
+    margin-left:0px;
+    font-size: 17px;
+    font-family: 'Segoe UI';
+    margin-bottom: 29px;
+}
+
+.book-career{
+    
+    margin-left:0px;
+    display: flex;
+ 
+  //  flex-direction: column;
+
+}
+.book-container{
+    flex-direction: column;
+    display: flex;
+}
+
+
+.bc{
+    margin-left: 0px;
+    font-size: 17px;
+    color:#002650;
+    opacity: 1;
+    font-weight: 700;
+    margin-bottom: 29px;
+}
+
+.bcl{
+    margin-left: 0px;
+    font-size: 17px;
+    font-family: 'Segoe UI';
+    margin-bottom: 29px;
+}
+
+.intell-career{
+    
+    margin-left:0px;
+    display: flex;
+   
+    
+   // flex-direction: column;
+
+}
+.intell-container{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.ic{
+    margin-left: 0px;
+    font-size: 17px;
+    color:#002650;
+    opacity: 1;
+    font-weight: 700;
+    margin-bottom: 29px;
+}
+
+.icl{
+    margin-left: 0px;
+    font-size: 17px;
+    font-family: 'Segoe UI';
+    margin-bottom: 29px;
+}
+
+
 }

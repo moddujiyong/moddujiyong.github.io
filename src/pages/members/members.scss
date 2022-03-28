@@ -3,13 +3,8 @@
     display:flex;
     
    // background-color: orange;
-   
-   
     margin-bottom: 200px;
     width:1920px;
-   
-
-
 }
 
 .membersLeft{
@@ -33,26 +28,17 @@
 
 @media screen and(max-width: 768px){
     .members{
-        display: flex;
+   
+        display:flex;
+        
+       
+        
         width:100%;
-  //    background-color: red;
-        
-    }
-    .membersLeft{
-        flex:1;
-       
-    //background-color: greenyellow;
      
-     
-      
     }
-    
-    .membersRight{
-        flex:5;
-        
-       
-      //background-color: red;
-        
-    }
-
+   
+   
 }
+    
+    
+

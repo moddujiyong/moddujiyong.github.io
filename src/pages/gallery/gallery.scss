@@ -73,3 +73,82 @@
     text-align: center;
     margin-bottom: 25px;
 }
+
+@media screen and(max-width: 768px){
+    .gallery{
+        display: flex;
+        width:100%;
+      
+    }
+    
+    .gallery-left{
+        flex:1;
+        
+    }
+    
+    .gallery-right{
+         flex:5;
+         display: flex;
+         flex-direction: column;
+       // background-color: red;
+    }
+    
+    .gallery-header{
+        
+        margin-top: 0px;
+        display: flex;
+        font-size: 26px;
+        margin-left:0px;
+        margin-bottom: 0px;
+    }
+    
+    .gallery-content{
+        margin-left:0px;
+        display:flex;
+        margin-right:0px;
+    
+      //  background-color: greenyellow;
+        flex-direction: column;
+        border-style: solid;
+        border-top-width:1px;
+        border-left-width:0px;
+        border-right-width:0px;
+        border-bottom-width:0px;
+        border-color: #707070;
+       
+    }
+    .gallery-body{
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .gal-field{
+        
+        display: flex;
+       
+    }
+    .galPhoto{
+        
+        display: flex;
+        
+        justify-content: center;
+    }
+    .galImg{
+        margin-bottom: 0px;
+        margin-left:0px;
+        width:60%;
+        height:80%;
+        object-fit: contain;
+       
+    }
+    .gal-name{
+        display: flex;
+        flex-direction: column;
+        font-size:15px;
+        font-family: 'Segoe UI';
+        opacity: 1;
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 25px;
+        
+    }
+}
