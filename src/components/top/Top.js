@@ -4,6 +4,12 @@ import "./top.scss";
 import {Link} from "react-router-dom";
 import Logo_Design_Eng from '../img/Logo_sizeAdj.png'
 export default function Top(){
+   /* <IoIosSearch className="topSearchIcon"/>
+    <div className="searchText">
+
+        Search
+      
+    </div>*/
     return(
         <div className="top">
              <div className="topSet">
@@ -11,12 +17,7 @@ export default function Top(){
                  <div className="topLeft">
                    <Link to="/Mddu"><img className="topImg" src={Logo_Design_Eng} alt=""></img> </Link> 
                    
-                   <IoIosSearch className="topSearchIcon"/>
-                        <div className="searchText">
-
-                            Search
-                          
-                        </div>
+                
                  </div>    
                 
                 <div className="topCenter">

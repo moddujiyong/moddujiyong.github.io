@@ -1,8 +1,9 @@
 .introduce{
-    width:100%;
+   
     display: flex;
+    width:1920px;
     justify-content: center;
-   // background-color: blue;
+  //  background-color: blue;
 }
 
 .introduceSet{
@@ -12,14 +13,20 @@
     margin-right: 341px;
     margin-bottom: 173px;
    // align-items: center;
-    
+ 
     justify-content: center;
-   //background-color: orange;
+  // background-color: orange;
 
 
 }
+.intro-container{
+    display: flex;
+   // background-color: red;
+}
+
 .introLeft{
     flex:1;
+    //width:100%;
    // background-color: pink;
     display: flex;
   //  justify-content: center;
@@ -35,7 +42,7 @@
    // background-color: aquamarine;
     display: flex;
     flex-direction: column;
-  //  background-color: green;
+    //background-color: green;
     //justify-content: center;
 }
 

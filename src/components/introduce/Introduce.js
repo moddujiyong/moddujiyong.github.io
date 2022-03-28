@@ -7,7 +7,8 @@ export default function Introduce() {
   return (
     <div className="introduce">
         <div className="introduceSet">
-             <div className="introLeft">
+          <div className="intro-container">
+          <div className="introLeft">
                 <img className="introduceImg" src={IntroduceImg} alt=""/>
             </div>
 
@@ -19,6 +20,9 @@ export default function Introduce() {
 
                 
               </div>
+
+          </div>
+          
               <img className="barImg" src={BarImg} alt="" />
         </div>
       
