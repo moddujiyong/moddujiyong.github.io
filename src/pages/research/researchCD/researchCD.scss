@@ -3,8 +3,12 @@
     flex-direction: column;
     background-color: red;
     
+<<<<<<< HEAD
     // margin-right: 319.5px;
     width: 100%;
+=======
+    margin-right: 319.5spx;
+>>>>>>> 2e163fdfa389fb6af8477c47f3e0e03ca2ede389
 }
 
 .cd-header{
@@ -79,7 +83,7 @@
 .csd-title{
     margin-right: 10px;
     font-weight:700;
-   // background-color: lime;
+    //background-color: blue;
     font-size:25px;
     font-family: 'Segoe UI';
     color: #002650;
@@ -91,4 +95,69 @@
     width:100%;
     height:642px;
     margin-left: 40px;
+}
+@media screen and(max-width:768px) {
+    .researchCD{
+        width:100%;
+        display:flex;
+        flex-direction: column;
+      // background-color: bisque;
+        width:100%;
+        margin-right: 0px;
+    }
+    
+    .cd-header{
+        //background-color: aquamarine;
+        width:100%;
+        display: flex;
+        font-size: 20px;
+        font-family:'Roboto';
+        font-weight: 700;
+        flex-direction: column;
+       
+    }
+    .cd-title{
+        width:100%;
+        margin-left:0px;
+        margin-bottom: 23.5px;
+        
+    }
+    .cd-scrollMenu{
+        width:100%;
+        border-style: solid;
+        border-top-width:1px;
+        border-left-width:0px;
+        border-right-width:0px;
+        border-bottom-width:1px;
+        border-color: #707070;
+      //  margin-left:0px;
+        background-color: skyblue;
+        display: flex;
+        padding: 0px;
+        justify-content: space-around;
+    }
+    .cdList{
+        width:100%;
+        font-size: 18px;
+        list-style: none;
+        display:flex;
+       
+        margin-left: 0px;
+        margin-right: 0px;
+        justify-content: space-around;
+        background-color: pink;
+        cursor:pointer;
+    }
+    
+    .csd-all{
+        margin-left: 0px;
+        width:100%;
+      //  background-color: yellow;
+    
+    }
+    
+    
+    
+  
+ 
 }
