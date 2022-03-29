@@ -24,17 +24,20 @@ export default function contact() {
             
        </div>
 
-       <div className="gallery-right">
+       <div className="gallery-center">
             <div className="gallery-header">
               Gallery
             </div>
 
             <div className="gallery-content">
               <div className="gallery-body">
-              <div className="gal-field"> 
+                <div className="gal-field"> 
                   
                   <div className="gal-photo"> 
-                    <img className="galImg" src={GalleryPhoto5} alt=""/> 
+                     <div className="img-container">
+                      <img className="galImg" src={GalleryPhoto5} alt=""/> 
+                      </div>
+                  
                 
                     <div className="gal-name">
                       <span className="gal-info"> 2022.02 - 제주도 </span>
@@ -43,8 +46,9 @@ export default function contact() {
                 </div>
 
                 <div className="gal-photo"> 
+                <div className="img-container">
                     <img className="galImg" src={GalleryPhoto6} alt=""/> 
-                
+                </div>
                     <div className="gal-name">
                       <span className="gal-info"> 2022.02 - 제주도 </span>
                       <span className="gal-loc">ICEIC 2022</span>
@@ -57,7 +61,9 @@ export default function contact() {
               <div className="gal-field"> 
                 
                 <div className="gal-photo"> 
-                  <img className="galImg" src={GalleryPhoto7} alt=""/> 
+                <div className="img-container">
+                      <img className="galImg" src={GalleryPhoto7} alt=""/> 
+                      </div>
               
                   <div className="gal-name">
                     <span className="gal-info"> 2022.02 - 제주도 </span>
@@ -66,7 +72,9 @@ export default function contact() {
               </div>
 
               <div className="gal-photo"> 
-                  <img className="galImg" src={GalleryPhoto8} alt=""/> 
+              <div className="img-container">
+                      <img className="galImg" src={GalleryPhoto8} alt=""/> 
+                      </div>
               
                   <div className="gal-name">
                     <span className="gal-info"> 2022.02 - 제주도 </span>
@@ -78,7 +86,9 @@ export default function contact() {
             <div className="gal-field"> 
                 
                 <div className="gal-photo"> 
-                  <img className="galImg" src={GalleryPhoto11} alt=""/> 
+                    <div className="img-container">
+                      <img className="galImg" src={GalleryPhoto11} alt=""/> 
+                      </div>
               
                   <div className="gal-name">
                     <span className="gal-info"> 2021.10 - 부산 </span>
@@ -87,8 +97,9 @@ export default function contact() {
               </div>
 
               <div className="gal-photo"> 
-                  <img className="galImg" src={GalleryPhoto3} alt=""/> 
-              
+              <div className="img-container">
+                      <img className="galImg" src={GalleryPhoto3} alt=""/> 
+                      </div>
                   <div className="gal-name">
                     <span className="gal-info"> 2021.07 - 제주도 </span>
                     <span className="gal-loc">대한전자공학회 하계종합학술대회</span>
@@ -99,7 +110,9 @@ export default function contact() {
             <div className="gal-field"> 
                 
                 <div className="gal-photo"> 
-                  <img className="galImg" src={GalleryPhoto4} alt=""/> 
+                    <div className="img-container">
+                      <img className="galImg" src={GalleryPhoto4} alt=""/> 
+                      </div>
               
                   <div className="gal-name">
                     <span className="gal-info"> 2021.07 - 제주도 </span>
@@ -108,7 +121,9 @@ export default function contact() {
               </div>
 
                 <div className="gal-photo"> 
-                  <img className="galImg" src={GalleryPhoto9} alt=""/> 
+                <div className="img-container">
+                      <img className="galImg" src={GalleryPhoto9} alt=""/> 
+                      </div>
               
                   <div className="gal-name">
                     <span className="gal-info"> 2022.02 - 제주도 </span>
@@ -119,7 +134,9 @@ export default function contact() {
 
             <div className="gal-field"> 
                 <div className="gal-photo"> 
+                <div className="img-container">
                       <img className="galImg" src={GalleryPhoto12} alt=""/> 
+                      </div>
                   
                       <div className="gal-name">
                         <span className="gal-info"> 2021년 상반기 연구실 워크샵</span>
@@ -127,7 +144,9 @@ export default function contact() {
                </div>
             
               <div className="gal-photo"> 
-                  <img className="galImg" src={GalleryPhoto1} alt=""/> 
+              <div className="img-container">
+                      <img className="galImg" src={GalleryPhoto1} alt=""/> 
+                      </div>
               
                   <div className="gal-name">
                     <span className="gal-info"> 2020.07 - 제주도 </span>
@@ -139,7 +158,9 @@ export default function contact() {
             <div className="gal-field"> 
                 
                 <div className="gal-photo"> 
-                  <img className="galImg" src={GalleryPhoto2} alt=""/> 
+                <div className="img-container">
+                      <img className="galImg" src={GalleryPhoto2} alt=""/> 
+                      </div>
               
                   <div className="gal-name">
                   <span className="gal-info"> 2020.07 - 제주도 </span>
@@ -148,7 +169,9 @@ export default function contact() {
               </div>
 
               <div className="gal-photo"> 
-                  <img className="galImg" src={GalleryPhoto10} alt=""/> 
+              <div className="img-container">
+                      <img className="galImg" src={GalleryPhoto10} alt=""/> 
+                      </div>
               
                   <div className="gal-name">
                     <span className="gal-info"> 2018.10 - 부산 </span>
@@ -161,7 +184,9 @@ export default function contact() {
             </div>
 
        </div>
-
+       <div className="gallery-right">
+            
+        </div>
      
     </div>
   )

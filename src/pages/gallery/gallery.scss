@@ -6,16 +6,22 @@
 
 .gallery-left{
     flex:1;
-    
+    display: flex;
 }
 
-.gallery-right{
-     flex:5;
+.gallery-center{
+     flex:1;
      display: flex;
-     flex-direction: column;
+     flex-direction: column;    
+     width:100%;
+
    // background-color: red;
 }
 
+.gallery-right{
+    flex:1;
+    display: flex;
+}
 .gallery-header{
     
     margin-top: 64px;
@@ -25,12 +31,20 @@
     margin-bottom: 23.5px;
 }
 
-.gallery-content{
-    margin-left:30px;
-    display:flex;
-    margin-right:319.5px;
+.img-container{
+    display: flex;
+    margin-left: 5px;
+    margin-right: 5px;
+ //   background-color: blue;
+}
 
-  //  background-color: greenyellow;
+.gallery-content{
+    width:100%;
+
+    display:flex;
+   
+
+  // background-color: greenyellow;
     flex-direction: column;
     border-style: solid;
     border-top-width:1px;
@@ -47,12 +61,15 @@
 .gal-field{
     
     display: flex;
+   // background-color: red;
+    
+    margin-bottom: 10px;
    
 }
 .galPhoto{
     
     display: flex;
-    
+    margin-right: 5px;
     justify-content: center;
 }
 .galImg{
@@ -83,31 +100,48 @@
     
     .gallery-left{
         flex:1;
-        
+        display: flex;
+        width:100%;
     }
     
-    .gallery-right{
-         flex:5;
+    .gallery-center{
+         flex:1;
          display: flex;
-         flex-direction: column;
+         flex-direction: column;    
+         width:100%;
+    
        // background-color: red;
     }
     
-    .gallery-header{
-        
-        margin-top: 0px;
+    .gallery-right{
+        flex:1;
         display: flex;
-        font-size: 26px;
+        width:100%;
+    }
+    .gallery-header{
+        width:100%;
+        margin-top: 32px;
+        display: flex;
+        font-size: 20px;
         margin-left:0px;
-        margin-bottom: 0px;
+        margin-bottom: 23.5px;
+    }
+    
+    .img-container{
+        display: flex;
+        margin-left: 0px;
+        margin-right: 0px;
+      //  background-color: blue;
+        width:100%;
     }
     
     .gallery-content{
-        margin-left:0px;
-        display:flex;
-        margin-right:0px;
+        width:100%;
     
-      //  background-color: greenyellow;
+        display:flex;
+       
+    
+     //  background-color: greenyellow;
         flex-direction: column;
         border-style: solid;
         border-top-width:1px;
@@ -118,39 +152,42 @@
        
     }
     .gallery-body{
-        margin-top: 0px;
-        margin-bottom: 0px;
+        width:100%;
+        margin-top: 40px;
+        margin-bottom: 230px;
     }
     .gal-field{
-        
+        width:100%;
         display: flex;
-        background-color: blueviolet;
-        padding:10px;
+      //  background-color: red;
+        flex-direction: column;
+        margin-bottom: 0px;
+       
     }
     .galPhoto{
-        
+        width:100%;
         display: flex;
-        
+        margin-right: 0px;
         justify-content: center;
-        
+      
     }
     .galImg{
         margin-bottom: 0px;
         margin-left:0px;
-        width:60%;
-        height:80%;
+        width:100%;
+       
         object-fit: contain;
-      
+       
     }
     .gal-name{
         display: flex;
         flex-direction: column;
-        font-size:15px;
+        font-size:18px;
         font-family: 'Segoe UI';
         opacity: 1;
         justify-content: center;
         text-align: center;
-        margin-bottom: 25px;
-        background-color: blue;
+        margin-bottom: 0px;
     }
+    
 }

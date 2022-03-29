@@ -97,7 +97,7 @@
         flex-direction: column;
       // background-color: bisque;
         width:100%;
-        margin-right: 0px;
+       
     }
     
     .cd-header{
@@ -113,7 +113,7 @@
     .cd-title{
         width:100%;
         margin-left:0px;
-        margin-bottom: 0px;
+        margin-bottom: 23.5px;
         
     }
     .cd-scrollMenu{
@@ -144,9 +144,14 @@
     }
     
     .csd-all{
-        margin-left: 0px;
-        width:100%;
-      //  background-color: yellow;
+        display: flex;
+    
+        flex-direction: column;
+        margin-left: 30px;
+       // background-color: yellow;
+        width: 90%;
+        height: 100%;
+        align-self: center;
     
     }
     
