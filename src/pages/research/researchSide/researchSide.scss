@@ -76,16 +76,23 @@
 @media screen and(max-width: 768px){
     .researchSide{
         // background-color: skyblue;
-         width:100%;
-         margin: 0;
-      
+         
+        padding:0px;
+         margin-right: 0;
+       
+         display: flex;
+         flex-direction: column;
      }
      .title_research{
          
-        width: 100%;
-        font-size: 17px;
-        display: flex;
-        margin-left: 0;
+         display:flex;
+         font-size: 20px;
+         opacity:1;
+         font-weight:1000;
+         flex-direction: column;
+         //background-color: red;
+         width:104px;
+         margin-left:0px;
      }
      
      .titleResearch_border{
@@ -93,35 +100,53 @@
      }
      
      .titleResearch_left{
-        border-style: none;
+         border-style: solid;
+         width:52px;
+         
+         border-color: #002650;
      }
      .titleResearch_right{
-             width:0;
+         width:52px;
+         background-color: #FFC341;
      }
      
      
      .researchList{
-        width: 100%;
-        display: flex;
-       
-        margin-left: 0;
+         display:flex;
+         left:0;
         
         // background-color: pink;
          
      }
      
      .researchContent{
-        display: flex;
-        margin-top: 10px;
-        margin-left: 0;
+         display:flex;
+         flex-direction: column;
+     
+         list-style: none;
+         margin-top: 51px;
+         
+        // background-color: orange;
+         width:100%;
      }
      
      .researchListItem{
-        width: 100%;
-        font-size: 15px;
-        
-        height: 20px;
-       // margin-right: 10px;
+         font-size:14px;
+         width:104px;
+         margin-bottom: 33px;
+         font-family: 'Segoe UI';
+         font-weight: 600;
+         
+         cursor:pointer;
+         border-style: solid;
+         height: 46.5px;
+         
+         border-top-width: 0;
+         border-left-width:0;
+         border-right-width:0;
+         border-bottom-width:1px;
+         border-color: #FFC341;
+         font-family: 'Segoe UI';
+       //  background-color: beige;
      }
-
-}
+    }

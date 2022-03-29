@@ -12,8 +12,12 @@ export default function ResearchLayout({barl,title,img,bar}) {
          <img className="bar-leftcd" src={barl} alt="" />
         <div className="bspl">
           <div className="cd-container">
-            <span className="bsp-title">{title}</span>
-            <img className="bspImg" src={img} alt=""/> 
+          <span className="bsp-title">{title}</span>
+            <div className="bspImg-container">
+              
+               <img className="bspImg" src={img} alt=""/> 
+            </div>
+          
             
           </div>
        
