@@ -35,6 +35,7 @@ export default function ResearchCD() {
       <div className="cd-header" >
         <div className="cd-title">
           {title}
+          
         </div>
   
         <div className="cd-scrollMenu">

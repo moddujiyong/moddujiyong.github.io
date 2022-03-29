@@ -9,17 +9,22 @@
 
 .researchLeft{
     flex:1;
- //   background-color: greenyellow;
+    background-color: greenyellow;
     margin-top: 64px;
     margin-bottom:200px;
+    width: 100%;
     height:100%;
 }
 
 .researchRight{
     flex:5;
     
-  //  background-color: lightcoral;
+    background-color: gold;
+    width: 100%;
     height: 100%;
+
+    justify-content: center;
+    display: flex;
     margin-top: 64px;
 }
 
