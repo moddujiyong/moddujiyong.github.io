@@ -44,7 +44,7 @@ export default function contact() {
 
             <div className="application">
                <span className="application_title"><MdPersonSearch className="application_icon"/>Application</span>
-               <span className="application_content">Intern - Opening per semester </span>
+               <span className="application_content">Interns - Opening per semester </span>
                <span className="application_content">Graduate students - No openings for now </span>
                <span className="application_content">Requirements - CV & Academic Record (recommended) </span>
             </div>

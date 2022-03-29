@@ -27,6 +27,7 @@ export default function Footer({select,setSelect}){
             <div className="footerSet">
 
                 <div className="footerLeft">
+                <div className="footer-container">
                      <ul className="footerList">
                        
                         <li className="footerListItem"><Link className="link" to ="/members" >Members</Link></li>
@@ -35,6 +36,7 @@ export default function Footer({select,setSelect}){
                         <li className="footerListItem"><Link className="link" to ="/contact">Contact</Link></li>
                         <li className="footerListItem"><Link className="link" to ="/gallery" >Gallery</Link></li>
                     </ul>
+                    </div>
                 </div>    
         
                 <div className="footerCenter">  
@@ -44,25 +46,29 @@ export default function Footer({select,setSelect}){
                 </div>
 
                 <div className="footerRight">
-                    <ul className="footerList">
-                       <li className="footerRListItem"><Link className="link"  to ="/research/clinical">Clinical Study Design</Link></li>
-                       <li className="footerRListItem"><Link className="link"  to ="/research/uxui">UX/UI Design & Usability</Link></li>
-                       <li className="footerRListItem"><Link className="link"  to ="/research/industry">Medical Industry Policy</Link></li>
-                       <li className="footerRListItem"><Link className="link"  to ="/research/bio">Bio Signal Processing & AI</Link></li>
-                       <li className="footerRListItem"  onClick={toHomepage} >{footerText}</li>
-                      
-                     </ul>
+                    <div className="footer-container">
+                        <ul className="footerList">
+                            <li className="footerRListItem"><Link className="link"  to ="/research/clinical">Clinical Study Design</Link></li>
+                            <li className="footerRListItem"><Link className="link"  to ="/research/uxui">UX/UI Design & Usability</Link></li>
+                            <li className="footerRListItem"><Link className="link"  to ="/research/industry">Medical Industry Policy</Link></li>
+                            <li className="footerRListItem"><Link className="link"  to ="/research/bio">Bio-Signal Processing & AI</Link></li>
+                            <li className="footerRListItem"  onClick={toHomepage} >{footerText}</li>
+                        
+                        </ul>
+                    </div>
+                  
                 </div>
 
             </div>
 
-          
+     
             <div className="footerBottom">
                 <span className="infoTitle1">연세대학교 의료기기 설계 및 사용적합성 연구실(MDDU)</span>
                 <span className="infoTitle2">06229 서울특별시 강남구 언주로 63길 20</span>
-                <span className="infoTitle3">20, Eonju-ro 63-gil Gangnam-gu, Seoul 06229, Korea</span>
+                <span className="infoTitle3">(06229) 20, Eonju-ro 63-gil Gangnam-gu, Seoul, Korea</span>
             </div>
-
+            
+     
         </div>
 
     )

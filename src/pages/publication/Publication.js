@@ -15,16 +15,16 @@ export default function Publication() {
   const [select,setSelect]=useState("Journal");
   const onJourClick=()=>{
     jourRef.current?.scrollIntoView({behavior:'smooth',block:'center'})
-    setSelect('Journal')
+    setSelect('Journals')
   }
   const onConfClick=()=>{
     confRef.current?.scrollIntoView({behavior:'smooth',block:'center'})
-    setSelect('Conference')
+    setSelect('Conferences')
   }
   const onPatClick=()=>{
     patRef.current?.scrollIntoView({behavior:'smooth',block:'center'})
   
-    setSelect('Patent')
+    setSelect('Patents')
   }
   const onBookClick=()=>{
     bookRef.current?.scrollIntoView({behavior:'smooth',block:'center'})
@@ -51,9 +51,9 @@ export default function Publication() {
               </div>
               <div className="pubContent">
                   <ul className="pub-list">
-                    <li className="pub-item" onClick={onJourClick} style={{color: select === 'Journal' ? 'black' : 'grey'}}>Journal</li>
-                    <li className="pub-item" onClick={onConfClick} style={{color: select === 'Conference' ? 'black' : 'grey'}}>Conference</li>
-                    <li className="pub-item" onClick={onPatClick} style={{color: select === 'Patent' ? 'black' : 'grey'}}>Patent</li>
+                    <li className="pub-item" onClick={onJourClick} style={{color: select === 'Journals' ? 'black' : 'grey'}}>Journals</li>
+                    <li className="pub-item" onClick={onConfClick} style={{color: select === 'Conferences' ? 'black' : 'grey'}}>Conferences</li>
+                    <li className="pub-item" onClick={onPatClick} style={{color: select === 'Patents' ? 'black' : 'grey'}}>Patents</li>
                     <li className="pub-item" onClick={onBookClick} style={{color: select === 'Books' ? 'black' : 'grey'}}>Books</li>
                   </ul>
               </div>
@@ -69,7 +69,7 @@ export default function Publication() {
             </div>
             
             <div className="international-journal" ref={jourRef}>
-              | International Journal |
+              | International Journals |
             </div>
 
             <div className="journal-content">
@@ -86,7 +86,7 @@ export default function Publication() {
             </div>
             
             <div className="domestic-journal">
-              | Domestic Journal |
+              | Domestic Journals |
 
             </div>
 
@@ -109,7 +109,7 @@ export default function Publication() {
            </div>
            
             <div className="international-conference" ref={confRef}>
-              | International Conference |
+              | International Conferences |
 
             </div>
 
@@ -125,7 +125,7 @@ export default function Publication() {
           
 
             <div className="domestic-conference">
-              | Domestic Conference |
+              | Domestic Conferences |
             </div>
             <div className="conference-content">
 
@@ -139,7 +139,7 @@ export default function Publication() {
             
 
             <div className="patent" ref={patRef}>
-              | Patent |
+              | Patents |
             </div>
 
             <div className="patent-content">
@@ -161,7 +161,7 @@ export default function Publication() {
             </div>
 
             <div className="book" ref={bookRef}>
-              | Book |
+              | Books |
             </div>
 
             <div className="book-content">

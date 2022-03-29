@@ -38,6 +38,7 @@ export default function Student({select ,setSelect, selectStudent, setSelectStud
   </div>
 </div>
 <StudentLayout 
+lphoto={null}
 course = {'Ph.D course'}
 photo = {YourimPhoto}
 name = {'김유림'}

@@ -23,6 +23,7 @@
 .contact-content{
     display:flex;
     margin-right:319.5px;
+    margin-left: 50px;
   //  background-color: greenyellow;
     flex-direction: column;
     border-style: solid;
@@ -48,7 +49,7 @@
     justify-content: center;
   //  background-color: skyblue;
     margin-bottom: 24px;
-   
+    margin-left: 50px;
 }
 .address{
     margin-right: 50px;
@@ -205,27 +206,23 @@
         display:flex;
         margin-bottom:0px;
         width:100%;
+       
     
     }
-    
-    .contactLeft{
-        flex:0;
-        margin-top: 0px;
-        margin-bottom: 0px;
-     //   background-color: skyblue;
-        height: 100%;
-    }
+   
     
     .contactRight{
         flex:1;
-        margin-top: 0px;
-        height:100%;
+        flex-direction: column;
        width: 100%;
+       display: flex;
+     
+       justify-content: center;
       //  background-color: pink;
     }
     .contact-content{
         display:flex;
-        margin-right:0px;
+        margin-left: 0;
         width:100%;
       //  background-color: greenyellow;
         flex-direction: column;
@@ -250,7 +247,7 @@
         display:flex;
         margin-top: 0px;
         justify-content: center;
-        width: 1%;
+      
       //  background-color: skyblue;
         margin-bottom: 0px;
        
@@ -287,7 +284,7 @@
     
     
     .address_title{
-        font-size: 25px;
+        font-size: 20px;
         font-family: 'Segoe UI';
         padding:0px;
         font-weight: 1000;
@@ -298,7 +295,7 @@
     
     .address_content{
         padding:0px;
-        font-size: 22px;
+        font-size: 17px;
         color: #707070;
         border-style: solid;
         border-bottom-width:0;
@@ -317,7 +314,7 @@
     }
     
     .email_title{
-        font-size: 25px;
+        font-size: 20px;
         font-family: 'Segoe UI';
         padding:0px;
         font-weight: 1000;
@@ -326,7 +323,7 @@
     }
     .email_content{
         padding:0px;
-        font-size: 22px;
+        font-size: 17px;
         color: #707070;
         border-style: solid;
         border-bottom-width:0;
@@ -347,7 +344,7 @@
     }
     
     .application_title{
-        font-size: 25px;
+        font-size: 20px;
         font-family: 'Segoe UI';
         padding:0px;
       //  background-color: #858B96;
@@ -362,7 +359,7 @@
     }
     .application_content{
         padding:0px;
-        font-size: 0px;
+        font-size: 17px;
         color: #707070;
         
     }
@@ -377,7 +374,7 @@
     
     
     .department_title{
-        font-size: 25px;
+        font-size: 20px;
         font-family: 'Segoe UI';
         padding:0px;
       //  background-color: #858B96;
@@ -392,14 +389,14 @@
     }
     .department_content{
         padding:0px;
-        font-size: 22px;
+        font-size: 17px;
         color: #707070;
        
     }
     
     .department_content_mdi{
         padding:0px;
-        font-size: 22px;
+        font-size: 17px;
         color: #707070;
         cursor: pointer;
        

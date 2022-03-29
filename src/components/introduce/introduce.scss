@@ -8,32 +8,38 @@
 
 .introduceSet{
     display:flex;
-    margin-top:138px;
-    margin-left: 353px;
-    margin-right: 341px;
-    margin-bottom: 173px;
+   // margin-top:138px;
+  //  margin-left: 353px;
+  //  margin-right: 341px;
+  //  margin-bottom: 173px;
    // align-items: center;
- 
+    width:100%;
     justify-content: center;
-  // background-color: orange;
+ //  background-color: orange;
 
 
 }
 .intro-container{
     display: flex;
+    width:100%;
+    flex-direction: column;
    // background-color: red;
 }
 
 .introLeft{
     flex:1;
-    //width:100%;
-   // background-color: pink;
+    width:100%;
     display: flex;
-  //  justify-content: center;
+    //padding:10px;
+   justify-content: center;
 }
 
 .introRight{
     flex:2;
+      margin-top:60px;
+      margin-left: 353px;
+      margin-right: 341px;
+      margin-bottom: 80px;
     //border-style: solid;
     //border-top:0;
     //border-left-width: 0;
@@ -48,11 +54,11 @@
 
 
 .introduceImg{
-   //background-color: yellow;
+    //background-color: yellow;
     object-fit: contain;
-    width:471px;
-    margin-right: 101px;
-    height:349px;
+    width:50%;
+    
+ 
 }
 .introduceInfo{
    // margin-left:101px;
@@ -70,11 +76,12 @@
 .introText{
     display:flex;
     font-family: 'Segoe UI';
-    text-align:left;
+    line-height:50px;
     font-size: 27px;
     color:#707070;
     opacity: 1;
     white-space: pre-wrap;
+    justify-content: center;
     //background-color: blue;
 }
 
@@ -90,13 +97,30 @@
         display: flex;
         width:100%;
        
-        .introduceSet{
-            display: flex;
-            width:95%;
-          
-        }
+       
     }
-
+    .introduceSet{
+        display: flex;
+        width:100%;
+        margin:0;
+       
+    }
+    .introduceImg{
+        width:100%;
+        
+    }
+    .introLeft{
+        display: flex;
+        width:100%;
+        background-color: blue;
+    }
+    .barImg{
+        display: flex;
+        object-fit:cover;
+        width:9px;
+        height:208px;
+        
+    }
     .intro-container{
         display: flex;
         width:100%;
@@ -104,16 +128,18 @@
         
         
     }
-    .introLeft{
-        display: flex;
-        width:100%;
-        
-    }
+    
     .introRight{
+       
+       
+        margin-left: 0px;
+        margin-right: 0px;
+       
         display: flex;
         width:100%;
      //   background-color: red;
         justify-content: center;
+        text-align: center;
         
     }
     
@@ -130,12 +156,6 @@
         
     }
    
-    .barImg{
-        display: flex;
-        object-fit:cover;
-        width:9px;
-        height:208px;
-        
-    }
+  
     
 } 

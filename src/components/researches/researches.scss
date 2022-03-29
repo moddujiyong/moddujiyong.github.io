@@ -13,9 +13,9 @@
     width:100%;
     align-items:center;
    // justify-content: center;
-    margin-left: 353px;
-    margin-right: 341px;
-    flex-direction: column;
+   
+   
+   // flex-direction: column;
    // background-color: blueviolet;
 }
 
@@ -65,10 +65,10 @@
 
 .researchesImg{
     display:flex;
-    width:100%;
-    height:735px;
-    margin-left: 393px;
-    margin-right: 393px;
+    width:451px;
+    height:349px;
+   
+    
     background-color: lightgray;
 }
 .researchesTitle{
@@ -77,12 +77,12 @@
     font-size: 30px;
     height:71px;
     align-items: center;
-    margin-right:800px;
+  
    // justify-self: start;
     color:white;
     font-family: 'Segoe UI', sans-serif;
     opacity: 1;
-    background-color: #858B96;
+    background-color: #002a5c;
     margin-bottom: 17px;
 }
 
@@ -90,52 +90,93 @@
 @media screen and(max-width: 768px){
 
   .researches{
-      display: flex;
-      justify-content: center;
+    width:100%;
+  //background-color: lightcoral;
+    display:flex;
     
-      width:100%;
-    
-      .researchesTitle{
-        margin-left: 500px;
-        display: flex;
-        font-size: 20px;
-        
-      }
-      .researchesLeft{
-        
-        display:flex;
-        width:100%;
-        justify-content: center;
-        
-      }
-      
-      .researchesCenter{
-        display:flex;
-        width:100%;
-        justify-content: center;
-      }
-      .researchesRight{
-        display:flex;
-        width:100%;
-        justify-content: center;
-      }
-      .researchesLast{
-        display:flex;
-        width:100%;
-        justify-content: center;
-      }
-      .researchesImg{
-        display: flex;
-        width:90%;
-        justify-content: center;
-      }
-     
-    
-      
-    
-     
-      
-  }
   
+   
+}
+
+.researchesInfo{
+   
+    display:flex;
+    width:100%;
+    
+   // justify-content: center;
+    margin-left: 0;
+    margin-right: 0;
+    flex-direction: column;
+    //background-color: blueviolet;
+}
+
+.researchesLeft
+{
+  width: 100%;
+  display:flex;
+    flex-direction: column;
+    padding:0;
+    flex:1;
+    justify-content: center;
+ 
+  //  background-color: red;
+}
+
+.researchesCenter
+{
+  width: 100%;
+  display:flex;
+  flex-direction: column;
+  padding:0;
+  flex:1;
+  
+  
+  //  background-color: greenyellow;
+}
+.researchesRight
+{
+  width: 100%;
+    display:flex;
+    flex-direction: column;
+    padding:0;
+    flex:1;
+    
+ //   background-color: yellow;
+}
+.researchesLast
+{
+  width: 100%;
+  display:flex;
+  flex-direction: column;
+  padding:0;
+  flex:1;
+ //   background-color: yellow;
+}
+
+
+.researchesImg{
+    display:flex;
+    width:100%;
+   
+    margin-left: 0px;
+    margin-right: 0px;
+    background-color: lightgray;
+}
+.researchesTitle{
+    padding:0px;
+    display: flex;
+    font-size: 30px;
+    height:71px;
+   margin-top: 10px;
+    margin-right:0px;
+   // justify-self: start;
+    color:white;
+    font-family: 'Segoe UI', sans-serif;
+    opacity: 1;
+    background-color: #858B96;
+    margin-bottom: 0px;
+}
+
+
   
 } 

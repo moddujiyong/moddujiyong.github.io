@@ -29,7 +29,7 @@ export default function Researches() {
           </div>
 
           <div className="researchesLast">
-            <span className="researchesTitle">Bio-signal processing & AI</span> 
+            <span className="researchesTitle">Bio-Signal Processing & AI</span> 
              <img className="researchesImg" src={researchImg4} alt=""/>  
             
               
