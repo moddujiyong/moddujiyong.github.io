@@ -60,9 +60,9 @@ export default function Professor() {
         <div className="prof-scrollMenu">
            <ul className="profList">
             <li className="profListItem" onClick={onAllClick} style={{color: select === 'All' ? 'black' : 'grey'}}>All</li>
-            <li className="profListItem" onClick={onMainCareerClick} style={{color: select === 'Major Career' ? 'black' : 'grey'}}>Major Career</li>
-            <li className="profListItem" onClick={onScolarCareerClick}style={{color: select === 'Major Career' ? 'black' : 'grey'}}>Major Career</li>
-            <li className="profListItem" onClick={onResearchSubjectClick}style={{color: select === 'Research Subjects' ? 'black' : 'grey'}}>Research Subjects</li>        
+            <li className="profListItem" onClick={onMainCareerClick} style={{color: select === '주요경력' ? 'black' : 'grey'}}>주요경력</li>
+            <li className="profListItem" onClick={onScolarCareerClick}style={{color: select === '학술경력' ? 'black' : 'grey'}}>학술경력</li>
+            <li className="profListItem" onClick={onResearchSubjectClick}style={{color: select === '연구과제' ? 'black' : 'grey'}}>연구과제</li>        
                  
            </ul>
         </div>
@@ -75,9 +75,9 @@ export default function Professor() {
 
        <div className="prof-summary">
           <div className="prof-name">
-          Wonseuk Jang
-            <span className="prof-pos"> Professor/Doctor of </span>
-           
+            장원석
+            <span className="prof-pos"> 교수/공학박사 </span>
+            <span className="prof-eng"> Wonseuk Jang</span>
           </div>
       
             
@@ -118,17 +118,17 @@ export default function Professor() {
           <div className='mc-container'>
          
             <div className="mc">
-            | Major Career |
+            | 주요 경력 |
             </div>
             
-            <span className="mcl">Mar. 2020. ~ Current : Professor of Department of Integrative Medical Science (Digital healthcare), Graduate School, College of Medicine, Yonsei University</span>
-            <span className="mcl">Mar. 2018. ~ Current : Professor, Department of Medical Devices Industry, Graduate School, College of Medicine, Yonsei University</span>
-            <span className="mcl">Sep. 2014. ~ Current : Research Assistant Professor, Office of Medical Engineering, College of Medicine, Yonsei University</span>
-            <span className="mcl">Dec. 2012. ~ Aug. 2014. : Assistant Professor, Department of Radiology, College of Health and Science, Yonsei University</span>
-            <span className="mcl">Jul. 2012. ~ Nov. 2012. : Senior Researcher, Samsung Medicine</span>
-            <span className="mcl">Aug. 2004. ~ Apr. 2011. : Senior Researcher, SIEMENS Medical R&D Center</span>
-            <span className="mcl">May 2002. ~ Jul. 2004. : Researcher, Medical Devices Team, Korea Health Industry Development Institute</span>
-            <span className="mcl">Jul. 1997. ~ May 2002. : Full-time researcher at Biosys Research Center</span>
+            <span className="mcl">2020. 3 ~ 현재 : 연세대학교 의과대학 대학원 융합의학과(디지털헬스케어전공) 교수</span>
+            <span className="mcl">2018. 3 ~ 현재 : 연세대학교 의과대학 대학원 의료기기산업학과 교수</span>
+            <span className="mcl">2014. 9 ~ 2018. 2 : 연세대학교 의과대학 의학공학교실 연구조교수</span>
+            <span className="mcl">2012. 12 ~ 2014. 8 : 연세대학교 보건과학대학 방사선학과 조교수</span>
+            <span className="mcl">2012. 7 ~ 2012. 11 : 삼성메디슨㈜ 수석연구원</span>
+            <span className="mcl">2004. 8 ~ 2011. 4 : 지멘스㈜ SIEMENS Medical R&D Center, 수석연구원</span>
+            <span className="mcl">2002. 5 ~ 2004. 7 : 한국보건산업진흥원 의료기기팀, 연구원</span>
+            <span className="mcl">1997. 7 ~ 2002. 5 : ㈜바이오시스 연구소 S/W팀 , 전임연구원</span>
           </div>
             <img className="bar-right" src={BarImgProf} alt="" />
      
@@ -138,45 +138,45 @@ export default function Professor() {
       <img className="bar-left1" src={BarImgProf} alt="" />
       <div className='oc-container'>
         <div className="oc">
-          | Miscellaneous Career |
+          | 기타 경력 |
         </div>
        
-        <span className="ocl" style={{color:'red'}}>2021.9 ~ 현재 : 강남세브란스병원 의료기기사용적합성 연구센터 소장</span>
+        <span className="ocl">2021.9 ~ 현재 : 강남세브란스병원 의료기기사용적합성 연구센터 소장</span>
         
-        <span className="ocl"style={{color:'red'}}>2021.7 ~ 현재 : 소비자정책위원회, 국무총리실, 전문위원(식의약품분야)</span>
+        <span className="ocl">2021.7 ~ 현재 : 소비자정책위원회, 국무총리실, 전문위원(식의약품분야)</span>
         
-        <span className="ocl"style={{color:'red'}}>2021.7 ~ 현재 : 의료기기위원회, 식품의약품안전처, 전문위원</span>
+        <span className="ocl">2021.7 ~ 현재 : 의료기기위원회, 식품의약품안전처, 전문위원</span>
         
-        <span className="ocl"style={{color:'red'}}>2021.5 ~ 현재 : 보건산업 기술가치 평가 심의위원, 한국보건산업진흥원</span>
+        <span className="ocl">2021.5 ~ 현재 : 보건산업 기술가치 평가 심의위원, 한국보건산업진흥원</span>
 
         
-        <span className="ocl"style={{color:'red'}}>2021.1 ~ 현재 : 대한에프디씨규제과학회 학술위원</span>
+        <span className="ocl">2021.1 ~ 현재 : 대한에프디씨규제과학회 학술위원</span>
         
-        <span className="ocl"style={{color:'red'}}>2021.1 ~ 현재 : 대한의용생체공학회 학술이사</span>
+        <span className="ocl">2021.1 ~ 현재 : 대한의용생체공학회 학술이사</span>
         
-        <span className="ocl"style={{color:'red'}}>2020.11 ~ 현재 : R&D 샌드박스 운영위원회, 산업통상자원부</span>
+        <span className="ocl">2020.11 ~ 현재 : R&D 샌드박스 운영위원회, 산업통상자원부</span>
         
-        <span className="ocl"style={{color:'red'}}>2020.4 ~ 현재 : 의료기기 기술문서심사기관 심의위원회, 식품의약품안전처</span>
+        <span className="ocl">2020.4 ~ 현재 : 의료기기 기술문서심사기관 심의위원회, 식품의약품안전처</span>
         
-        <span className="ocl">Jul. 2017. ~ Oct. 2017. : Professional Personnel, University Education Council, Demand Analysis of Industry Perspective University Evaluation (Medical devices)</span>
+        <span className="ocl">2017. 7 ~ 2017.10 : 산업계관점대학평가(의료기기분야) 요구분석, 대학교육협의회, 전문위원</span>
         
-        <span className="ocl">Jun. 2016. ~ May 2017. : Professional Personnel, Medical Devices Advertisement Preview Committee</span>
+        <span className="ocl">2016. 6 ~ 2017. 5 : 의료기기광고사전심의위원회, 전문위원</span>
         
-        <span className="ocl">Mar. 2016. ~ Current : Member, Review Committee for Abnormal Cases of Medical Devices</span>
-        <span className="ocl">Oct. 2015. ~ Dec. 2015. : Planner, Industrial Core Technology Development Project, Ministry of Trade, Industry, and Energy</span>
-        <span className="ocl">May 2013. ~ Current : Professional Personnel, Medical Devices Committee, KFDA</span>
-        <span className="ocl">June 2013. ~ June 2013. : Professional Personnel, Demand Analysis of Industry Perspective University Evaluation (Medical devices), University Education Council </span>
-        <span className="ocl">Jul. 2011. ~ Dec. 2011. : Planner, Joint Planner for Cross-department Medical Devices Development Project, Ministry of Knowledge and Economy/Health and Welfare</span>
-        <span className="ocl">Jun. 2011. ~ Dec. 2011. : Planner, R&D Strategic Committee, Industrial Orignal Technology Development Project (Medical devices)</span>
-        <span className="ocl">Oct. 2010. ~ Apr. 2011. : Advisor, Daekyeong Regional Leading Industry Fostering Project</span>
-        <span className="ocl">Sep. 2009. ~ Current : Professional Personnel, Future of Medical Devices Forum-Professional Committee for Institutional Division Improvement, KFDA</span>
-        <span className="ocl">Aug. 2009. ~ Jan. 2012. : Planner, Ministry of Knowledge and Economy, Industrial Original Technology Fostering Project (Medical devices) Planning Support Team</span>
-        <span className="ocl">Apr. 2008. ~ Jan. 2009. : Professional Personnel, New Growth Driver Planning Committee, Bio/medical subcommittee, Ministry of Knowledge and Economy</span>
-        <span className="ocl">Aug. 2008. ~ Dec. 2011. : Planner, Industrial Original Technology Roadmap Planning Committee, Ministry of Knowledge and Economics</span>
-        <span className="ocl">Feb. 2008. ~ Dec. 2009. : Planner, Planning Committee for Industry Roadmaps (Next Generation of Medical Devices), Ministry of Knowledge and Economics</span>
-        <span className="ocl">May 2006. ~ Current : Evaluator, Knowledge and Economics Technology Innovation Evaluation Group (Medical devices), Ministry of Knowledge and Economics</span>
-        <span className="ocl">Apr. 2005. ~ Feb. 2009. : Planner, Planning Committee for Industrial Original Technology Fostering Project, Ministry of Knowledge and Economics</span>
-        <span className="ocl">2003. : Member, Medical Devices Law Research Society, KFDA,</span>
+        <span className="ocl">2016. 3 ~ 현재 : 의료기기 이상사례 심위위원회, 위원</span>
+        <span className="ocl">2015. 10 ~ 2015. 12 : 산업핵심기술개발사업, 산업통상자원부, 기획위원</span>
+        <span className="ocl">2013. 5 ~ 현재 : 의료기기위원회, 식품의약품안전처, 전문위원</span>
+        <span className="ocl">2013. 6 ~ 2013. 6 : 산업계관점대학평가(의료기기분야) 요구분석, 대학교육협의회, 전문위원 </span>
+        <span className="ocl">2011. 7 ~ 2011. 12 : 범부처의료기기연구개발사업 공동기획위원,지식경제부/보건복지부, 기획위원</span>
+        <span className="ocl">2011. 6 ~ 2011. 12 : 산업원천기술개발사업(의료기기) R&D R&D전략위원회, 기획위원</span>
+        <span className="ocl">2010. 10 ~ 2011. 4 : 대경 광역권선도산업육성 프로젝트, Advisor</span>
+        <span className="ocl">2009. 9 ~ 현재 : 의료기기미래포럼-제도분과개선 전문위원회. 식품의약품안전처, 전문위원</span>
+        <span className="ocl">2009. 8 ~ 2012. 1 : 산업원천기술개발사업(의료기기) 기획지원팀, 지식경제부, 기획위원</span>
+        <span className="ocl">2008. 4 ~ 2009. 1 : 신성장동력기획단 바이오.의료소위원회, 지식경제부, 전문위원</span>
+        <span className="ocl">2008. 8 ~ 2011.12 : 산업원천기술로드맵(의료기기) 기획위원회, 지식경제부, 기획위원</span>
+        <span className="ocl">2008. 2 ~ 2009.12 : 산업술로드맵(차세대의료기기) 기획위원회, 지식경제부, 기획위원</span>
+        <span className="ocl">2006. 5 ~ 현재 : 지식경제 기술혁신평가단(의료기기), 지식경제부, 평가위원</span>
+        <span className="ocl">2005. 4 ~ 2009. 2 : 산업원천기술개발사업 기획위원회, 지식경제부, 기획위원</span>
+        <span className="ocl">2003 : 의료기기법 연구회, 식품의약품안전처, 위원</span>
      
       </div>
         
@@ -184,8 +184,8 @@ export default function Professor() {
       <div className="edu-career">
      
         <div className="edu-container">
-          <div className="ec">| Educational Background |</div>
-          <span className="ecl">2007~2010 : D. Eng., Biotechnology Cooperation Course, Graduate School, Yonsei University</span>
+          <div className="ec">| 학력 사항 |</div>
+          <span className="ecl">2007 ~ 2010 : 연세대학교 대학원 생체공학협동과정 공학박사</span>
           <span className="ecl">* 학위 논문: Development of Portable Ultrasound Imaging System with Wireless Patient Monitor</span>
           <span className="ecl">1995 ~ 1997 : 연세대학교 대학원 의용전자공학과 공학석사</span>
           <span className="ecl"ref={sRef}>1991 ~ 1995 : 연세대학교 보건과학대학 의용전자공학과 공학사</span>
