@@ -7,7 +7,12 @@ import Gallery from './pages/gallery/Gallery';
 import Members from './pages/members/Members';
 import Research from './pages/research/Research';
 
+
+import "./App.scss"; 
+
 import Publication from './pages/publication/Publication';
+import PublicationCHO from './pages/publication/PublicationCHO';
+
 import Contact from './pages/contact/Contact';
 
 
@@ -33,7 +38,7 @@ function App() {
            <Route exact path="/research/uxui"><Research/></Route>
            <Route exact path="/research/industry" ><Research/></Route>
            <Route exact path="/research/bio"><Research/></Route>
-           <Route path="/publication"><Publication/></Route>
+           <Route path="/publication"><PublicationCHO/></Route>
            <Route path="/contact"><Contact/></Route>
            <Route path="/gallery"><Gallery/></Route>
 
