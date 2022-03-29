@@ -124,13 +124,15 @@
     .gal-field{
         
         display: flex;
-       
+        background-color: blueviolet;
+        padding:10px;
     }
     .galPhoto{
         
         display: flex;
         
         justify-content: center;
+        
     }
     .galImg{
         margin-bottom: 0px;
@@ -138,7 +140,7 @@
         width:60%;
         height:80%;
         object-fit: contain;
-       
+      
     }
     .gal-name{
         display: flex;
@@ -149,6 +151,6 @@
         justify-content: center;
         text-align: center;
         margin-bottom: 25px;
-        
+        background-color: blue;
     }
 }

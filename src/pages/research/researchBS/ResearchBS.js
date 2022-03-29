@@ -56,12 +56,12 @@ export default function ResearchBS() {
            </div>
         
          : 
-         <div className="Closed">
+         
            <div className="bsp-all">
      
               <ResearchLayout title={'조산 고위험 산모의 예측 및 검사 접근성의 향상을 위한 자궁근전도 기반의 무선 모니터링시스템 개발'} img={Bs2Photo}bar={BarImgR}/>
           </div>
-        </div>
+        
       }
 
 

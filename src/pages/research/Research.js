@@ -94,6 +94,7 @@ export default function Research() {
           : 
 
           <div className="researchRight">
+            
            <ResearchCD />
           </div>
         

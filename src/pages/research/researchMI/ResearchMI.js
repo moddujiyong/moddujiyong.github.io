@@ -55,7 +55,7 @@ export default function ResearchCD() {
          
          </div>
          : 
-         <div className="Closed">
+         <div className="mip-all">
           <ResearchLayout title={'아이콜리에 대한 RA/QA 지원 용역'} img={Mi1Photo}bar={BarImgR}/>
           <ResearchLayout barl={BarImgR}title={'디지털 치료기기 임상설계 가이드라인 개발 연구'} img={Mi2Photo}/>
           <ResearchLayout title={'병원-기업 연계 의료기기 R&D 협력 플랫폼 기술개발 후속 사업을 위한 기획연구'} img={Mi3Photo}bar={BarImgR}/>
