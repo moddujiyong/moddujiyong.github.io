@@ -92,19 +92,19 @@ export default function Publication() {
 
             <div className="journal-content">
             
-              <span className="conl">김유림, 유우진, 박호준, & 장원석. (2019). 다목적 안과용 레이저 시스템 안전성 성능평가 및 임상적 유효성평가 가이드라인 수립을 위한 연구. </span>
-              <span className="conl">김유림, 전성우, & 장원석. (2019). 내시경용 마그네틱 마킹시스템 임상시험 표준 프로토콜 가이드라인 개발 연구. FDC 법제연구, 14(1), 43-49. </span>
-              <span className="conl">김한웅, 김병남, 이지은, 장원석, & 유선국. (2017). 폐 결절 검출을 위한 합성곱 신경망의 성능 개선.  </span>
-              <span className="conl">임현준, 유선국, & 장원석. (2017). 이산 웨이브렛 변환을 이용한 고각성 부정 감성의 GSR 신호 분석. </span>
-              <span className="conl">박병은, 장원석, & 유선국. (2017). 컴퓨터 보조진단을 위한 초음파 영상에서 갑상선 결절의 텍스쳐 분석. 멀티미디어학회논문지, 20(1), 43-50.  </span>
-              <span className="conl">오경택, 신증수, 김정민, 장원석, & 유선국. (2016). 깊이 카메라를 이용한 호흡률 측정에 미치는 영향 요인 분석. 감성과학, 19(3), 81-88.  </span>
-              <span className="conl">김혜진, 김병남, 장원석, & 유선국. (2016). 선형-비선형 특징추출에 의한 비정상 심전도 신호의 랜덤포레스트 기반 분류. 의공학회지, 37(2), 61-67.  </span>
-              <span className="conl">김병남, 김연희, 김래현, 권규현, 장원석, & 유선국. (2016). 운동 의도에 따른 뇌파-근전도 신호 간 연결성 분석. 감성과학, 19(1), 31-38.</span>
-              <span className="conl">오경택, 유선국, & 장원석. (2015). Distance Regularized Level Set Evolution 방법을이용한 간암 Segmentation. 대한의학영상정보학회지, 21, 6-8. </span>
+            <span className="conl">Kim, Y. R., Yu, W. J., Park, H. J., & Jang, W. S. (2019). A Study on Safety, Performance and Clinical effectiveness Test Guideline of Versatile Ophthalmic Laser System. Journal of Biomedical Engineering Research, 40(6), 250–259. </span>
+              <span className="conl">Kim, Y. R., Jeon, S. W., & Jang, W. S. (2019). A Study on Development of Guideline for Clinical Trial Standard Protocol of Endoscopic Marking System . Regulatory Research on Food, Drug and Cosmetic, 14(1), 43-49. </span>
+              <span className="conl">Kim, H., Kim, B., Lee, J., Jang, W. S., & Yoo, S. K. (2017). Performance Improvement of Convolutional Neural Network for Pulmonary Nodule Detection. Journal of Biomedical Engineering Research, 38(5), 237–241. </span>
+              <span className="conl">Lim, H. J., Yoo, S. K., & Jang, W. S. (2017). Analysis of Galvanic Skin Response Signal for High-Arousal Negative Emotion Using Discrete Wavelet Transform. Science of Emotion & Sensibility, 20(3), 13-22. </span>
+              <span className="conl">Park, B. E., Jang, W. S., & Yoo, S. K.(2017).Texture analysis of Thyroid Nodules in Ultrasound Image for Computer Aided Diagnostic system.Journal of Korea Multimedia Society,20(1),43-50.  </span>
+              <span className="conl">Oh, K. T, Shin, C, S, Kim, J. M., Jang, W. S., & Yoo, S, K. (2016). Affecting Factor Analysis for Respiration Rate Measurement Using Depth Camera. Science of Emotion & Sensibility, 19(3), 81-88. </span>
+              <span className="conl">Kim, H. J., Kim, B. N., Jang, W. S., & Yoo, S. K. (2016). Random Forest Based Abnormal ECG Dichotomization using Linear and Nonlinear Feature Extraction. Journal of Biomedical Engineering Research, 37(2), 61-67. </span>
+              <span className="conl">Kim, B. N., Kim, Y. H., Kim, L. H., Kwon, G. H., Jang, W. S., & Yoo, S. K. (2016). Connectivity Analysis Between EEG and EMG Signals by the Status of Njiovement Intention. Korean Journal of the Science of Emotion & Sensibility, Vol.19(1) : 31-38.</span>
+              <span className="conl">Oh, K. T., Yoo, S. K., & Jang, W. S. (2015). Distance Regularized Level Set Evolution using method for Liver Tumor Segmentation.  Journal of the Korean Society of Imaging Informatics in Medicine, Vol.21 : 6-8.  </span>
               <span className="conl">Bag, B., Yoo, S., & Jang, W. (2015). Design of Optimized Ultrasound Clinical Work-Flow; Usability Perspective. Journal of International Society for Simulation Surgery, 2(1), 40-42. </span>
-              <span className="conl">장원석, 김남현, & 전대근. (2010). 심초음파용 생체신호측정모듈의 개발. 전자공학회논문지–SC, 47(4), 21-29.  </span>
-              <span className="conl">장원석, 김남현, 김응석, & 전대근. (2010). 심초음파용 실시간 심전도 QRS 검출 모듈에 관한 연구. 전자공학회논문지-SC, 47(3), 40-47.  </span>
-              <span className="conl">장원석, 김성민, 강승호, & 김남현. (2009). 대퇴근활성화에 대한 자전거 운동 시 근전도와 슬관절 각도와의 상관관계 연구. 전자공학회논문지–SC, 46(4), 77-83.</span>
+              <span className="conl">Jang, W. S., Kim, N. H., & Jeon, D. K. (2010). A Development of Physio-Module for Echocardiography. Journal of the Institute of Electronics Engineers of Korea. SC, 47(4), 21-29.  </span>
+              <span className="conl">Jang, W. S., Kim, N. H., Kim, E. S., & Jeon, D. K. (2010). A Design of Real-Time QRS Detection in Physio-Module for Echocardiography. Journal of the Institute of Electronics Engineers of Korea. SC, 47(3), 40-47.  </span>
+              <span className="conl">Jang, W. S., Kim, S. M., Kang, S. H., Kim, N. H.(2009).A Study of Relationship Between EMG Activation of Thigh Muscle(Rectus Femoris, Vastus Iateralis Muscles) and Knee Angle During Bicycle Exercise.The Institute of Electronics Engineers of Korea - System and Control,46(4),77-83.</span>
              
            </div>
            
@@ -129,12 +129,13 @@ export default function Publication() {
             </div>
             <div className="conference-content">
 
-              <span className="conl">최초로, 장원석 . 조산 예측을 위한 신호 전처리 및 CNN-LSTM 모델 설계,대한전자공학회, 2021</span>
-              <span className="conl">최초로, 정윤지, 김영한, 최정욱, 박상은, 김유림, 장원석.K-평균 알고리즘을 이용한 자궁수축 신호 분석, 대한전자공학회 하계학술대회, 2020, GEP-672 </span>
-              <span className="conl">최초로, 장원석, 정윤지, 김영한 . 조산 예측을 위한 비지도학습을 이용한 비수축 신호분석 매개변수 추출, 대한주산의학회 추계학술대회, 2020, 20-3312 </span>
-              <span className="conl">박상은, 오현경, 임인식, 장원석. 초음파 방광모니터링 시스템의 모바일 어플리케이션 설계, 대한생체의용공학회 춘계학술대회, 2019, 2-22 </span>
-              <span className="conl">최초로, 정윤지, 김영한, 장원석. 자궁 근전도 주파수분석 기반의 고위험 자궁 수축 검출 패턴분류 신경망 알고리즘 시뮬레이션 및 분석, 대한생체의용공학회 추계학술대회, 2019, PS2-01 </span>
-              <span className="conl">장익제, 최혜원, 강동주, 최초로, 장원석, 정윤지, 김영한. 무선 자궁 근전도기반의 산모 모니터링 시스템 개발 및 자궁수축 신호 분석, 대한주산의학회 추계학술대회, 2019 - 135</span>
+            <span className="conl">Choi, C. R., & Jang, W. S. Design for prediction of Preterm using Preprocessing and CNN-LSTM Network, The Institute of Electronics and Information Engineers Summer Annual Conference of IEIE, 2021</span>
+            <span className="conl">Choi, C. R., Jung, Y. J., Kim, Y. H., Choi, J. W., Park, S. E., Kim, Y. R., & Jang, W. S. Analysis of Uterine Contraction Using K-means algorithm, The Institute of Electronics and Information Engineers Summer Annual Conference of IEIE, 2020, GEP-672 </span>
+            <span className="conl">Choi, C. R., Jang, W. S., Jung, Y. J., & Kim, Y. H. Extraction Parameter of Non-Contraction Interval using Unsupervised Learning for Predicting Preterm Birth, The Korean Society Of Perinatology, Fall Conference, 2020, 20-3312 </span>
+            <span className="conl" style={{color:'red'}}>Park. S. E., Oh, H. K., Lim, I. S., & Jang, W. S. 초음파 방광모니터링 시스템의 모바일 어플리케이션 설계, The Korean Society of Medical & Biological Engineering, Spring Conference 2019, 2-22 </span>
+            <span className="conl">Choi, C. R., Jung, Y. J., Kim, Y. H., & Jang, W. S. Simulation and Analysis of Pattern Recognition Neural Network Algorithm for Detection of High risk Uterine Contractions based on Electrohysterogram Frequency analysis, The Korean Society of Medical & Biological Engineering, Fall Conference 2019, PS2-01 </span>
+            <span className="conl">Jang, I. J., Choi, H. W., Kang, D. J., Choi C. R., Jang, W. S., Jung Y. J., & Kim, Y. H. Development of Wireless Fetal Monitoring System based on Uterine EMG and Analysis of Uterine Contraction, The Korean Society Of Perinatology, Fall Conference, 2019 - 135</span>
+      
             </div>
             
 
@@ -143,20 +144,20 @@ export default function Publication() {
             </div>
 
             <div className="patent-content">
-                <span className="conl">김영한,장원석, 김영환, "배터리 소모 감소 기능이 구비된 산모 자궁수축도 검사장치", 10-2020-0187801 (2020. 12. 30) </span>
-                <span className="conl">김영한,장원석, 김영환, "산모 자궁수축도 검사장치", 10-2020-0187800 (2020. 12. 30) </span>
-                <span className="conl">장원석,박상은,오현경, "모바일 기반 방광 모니터링를 위한 패치형 초음파센서의 포지셔닝 최적화 장치 및 방법", PCT/KR2020/016186 (2020. 11. 17) </span>
-                <span className="conl">장원석,박상은,오현경, "모바일 기반 방광 모니터링를 위한 패치형 초음파센서의 포지셔닝 최적화 장치 및 방법", 10-2019-0148244 (2019. 11. 19) </span>
-                <span className="conl">장원석,박상은,오현경, "방광 모니터링 헬스케어 시스템 및 방광 모니터링 방법", 10-2018-0173498 (2018. 12. 31)</span>
-                <span className="conl">장원석,유선국,김병남, "맥파 및 심박변이도를 이용한 통증 분류 방법", 10-2018-0100372 (2018. 8. 27) </span>
-                <span className="conl">장원석,유선국,오경택,김병남,김한웅, "배뇨장애 관리 및 개선을 위한 어플리케이션 프로세스 및 UX/UI 시스템", 10-2017-0184169 (2017. 12. 29)</span>
-                <span className="conl">장원석,유선국,오경택, "초음파 영상을 표시하는 장치 및 방법", 10-2017-0163456 (2017. 11. 30)</span>
-                <span className="conl">장원석,유선국,김병남, "맥파 및 심박변이도를 이용한 통증 분류 방법", 10-2017-0143053 (2017. 10. 31) </span>
-                <span className="conl">장원석,유선국,권준환,김한웅, "초음파 영상 내 선택 지점의 위치를 조절하는 방법 및 그 장치", 10-2017-0055510 (2017. 4. 28) </span>
-                <span className="conl">장원석,유선국,오경택, "하드웨어 및 그래픽 인터페이스를 이용한 사용자 입력에 기초하여 무선 초음파 영상을 제어하는 방법 및 장치", PCT/KR2017/004173 (2017. 4. 19)</span>
-                <span className="conl">장원석,유선국,오경택, "하드웨어 및 그래픽 인터페이스를 이용한 사용자 입력에 기초하여 무선 초음파 영상을 제어하는 방법 및 장치", 10-2016-0066725 (2016. 5. 30) </span>
-                <span className="conl">장원석,유선국,오경택, "초음파 영상 모드 별 그래픽 인터페이스에 기초하여 초음파 영상을 제어하는 방법 및 장치", 10-2016-0066737 (2016. 5. 30)</span>
-                <span className="conl">김희중,장원석,이동훈,김도현,서경은,김대홍,이영진,최성훈,이행화, "토모신세시스 시스템에서 사용되는 방사선 차폐장치 및 방사선 차폐장치를 이용한 방사선 촬영방법", 10-2013-0169303 (2013. 12. 31)</span>
+                <span className="conl"style={{color:'red'}}>Kim, Y. H., Jang, W. S.,  Kim, Y. H., "배터리 소모 감소 기능이 구비된 산모 자궁수축도 검사장치", 10-2020-0187801 (2020. 12. 30) </span>
+                <span className="conl"style={{color:'red'}}>Kim, Y. H., Jang, W. S.,  Kim, Y. H., "산모 자궁수축도 검사장치", 10-2020-0187800 (2020. 12. 30) </span>
+                <span className="conl">Jang, W. S., Park, S. E., Oh, H. K, "Positioning optimizer device and process of patch-type ultrasonic sensors for mobile-based bladder monitoring", PCT/KR2020/016186 (2020. 11. 17) </span>
+                <span className="conl">Jang, W. S., Park, S. E., Oh, H. K, "Positioning optimizer device and process of patch-type ultrasonic sensors for mobile-based bladder monitoring", 10-2019-0148244 (2019. 11. 19) </span>
+                <span className="conl">Jang, W. S., Park, S. E., Oh, H. K,"Bladder monitoring healthcare system and bladder monitoring process", 10-2018-0173498 (2018. 12. 31)</span>
+                <span className="conl">Jang, W. S., Yoo, S. K., Kim, B. N., "Measures to classify pain using pulse waves and heart rate variation", 10-2018-0100372 (2018. 8. 27) </span>
+                <span className="conl">Jang, W. S., Yoo, S. K., Oh, K. T., Kim, B. N., Kim, H. W., "Application processes and UX/UI systems for managing and enhancing urinary disorders", 10-2017-0184169 (2017. 12. 29)</span>
+                <span className="conl">Jang, W. S., Yoo, S. K., Oh, K. T., "Devices and methods for displaying ultrasonic images", 10-2017-0163456 (2017. 11. 30)</span>
+                <span className="conl">Jang, W. S., Yoo, S. K., Kim, B. N., "Measures to classify pain using pulse waves and heart rate variation", 10-2017-0143053 (2017. 10. 31) </span>
+                <span className="conl">Jang, W. S., Yoo, S. K., Kwon, J. H., Kim, H. W., "Ways to adjust the position of the selection point in the ultrasonic image and its device", 10-2017-0055510 (2017. 4. 28) </span>
+                <span className="conl">Jang, W. S., Yoo, S. K., Oh, K. T., "Ways to control wireless ultrasound images based on user input using hardware and graphic interfaces and its device", PCT/KR2017/004173 (2017. 4. 19)</span>
+                <span className="conl">Jang, W. S., Yoo, S. K., Oh, K. T., "Ways to control wireless ultrasound images based on user input using hardware and graphic interfaces and its device", 10-2016-0066725 (2016. 5. 30) </span>
+                <span className="conl">Jang, W. S., Yoo, S. K., Oh, K. T., "Ways to control ultrasonic images based on graphic interfaces by ultrasonic image mode and its device", 10-2016-0066737 (2016. 5. 30)</span>
+                <span className="conl">Kim, H. J., Jang, W. S., Lee, D. H., Kim, D. H., Seo, K. E., Kim, D. H., Lee, Y. J., Choi, S. H., Lee, H. H., "Radiography using radiation shielding and radiation shielding devices used in the Tomosynsis system ", 10-2013-0169303 (2013. 12. 31)</span>
 
             </div>
 
@@ -165,12 +166,12 @@ export default function Publication() {
             </div>
 
             <div className="book-content">
-              <span className="conl">구성욱, 장원석, 김규범, 김규석, "디지털헬스케어를 위한 웨어러블기술" (2021.7) </span>
-              <span className="conl">김규범, 장원석 "디지털헬스케어 시스템설계학" (2021. 4)</span>
-              <span className="conl">이호, 장원석, "의료영상처리 이해 및 응용" (2020. 7) </span>
-              <span className="conl">연세대학교의과대학 구성욱, 구교철, 권병주, 김성준, 김성환,김지언, 노미령, 박준성, 박중현, 윤영훈, 윤인식, 이병권, 이승규, 이익재, 임재열, 장원석, 정희교, 조한별, 허종기 , "알기쉬운 의료기기 임상총론" (2019. 12) </span>
-              <span className="conl">구성욱, 장원석, "의료기기 설계학 제4판" (2018. 11) </span>
-              <span className="conl">구성욱, 장원석, "의료기기품질경영시스템" : MDSAP: 의료기기 단일 심사 프로그램 (2018. 10)</span>
+              <span className="conl">Kuh, S. U., Jang, W. S., Kim. K. B., Kim, K. S., "Wearable Technology in Medicine and Health Care " (2021.7) </span>
+              <span className="conl">Kim. K. B., Jang, W. S. "Design of Digital Healthcare System" (2021. 4)</span>
+              <span className="conl">Lee, H., Jang, W. S., "Medical image processing and its applications" (2020. 7) </span>
+              <span className="conl">Yonsei University College of Medicine, Kuh, S. U., Koo, K. C., Kwon, B. J., Kim, S. J., Kim, S. H., Kim, J. E., Roh, M. R., Park, J. S., Park, J. H., Yoon, Y. H., Yoon, I. S., Lee, B. K., Lee, S. K., Lee, I. J., Lim, J. Y., Jang, W. S.,  Jeong, H. K., Cho, H. B., Huh, J. K., "Medical devices and clinical medicine" (2019. 12) </span>
+              <span className="conl">Kuh, S. U., Jang, W. S.,  "Design of Biomedical Devices and Systems 4th edition" (2018. 11) </span>
+              <span className="conl">Kuh, S. U., Jang, W. S.,  "MEDICAL DEVICES QUALITY MANAGEMENT SYSTEM : MDSAP: Medical Device Single Audit Program (2018. 10)</span>
               
             </div>
         </div>

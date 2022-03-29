@@ -21,7 +21,7 @@ export default function StudentLayout({course,lphoto,photo, name, EName, edu1, e
         <div className="stu-right">
           <div className="stu-name">
               {name}
-              <span className="stu-pos"> 연구원 </span>
+              <span className="stu-pos"> Researcher </span>
               <span className="stu-eng"> {EName}</span>
           </div>
 

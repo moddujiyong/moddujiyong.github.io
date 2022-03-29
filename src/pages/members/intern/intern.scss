@@ -40,3 +40,45 @@
 }
 
 
+@media screen and(max-width: 768px){
+    .intern{
+        display:flex;
+        flex-direction: column;
+     //  background-color: bisque;
+        margin-right: 0px;
+        font-weight:500;
+    }
+    
+    .intern-header{
+      
+        
+        display: flex;
+        font-size: 20px;
+        flex-direction: column;
+       // background-color: green;
+        
+        
+    }
+    
+    
+    
+    .intern-info{
+       // margin-left:50px;
+        display: flex;
+        border-top: solid;
+        border-top-width: 1px;
+        
+        padding:0px;
+        flex-direction: column;
+    }
+    
+    
+    
+    .iil{
+        margin-top:20px ;
+        font-size: 15px;
+        font-family: 'Segoe UI';
+        margin-bottom: 29px;
+        margin-left:35px;
+    }
+}
