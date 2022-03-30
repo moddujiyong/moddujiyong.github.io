@@ -25,9 +25,9 @@ export default function Staffs() {
         </div>
         <div className="staffs-right">
           <div className="staffs-name">
-              김보라
-              <span className="staffs-pos"> 연구원 </span>
-              <span className="staffs-eng"> Bora Kim</span>
+          Bora Kim
+              <span className="staffs-pos"> Researcher</span>
+             
           </div>
 
           <div className="staffs-field"> 
@@ -36,8 +36,8 @@ export default function Staffs() {
           
             <span className="staffs-ri">| Task |</span>
             <span className="staffs-ril">Administration </span>
-            <span className="stu-contact">| Contact |</span>
-            <span className="stu-contactl">arobk@naver.com / arobk@yonsei.ac.kr</span>
+            <span className="staffs-contact">| Contact |</span>
+            <span className="staffs-contactl">arobk@naver.com / arobk@yonsei.ac.kr</span>
          
           </div>
          

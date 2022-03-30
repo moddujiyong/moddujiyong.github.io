@@ -1,37 +1,17 @@
-.student{
-    display:flex;
-    flex-direction: column;
-   // background-color: bisque;
-     margin-right: 319.5px;
-}
-
-.stu-header{
-  //  background-color: aquamarine;
-   
-    display: flex;
-    font-size: 26px;
-    flex-direction: column;
-   
-}
-.stu-title{
-   
-    display:flex;
-    margin-left:50px;
-    margin-bottom: 23.5px;
-}
-
 
 
 .stu-profile{
+    
     border-color: #707070;
     border-style: solid;
     border-top-width:1px;
     border-left-width:0px;
     border-right-width:0px;
     border-bottom-width:0px;
-   // background-color: aqua;
+  //  background-color: aqua;
     display:flex;
     justify-content: center;
+    width:100%;
 }
 
 .stu-left{
@@ -39,29 +19,38 @@
     flex:1;
     display: flex;
     flex-direction: column;
-  
-   // background-color: yellow;
+    width:100%;
+    //background-color: yellow;
 }
 .stu-course{
   //  background-color: green;
     display:flex;
     justify-content: start;
-    font-size:22px;
+    font-size: 22px;
     font-family: 'Roboto';
     color: #002650;
     opacity: 1;
     font-weight: 1000;
     margin-top: 40px;
-    margin-left:38px;
+     margin-left:38px;
     margin-bottom: 22.6px;
 }
-.stuImg{
+.stu-photo{
     display:flex;
     justify-content: center;
-    margin-left:125.6px;
+  //  background-color: aquamarine;
+ // background-color: red;
+}
+.stuImg{
+    
+    
     width:212px;
-    height:276px;
-   // background-color: aquamarine;
+    height: 276px;
+    justify-self: center;
+ 
+    display: flex;
+    
+   
 }
 
 
@@ -69,6 +58,7 @@
     margin-top:23.5px;
  // background-color: yellow;
     flex:2;
+    width:100%;
     display: flex;
    // margin-left: 91.75px;
     flex-direction: column;
@@ -104,7 +94,8 @@
     display:flex;
     flex-direction: column;
     padding-top: 37px;
-  //  background-color: blue;
+    width:100%;
+   // background-color: blue;
 }
 
 .stu-edu{
@@ -142,6 +133,7 @@
 }
 
 .stu-ril{
+   // background-color: red;
     margin-left: 10px;
     margin-right: 120px;
     font-size: 20px;
@@ -206,13 +198,13 @@
         display: flex;
         flex-direction: column;
         width:100%;
+        
       //  background-color: yellow;
     }
     .stu-course{
-      //  background-color: green;
         display:flex;
         
-        font-size:14px;
+        
         font-family: 'Roboto';
         color: #002650;
         opacity: 1;
@@ -225,17 +217,18 @@
         display:flex;
         justify-content: center;
         margin-left:0px;
-        width:70%;
+        width:80%;
         
      //   background-color: aquamarine;
     }
     .stuImg{
-        display:flex;
+          
+        display: flex;
         
-        margin-left:0px;
+        object-fit: contain;
         width:100%;
         
-       // background-color: red;
+      //  background-color: red;
     }
     
     
@@ -249,7 +242,7 @@
     }
     .stu-name{
       //  background-color: skyblue;
-        font-size:26px;
+        font-size:18px;
         font-weight: 700;
         font-family: 'Roboto';
         margin-left: 10px;
@@ -259,7 +252,7 @@
     
     }
     .stu-pos{
-        font-size:23px;
+        font-size:18px;
    //     background-color: skyblue;
         
      
@@ -285,7 +278,7 @@
     
     .stu-edu{
         margin-left: 10px;
-        font-size: 20px;
+        font-size: 16px;
         color:#002650;
         opacity: 1;
         font-weight: 700;
@@ -294,8 +287,8 @@
     }
     
     .stu-edul1{
-        margin-left: 10px;
-        font-size: 20px;
+        margin-left: 0px;
+        font-size: 16px;
         margin-bottom: 29px;
         font-family: 'Roboto' ;
         margin-bottom: 29px;
@@ -303,17 +296,17 @@
     }
     
     .stu-edul2{
-        margin-left: 10px;
-        font-size: 20px;
+        margin-left: 0px;
+        font-size: 16px;
         font-family: 'Roboto' ;
         margin-bottom: 29px;
      //   background-color: skyblue;
     }
     
     .stu-ri{
-        margin-left: 10px;
+        margin-left: 0px;
       //  background-color: skyblue;
-        font-size: 20px;
+      font-size: 16px;
         color:#002650;
         opacity: 1;
         font-weight: 700;
@@ -322,17 +315,17 @@
     
     .stu-ril{
       //  background-color: skyblue;
-        margin-left: 10px;
-        margin-right: 120px;
-        font-size: 20px;
+        margin-left: 0px;
+        //margin-right: 120px;
+        font-size: 16px;
         font-family: 'Roboto' ;
         margin-bottom: 29px;
     }
     
     .stu-contact{
-        margin-left: 10px;
+        margin-left: 0px;
      //   background-color: skyblue;
-        font-size: 20px;
+     font-size: 18px;
         color:#002650;
         opacity: 1;
         font-weight: 700;
@@ -340,8 +333,8 @@
     }
     
     .stu-contactl{
-        margin-left: 10px;
-        font-size: 20px;
+        margin-left: 0px;
+        font-size: 14px;
         font-family: 'Roboto' ;
         margin-bottom: 29px;
       //  background-color: skyblue;

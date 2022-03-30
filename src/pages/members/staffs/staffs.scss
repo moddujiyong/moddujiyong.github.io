@@ -4,11 +4,12 @@
    // background-color: bisque;
      margin-right: 319.5px;
      font-weight:500;
+     width:100%;
 }
 
 .staffs-header{
   //  background-color: aquamarine;
-  margin-left:50px;
+    margin-left:50px;
     display: flex;
     font-size: 26px;
     flex-direction: column;
@@ -33,6 +34,7 @@
     border-bottom-width:0px;
 //  background-color: aqua;
     display:flex;
+    width:100%;
     justify-content: center;
 }
 
@@ -57,12 +59,18 @@ justify-content: start;
  margin-bottom: 22.6px;
 }
 .staffsImg{
-    display:flex;
-    justify-content: center;
-    margin-left:125.6px;
     width:212px;
-    height:276px;
+    height: 276px;
+    justify-self: center;
+    
+    display: flex;
    // background-color: aquamarine;
+}
+.staffs-photo{
+  
+        display:flex;
+        justify-content: center;
+
 }
 
 
@@ -164,30 +172,32 @@ justify-content: start;
         display:flex;
         flex-direction: column;
        // background-color: bisque;
-         margin-right: 0px;
-         font-weight:500;
+       margin-right:10px;
+       width:70%;
+       font-weight:500;
     }
     
     .staffs-header{
       //  background-color: aquamarine;
       margin-left:0px;
-        display: flex;
-        font-size: 20px;
-        flex-direction: column;
+      display: flex;
+      font-size: 20px;
+      flex-direction: column;
+     width: 100%;
        
     }
     .staffs-title{
+        font-weight:700;
         display:flex;
-        margin-left:0px;
+        margin-left:10px;
         margin-bottom: 23.5px;
-        font-weight: 700;
     }
     
     
     
     .staffs-profile{
        // margin-left:50px;
-       flex-direction: column;
+      
         border-color: #707070;
         border-style: solid;
         border-top-width:1px;
@@ -195,67 +205,71 @@ justify-content: start;
         border-right-width:0px;
         border-bottom-width:0px;
     //  background-color: aqua;
-        display:flex;
-        justify-content: center;
+    flex-direction: column;
+    display:flex;
+    width:100%;
     }
     
     .staffs-left{
-        margin-top:23.5px;
+        margin-top:0px;
         flex:1;
         display: flex;
         flex-direction: column;
+        width:100%;
       
        // background-color: yellow;
     }
     .staffs-course{
-    display:flex;
-    justify-content: start;
-     font-size:22px;
-     font-family: 'Roboto';
-     color: #002650;
-     opacity: 1;
-     font-weight: 1000;
-     margin-top: 40px;
-     margin-left:38px;
-     margin-bottom: 22.6px;
-    }
-    .staffsImg{
         display:flex;
-        justify-content: center;
-        margin-left:70px;
-        width:212px;
-        height:276px;
+        
+        
+        font-family: 'Roboto';
+        color: #002650;
+        opacity: 1;
+        font-weight: 1000;
+        margin-top: 0px;
+        margin-left:0px;
+        margin-bottom: 0px;
+    }
+ 
+    .staffsImg{
+        display: flex;
+        
+        object-fit: contain;
+        width:100%;
        // background-color: aquamarine;
     }
     
     
     .staffs-right{
         margin-top:23.5px;
-      
+    //  background-color: yellow;
         flex:2;
         display: flex;
+        margin-left: 10px;
         flex-direction: column;
     }
     .staffs-name{
        // background-color: skyblue;
-        font-size:26px;
-        font-weight: 700;
-        font-family: 'Roboto';
-        margin-left: 10px;
-        margin-bottom: 17px;
+       font-size:18px;
+       font-weight: 700;
+       font-family: 'Roboto';
+       margin-left: 10px;
+     
+       margin-bottom: 17px;
        // display: flex;
     
     }
     .staffs-pos{
-        font-size:23px;
+        font-size:18px;
         
         
      
     }
-    .staffs-eng{
+    /*.staffs-eng{
         margin-left: 20px;
         font-size: 23px;
-    }
+    }*/
     
     .staffs-field{
         border-style: solid;
@@ -272,8 +286,8 @@ justify-content: start;
     }
     
     .staffs-edu{
-        margin-left: 10px;
-        font-size: 20px;
+        margin-left: 0px;
+        font-size:16px;
         color:#002650;
         opacity: 1;
         font-weight: 700;
@@ -282,7 +296,7 @@ justify-content: start;
     
     .staffs-edul1{
         margin-left: 10px;
-        font-size: 20px;
+        font-size:16px;
         margin-bottom: 29px;
         font-family: 'Roboto' ;
         margin-bottom: 29px;
@@ -291,7 +305,7 @@ justify-content: start;
     .staffs-ri{
         margin-left: 10px;
       
-        font-size: 20px;
+        font-size:16px;
         color:#002650;
         opacity: 1;
         font-weight: 700;
@@ -300,7 +314,7 @@ justify-content: start;
     
     .staffs-ril{
         margin-left: 10px;
-        font-size: 20px;
+        font-size:16px;
         font-family: 'Roboto' ;
         margin-bottom: 29px;
     }
@@ -308,7 +322,7 @@ justify-content: start;
     .staffs-contact{
         margin-left: 10px;
       
-        font-size: 20px;
+        font-size:16px;
         color:#002650;
         opacity: 1;
         font-weight: 700;
@@ -317,7 +331,7 @@ justify-content: start;
     
     .staffs-contactl{
         margin-left: 10px;
-        font-size: 20px;
+        font-size:16px;
         font-family: 'Roboto' ;
         margin-bottom: 29px;
     }

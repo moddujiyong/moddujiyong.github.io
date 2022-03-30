@@ -26,7 +26,7 @@
     padding:10px;
     flex:1;
     align-items: center;
- 
+  width:100%;
   //  background-color: red;
 }
 
@@ -38,11 +38,12 @@
     padding:10px;
     flex:1;
     align-items: center;
-  
+    width:100%;
   //  background-color: greenyellow;
 }
 .researchesRight
 {
+  width:100%;
     display:flex;
     flex-direction: column;
     padding:10px;
@@ -135,7 +136,7 @@
 }
 .researchesRight
 {
-  width: 100%;
+    width: 100%;
     display:flex;
     flex-direction: column;
     padding:0;
@@ -156,7 +157,7 @@
 
 .researchesImg{
     display:flex;
-    width:100%;
+    width:80%;
    
     margin-left: 0px;
     margin-right: 0px;
@@ -165,7 +166,7 @@
 .researchesTitle{
     padding:0px;
     display: flex;
-    font-size: 30px;
+    font-size: 25px;
     height:71px;
    margin-top: 10px;
     margin-right:0px;
@@ -173,7 +174,7 @@
     color:white;
     font-family: 'Segoe UI', sans-serif;
     opacity: 1;
-    background-color: #858B96;
+      background-color: #002a5c;
     margin-bottom: 0px;
 }
 

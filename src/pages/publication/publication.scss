@@ -13,7 +13,7 @@
     //background-color: greenyellow;
     display:flex;
     padding:10px;
-
+  width:100%;
     flex-direction: column;
 }
 .slider{
@@ -23,6 +23,7 @@
   z-index: 1;
   //background-color: white;
   top:200px;
+  width:100%;
   
 }
 
@@ -35,7 +36,7 @@
     flex-direction: column;
    // border-style: solid;
 
-    width:208px;
+    width:100%;
    
     margin-left:51px;
 
@@ -45,7 +46,7 @@
 .pubContent{
   display:flex;
   flex-direction: column;
-  
+  width:100%;
   list-style: none;
   margin-top: 51px;
   
@@ -56,6 +57,7 @@
 .pub-list{
   list-style: none;
   display:flex;
+  width:100%;
   left:0;
   flex-direction: column;
  // background-color: pink;
@@ -66,8 +68,10 @@
 
 
 .pub-item{
+  display:flex;
+  width:80%;
   font-size:22px;
-  width:208px;
+  
   margin-bottom: 33px;
   font-family: 'Segoe UI';
   font-weight: 700;
@@ -85,6 +89,8 @@
 
 .pub-right{
     flex:5;
+    display:flex;
+    width:100%;
   //  background-color: lightcoral;
     margin-left:50px;
     flex-direction: column;
@@ -96,7 +102,8 @@
 
 .pub-header{
   //  background-color: skyblue;
-    display: flex;
+  display:flex;
+  width:100%;
     font-size: 26px;
     flex-direction: column;   
     border-color: #707070;
@@ -108,6 +115,8 @@
 }
 .pub-title{
     display:flex;
+    
+  // background-color: red;
     margin-left:50px;
     margin-bottom: 23.5px;
 
@@ -131,6 +140,8 @@
 }
 
  .journal-content{
+  display:flex;
+  flex-direction: column;
    //background-color: yellow;
    font-size:22px;
    margin-bottom:60px;
@@ -172,6 +183,8 @@
 
 .conference-content{
   font-size:22px;
+  display:flex;
+  flex-direction: column;
   margin-bottom:60px;
   margin-left:38px;
   margin-right: 47px;
@@ -206,6 +219,8 @@
 }
 
 .patent-content{
+  display:flex;
+  flex-direction: column;
   font-size:22px;
   margin-bottom:60px;
   margin-left:38px;
@@ -227,6 +242,8 @@
 }
 
 .book-content{
+  display:flex;
+  flex-direction: column;
   font-size:22px;
   margin-bottom:60px;
   margin-left:38px;
@@ -254,7 +271,7 @@
 .pub-left{
     margin-top:64px;
     flex:1;
-    //background-color: greenyellow;
+  //  background-color: greenyellow;
     display:flex;
     padding:0px;
 
@@ -265,7 +282,9 @@
   flex-direction: column;
   position:sticky;  
   z-index: 1;
+  width:100%;
   background-color: white;
+ 
   top:200px;
   
 }
@@ -273,14 +292,14 @@
 
 .pub-menuTitle{
     display:flex;
-    font-size: 20px;
+    font-size: 18px;
     opacity: 1;
     font-weight: 1000;
     flex-direction: column;
    // border-style: solid;
 
     width:104px;
-   
+    width:80%;
     margin-left:0px;
 
     
@@ -291,9 +310,9 @@
   flex-direction: column;
   
   list-style: none;
-  margin-top: 51px;
-  
- // background-color: green;
+  margin-top: 0px;
+  width:80%;
+ //background-color: green;
   
 }
 
@@ -301,6 +320,7 @@
   list-style: none;
   display:flex;
   left:0;
+  width:80%;
   flex-direction: column;
  // background-color: pink;
   margin-left: 0px;
@@ -310,8 +330,11 @@
 
 
 .pub-item{
-  font-size:18px;
-  width:104px;
+  display:flex;
+  font-size:12px;
+ 
+  width:80%;
+ // background-color: red;
   margin-bottom: 33px;
   font-family: 'Segoe UI';
   font-weight: 700;
@@ -329,6 +352,8 @@
 
 .pub-right{
     flex:5;
+    display:flex;
+    width:70%;
   //  background-color: lightcoral;
     margin-left:0px;
     flex-direction: column;
@@ -339,9 +364,10 @@
 
 
 .pub-header{
-  //  background-color: skyblue;
+   // background-color: skyblue;
     display: flex;
-    font-size: 20px;
+    font-size: 18px;
+    font-family: 'Segoe UI';
     flex-direction: column;   
     border-color: #707070;
     border-style: solid;
@@ -352,6 +378,7 @@
 }
 .pub-title{
     display:flex;
+    
     margin-left:0px;
     margin-bottom: 23.5px;
 
@@ -364,22 +391,24 @@
   //background-color: aqua;
   display:flex;
   justify-content: start;
-  font-size:18px;
+  font-size:15px;
   
   color: #002650;
   opacity: 1;
   font-weight: 1000;
   margin-top: 40px;
-  margin-left:38px;
+  margin-left:10px;
   margin-bottom: 22.6px;
 }
 
  .journal-content{
+   display: flex;
    //background-color: yellow;
-   font-size:18px;
+   width:80%;
+   font-size:14px;
    margin-bottom:60px;
-   margin-left:38px;
-   
+   margin-left:10px;
+ 
    font-family: 'Segoe UI';
  }
  
@@ -387,93 +416,105 @@
 
 
 .domestic-journal{
- // background-color: aqua;
   display:flex;
   justify-content: start;
-  font-size:18px; font-family: 'Roboto';
+  font-size:15px;
+  
   color: #002650;
   opacity: 1;
   font-weight: 1000;
   margin-top: 40px;
-  margin-left:38px;
+  margin-left:10px;
   margin-bottom: 22.6px;
 }
 
 .international-conference{
 //  background-color: pink;
-  display:flex;
-  justify-content: start;
-  font-size:18px;
-  font-family: 'Roboto';
-  color: #002650;
-  opacity: 1;
-  font-weight: 1000;
-  margin-top: 40px;
-  margin-left:38px;
-  margin-bottom: 22.6px;
+display:flex;
+justify-content: start;
+font-size:15px;
+
+color: #002650;
+opacity: 1;
+font-weight: 1000;
+margin-top: 40px;
+margin-left:10px;
+margin-bottom: 22.6px;
 }
 
 .conference-content{
-  font-size:18px;
+  display: flex;
+  //background-color: yellow;
+  width:80%;
+  font-size:14px;
   margin-bottom:60px;
-  margin-left:38px;
-  margin-right: 47px;
+  margin-left:10px;
+
+  font-family: 'Segoe UI';
 }
 
 .domestic-conference{
  // background-color: pink;
-  display:flex;
-  justify-content: start;
-  font-size:18px;
-  font-family: 'Roboto';
-  color: #002650;
-  opacity: 1;
-  font-weight: 1000;
-  margin-top: 40px;
-  margin-left:38px;
-  margin-bottom: 22.6px;
+ display:flex;
+justify-content: start;
+font-size:15px;
+
+color: #002650;
+opacity: 1;
+font-weight: 1000;
+margin-top: 40px;
+margin-left:10px;
+margin-bottom: 22.6px;
 }
 
 .patent{
  // background-color: pink;
-  display:flex;
-  justify-content: start;
-  font-size:18px;
-  font-family: 'Roboto';
-  color: #002650;
-  opacity: 1;
-  font-weight: 1000;
-  margin-top: 40px;
-  margin-left:38px;
-  margin-bottom: 22.6px;
+ display:flex;
+justify-content: start;
+font-size:15px;
+
+color: #002650;
+opacity: 1;
+font-weight: 1000;
+margin-top: 40px;
+margin-left:10px;
+margin-bottom: 22.6px;
 }
 
 .patent-content{
-  font-size:18px;
-  margin-bottom:60px;
-  margin-left:38px;
-  margin-right: 47px;
+  display: flex;
+   //background-color: yellow;
+   width:80%;
+   font-size:14px;
+   margin-bottom:60px;
+   margin-left:10px;
+ 
+   font-family: 'Segoe UI';
 }
 
 .book{
  //background-color: pink;
-  display:flex;
-  justify-content: start;
-  font-size:18px;
-  font-family: 'Roboto';
-  color: #002650;
-  opacity: 1;
-  font-weight: 1000;
-  margin-top: 40px;
-  margin-left:38px;
-  margin-bottom: 22.6px;
+ display:flex;
+justify-content: start;
+font-size:15px;
+
+color: #002650;
+opacity: 1;
+font-weight: 1000;
+margin-top: 40px;
+margin-left:10px;
+margin-bottom: 22.6px;
 }
 
 .book-content{
-  font-size:18px;
+  display: flex;
+  //background-color: yellow;
+  width:80%;
+  font-size:14px;
   margin-bottom:60px;
-  margin-left:38px;
-  margin-right: 47px;
+  margin-left:10px;
+
+  font-family: 'Segoe UI';
 }
 
 .conl{

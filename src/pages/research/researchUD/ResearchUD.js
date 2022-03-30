@@ -50,7 +50,7 @@ export default function ResearchCD() {
       <div className="udu-all">
           <ResearchLayout title={'기능 융합형 초음파 영상기기'} img={Ud1Photo} bar={BarImgR}/>
           <ResearchLayout barl={BarImgR} title={'급만성 폐질환 치료를 위한 생체신호 분석기반 스마트 호흡치료기 개발'} img={Ud2Photo}/>
-          <ResearchLayout title={'인공지능 기반 중증악화 예측 가능한 고성능 환자감치장치 시스템 개발<'} img={Ud3Photo} bar={BarImgR}/>
+          <ResearchLayout title={'인공지능 기반 중증악화 예측 가능한 고성능 환자감치장치 시스템 개발'} img={Ud3Photo} bar={BarImgR}/>
           <ResearchLayout barl={BarImgR} title={'신생아 집중치료에 적합한 다기능 스마트 보육기 개발'} img={Ud4Photo}/>
           <ResearchLayout title={'초음파 기반의 패치형 방광 모니터링 헬스케어 시스템 개발'} img={Ud5Photo} bar={BarImgR}/>
           <ResearchLayout barl={BarImgR} title={'조산 고위험 산모의 예측 및 검사 접근성의 향상을 위한 자궁근전도 기반의 무선 모니터링시스템 개발'} img={Ud6Photo}/>

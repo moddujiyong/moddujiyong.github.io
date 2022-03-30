@@ -4,11 +4,12 @@
  //   background-color: blue;
      margin-right: 319.5px;
      font-weight:500;
+     width:100%;
 }
 
 .alu-header{
   //  background-color: aquamarine;
-  margin-left:50px;
+     margin-left:50px;
     display: flex;
     font-size: 26px;
     flex-direction: column;
@@ -34,6 +35,7 @@
     border-bottom-width:0px;
  //   background-color: aqua;
     display:flex;
+    width:100%;
     justify-content: center;
 }
 
@@ -59,15 +61,18 @@
     margin-bottom: 22.6px;
 }
 .aluImg{
-    display:flex;
-    justify-content: center;
-    margin-left:125.6px;
     width:212px;
-    height:276px;
+    height: 276px;
+    justify-self: center;
+    
+    display: flex;
    // background-color: aquamarine;
 }
 
-
+.alu-photo{
+    display:flex;
+    justify-content: center;
+}
 .alu-right{
     margin-top:23.5px;
  // background-color: yellow;
@@ -182,101 +187,104 @@
     .alumni{
         display:flex;
         flex-direction: column;
-     //   background-color: blue;
-         margin-right: 0px;
-         font-weight:500;
+       // background-color: bisque;
+       margin-right:10px;
+       width:70%;
+       font-weight:500;
     }
     
     .alu-header{
       //  background-color: aquamarine;
       margin-left:0px;
-        display: flex;
-        font-size: 20px;
-        flex-direction: column;
+      display: flex;
+      font-size: 20px;
+      flex-direction: column;
+     width: 100%;
        
     }
     .alu-title{
+        font-weight:700;
         display:flex;
-        margin-left:0px;
+        margin-left:10px;
         margin-bottom: 23.5px;
-        font-weight: 700;
         
     }
     
     
     
     .alu-profile{
-       //margin-left:50px;
+       
         border-color: #707070;
         border-style: solid;
         border-top-width:1px;
         border-left-width:0px;
         border-right-width:0px;
         border-bottom-width:0px;
-     //   background-color: aqua;
-        display:flex;
-        justify-content: center;
-        flex-direction: column;
+    //  background-color: aqua;
+    flex-direction: column;
+    display:flex;
+    width:100%;
     }
     
     .alu-left{
-        margin-top:23.5px;
+        margin-top:0px;
         flex:1;
         display: flex;
         flex-direction: column;
-      
+        width:100%;
        // background-color: yellow;
     }
     .alu-course{
      //   background-color: green;
-        display:flex;
-        justify-content: start;
-        font-size:22px;
-        font-family: 'Roboto';
-        color: #002650;
-        opacity: 1;
-        font-weight: 1000;
-        margin-top: 40px;
-        margin-left:38px;
-        margin-bottom: 22.6px;
+     display:flex;
+        
+        
+     font-family: 'Roboto';
+     color: #002650;
+     opacity: 1;
+     font-weight: 1000;
+     margin-top: 0px;
+     margin-left:0px;
+     margin-bottom: 0px;
     }
     .aluImg{
-        display:flex;
-        justify-content: center;
-        margin-left:60px;
-        width:212px;
-        height:276px;
+        display: flex;
+        
+        object-fit: contain;
+        width:100%;
        // background-color: aquamarine;
     }
     
     
     .alu-right{
         margin-top:23.5px;
-     // background-color: yellow;
-        flex:2;
-        display: flex;
-        flex-direction: column;
+        //  background-color: yellow;
+            flex:2;
+            display: flex;
+            margin-left: 10px;
+            flex-direction: column;
     }
     .alu-name{
        // background-color: skyblue;
-        font-size:26px;
-        font-weight: 700;
-        font-family: 'Roboto';
-        margin-left: 10px;
-        margin-bottom: 17px;
+       font-size:18px;
+       font-weight: 700;
+       font-family: 'Roboto';
+       margin-left: 10px;
+     
+       margin-bottom: 17px;
        // display: flex;
     
     }
     .alu-pos{
-        font-size:23px;
+        font-size:18px;
         
         
      
     }
-    .alu-eng{
+ /*   .alu-eng{
         margin-left: 20px;
         font-size: 23px;
-    }
+    }*/
     
     .alu-field{
         border-style: solid;
@@ -288,14 +296,12 @@
         display:flex;
         flex-direction: column;
         padding-top: 37px;
-       // background-color: blue;
-        color:#707070;
     
     }
     
     .alu-edu{
-        margin-left: 10px;
-        font-size: 20px;
+        margin-left: 0px;
+        font-size:16px;
         color:#002650;
         opacity: 1;
         font-weight: 700;
@@ -304,7 +310,7 @@
     
     .alu-edul1{
         margin-left: 10px;
-        font-size: 20px;
+        font-size:16px;
         margin-bottom: 29px;
         font-family: 'Roboto' ;
         margin-bottom: 29px;
@@ -313,7 +319,7 @@
     .alu-aff{
         margin-left: 10px;
       
-        font-size: 20px;
+        font-size:16px;
         color:#002650;
         opacity: 1;
         font-weight: 700;
@@ -322,14 +328,14 @@
     
     .alu-affl{
         margin-left: 10px;
-        font-size: 20px;
+        font-size:16px;
         font-family: 'Roboto' ;
         margin-bottom: 29px;
     }
     .alu-dis{
         margin-left: 10px;
       
-        font-size: 20px;
+        font-size:16px;
         color:#002650;
         opacity: 1;
         font-weight: 700;
@@ -338,7 +344,7 @@
     
     .alu-disl{
         margin-left: 10px;
-        font-size: 20px;
+        font-size:16px;
         font-family: 'Roboto' ;
         margin-bottom: 29px;
     }
@@ -346,7 +352,7 @@
     .alu-contact{
         margin-left: 10px;
       
-        font-size: 20px;
+        font-size:16px;
         color:#002650;
         opacity: 1;
         font-weight: 700;
@@ -355,7 +361,7 @@
     
     .alu-contactl{
         margin-left: 10px;
-        font-size: 20px;
+        font-size:16px;
         font-family: 'Roboto' ;
         margin-bottom: 29px;
     }

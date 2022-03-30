@@ -16,7 +16,7 @@
 .footerSet{
     width:100%;
     display: flex;
-    background-color: green;
+  //  background-color: green;
    
 }
 .footerLeft{
@@ -27,19 +27,19 @@
     background-color: #002650;;
     
 }
-/*.footerList{
+.footerList{
     
     display:flex;
     flex-direction: column;
-    margin:0;
+    
     //padding:10;
     list-style:none;
     
     
     
-   // background-color: pink;
+ //   background-color: pink;
    
-}*/
+}
 
 .footer-container{
   
@@ -249,8 +249,8 @@
     
     
     .infoTitle1{
-        margin-top: 23px;
-        margin-bottom: 30px;
+        margin-top: 15px;
+        margin-bottom: 15px;
     }
     
     
@@ -265,6 +265,7 @@
         color:white;
         align-items: center;
         width:100%;
+        font-size: 12px;
        
     }
  

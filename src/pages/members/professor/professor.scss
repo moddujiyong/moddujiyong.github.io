@@ -1,8 +1,9 @@
 .professor{
     display:flex;
     flex-direction: column;
-  // background-color: bisque;
+   // background-color: bisque;
     margin-right: 319.5px;
+    width:100%;
 }
 
 .prof-header{
@@ -15,20 +16,22 @@
     flex-direction: column;
     font-weight:700;
     background-color: white;
-    
+    width:100%;
     
 }
 .header-title{
-    
+    width:100%;
    display: flex;
+  
    margin-left:50px;
-   margin-bottom: 23.5px;
+     margin-bottom: 23.5px;
 }
 
 .prof-scrollMenu{
     
   
     display: flex;
+    width: 100%;
     padding: 10px;
     justify-content: space-around;
     border-style: solid;
@@ -49,7 +52,7 @@
     width: 100%;
     justify-content: space-around;
     font-family: 'Roboto' ;
-    margin-left: 80px;
+   
     cursor:pointer;
     font-weight: 1000;
   // background-color: red;
@@ -62,6 +65,7 @@
 }
 
 .prof-profile{
+    width: 100%;
     margin-bottom: 53.5px;
     margin-left:91px;
     display: flex;
@@ -92,15 +96,15 @@
 }
 .prof-photo{
     display: flex;
-  
+   // width:100%;
 }
 .profImg{
     margin-top:15px;
     display: flex;
     justify-self: center;
     object-fit: cover;
-    width:288px;
-    height:350px;
+  // width:288px;
+    //height:350px;
 }
 
 .prof-name{
@@ -230,12 +234,12 @@
 
 .main-career{
     
-    margin-left:50px;
+   
     display: flex;
     border-top: solid;
     border-top-width: 1px;
-    
-    padding:5px;
+    width:100%;
+    //padding:5px;
     justify-content: space-between;
    
 }
@@ -243,7 +247,7 @@
 .mc-container{
     flex-direction: column;
     display: flex;
-    
+    width:100%;
   
 }
 .bar-right{
@@ -299,138 +303,154 @@
     font-family: 'Segoe UI';
     margin-bottom: 29px;
     margin-left:70px;
+    
 }
 
 
 .other-career{
-    margin-left:50px;
     display: flex;
-   
-    padding:5px;
-    //flex-direction: column;
+    border-top: solid;
+    border-top-width: 1px;
+    width:100%;
+    //padding:5px;
+    justify-content: space-between;
     
 }
 
 .oc{
    
+    display:flex;
+    margin-top: 29px;
     font-size: 20px;
     color:#002650;
     opacity: 1;
     font-weight: 700;
     margin-bottom: 29px;
-    margin-left: 70px;
-    margin-top: 34px;
+    margin-left:70px;
   
    
 }
 .oc-container{
     flex-direction: column;
     display: flex;
+    width:100%;
     
   
 }
 .ocl{
-   
+    display: flex;
     font-size: 20px;
     font-family: 'Segoe UI';
     margin-bottom: 29px;
-    margin-left: 70px;
+    margin-left:70px;
 }
 
 .edu-career{
-    margin-left:50px;
-    
     display: flex;
-   
-    padding:5px;
+    border-top: solid;
+    border-top-width: 1px;
+    width:100%;
+    //padding:5px;
     justify-content: space-between;
+    
    
 }
 .edu-container{
     flex-direction: column;
     display: flex;
+    width:100%;
     
   
 }
 .ec{
+    display:flex;
+    margin-top: 29px;
     font-size: 20px;
     color:#002650;
     opacity: 1;
     font-weight: 700;
     margin-bottom: 29px;
-    margin-left: 70px;
-   
+    margin-left:70px;
 }
 
 .ecl{
     font-size: 20px;
+    display: flex;
+    font-size: 20px;
     font-family: 'Segoe UI';
     margin-bottom: 29px;
-    margin-left: 70px;
+    margin-left:70px;
 }
 
 
 
 .scolarship-career{
   
-    margin-left:50px;
     display: flex;
-   
-    padding:5px;
-   // flex-direction: column;
+    border-top: solid;
+    border-top-width: 1px;
+    width:100%;
+    //padding:5px;
+    justify-content: space-between;
 
 }
 .sc-container{
     flex-direction: column;
     display: flex;
+    width:100%;
 }
 .sc{
-    margin-left: 70px;
-    margin-left: 70px;
+    display:flex;
+    margin-top: 29px;
     font-size: 20px;
     color:#002650;
     opacity: 1;
     font-weight: 700;
     margin-bottom: 29px;
-    display: flex;
-    justify-content: space-between;
+    margin-left:70px;
 }
 
 .scl{ 
-    margin-left: 70px;
+    display: flex;
     font-size: 20px;
     font-family: 'Segoe UI';
     margin-bottom: 29px;
+    margin-left:70px;
 }
 
 .research-subject{
     
-    margin-left:50px;
     display: flex;
-   
-    padding:5px;
-
-    margin-top: 30px;
+    border-top: solid;
+    border-top-width: 1px;
+    width:100%;
+    //padding:5px;
+    justify-content: space-between;
+    
 }
 .rs-container{
-    display: flex;
     flex-direction: column;
+    display: flex;
+    width:100%;
 }
 
 .rs{
-    margin-left: 70px;
+    display:flex;
+    margin-top: 29px;
     font-size: 20px;
     color:#002650;
     opacity: 1;
     font-weight: 700;
     margin-bottom: 29px;
+    margin-left:70px;
 }
 
 .rsl{
-    margin-left: 70px;
+    display: flex;
     font-size: 20px;
     font-family: 'Segoe UI';
     margin-bottom: 29px;
+    margin-left:70px;
 }
 .rslt{
     margin-left: 70px;
@@ -442,107 +462,127 @@
 
 
 .reward-career{
-    
-    margin-left:50px;
     display: flex;
-   
-    padding:5px;
- //   flex-direction: column;
+    border-top: solid;
+    border-top-width: 1px;
+    width:100%;
+    //padding:5px;
+    justify-content: space-between;
+    
     
 }
 .rec-container{
     flex-direction: column;
     display: flex;
+    width:100%;
+    
 }
 
 .rec{
-    margin-left: 70px;
+    display:flex;
+    margin-top: 29px;
     font-size: 20px;
     color:#002650;
     opacity: 1;
     font-weight: 700;
     margin-bottom: 29px;
+    margin-left:70px;
 }
 
 .recl{
-    margin-left: 70px;
+    display: flex;
     font-size: 20px;
     font-family: 'Segoe UI';
     margin-bottom: 29px;
+    margin-left:70px;
 }
 
 .book-career{
     
-    margin-left:50px;
     display: flex;
-   
-    padding:5px;
-  //  flex-direction: column;
+    border-top: solid;
+    border-top-width: 1px;
+    width:100%;
+    //padding:5px;
+    justify-content: space-between;
 
 }
 .book-container{
     flex-direction: column;
     display: flex;
+    width:100%;
+    
 }
 
 
 .bc{
-    margin-left: 70px;
+    display:flex;
+    margin-top: 29px;
     font-size: 20px;
     color:#002650;
     opacity: 1;
     font-weight: 700;
     margin-bottom: 29px;
+    margin-left:70px;
 }
 
 .bcl{
-    margin-left: 70px;
+    font-size: 20px;
+    display: flex;
     font-size: 20px;
     font-family: 'Segoe UI';
     margin-bottom: 29px;
+    margin-left:70px;
 }
 
 .intell-career{
     
-    margin-left:50px;
     display: flex;
-   
-    padding:5px;
-   // flex-direction: column;
+    border-top: solid;
+    border-top-width: 1px;
+    width:100%;
+    //padding:5px;
+    justify-content: space-between;
 
 }
 .intell-container{
-    display: flex;
     flex-direction: column;
+    display: flex;
+    width:100%;
 
 }
 
 .ic{
-    margin-left: 70px;
+    display:flex;
+    margin-top: 29px;
     font-size: 20px;
     color:#002650;
     opacity: 1;
     font-weight: 700;
     margin-bottom: 29px;
+    margin-left:70px;
 }
 
 .icl{
-    margin-left: 70px;
+    display: flex;
     font-size: 20px;
     font-family: 'Segoe UI';
     margin-bottom: 29px;
+    margin-left:70px;
 }
 
 @media screen and(max-width: 768px){
     .professor{
+        width:100%;
         display:flex;
         flex-direction: column;
-     //  background-color: bisque;
-        width:100%;
+      // background-color: bisque;
+    
         margin-right: 0px;
     }
     
     .prof-header{
+        
         
         position: sticky;
         width:100%;
@@ -557,10 +597,10 @@
         
     }
     .header-title{
-        
-       display: flex;
-       margin-left:0px;
-       margin-bottom: 23.5px;
+        display: flex;
+        width:100%;
+        margin-left:0px;
+        margin-bottom: 23.5px;
     }
     
     .prof-scrollMenu{
@@ -582,24 +622,23 @@
     }
     .profList{
         
-        font-size: 16px;
+        width:100%;
+        font-size: 12px;
         list-style: none;
         display:flex;
-        width: 100%;
-        justify-content: space-around;
-        font-family: 'Roboto' ;
-        margin-left: 0px;
+       
+      //  justify-content: space-around;
+       //background-color: pink;
         cursor:pointer;
-        font-weight: 1000;
-     //  background-color: yellow;
         
     }
     .profListItem{
-        //background-color: red;
+     //   background-color:green;
       
-       margin-right: 15px;
+       margin-right: 5px;
         font-family: 'roboto' ;
         display: flex;
+        width:100%;
     }
     
     .prof-profile{
@@ -607,7 +646,7 @@
         margin-bottom: 53.5px;
         margin-left:0px;
         display: flex;
-      //  background-color: aqua;
+     //   background-color: aqua;
         padding:0px;
         justify-content: center;
         
@@ -628,9 +667,9 @@
     }
     .prof-photo{
         display: flex;
-        width:280px;
+        width:80%;
         margin-top: 10px;
-        margin-left: 30px;
+        margin-left: 0px;
       //  background-color: red;
     }
     .profImg{
@@ -650,7 +689,8 @@
     }
    
     .prof-name{
-        
+        display: flex;
+        flex-direction: column;
         font-size: 20px;
        // font-family: 'Segoe UI';
         opacity:1;
@@ -663,17 +703,20 @@
      //   background-color: pink;
     }
     .prof-pos{
+        display: flex;
         font-size:18px;
         font-family: 'Roboto' ;
         
     }
     .prof-eng{
+        display: flex;
         margin-left: 20px;
         font-size:20px;
         font-family: 'Roboto';
     }
     
     .prof-field{
+        display: flex;
     
         border-style: solid;
         border-color:#707070;
@@ -867,6 +910,7 @@
     }
     
     .oc{
+        display: flex;
        
         font-size: 17px;
         color:#002650;
@@ -879,13 +923,14 @@
        
     }
     .oc-container{
+        
         flex-direction: column;
         display: flex;
         
       width: 100%;
     }
     .ocl{
-       
+        display: flex;
         font-size: 15px;
         font-family: 'Segoe UI';
         margin-bottom: 29px;
@@ -919,6 +964,7 @@
     }
     
     .ecl{
+        display: flex;
         font-size: 15px;
         font-family: 'Segoe UI';
         margin-bottom: 29px;
@@ -1007,6 +1053,7 @@
     
     
     .bc{
+        display: flex;
         font-size: 17px;
         color:#002650;
         opacity: 1;
@@ -1077,6 +1124,7 @@
     }
     
     .rs{
+        display: flex;
         font-size: 17px;
         color:#002650;
         opacity: 1;

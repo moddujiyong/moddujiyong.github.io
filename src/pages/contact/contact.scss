@@ -2,7 +2,7 @@
     display:flex;
     margin-bottom:200px;
     width: 100%;
-
+    margin-right: 319.5px;
 }
 
 .contactLeft{
@@ -10,6 +10,7 @@
     margin-top: 64px;
     margin-bottom: 200px;
  //   background-color: skyblue;
+    
     height: 100%;
 }
 
@@ -17,7 +18,7 @@
     flex:5;
     margin-top: 64px;
     height:100%;
-   
+  
   //  background-color: pink;
 }
 .contact-content{
@@ -49,7 +50,7 @@
     justify-content: center;
   //  background-color: skyblue;
     margin-bottom: 24px;
-    margin-left: 50px;
+  
 }
 .address{
     margin-right: 50px;
@@ -206,13 +207,14 @@
         display:flex;
         margin-bottom:0px;
         width:100%;
-       
+        
     
     }
    
-    
+   
     .contactRight{
         flex:1;
+        display: flex;
         flex-direction: column;
        width: 100%;
        display: flex;
@@ -222,10 +224,12 @@
     }
     .contact-content{
         display:flex;
-        margin-left: 0;
+        margin-left: 0px;
+     
         width:100%;
       //  background-color: greenyellow;
         flex-direction: column;
+        
         border-style: solid;
         border-top-width:1px;
         border-left-width:0px;
@@ -237,7 +241,7 @@
     .contact-header{
         display: flex;
         font-size:26px;
-       // background-color: lightcoral;
+      //  background-color: lightcoral;
        margin-left:0px;
         margin-bottom: 0px;
        
@@ -247,7 +251,7 @@
         display:flex;
         margin-top: 0px;
         justify-content: center;
-      
+        
       //  background-color: skyblue;
         margin-bottom: 0px;
        

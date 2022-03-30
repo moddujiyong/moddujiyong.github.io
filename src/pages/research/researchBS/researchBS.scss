@@ -2,28 +2,30 @@
     display:flex;
     flex-direction: column;
   // background-color: bisque;
-    
+    margin-right: 319.5px;
     width:100%;
 }
 
 .bs-header{
    // background-color: aquamarine;
     
-    width:100%;
-    display: flex;
-    font-size: 26px;
-    font-family:'Roboto';
-    font-weight: 700;
-    flex-direction: column;
+   display: flex;
+   width: 100%;
+   font-size: 26px;
+   font-family:'Roboto';
+   font-weight: 700;
+   flex-direction: column;
    
 }
 .bs-title{
-    
-    width:100%;
+    display: flex;
+
     margin-left:60px;
     margin-bottom: 23.5px;
+    width: 100%;
 }
 .bs-scrollMenu{
+    width: 100%;
     border-style: solid;
     border-top-width:1px;
     border-left-width:0px;
@@ -41,8 +43,7 @@
     list-style: none;
     display:flex;
     width: 100%;
-    margin-left: 242px;
-    margin-right: 272px;
+    
     justify-content: space-around;
    // background-color: pink;
     cursor:pointer;
@@ -53,8 +54,8 @@
     display: flex;
     
     flex-direction: column;
-    margin-left: 30px;
-  //  background-color: yellow;
+  //  margin-left: 30px;
+    //background-color: yellow;
     width: 90%;
     height: 100%;
     align-self: center;
@@ -73,26 +74,28 @@
     flex-direction: column;
 }
 
-.bsp-title{
-    margin-right: 10px;
+.bsp-all{
+    display: flex;
+    
+    flex-direction: column;
+  //  margin-left: 30px;
+    //background-color: yellow;
+    width: 90%;
+    height: 100%;
+    align-self: center;
 
-   // background-color: lime;
-    font-size:25px;
-    font-family: 'Segoe UI';
-    color: #002650;
-    font-weight:700;
-    margin-bottom: 20px;
-    margin-top:20px;
 }
+
 
 
 @media screen and(max-width:768px){
     .researchBS{
+        width:100%;
         display:flex;
         flex-direction: column;
       // background-color: bisque;
-        
         width:100%;
+        margin-right: 0px;
     }
     
     .bs-header{
@@ -119,59 +122,36 @@
         border-right-width:0px;
         border-bottom-width:1px;
         border-color: #707070;
-       
+        width:100%;
        // background-color: skyblue;
         display: flex;
         padding: 0px;
         justify-content: space-around;
     }
     .bsList{
-        font-size: 18px;
+        width:100%;
+        font-size: 15px;
         list-style: none;
         display:flex;
-        width: 100%;
+       
         margin-left: 0px;
         margin-right: 0px;
         justify-content: space-around;
-       // background-color: pink;
+     //   background-color: pink;
         cursor:pointer;
     }
-    
-    
     .bsp-all{
         display: flex;
-        
+    
         flex-direction: column;
-        margin-left: 0px;
-      //  background-color: yellow;
-        width: 90%;
+        margin-left: 30px;
+       // background-color: yellow;
+        width: 80%;
         height: 100%;
         align-self: center;
+    
     }
     
-    .bspl{
-       // background-color: skyblue;
-        margin-top: 22.5px;
-        border-style: solid;
-        border-top-width:0px;
-        border-left-width:0px;
-        border-right-width:0px;
-        border-bottom-width:1px;
-        border-color: #707070;
-        display: flex;
-        flex-direction: column;
-    }
-    
-    .bsp-title{
-        margin-right: 10px;
-    
-       // background-color: lime;
-        font-size:20px;
-        font-family: 'Segoe UI';
-        color: #002650;
-        font-weight:700;
-        margin-bottom: 20px;
-        margin-top:20px;
-    }
+   
     
 }

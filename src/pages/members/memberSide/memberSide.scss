@@ -72,7 +72,7 @@
 }
 
 .memberSmallItem{
-    font-size: 22px;
+    font-size: 20px;
     margin-left: 38px;
     margin-bottom:26px;
     border-style: solid;
@@ -91,7 +91,7 @@
     .memberSide{
         //background-color: skyblue;
         margin:0px;
-        width:100%;
+        width:80%;
         display: flex;
         flex-direction: column;
     }
@@ -99,13 +99,13 @@
     
     .title_member{
         display:flex;
-        font-size: 20px;
+        font-size: 18px;
         opacity: 1;
         font-weight: 1000;
         flex-direction: column;
        // border-style: solid;
     
-        width:100%;
+        width:80%;
        
         margin-left:0px;
     }
@@ -119,7 +119,7 @@
         border-color:#002650;
     }
     .title_right{
-         
+         display: flex;
         width:48px;
       //  background-color: #FFC341;
     }
@@ -129,7 +129,7 @@
         
         width:100%;
    
-      //  background-color: pink;
+     //  background-color: pink;
         margin-left: 0px;
     }
     
@@ -137,7 +137,7 @@
         
         display:flex;
         flex-direction: column;
-        width:100%;
+        width:80%;
         list-style: none;
         margin-top: 26px;
         margin-left: 0;
@@ -146,7 +146,7 @@
     
     .memberListItem{
         
-        font-size:18px;
+        font-size:12px;
         width:100%;
         //width:104px;
         margin-bottom: 17px;
@@ -163,14 +163,14 @@
         border-right-width:0;
         border-bottom-width:1px;
         border-color: #FFC341;
-      // background-color: red;
+     //  background-color: red;
     }
     
     .memberSmallItem{
-        font-size: 12px;
+        font-size: 10px;
         width:100%;
         margin-left: 0px;
-       
+        
         margin-bottom:26px;
         border-style: solid;
         border-top-width: 0;

@@ -70,7 +70,7 @@ export default function Professor() {
    
     <div className="prof-profile" ref={aRef}>
        <div className="prof-photo">
-           <img className="profImg" src={ProfPhoto} alt=""/>
+           <img className="profImg" src={ProfPhoto} style={{width:'100%'}} alt=""/>
        </div>
 
        <div className="prof-summary">

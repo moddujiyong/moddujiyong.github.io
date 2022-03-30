@@ -33,9 +33,9 @@ export default function Alumni() {
         </div>
         <div className="alu-right">
           <div className="alu-name">
-              최미소     
-              <span className="alu-pos"> 연구원 </span>
-              <span className="alu-eng"> Miso Choi</span>
+          Miso Choi     
+              <span className="alu-pos"> Researcher </span>
+              
           </div>
 
           <div className="alu-field"> 
@@ -66,9 +66,9 @@ export default function Alumni() {
         </div>
         <div className="alu-right">
           <div className="alu-name">
-              임인식       
-              <span className="alu-pos"> 연구원 </span>
-              <span className="alu-eng"> Insik Im</span>
+          Insik Im
+              <span className="alu-pos"> Researcher </span>
+            
           </div>
 
           <div className="alu-field"> 
@@ -98,9 +98,9 @@ export default function Alumni() {
         </div>
         <div className="alu-right">
           <div className="alu-name">
-              한시현       
-              <span className="alu-pos"> 연구원 </span>
-              <span className="alu-eng"> Sihyun Han</span>
+          Sihyun Han     
+              <span className="alu-pos"> Researcher </span>
+             
           </div>
 
           <div className="alu-field"> 
@@ -132,9 +132,9 @@ export default function Alumni() {
         </div>
         <div className="alu-right">
           <div className="alu-name">
-              이한지       
-              <span className="alu-pos"> 연구원 </span>
-              <span className="alu-eng"> Hanji Lee</span>
+          Hanji Lee      
+              <span className="alu-pos"> Researcher </span>
+              <span className="alu-eng"> </span>
           </div>
 
           <div className="alu-field"> 
@@ -166,9 +166,9 @@ export default function Alumni() {
         </div>
         <div className="alu-right">
           <div className="alu-name">
-              최정욱       
-              <span className="alu-pos"> 연구원 </span>
-              <span className="alu-eng"> Jeonguk Choi</span>
+          Jeonguk Choi     
+              <span className="alu-pos">Researcher </span>
+            
           </div>
 
           <div className="alu-field"> 
@@ -200,9 +200,9 @@ export default function Alumni() {
         </div>
         <div className="alu-right">
           <div className="alu-name">
-              송미원       
-              <span className="alu-pos"> 연구원 </span>
-              <span className="alu-eng"> Mi Won Song</span>
+          Mi Won Song       
+              <span className="alu-pos"> Researcher </span>
+              
           </div>
 
           <div className="alu-field"> 
@@ -232,9 +232,9 @@ export default function Alumni() {
         </div>
         <div className="alu-right">
           <div className="alu-name">
-              이은선       
-              <span className="alu-pos"> 연구원 </span>
-              <span className="alu-eng"> EunSeon Lee</span>
+          EunSeon Lee     
+              <span className="alu-pos"> Researcher </span>
+              EunSeon Lee
           </div>
 
           <div className="alu-field"> 

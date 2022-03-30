@@ -31,7 +31,7 @@
     font-weight:700;
     margin-bottom: 20px;
     margin-top:20px;
-
+    
     display: flex;
     width: 100%;
 }
@@ -40,12 +40,12 @@
 .cd-container{
     display: flex;
     max-width: 100%;
-  
+    width:100%;
     flex-direction: column;
     margin-bottom: 20px;
     height: 100%;
     
- //   background-color: aqua;
+  //  background-color: aqua;
 }
 
 .layout{
@@ -56,11 +56,19 @@
     
     
 }
+.bspImg{
+    display: flex;
+    margin-top: 0px;;
+    width:100%;
+     object-fit: contain;
+  
+   //  margin-right: 30px;
+ }
 .bar-rightcd{
    
     display:flex;
     margin-top: 120px;
-    display: flex;
+   
     object-fit:cover;
     width:9px;
     height:208px;
@@ -71,7 +79,7 @@
 .bar-leftcd{
     display:flex;
     margin-top: 120px;
-    display: flex;
+    
     object-fit:cover;
     width:9px;
     height:208px;
@@ -88,32 +96,9 @@
         width:100%;
      //   background-color: red;
     }
-    .bspl{
-        // background-color: skyblue;
-         margin-top: 0px;
-         
-         border-style: solid;
-         border-top-width:0px;
-         border-left-width:0px;
-         border-right-width:0px;
-         border-bottom-width:1px;
-         border-color: #707070;
-         display: flex;
-         flex-direction: column;
-     //    background-color: blue;
-         width:100%;
-     }
+
      
-     .bsp-title{
-         margin-right: 0px;
-     //    background-color: lime;
-         font-size:20px;
-         font-family: 'Segoe UI';
-         color: #002650;
-         font-weight:700;
-         margin-bottom: 20px;
-         margin-top:0px;
-     }
+    
      .bspImg-container{
         margin-top: 0px;
         width:10px;
@@ -159,4 +144,39 @@
          height:208px;
       
      }
+     .bsp-all{
+        display: flex;
+        
+        flex-direction: column;
+        margin-left: 0px;
+      //  background-color: yellow;
+        width: 90%;
+        height: 100%;
+        align-self: center;
+    }
+    
+    .bspl{
+       // background-color: skyblue;
+        margin-top: 22.5px;
+        border-style: solid;
+        border-top-width:0px;
+        border-left-width:0px;
+        border-right-width:0px;
+        border-bottom-width:1px;
+        border-color: #707070;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .bsp-title{
+        margin-right: 10px;
+    
+      //  background-color: lime;
+        font-size:15px;
+        font-family: 'Segoe UI';
+        color: #002650;
+        font-weight:700;
+        margin-bottom: 20px;
+        margin-top:20px;
+    }
 }

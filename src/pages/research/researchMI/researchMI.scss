@@ -1,7 +1,8 @@
 .researchMI{
     display:flex;
     flex-direction: column;
-  //  background-color: bisque;
+ //   background-color: bisque;
+  margin-right: 319.5px;
   width:100%;
 }
 
@@ -16,8 +17,11 @@
 }
 .mi-title{
   
-    margin-left:60px;
-    margin-bottom:23.5px;
+  display: flex;
+
+  margin-left:60px;
+  margin-bottom: 23.5px;
+  width: 100%;
 }
 .mi-scrollMenu{
   width:100%;
@@ -45,15 +49,14 @@
 }
 
 .mip-all{
-  display: flex;
+     display: flex;
     
-  flex-direction: column;
-  margin-left: 30px;
- // background-color: yellow;
-  width: 90%;
-  height: 100%;
-  align-self: center;
-//  background-color: yellow;
+    flex-direction: column;
+  //  margin-left: 30px;
+    //background-color: yellow;
+    width: 90%;
+    height: 100%;
+    align-self: center;
 
 }
 
@@ -83,10 +86,12 @@
 }
 @media screen and(max-width:768px) {
   .researchMI{
+    width:100%;
     display:flex;
     flex-direction: column;
-  //  background-color: bisque;
-  width:100%;
+  // background-color: bisque;
+
+    margin-right: 0px;
 }
 
 .mi-header{
@@ -118,14 +123,14 @@
 }
 .miList{
   width:100%;
-  font-size: 18px;
+  font-size: 15px;
   list-style: none;
   display:flex;
-  width: 100%;
+ 
   margin-left: 0px;
   margin-right: 0px;
   justify-content: space-around;
-//  background-color: pink;
+  //background-color: pink;
   cursor:pointer;
 }
 
@@ -135,35 +140,12 @@
   flex-direction: column;
   margin-left: 30px;
  // background-color: yellow;
-  width: 90%;
+  width: 80%;
   height: 100%;
   align-self: center;
 //  background-color: yellow;
 
 }
 
-.mipl{
- // background-color: skyblue;
-  margin-top: 22.5px;
-  border-style: solid;
-  border-top-width:0px;
-  border-left-width:0px;
-  border-right-width:0px;
-  border-bottom-width:1px;
-  border-color: #707070;
-  display: flex;
-  flex-direction: column;
-}
 
-.mip-title{
-  margin-right: 10px;
-
- // background-color: lime;
-  font-size:20px;
-  font-family: 'Segoe UI';
-  color: #002650;
-  font-weight:700;
-  margin-bottom: 20px;
-    margin-top:20px;
-}
 }
