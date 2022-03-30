@@ -115,12 +115,12 @@
     }
     .title_left{
         border-style: solid;
-        width:52px;
+        width:48px;
         border-color:#002650;
     }
     .title_right{
          
-        width:52px;
+        width:48px;
       //  background-color: #FFC341;
     }
     
@@ -128,9 +128,9 @@
         display:flex;
         
         width:100%;
-        
+   
       //  background-color: pink;
-        margin-left: 0;
+        margin-left: 0px;
     }
     
     .memberContent{
@@ -153,6 +153,8 @@
         font-family: 'Segoe UI';
         font-weight: 700;
         opacity: 1;
+        
+        
         cursor:pointer;
         border-style: solid;
         height: 46.5px;
@@ -161,13 +163,14 @@
         border-right-width:0;
         border-bottom-width:1px;
         border-color: #FFC341;
-   //     background-color: red;
+      // background-color: red;
     }
     
     .memberSmallItem{
         font-size: 12px;
         width:100%;
         margin-left: 0px;
+       
         margin-bottom:26px;
         border-style: solid;
         border-top-width: 0;
