@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.b6ea6843.css",
-    "main.js": "/static/js/main.837e43f7.js",
+    "main.js": "/static/js/main.c068c96e.js",
     "static/media/jeju2021_1.JPG": "/static/media/jeju2021_1.d415ad274808367bc173.JPG",
     "static/media/bsp.jpg": "/static/media/bsp.5deef398706176fd9752.jpg",
     "static/media/kimes2018.jpg": "/static/media/kimes2018.acca5e9b2f083de5cfac.jpg",
@@ -66,16 +66,17 @@
     "static/media/ud07.JPG": "/static/media/ud07.2a55052d7a91bf5ea6cf.JPG",
     "static/media/Logo_sizeAdj.png": "/static/media/Logo_sizeAdj.de7622d1c0314011b086.png",
     "static/media/Yonsei_White.png": "/static/media/Yonsei_White.ecfa4fbfa55399a8b8a5.png",
+    "static/media/youngbo.jpg": "/static/media/youngbo.ae1e43b26e28c414ca3c.jpg",
     "static/media/bora.jpg": "/static/media/bora.b236c74cf5711a6537da.jpg",
     "static/media/jiyun.jpg": "/static/media/jiyun.042aa0d557af5f384421.jpg",
     "static/media/choro.jpg": "/static/media/choro.bbefd9d8eb2bc350905d.jpg",
     "static/media/Logo_White.png": "/static/media/Logo_White.8044fba2e63948b22775.png",
     "index.html": "/index.html",
     "main.b6ea6843.css.map": "/static/css/main.b6ea6843.css.map",
-    "main.837e43f7.js.map": "/static/js/main.837e43f7.js.map"
+    "main.c068c96e.js.map": "/static/js/main.c068c96e.js.map"
   },
   "entrypoints": [
     "static/css/main.b6ea6843.css",
-    "static/js/main.837e43f7.js"
+    "static/js/main.c068c96e.js"
   ]
 }
