@@ -10,14 +10,12 @@ import "./home.scss";
 //<Calendar/>
 export default function Home(){
     return (
-        <>
-       
+      
         <div className="home">
         <Header/>
         <Researches/>
         
         </div>
 
-        </>
     )
 }

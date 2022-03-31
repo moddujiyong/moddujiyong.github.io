@@ -15,7 +15,7 @@ export default function Top(){
              <div className="topSet">
                  
                  <div className="topLeft">
-                   <Link to="/Mddu"><img className="topImg" src={Logo_Design_Eng} alt=""></img> </Link> 
+                   <Link to="/"><img className="topImg" src={Logo_Design_Eng} alt=""></img> </Link> 
                    
                 
                  </div>    

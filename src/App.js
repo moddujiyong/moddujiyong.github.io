@@ -24,31 +24,22 @@ function App() {
       
        <Router>
          <>
-         
-         <Top/>
-
-        
-       
-      
          <Switch>
-
-           <Route exact path="/Mddu">
-              <Home/>
-           </Route>
-
-           <Route path="/gallery"><Gallery/></Route>
-           <Route path="/members"><Members/></Route>
-           <Route exact path="/research" ><Research/></Route>
-           <Route exact path="/research/clinical"><Research/></Route>
-           <Route exact path="/research/uxui"><Research/></Route>
-           <Route exact path="/research/industry" ><Research/></Route>
-           <Route exact path="/research/bio"><Research/></Route>
-           <Route path="/publication"><Publication/></Route>
-           <Route path="/contact"><Contact/></Route>
-           <Route path="/gallery"><Gallery/></Route>
-
+          
+           <Route exact path="/">  <Top/><Home/><Footer/> </Route>
+           <Route path="/gallery"> <Top/><Gallery/><Footer/></Route>
+           <Route path="/members"> <Top/><Members/><Footer/></Route>
+           <Route exact path="/research" > <Top/><Research/><Footer/></Route>
+           <Route exact path="/research/clinical"> <Top/><Research/><Footer/></Route>
+           <Route exact path="/research/uxui"> <Top/><Research/><Footer/></Route>
+           <Route exact path="/research/industry" > <Top/><Research/><Footer/></Route>
+           <Route exact path="/research/bio"> <Top/><Research/><Footer/></Route>
+           <Route path="/publication"> <Top/><Publication/><Footer/></Route>
+           <Route path="/contact"> <Top/><Contact/><Footer/></Route>
+           <Route path="/gallery"> <Top/><Gallery/><Footer/></Route>
+         
          </Switch>
-         <Footer/>
+        
          </>
        </Router>
 

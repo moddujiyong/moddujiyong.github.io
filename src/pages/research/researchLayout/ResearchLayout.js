@@ -2,9 +2,7 @@ import { getByTitle } from '@testing-library/react';
 import React, {useRef} from 'react';
 import Bs1Photo from "../../../components/img/bs01.jpg";
 import Bs2Photo from "../../../components/img/bs02.jpg";
-import Cd1Photo from "../../../components/img/cd01.jpg";
-import Cd2Photo from "../../../components/img/cd02.jpg";
-import Cd3Photo from "../../../components/img/cd03.JPG";
+
 import "./researchLayout.scss"
 
 export default function ResearchLayout({barl,title,img,bar}) {
