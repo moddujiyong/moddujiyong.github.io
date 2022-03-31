@@ -6,6 +6,7 @@ import HanjiPhoto from "../../../components/img/hanji.png";
 import JeongukPhoto from "../../../components/img/jeonguk.jpg";
 import MiwonPhoto from "../../../components/img/miwon.jpg";
 import EunseonPhoto from "../../../components/img/eunseon.jpg";
+import YoungboPhoto from "../../../components/img/youngbo.jpg";
 import BarImgAlu from "../../../components/img/design_bar.png";
 import "./alumni.scss";
 
@@ -234,7 +235,6 @@ export default function Alumni() {
           <div className="alu-name">
           EunSeon Lee     
               <span className="alu-pos"> Researcher </span>
-              EunSeon Lee
           </div>
 
           <div className="alu-field"> 
@@ -246,6 +246,39 @@ export default function Alumni() {
             <span className="alu-disl">Analysis of Emergency Use Authorization (EUA) for In Vitro Diagnostic Medical Devices (IVD) on Emerging Infectious Disease </span>
             <span className="alu-contact">| Contact |</span>
             <span className="alu-contactl">eunseon.lee92@gmail.com</span>
+        
+          </div>
+        </div>
+        <img className="bar-rights" src={BarImgAlu} alt="" />
+      </div>
+    
+
+      <div className="alu-profile">
+        <div className="alu-left">
+          <div className="alu-course">
+              MS
+            </div>
+        
+            <div className="alu-photo"> 
+              <img className="aluImg" src={YoungboPhoto} alt=""/> 
+            </div>
+        </div>
+        <div className="alu-right">
+          <div className="alu-name">
+          Young-bo Cho    
+              <span className="alu-pos"> Researcher </span>
+              
+          </div>
+
+          <div className="alu-field"> 
+            <span className="alu-edu">| Education |</span>
+            <span className="alu-edul1">M.S in Medical Device Engineering & Management (2022) </span>
+            <span className="alu-aff">| Affiliation |</span>
+            <span className="alu-affl">Guerbet Korea</span>
+            <span className="alu-dis">| Dissertation |</span>
+            <span className="alu-disl">A Study on the global harmonized adverse event reporting system for domestic medical device manufacturers  </span>
+            <span className="alu-contact">| Contact |</span>
+            <span className="alu-contactl">miracle0134@naver.com</span>
         
           </div>
         </div>
