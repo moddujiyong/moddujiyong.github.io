@@ -24,7 +24,7 @@
 .contact-content{
     display:flex;
     margin-right:319.5px;
-    margin-left: 50px;
+  //  margin-left: 50px;
   //  background-color: greenyellow;
     flex-direction: column;
     border-style: solid;
@@ -41,7 +41,7 @@
    // background-color: lightcoral;
    margin-left:50px;
     margin-bottom: 23.5px;
-   
+    font-weight:700;
 }
 
 .google_Map{
@@ -50,6 +50,7 @@
     justify-content: center;
   //  background-color: skyblue;
     margin-bottom: 24px;
+    margin-left: 50px;
   
 }
 .address{
