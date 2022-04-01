@@ -76,8 +76,8 @@ export default function Publication() {
             
             <span className="conl">Ko, S., Jang, W. S., Jeong, J. H., Ahn, J. W., Kim, Y. H., Kim, S., ... & Chung, S. (2021). (−)-Gallocatechin gallate from green tea rescues cognitive impairment through restoring hippocampal silent synapses in post-menopausal depression. Scientific reports, 11(1), 1-20. </span>
             <span className="conl">Kang, J., Han, K., Kim, K. S., Jang, W. S., Kim, M. J., & Yoo, Y. (2020). 3D microcalcification detection using a color Doppler twinkling artifact with optimized transmit conditions: Preliminary results. Medical physics, 47(12), 6171-6178.</span>
-            <span className="conl">Song, I., Yoon, J., Kang, J., Kim, M., Jang, W. S., Shin, N. Y., & Yoo, Y. (2019). Design and implementation of a new wireless carotid neckband doppler system with wearable ultrasound sensors: preliminary results. Applied Sciences, 9(11), 2202. </span>
-            <span className="conl">Jinbum Kang, Won Seuk Jang and Yangmo Yoo. High PRF ultrafast sliding compound doppler imaging: fully qualitative and quantitative analysis of blood flow (Physics in Medicine & Biology, Vol 63, No 4, 45,004~45,020, Feb 2018)  </span>
+            <span className="conl">Song, I., Yoon, J., Kang, J., Kim, M., Jang, W. S., Shin, N. Y., & Yoo, Y. (2019). Design and implementation of a new wireless carotid neckband doppler system with wearable ultrasound sensors: preliminary results. Applied Sciences, 9(11), e2202. </span>
+            <span className="conl">Kang, J., Jang, W., and Yoo, Y. (2018). High PRF ultrafast sliding compound doppler imaging: fully qualitative and quantitative analysis of blood flow, Physics in Medicine & Biology, 63(4), 045004 </span>
             <span className="conl">Kim, J. Y., Yoo, S. K., Jang, W. S., Park, B. E., Park, W., & Kim, K. D. (2017). Tooth segmentation using gaussian mixture model and genetic algorithm. Journal of Medical Imaging and Health Informatics, 7(6), 1271-1276. </span>
             <span className="conl">Park, B. E., Jang, W. S., & Yoo, S. K. (2016). Texture analysis of supraspinatus ultrasound image for computer aided diagnostic system. Healthcare informatics research, 22(4), 299-304. </span>
             <span className="conl">Son, T., Yoon, H. J., Lee, S., Jang, W. S., Jung, B., & Kim, W. U. (2014). Continuous monitoring of arthritis in animal models using optical imaging modalities. Journal of Biomedical Optics, 19(10), 106010.  </span>
@@ -144,8 +144,8 @@ export default function Publication() {
             </div>
 
             <div className="patent-content">
-                <span className="conl"style={{color:'red'}}>Kim, Y. H., Jang, W. S.,  Kim, Y. H. "배터리 소모 감소 기능이 구비된 산모 자궁수축도 검사장치", 10-2020-0187801 (2020. 12. 30) </span>
-                <span className="conl"style={{color:'red'}}>Kim, Y. H., Jang, W. S.,  Kim, Y. H. "산모 자궁수축도 검사장치", 10-2020-0187800 (2020. 12. 30) </span>
+                <span className="conl">Kim, Y. H., Jang, W. S.,  Kim, Y. H. "배터리 소모 감소 기능이 구비된 산모 자궁수축도 검사장치", 10-2020-0187801 (2020. 12. 30) </span>
+                <span className="conl">Kim, Y. H., Jang, W. S.,  Kim, Y. H. "산모 자궁수축도 검사장치", 10-2020-0187800 (2020. 12. 30) </span>
                 <span className="conl">Jang, W. S., Park, S. E., Oh, H. K. "Positioning optimizer device and process of patch-type ultrasonic sensors for mobile-based bladder monitoring", PCT/KR2020/016186 (2020. 11. 17) </span>
                 <span className="conl">Jang, W. S., Park, S. E., Oh, H. K. "Positioning optimizer device and process of patch-type ultrasonic sensors for mobile-based bladder monitoring", 10-2019-0148244 (2019. 11. 19) </span>
                 <span className="conl">Jang, W. S., Park, S. E., Oh, H. K. "Bladder monitoring healthcare system and bladder monitoring process", 10-2018-0173498 (2018. 12. 31)</span>

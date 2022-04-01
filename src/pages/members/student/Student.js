@@ -362,7 +362,7 @@ con = {'cowjy0427@yonsei.ac.kr'}/>
         edu1 = {'B.S in Biomedical Engineering, Yonsei University (2021)'} 
         edu2 = {null} 
         int = {'Medical Device Clinical Study Design, Clinical Effectiveness Evaluation, Medical Regulatory Affairs'}
-        con = {'chy980423@naver.com'}/>
+        con = {'chy980423@naver.com / hyeong0423@yonsei.ac.kr'}/>
 
         <StudentLayout 
        course = {'MS course'}
