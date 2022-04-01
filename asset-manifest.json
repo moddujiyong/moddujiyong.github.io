@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.b6ea6843.css",
+    "main.css": "/static/css/main.eb971659.css",
     "main.js": "/static/js/main.cd4983a0.js",
     "static/media/jeju2021_1.JPG": "/static/media/jeju2021_1.d415ad274808367bc173.JPG",
     "static/media/bsp.jpg": "/static/media/bsp.5deef398706176fd9752.jpg",
@@ -72,11 +72,11 @@
     "static/media/choro.jpg": "/static/media/choro.bbefd9d8eb2bc350905d.jpg",
     "static/media/Logo_White.png": "/static/media/Logo_White.8044fba2e63948b22775.png",
     "index.html": "/index.html",
-    "main.b6ea6843.css.map": "/static/css/main.b6ea6843.css.map",
+    "main.eb971659.css.map": "/static/css/main.eb971659.css.map",
     "main.cd4983a0.js.map": "/static/js/main.cd4983a0.js.map"
   },
   "entrypoints": [
-    "static/css/main.b6ea6843.css",
+    "static/css/main.eb971659.css",
     "static/js/main.cd4983a0.js"
   ]
 }
