@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.17e8c658.css",
-    "main.js": "/static/js/main.af6ddad1.js",
+    "main.css": "/static/css/main.7ee25821.css",
+    "main.js": "/static/js/main.364db845.js",
     "static/media/jeju2021_1.JPG": "/static/media/jeju2021_1.d415ad274808367bc173.JPG",
     "static/media/bsp.jpg": "/static/media/bsp.5deef398706176fd9752.jpg",
     "static/media/kimes2018.jpg": "/static/media/kimes2018.acca5e9b2f083de5cfac.jpg",
     "static/media/mip.png": "/static/media/mip.321b2793a2e2877d7b50.png",
     "static/media/udu.jpg": "/static/media/udu.829575cd388134db885c.jpg",
     "static/media/mddu2021_1.JPG": "/static/media/mddu2021_1.1fab98d3b327c6f4837c.JPG",
+    "static/media/changhyun.png": "/static/media/changhyun.ed69e8f4764999da50d0.png",
     "static/media/elec2021_1.jpg": "/static/media/elec2021_1.81207f8c43555510acdf.jpg",
     "static/media/iceic2022_4.jpg": "/static/media/iceic2022_4.e491d9e0ab40e9dc4f26.jpg",
     "static/media/elec2021_2.jpg": "/static/media/elec2021_2.ff4da147f7c4fcf5c98d.jpg",
@@ -17,7 +18,6 @@
     "static/media/iceic2022_3.jpg": "/static/media/iceic2022_3.df7dbb5bf6641e78ed52.jpg",
     "static/media/yujeong.jpg": "/static/media/yujeong.63ecd4191cadb71b013a.jpg",
     "static/media/heeyoung.png": "/static/media/heeyoung.8d262b8937d9c446ece0.png",
-    "static/media/changhyun.jpg": "/static/media/changhyun.b60841763ee287269511.jpg",
     "static/media/seunghee.png": "/static/media/seunghee.33c7da78fb94000aa965.png",
     "static/media/vision.jpg": "/static/media/vision.845639abf8b9a8b84d57.jpg",
     "static/media/main_design_img.png": "/static/media/main_design_img.340d4ac959b112878ff9.png",
@@ -55,28 +55,28 @@
     "static/media/jeonguk.jpg": "/static/media/jeonguk.b9f82f745d2cd6f78ffe.jpg",
     "static/media/cd01.jpg": "/static/media/cd01.47746ef227215b16020b.jpg",
     "static/media/ud03.jpg": "/static/media/ud03.47746ef227215b16020b.jpg",
-    "static/media/eunseon.jpg": "/static/media/eunseon.6f61e26bc8cd295db809.jpg",
     "static/media/hyeonkyeong.jpg": "/static/media/hyeonkyeong.80a0842915fa89342d70.jpg",
     "static/media/mi03.JPG": "/static/media/mi03.c9264cd8558243721076.JPG",
     "static/media/cd03.JPG": "/static/media/cd03.5a5cefec6a1837cb8eef.JPG",
     "static/media/mi02.JPG": "/static/media/mi02.5a5cefec6a1837cb8eef.JPG",
     "static/media/mi01.JPG": "/static/media/mi01.8be4d23777fdb58f95a8.JPG",
     "static/media/cd05.JPG": "/static/media/cd05.359f9e15c63125f6e8ef.JPG",
+    "static/media/eunseon.jpg": "/static/media/eunseon.988c15d0ead0b5bf4639.jpg",
     "static/media/jiyong.jpg": "/static/media/jiyong.47caa263af2b9318d536.jpg",
     "static/media/ud07.JPG": "/static/media/ud07.2a55052d7a91bf5ea6cf.JPG",
-    "static/media/Logo_sizeAdj.png": "/static/media/Logo_sizeAdj.de7622d1c0314011b086.png",
     "static/media/Yonsei_White.png": "/static/media/Yonsei_White.ecfa4fbfa55399a8b8a5.png",
     "static/media/youngbo.jpg": "/static/media/youngbo.ae1e43b26e28c414ca3c.jpg",
+    "static/media/Logo_sizeAdj_new.png": "/static/media/Logo_sizeAdj_new.305e7ad6d4949b3e9a1a.png",
     "static/media/bora.jpg": "/static/media/bora.b236c74cf5711a6537da.jpg",
     "static/media/jiyun.jpg": "/static/media/jiyun.042aa0d557af5f384421.jpg",
     "static/media/choro.jpg": "/static/media/choro.bbefd9d8eb2bc350905d.jpg",
     "static/media/Logo_White.png": "/static/media/Logo_White.8044fba2e63948b22775.png",
     "index.html": "/index.html",
-    "main.17e8c658.css.map": "/static/css/main.17e8c658.css.map",
-    "main.af6ddad1.js.map": "/static/js/main.af6ddad1.js.map"
+    "main.7ee25821.css.map": "/static/css/main.7ee25821.css.map",
+    "main.364db845.js.map": "/static/js/main.364db845.js.map"
   },
   "entrypoints": [
-    "static/css/main.17e8c658.css",
-    "static/js/main.af6ddad1.js"
+    "static/css/main.7ee25821.css",
+    "static/js/main.364db845.js"
   ]
 }
