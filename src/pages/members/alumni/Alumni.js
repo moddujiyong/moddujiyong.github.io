@@ -35,8 +35,7 @@ export default function Alumni() {
         <div className="alu-right">
           <div className="alu-name">
           Miso Choi     
-              <span className="alu-pos"> Researcher </span>
-              
+            
           </div>
 
           <div className="alu-field"> 
@@ -68,7 +67,7 @@ export default function Alumni() {
         <div className="alu-right">
           <div className="alu-name">
           Insik Im
-              <span className="alu-pos"> Researcher </span>
+         
             
           </div>
 
@@ -76,7 +75,7 @@ export default function Alumni() {
             <span className="alu-edu">| Education |</span>
             <span className="alu-edul1">M.S in Medical Device Engineering & Management (2021) </span>
             <span className="alu-aff">| Affiliation |</span>
-            <span className="alu-affl">Medrtonic</span>
+            <span className="alu-affl">Medtronic</span>
             <span className="alu-dis">| Dissertation |</span>
             <span className="alu-disl">A Study on the Diagnosis Korea Medical Device Industry through Management Performance and Enterprise Value </span>
             <span className="alu-contact">| Contact |</span>
@@ -100,7 +99,7 @@ export default function Alumni() {
         <div className="alu-right">
           <div className="alu-name">
           Sihyun Han     
-              <span className="alu-pos"> Researcher </span>
+          
              
           </div>
 
@@ -134,7 +133,7 @@ export default function Alumni() {
         <div className="alu-right">
           <div className="alu-name">
           Hanji Lee      
-              <span className="alu-pos"> Researcher </span>
+          
               <span className="alu-eng"> </span>
           </div>
 
@@ -168,15 +167,14 @@ export default function Alumni() {
         <div className="alu-right">
           <div className="alu-name">
           Jeonguk Choi     
-              <span className="alu-pos">Researcher </span>
-            
+        
           </div>
 
           <div className="alu-field"> 
             <span className="alu-edu">| Education |</span>
             <span className="alu-edul1">M.S in Medical Device Engineering & Management (2022)   </span>
             <span className="alu-aff">| Affiliation |</span>
-            <span className="alu-affl">VUNO </span>
+            <span className="alu-affl">Vuno </span>
             <span className="alu-dis">| Dissertation |</span>
             <span className="alu-disl">User Interface Design for Ventilator Central Monitoring System Applying Human Factors Engineering   </span>
             <span className="alu-contact">| Contact |</span>
@@ -201,8 +199,8 @@ export default function Alumni() {
         </div>
         <div className="alu-right">
           <div className="alu-name">
-          Mi Won Song       
-              <span className="alu-pos"> Researcher </span>
+          MiWon Song       
+             
               
           </div>
 
@@ -228,13 +226,13 @@ export default function Alumni() {
             </div>
         
             <div className="alu-photo"> 
-              <img className="aluImg" src={EunseonPhoto} alt=""/> 
+              <img className="aluImg"  src={EunseonPhoto} alt=""/> 
             </div>
         </div>
         <div className="alu-right">
           <div className="alu-name">
           EunSeon Lee     
-              <span className="alu-pos"> Researcher </span>
+              
           </div>
 
           <div className="alu-field"> 
@@ -265,8 +263,8 @@ export default function Alumni() {
         </div>
         <div className="alu-right">
           <div className="alu-name">
-          Young-bo Cho    
-              <span className="alu-pos"> Researcher </span>
+          Youngbo Cho    
+              
               
           </div>
 
@@ -274,9 +272,9 @@ export default function Alumni() {
             <span className="alu-edu">| Education |</span>
             <span className="alu-edul1">M.S in Medical Device Engineering & Management (2022) </span>
             <span className="alu-aff">| Affiliation |</span>
-            <span className="alu-affl">Guerbet Korea</span>
+            <span className="alu-affl">Guerbet</span>
             <span className="alu-dis">| Dissertation |</span>
-            <span className="alu-disl">A Study on the global harmonized adverse event reporting system for domestic medical device manufacturers  </span>
+            <span className="alu-disl">A Study on the Global Harmonized Adverse Event Reporting System for Domestic Medical Device Manufacturers  </span>
             <span className="alu-contact">| Contact |</span>
             <span className="alu-contactl">miracle0134@naver.com</span>
         

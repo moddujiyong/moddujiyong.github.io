@@ -3,17 +3,18 @@
   //  background-color: orange;
     margin-bottom:482px;
     width: 100%;
-    margin-right: 339px;
+   
     //height:100%;
 }
 
 .pub-left{
-    margin-top:64px;
+    margin-top:74px;
     flex:1;
     //background-color: greenyellow;
     display:flex;
-    padding:10px;
-  width:100%;
+    margin-right:10px;
+    margin-left:10px;
+   width:100%;
     flex-direction: column;
 }
 .slider{
@@ -92,11 +93,12 @@
     display:flex;
     width:100%;
   //  background-color: lightcoral;
-    margin-left:50px;
+    margin-left:30px;
     flex-direction: column;
     height:100%;
     margin-top:64px;
-    
+  
+    margin-right: 319.5px;
 }
 
 

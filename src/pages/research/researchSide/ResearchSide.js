@@ -23,11 +23,11 @@ export default function ResearchSide({select,setSelect}) {
     <div className="researchSide">
        <div className='title_research'>
           Research
-          <div className="titleResearch_border">
-            <div className="titleResearch_left">
+          <div className="title_border">
+            <div className="title_left">
               
             </div>
-            <div className="titleResearch_right">
+            <div className="title_right">
               
             </div>
         </div>  

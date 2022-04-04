@@ -26,7 +26,7 @@ export default function Staffs() {
         <div className="staffs-right">
           <div className="staffs-name">
           Bora Kim
-              <span className="staffs-pos"> Researcher</span>
+          
              
           </div>
 

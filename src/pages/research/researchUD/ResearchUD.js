@@ -14,7 +14,7 @@ import "./researchUD.scss"
 export default function ResearchCD() {
     
     
-  const title="Research > UX/UI Design & Usability"
+  const title="Research - UX/UI Design & Usability"
   const [choose,setChoose]=useState('All')
 
   const onAllResUDClick=()=>{

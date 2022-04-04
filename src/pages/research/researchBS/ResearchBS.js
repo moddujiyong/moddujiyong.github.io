@@ -5,7 +5,7 @@ import ResearchLayout from '../researchLayout/ResearchLayout';
 import "./researchBS.scss"
 import BarImgR from "../../../components/img/design_bar.png";
 export default function ResearchBS() {
-  const title="Research >  Bio-Signal Processing & AI"
+  const title="Research - Bio-Signal Processing & AI"
 
  
   const [choose,setChoose]=useState('All')

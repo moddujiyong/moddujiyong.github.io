@@ -184,9 +184,7 @@ export default function contact() {
             </div>
 
        </div>
-       <div className="gallery-right">
-            
-        </div>
+     
      
     </div>
   )

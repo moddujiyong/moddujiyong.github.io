@@ -2,7 +2,7 @@ import React from 'react';
 import {IoIosSearch} from "react-icons/io";
 import "./top.scss";
 import {Link} from "react-router-dom";
-import Logo_Design_Eng from '../img/Logo_sizeAdj.png'
+import Logo_Design_Eng from '../img/Logo_sizeAdj_new.png'
 export default function Top(){
    /* <IoIosSearch className="topSearchIcon"/>
     <div className="searchText">

@@ -12,7 +12,7 @@ import BarImgR from "../../../components/img/design_bar.png";
 import "./researchCD.scss"
 export default function ResearchCD() {
 
-  const title="Research > Clinical Study Design"
+  const title="Research - Clinical Study Design"
  
   const [choose,setChoose]=useState('All')
 

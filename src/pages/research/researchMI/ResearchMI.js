@@ -7,7 +7,7 @@ import ResearchLayout from '../researchLayout/ResearchLayout';
 import BarImgR from "../../../components/img/design_bar.png";
 import "./researchMI.scss"
 export default function ResearchCD() {
-  const title="Research > Medical Industry Policy"
+  const title="Research - Medical Industry Policy"
 
 
   const [choose,setChoose]=useState('All')

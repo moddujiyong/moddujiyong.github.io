@@ -3,7 +3,7 @@ import IntroduceImg from "../img/vision.jpg";
 import BarImg from "../img/design_bar.png";
 export default function Introduce() {
 
-  const introText='We view healthcare through Clinical Study Design, UX/UI Desing & Usability, Medical Industry Policy and Bio-Signal Processing & AI. \nWe do Design & Development and Research & Evaluation focusing on Practical Healthcare Industry within Medical Device Regulation.';
+  const introText='We do "Design & Development" and "Research & Evaluation" focusing on "Practical Healthcare Industry" within "Medical Device Regulation".';
   return (
     <div className="introduce">
         <div className="introduceSet">

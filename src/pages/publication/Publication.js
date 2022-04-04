@@ -12,7 +12,7 @@ export default function Publication() {
 
   const scrollHeight=162;
  
-  const [select,setSelect]=useState("Journal");
+  const [select,setSelect]=useState("Journals");
   const onJourClick=()=>{
     jourRef.current?.scrollIntoView({behavior:'smooth',block:'center'})
     setSelect('Journals')
@@ -44,8 +44,10 @@ export default function Publication() {
                 Publication
                 <div className="title_border">
                   <div className="title_left">
+                    
                   </div>
                   <div className="title_right">
+
                   </div>
                  </div>  
               </div>
@@ -144,8 +146,8 @@ export default function Publication() {
             </div>
 
             <div className="patent-content">
-                <span className="conl">Kim, Y. H., Jang, W. S.,  Kim, Y. H. "배터리 소모 감소 기능이 구비된 산모 자궁수축도 검사장치", 10-2020-0187801 (2020. 12. 30) </span>
-                <span className="conl">Kim, Y. H., Jang, W. S.,  Kim, Y. H. "산모 자궁수축도 검사장치", 10-2020-0187800 (2020. 12. 30) </span>
+                <span className="conl">Kim, Y. H., Jang, W. S.,  Kim, Y. H. "Device for checking uterine contraction having a function for reducing battery consumption", 10-2020-0187801 (2020. 12. 30) </span>
+                <span className="conl">Kim, Y. H., Jang, W. S.,  Kim, Y. H. "Device for checking uterine contraction", 10-2020-0187800 (2020. 12. 30) </span>
                 <span className="conl">Jang, W. S., Park, S. E., Oh, H. K. "Positioning optimizer device and process of patch-type ultrasonic sensors for mobile-based bladder monitoring", PCT/KR2020/016186 (2020. 11. 17) </span>
                 <span className="conl">Jang, W. S., Park, S. E., Oh, H. K. "Positioning optimizer device and process of patch-type ultrasonic sensors for mobile-based bladder monitoring", 10-2019-0148244 (2019. 11. 19) </span>
                 <span className="conl">Jang, W. S., Park, S. E., Oh, H. K. "Bladder monitoring healthcare system and bladder monitoring process", 10-2018-0173498 (2018. 12. 31)</span>
@@ -166,12 +168,12 @@ export default function Publication() {
             </div>
 
             <div className="book-content">
-              <span className="conl">Kuh, S. U., Jang, W. S., Kim. K. B., Kim, K. S. "Wearable Technology in Medicine and Health Care " (2021.7) </span>
-              <span className="conl">Kim. K. B., Jang, W. S. "Design of Digital Healthcare System" (2021. 4)</span>
-              <span className="conl">Lee, H., Jang, W. S. "Medical image processing and its applications" (2020. 7) </span>
+              <span className="conl">Raymond kai-Yu Tong. "Wearable Technology in Medicine and Health Care(Kuh, S. U., Jang, W. S., Kim. K. B., Kim, K. S. Trans.) " (2021.7) </span>
+              <span className="conl">Kim. K. B., Huh, Y. S., Hong, K. J., Lee, D. H., Yeo, S. M., Lee, S. W., Lim, H. T., Kuh, S. W. Jang, W. S. "Design of Digital Healthcare System" (2021. 4)</span>
+              <span className="conl">Lee, H., Lee, I. J., Chung, Y. S., Kim, H. S., Lee, J. J., Min, B. J., Kuh, S. U., Jang, W. S., Kim, K. B. "Medical image processing and its applications" (2020. 7) </span>
               <span className="conl">Yonsei University College of Medicine, Kuh, S. U., Koo, K. C., Kwon, B. J., Kim, S. J., Kim, S. H., Kim, J. E., Roh, M. R., Park, J. S., Park, J. H., Yoon, Y. H., Yoon, I. S., Lee, B. K., Lee, S. K., Lee, I. J., Lim, J. Y., Jang, W. S.,  Jeong, H. K., Cho, H. B., Huh, J. K. "Medical devices and clinical medicine" (2019. 12) </span>
-              <span className="conl">Kuh, S. U., Jang, W. S. "Design of Biomedical Devices and Systems 4th edition" (2018. 11) </span>
-              <span className="conl">Kuh, S. U., Jang, W. S. "MEDICAL DEVICES QUALITY MANAGEMENT SYSTEM : MDSAP: Medical Device Single Audit Program (2018. 10)</span>
+              <span className="conl">Paul H., King Richard C., Fries Arthur T., Johnson."Design of Biomedical Devices and Systems 4th edition( Kuh, S. U., Jang, W. S. Trans.)" (2018. 11) </span>
+              <span className="conl">Kuh, S. U., Jang, W. S., Kwon, B. J., Kang, G. H. "MEDICAL DEVICES QUALITY MANAGEMENT SYSTEM : MDSAP: Medical Device Single Audit Program (2018. 10)</span>
               
             </div>
         </div>

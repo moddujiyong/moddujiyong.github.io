@@ -76,7 +76,7 @@ export default function Professor() {
        <div className="prof-summary">
           <div className="prof-name">
           Wonseuk Jang
-            <span className="prof-pos"> Professor/Doctor of </span>
+           
            
           </div>
       
@@ -104,7 +104,7 @@ export default function Professor() {
               <span className="ril">Medical Device UX/UI Design and Evaluation</span>
               <span className="ril">Medical Image Diagnostic System</span>
               <span className="ril">Bio-Signal Processing and Diagnostic Algorithm</span>
-              <span className="ril">Medical Device Industry Policies</span>
+              <span className="ril">Medical Device Industry Policy</span>
 
             </div>
           
@@ -158,25 +158,25 @@ export default function Professor() {
         
         <span className="ocl">2020.4 ~ 현재 : 의료기기 기술문서심사기관 심의위원회, 식품의약품안전처</span>
         
-        <span className="ocl">Jul. 2017. ~ Oct. 2017. : Professional Personnel, University Education Council, Demand Analysis of Industry Perspective University Evaluation (Medical devices)</span>
+        <span className="ocl">Jul. 2017 ~ Oct. 2017 : Professional Personnel, University Education Council, Demand Analysis of Industry Perspective University Evaluation (Medical devices)</span>
         
-        <span className="ocl">Jun. 2016. ~ May 2017. : Professional Personnel, Medical Devices Advertisement Preview Committee</span>
+        <span className="ocl">Jun. 2016 ~ May 2017 : Professional Personnel, Medical Devices Advertisement Preview Committee</span>
         
-        <span className="ocl">Mar. 2016. ~ Current : Member, Review Committee for Abnormal Cases of Medical Devices</span>
-        <span className="ocl">Oct. 2015. ~ Dec. 2015. : Planner, Industrial Core Technology Development Project, Ministry of Trade, Industry, and Energy</span>
-        <span className="ocl">May 2013. ~ Current : Professional Personnel, Medical Devices Committee, KFDA</span>
-        <span className="ocl">June 2013. ~ June 2013. : Professional Personnel, Demand Analysis of Industry Perspective University Evaluation (Medical devices), University Education Council </span>
-        <span className="ocl">Jul. 2011. ~ Dec. 2011. : Planner, Joint Planner for Cross-department Medical Devices Development Project, Ministry of Knowledge and Economy/Health and Welfare</span>
-        <span className="ocl">Jun. 2011. ~ Dec. 2011. : Planner, R&D Strategic Committee, Industrial Orignal Technology Development Project (Medical devices)</span>
-        <span className="ocl">Oct. 2010. ~ Apr. 2011. : Advisor, Daekyeong Regional Leading Industry Fostering Project</span>
-        <span className="ocl">Sep. 2009. ~ Current : Professional Personnel, Future of Medical Devices Forum-Professional Committee for Institutional Division Improvement, KFDA</span>
-        <span className="ocl">Aug. 2009. ~ Jan. 2012. : Planner, Ministry of Knowledge and Economy, Industrial Original Technology Fostering Project (Medical devices) Planning Support Team</span>
-        <span className="ocl">Apr. 2008. ~ Jan. 2009. : Professional Personnel, New Growth Driver Planning Committee, Bio/medical subcommittee, Ministry of Knowledge and Economy</span>
-        <span className="ocl">Aug. 2008. ~ Dec. 2011. : Planner, Industrial Original Technology Roadmap Planning Committee, Ministry of Knowledge and Economics</span>
-        <span className="ocl">Feb. 2008. ~ Dec. 2009. : Planner, Planning Committee for Industry Roadmaps (Next Generation of Medical Devices), Ministry of Knowledge and Economics</span>
-        <span className="ocl">May 2006. ~ Current : Evaluator, Knowledge and Economics Technology Innovation Evaluation Group (Medical devices), Ministry of Knowledge and Economics</span>
-        <span className="ocl">Apr. 2005. ~ Feb. 2009. : Planner, Planning Committee for Industrial Original Technology Fostering Project, Ministry of Knowledge and Economics</span>
-        <span className="ocl">2003. : Member, Medical Devices Law Research Society, KFDA,</span>
+        <span className="ocl">Mar. 2016 ~ Current : Member, Review Committee for Abnormal Cases of Medical Devices</span>
+        <span className="ocl">Oct. 2015 ~ Dec. 2015 : Planner, Industrial Core Technology Development Project, Ministry of Trade, Industry, and Energy</span>
+        <span className="ocl">May 2013 ~ Current : Professional Personnel, Medical Devices Committee, KFDA</span>
+        <span className="ocl">June 2013 ~ June 2013 : Professional Personnel, Demand Analysis of Industry Perspective University Evaluation (Medical devices), University Education Council </span>
+        <span className="ocl">Jul. 2011 ~ Dec. 2011 : Planner, Joint Planner for Cross-department Medical Devices Development Project, Ministry of Knowledge and Economy/Health and Welfare</span>
+        <span className="ocl">Jun. 2011 ~ Dec. 2011 : Planner, R&D Strategic Committee, Industrial Orignal Technology Development Project (Medical devices)</span>
+        <span className="ocl">Oct. 2010 ~ Apr. 2011 : Advisor, Daekyeong Regional Leading Industry Fostering Project</span>
+        <span className="ocl">Sep. 2009 ~ Current : Professional Personnel, Future of Medical Devices Forum-Professional Committee for Institutional Division Improvement, KFDA</span>
+        <span className="ocl">Aug. 2009 ~ Jan. 2012 : Planner, Ministry of Knowledge and Economy, Industrial Original Technology Fostering Project (Medical devices) Planning Support Team</span>
+        <span className="ocl">Apr. 2008 ~ Jan. 2009 : Professional Personnel, New Growth Driver Planning Committee, Bio/medical subcommittee, Ministry of Knowledge and Economy</span>
+        <span className="ocl">Aug. 2008 ~ Dec. 2011 : Planner, Industrial Original Technology Roadmap Planning Committee, Ministry of Knowledge and Economics</span>
+        <span className="ocl">Feb. 2008 ~ Dec. 2009 : Planner, Planning Committee for Industry Roadmaps (Next Generation of Medical Devices), Ministry of Knowledge and Economics</span>
+        <span className="ocl">May 2006 ~ Current : Evaluator, Knowledge and Economics Technology Innovation Evaluation Group (Medical devices), Ministry of Knowledge and Economics</span>
+        <span className="ocl">Apr. 2005 ~ Feb. 2009 : Planner, Planning Committee for Industrial Original Technology Fostering Project, Ministry of Knowledge and Economics</span>
+        <span className="ocl">2003 : Member, Medical Devices Law Research Society, KFDA,</span>
      
       </div>
         
@@ -201,7 +201,7 @@ export default function Professor() {
           <div className="rec">| Awards |</div>
          
           <span className="recl" >2021 의료기기산업특성화대학원 유공자 포상 “한국보건산업진흥원 표창장”, 보건복지부, 2021.09.14</span>
-          <span className="recl">Dec. 2010. : “Knowledge and Economics Minister Award” for Industrial Promotion Area, Korea Technology Awards</span>
+          <span className="recl">Dec. 2010 : “Knowledge and Economics Minister Award” for Industrial Promotion Area, Korea Technology Awards</span>
          
          </div>  
        </div>
@@ -250,7 +250,7 @@ export default function Professor() {
          <span className="bcl">Design of Digital Healthcare System (2021. 4) </span>
          <span className="bcl">Medical image processing and its applications (2020. 7)  </span>
          <span className="bcl">Medical devices and clinical medicine (2019. 12)  </span>
-         <span className="bcl"> Design of Biomedical Devices and Systems 4th edition (2018. 11)  </span>
+         <span className="bcl">Design of Biomedical Devices and Systems 4th edition (2018. 11)  </span>
          <span className="bcl">MEDICAL DEVICES QUALITY MANAGEMENT SYSTEM : MDSAP: Medical Device Single Audit Program  (2018. 10)</span>
          </div>
        </div>
@@ -261,8 +261,8 @@ export default function Professor() {
         <div className="intell-container">
         <div className="ic">| Patents |</div>
          
-         <span className="icl">배터리 소모 감소 기능이 구비된 산모 자궁수축도 검사장치 (2020. 12)</span>
-         <span className="icl">산모 자궁수축도 검사장치 (2020. 12)</span>
+         <span className="icl">Device for checking uterine contraction having a function for reducing battery consumption (2020. 12)</span>
+         <span className="icl">Device for checking uterine contraction (2020. 12)</span>
          <span className="icl">Positioning optimizer device and process of patch-type ultrasonic sensors for mobile-based bladder monitoring (2020. 11) </span>
          <span className="icl"> Positioning optimizer device and process of patch-type ultrasonic sensors for mobile-based bladder monitoring (Applied, 2019) </span>
          <span className="icl"> Bladder monitoring healthcare system and bladder monitoring process (Applied, 2018) </span>

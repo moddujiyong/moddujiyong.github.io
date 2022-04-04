@@ -9,6 +9,7 @@
 
 .researchLeft{
     flex:1;
+    display:flex;
    // background-color: greenyellow;
     margin-top: 64px;
     margin-bottom:200px;
@@ -18,13 +19,12 @@
 
 .researchRight{
     flex:5;
-    
+    display:flex;
    // background-color: gold;
     width: 100%;
     height: 100%;
 
-    justify-content: center;
-    display: flex;
+
     margin-top: 64px;
 }
 
