@@ -11,7 +11,8 @@ import GalleryPhoto9 from "../../components/img/jeju2021_1.JPG";
 import GalleryPhoto10 from "../../components/img/kimes2018.jpg";
 import GalleryPhoto11 from "../../components/img/kimes2021_1.jpg";
 import GalleryPhoto12 from "../../components/img/mddu2021_1.JPG";
-
+import GalleryPhoto13 from "../../components/img/mddu2020_1.jpg";
+import GalleryPhoto14 from "../../components/img/mddu2020_2.jpg";
 
 
 
@@ -176,6 +177,33 @@ export default function contact() {
                   <div className="gal-name">
                     <span className="gal-info"> 2018.10 - 부산 </span>
                     <span className="gal-loc">KIMES</span>
+                  </div>
+              </div>
+            </div>
+
+
+
+            <div className="gal-field"> 
+                
+                <div className="gal-photo"> 
+                <div className="img-container">
+                      <img className="galImg" src={GalleryPhoto13} alt=""/> 
+                      </div>
+              
+                  <div className="gal-name">
+                  <span className="gal-info"> 2020.10 </span>
+                    <span className="gal-loc">연구실 첫 워크샵</span>
+                  </div>
+              </div>
+
+              <div className="gal-photo"> 
+              <div className="img-container">
+                      <img className="galImg" src={GalleryPhoto14} alt=""/> 
+                      </div>
+              
+                  <div className="gal-name">
+                    <span className="gal-info"> 2020.10 </span>
+                    <span className="gal-loc">연구실 첫 워크샵</span>
                   </div>
               </div>
             </div>
