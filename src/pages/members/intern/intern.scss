@@ -1,9 +1,9 @@
 .intern{
     display:flex;
     flex-direction: column;
- //  background-color: bisque;
-    margin-right: 319.5px;
-    font-weight:500;
+    //background-color: bisque;
+   
+    font-weight:500;        
 }
 
 .intern-header{
@@ -25,24 +25,42 @@
     border-top: solid;
     border-top-width: 1px;
     
-    padding:5px;
+   
     flex-direction: column;
 }
 
 
 .iilt{
-    font-size: 24px;
-    margin-bottom:10px;
-    margin-left: 70px;
+   
+  
     color:#002650;
     font-weight: 700;
+    display:flex;
+    justify-content: start;
+    font-size: 24px;
+    font-family: 'Roboto';
+  
+    opacity: 1;
+   
+    margin-top: 63.5px;
+    margin-left:38px;
+   
+
+}
+.iild{
+    margin-left:10px;
+    margin-top: 3px;
+    font-size: 20px;
+    font-family: 'Segoe UI';
+    margin-bottom: 20px;
+   
 }
 .iil{
     
     font-size: 20px;
     font-family: 'Segoe UI';
     margin-bottom: 40px;
-    margin-left: 100px;
+    margin-left:38px;
 }
 
 
