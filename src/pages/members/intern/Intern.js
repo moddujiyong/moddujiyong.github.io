@@ -49,7 +49,7 @@ export default function Intern() {
 
         <span className="iilt">
         Dongwook Kim
-          <span className="iild">(2019.07.01 ~ 2019.08.31 / 2020.01.01~2020.02.28)</span> 
+          <span className="iild">(2019.07.01 ~ 2019.08.31 / 2020.01.01 ~ 2020.02.28)</span> 
         </span>
         <span className="iil"> Department of Biomedical Engineering, Yonsei University</span>
 
@@ -91,7 +91,7 @@ export default function Intern() {
 
         <span className="iilt">
         Sehui Kim
-          <span className="iild"> (2020.07.01 ~ 2020.08.31)</span> 
+          <span className="iild"> (2021.07.01 ~ 2021.08.31)</span> 
         </span>
         <span className="iil"> RA specialist</span>
 
@@ -100,16 +100,6 @@ export default function Intern() {
 
        
         
-        <span className="iilt">Hojoon Lee (2020.01.01~2020.02.28)</span>
-        <span className="iil"> Department of Biomedical Engineering, Yonsei University </span>
-        <span className="iilt">Heeyeong Choi (2020.07.01 ~ 2021.02.28) </span>
-        <span className="iil"> Department of Medical Device Engineering & Management, Graduate School, College of Medicine, Yonsei University</span>
-        <span className="iilt">Jeonghwa Lim (2020.07.01 ~ 2020.12.31)</span>
-        <span className="iil"> Department of Medical Device Engineering & Management, Graduate School, College of Medicine, Yonsei University </span>
-        <span className="iilt">Sujin Lee (2020.07.01 ~ 2020.08.31)</span>
-        <span className="iil"> Department of Biomedical Engineering, Yonsei University </span>
-        <span className="iilt">Sehui Kim (2020.07.01 ~ 2020.08.31)</span>
-        <span className="iil"> RA specialist</span>
        
 
 
