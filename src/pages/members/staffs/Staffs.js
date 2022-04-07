@@ -32,7 +32,7 @@ export default function Staffs() {
 
           <div className="staffs-field"> 
             <span className="staffs-edu">| Education |</span>
-            <span className="staffs-edul1">B.S in Advanced Materials Engineering, Sejong University (2017) </span>
+            <span className="staffs-edul1">Bachelor in Advanced Materials Engineering, Sejong University (2017) </span>
           
             <span className="staffs-ri">| Task |</span>
             <span className="staffs-ril">Administration </span>

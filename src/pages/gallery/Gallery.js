@@ -127,7 +127,8 @@ export default function contact() {
                       </div>
               
                   <div className="gal-name">
-                    <span className="gal-info"> 2022.02 - 제주도 </span>
+                    <span className="gal-info"> 2021.07 - 제주도 </span>
+                    <span className="gal-loc">대한전자공학회 하계종합학술대회</span>
                   </div>
                 </div>
                 </div>
@@ -140,11 +141,39 @@ export default function contact() {
                       </div>
                   
                       <div className="gal-name">
-                        <span className="gal-info"> 2021년 상반기 연구실 워크샵</span>
+                        <span className="gal-info"> 2021.03</span>
+                        <span className="gal-loc"> 연구실 상반기 워크샵</span>
                       </div>
                </div>
+               <div className="gal-photo"> 
+                <div className="img-container">
+                      <img className="galImg" src={GalleryPhoto13} alt=""/> 
+                      </div>
+              
+                  <div className="gal-name">
+                  <span className="gal-info"> 2020.10 </span>
+                    <span className="gal-loc">연구실 하반기 워크샵</span>
+                  </div>
+              </div>
+            </div>
+
+
             
-              <div className="gal-photo"> 
+            <div className="gal-field"> 
+                
+            <div className="gal-photo"> 
+              <div className="img-container">
+                      <img className="galImg" src={GalleryPhoto14} alt=""/> 
+                      </div>
+              
+                  <div className="gal-name">
+                    <span className="gal-info"> 2020.10 </span>
+                    <span className="gal-loc">연구실 하반기 워크샵</span>
+                  </div>
+              </div>
+
+
+            <div className="gal-photo"> 
               <div className="img-container">
                       <img className="galImg" src={GalleryPhoto1} alt=""/> 
                       </div>
@@ -154,6 +183,8 @@ export default function contact() {
                     <span className="gal-loc">대한전자공학회 하계종합학술대회</span>
                   </div>
               </div>
+
+              
             </div>
 
             <div className="gal-field"> 
@@ -183,30 +214,7 @@ export default function contact() {
 
 
 
-            <div className="gal-field"> 
-                
-                <div className="gal-photo"> 
-                <div className="img-container">
-                      <img className="galImg" src={GalleryPhoto13} alt=""/> 
-                      </div>
-              
-                  <div className="gal-name">
-                  <span className="gal-info"> 2020.10 </span>
-                    <span className="gal-loc">연구실 첫 워크샵</span>
-                  </div>
-              </div>
-
-              <div className="gal-photo"> 
-              <div className="img-container">
-                      <img className="galImg" src={GalleryPhoto14} alt=""/> 
-                      </div>
-              
-                  <div className="gal-name">
-                    <span className="gal-info"> 2020.10 </span>
-                    <span className="gal-loc">연구실 첫 워크샵</span>
-                  </div>
-              </div>
-            </div>
+          
               </div>
                 
             </div>

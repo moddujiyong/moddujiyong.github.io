@@ -40,7 +40,7 @@ export default function Alumni() {
 
           <div className="alu-field"> 
             <span className="alu-edu">| Education |</span>
-            <span className="alu-edul1">M.S in Medical Device Engineering & Management (2020) </span>
+            <span className="alu-edul1">Master in Medical Device Engineering & Management (2020) </span>
             <span className="alu-aff">| Affiliation |</span>
             <span className="alu-affl"></span>
             <span className="alu-dis">| Dissertation |</span>
@@ -73,7 +73,7 @@ export default function Alumni() {
 
           <div className="alu-field"> 
             <span className="alu-edu">| Education |</span>
-            <span className="alu-edul1">M.S in Medical Device Engineering & Management (2021) </span>
+            <span className="alu-edul1">Master in Medical Device Engineering & Management (2021) </span>
             <span className="alu-aff">| Affiliation |</span>
             <span className="alu-affl">Medtronic</span>
             <span className="alu-dis">| Dissertation |</span>
@@ -105,7 +105,7 @@ export default function Alumni() {
 
           <div className="alu-field"> 
             <span className="alu-edu">| Education |</span>
-            <span className="alu-edul1">M.S in Medical Device Engineering & Management (2021)  </span>
+            <span className="alu-edul1">Master in Medical Device Engineering & Management (2021)  </span>
             <span className="alu-aff">| Affiliation |</span>
             <span className="alu-affl">Synex</span>
             <span className="alu-dis">| Dissertation |</span>
@@ -139,7 +139,7 @@ export default function Alumni() {
 
           <div className="alu-field"> 
             <span className="alu-edu">| Education |</span>
-            <span className="alu-edul1">M.S in Medical Device Engineering & Management (2022)  </span>
+            <span className="alu-edul1">Master in Medical Device Engineering & Management (2022)  </span>
             <span className="alu-aff">| Affiliation |</span>
             <span className="alu-affl">Abbott</span>
             <span className="alu-dis">| Dissertation |</span>
@@ -172,7 +172,7 @@ export default function Alumni() {
 
           <div className="alu-field"> 
             <span className="alu-edu">| Education |</span>
-            <span className="alu-edul1">M.S in Medical Device Engineering & Management (2022)   </span>
+            <span className="alu-edul1">Master in Medical Device Engineering & Management (2022)   </span>
             <span className="alu-aff">| Affiliation |</span>
             <span className="alu-affl">Vuno </span>
             <span className="alu-dis">| Dissertation |</span>
@@ -206,7 +206,7 @@ export default function Alumni() {
 
           <div className="alu-field"> 
             <span className="alu-edu">| Education |</span>
-            <span className="alu-edul1">M.S in Medical Device Engineering & Management (2022)   </span>
+            <span className="alu-edul1">Master in Medical Device Engineering & Management (2022)   </span>
             <span className="alu-aff">| Affiliation |</span>
             <span className="alu-affl">Gangnam Severance Hospital (Medical Device Usability Research Center) </span>
             <span className="alu-dis">| Dissertation |</span>
@@ -237,7 +237,7 @@ export default function Alumni() {
 
           <div className="alu-field"> 
             <span className="alu-edu">| Education |</span>
-            <span className="alu-edul1">M.S in Medical Device Engineering & Management (2022) </span>
+            <span className="alu-edul1">Master in Medical Device Engineering & Management (2022) </span>
             <span className="alu-aff">| Affiliation |</span>
             <span className="alu-affl">Seegene</span>
             <span className="alu-dis">| Dissertation |</span>
@@ -270,7 +270,7 @@ export default function Alumni() {
 
           <div className="alu-field"> 
             <span className="alu-edu">| Education |</span>
-            <span className="alu-edul1">M.S in Medical Device Engineering & Management (2022) </span>
+            <span className="alu-edul1">Master in Medical Device Engineering & Management (2022) </span>
             <span className="alu-aff">| Affiliation |</span>
             <span className="alu-affl">Guerbet</span>
             <span className="alu-dis">| Dissertation |</span>
