@@ -177,7 +177,7 @@ export default function Publication() {
               
             </div>
         </div>
-        <img className="bar-rightcd" src={BarImgP} alt="" />
+        <img className="bar-rightcdp" src={BarImgP} alt="" />
       </div>
 
   )

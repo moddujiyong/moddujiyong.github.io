@@ -198,10 +198,11 @@
         border-left-width:0px;
         border-right-width:0px;
         border-bottom-width:0px;
-      //  background-color: aqua;
+      // background-color: aqua;
         flex-direction: column;
+        
         display:flex;
-        width:100%;
+        width:90%;
         
     }
     
@@ -212,7 +213,7 @@
         flex-direction: column;
         width:100%;
         
-      //  background-color: yellow;
+     //   background-color: yellow;
     }
     .stu-course{
         display:flex;
@@ -221,6 +222,7 @@
         font-family: 'Roboto';
         color: #002650;
         opacity: 1;
+        
         font-weight: 1000;
         margin-top: 0px;
         margin-left:0px;
@@ -231,7 +233,7 @@
         justify-content: center;
         margin-left:0px;
         width:80%;
-        
+      //  background-color: aqua;
      //   background-color: aquamarine;
     }
     .stuImg{
@@ -240,18 +242,19 @@
         
         object-fit: contain;
         width:100%;
-        
+      //  background-color: aqua;
       //  background-color: red;
     }
     
     
     .stu-right{
         margin-top:23.5px;
-    //  background-color: yellow;
+     // background-color: yellow;
         flex:2;
         display: flex;
-        margin-left: 10px;
+        margin-left: 0px;
         flex-direction: column;
+     //   background-color: aqua;
     }
     .stu-name{
       //  background-color: skyblue;
@@ -262,7 +265,7 @@
       
         margin-bottom: 17px;
        // display: flex;
-    
+    //   background-color: aqua;
     }
     .stu-pos{
         font-size:18px;
@@ -274,6 +277,8 @@
         margin-left: 20px;
         font-size: 23px;
      //   background-color: skyblue;
+    
+  //   background-color: aqua;
     }
     
     .stu-field{
@@ -285,8 +290,9 @@
         border-bottom-width: 0;
         display:flex;
         flex-direction: column;
-        padding-top: 37px;
-    //    background-color: blue;
+        padding-top: 10px;
+       // background-color: blue;
+     //  background-color: aqua;
     }
     
     .stu-edu{
@@ -295,8 +301,9 @@
         color:#002650;
         opacity: 1;
         font-weight: 700;
-        margin-bottom: 29px;
-      //  background-color: skyblue;
+        margin-bottom: 20px;
+       // background-color: skyblue;
+    //   background-color: aqua;
     }
     
     .stu-edul1{
@@ -305,6 +312,7 @@
         margin-bottom: 29px;
         font-family: 'Roboto' ;
         margin-bottom: 29px;
+    //    background-color: aqua;
      //   background-color: skyblue;
     }
     
@@ -314,6 +322,7 @@
         font-family: 'Roboto' ;
         margin-bottom: 29px;
      //   background-color: skyblue;
+    // background-color: aqua;
     }
     
     .stu-ri{
@@ -324,6 +333,7 @@
         opacity: 1;
         font-weight: 700;
         margin-bottom: 29px;
+      //  background-color: aqua;
     }
     
     .stu-ril{
@@ -333,6 +343,7 @@
         font-size: 16px;
         font-family: 'Roboto' ;
         margin-bottom: 29px;
+      //  background-color: aqua;
     }
     
     .stu-contact{

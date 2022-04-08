@@ -27,36 +27,40 @@
 
 @media screen and(max-width: 768px){
     .student{
+       // width:100%;
         display:flex;
         flex-direction: column;
-      //  background-color: bisque;
-       // margin-left:10px;
-         margin-right:10px;
-         width:70%;
-         font-weight:500;
+     //  background-color: bisque;
+    
+        margin-right: 0px;
     }
     
     .stu-header{
-    //    background-color: aquamarine;
+        margin-top: 10px;
+        
+       //background-color: blue;
         margin-left:0px;
         display: flex;
-        font-size: 20px;
+        font-size: 13px;
         flex-direction: column;
-       width: 100%;
+       
     }
     .stu-title{
- //       background-color: aquamarine;
+     //  background-color: aquamarine;
         font-weight:700;
-        display:flex;
-       // margin-left:10px;
+        display: flex;
+        width:80%;
+        margin-left:0px;
         margin-bottom: 23.5px;
+
+      
     }
     
     .stu-container{
         width: 100%;
         
         display: flex;
-  //      background-color: aquamarine;
+      //  background-color: aquamarine;
     }
     
     

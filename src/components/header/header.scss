@@ -97,11 +97,13 @@ header{
 
     .headerTitleSmall{
          display: flex;
-         font-size: 18px;
+         font-size: 16px;
+         justify-content: center;
      }
      .headerTitleSmaller{
         display: flex;
-        font-size: 15px;
+        font-size: 12px;
+        justify-content: center;
     }
      
  }

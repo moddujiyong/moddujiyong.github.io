@@ -68,16 +68,16 @@
     .intern{
         display:flex;
         flex-direction: column;
-     //  background-color: bisque;
-        margin-right: 0px;
-        font-weight:500;
+        //background-color: bisque;
+       
+        font-weight:500;        
     }
     
     .intern-header{
       
         
         display: flex;
-        font-size: 20px;
+        font-size: 26px;
         flex-direction: column;
        // background-color: green;
         
@@ -92,17 +92,41 @@
         border-top: solid;
         border-top-width: 1px;
         
-        padding:0px;
+       
         flex-direction: column;
     }
     
     
+    .iilt{
+       
+      
+        color:#002650;
+        font-weight: 700;
+        display:flex;
+        justify-content: start;
+        font-size: 24px;
+        font-family: 'Roboto';
+      
+        opacity: 1;
+       flex-direction: column;
+        margin-top: 63.5px;
+        margin-left:38px;
+       
     
-    .iil{
-        margin-top:20px ;
-        font-size: 15px;
+    }
+    .iild{
+        margin-left:10px;
+        margin-top: 3px;
+        font-size: 20px;
         font-family: 'Segoe UI';
-        margin-bottom: 29px;
-        margin-left:35px;
+        margin-bottom: 20px;
+       
+    }
+    .iil{
+        
+        font-size: 20px;
+        font-family: 'Segoe UI';
+        margin-bottom: 40px;
+        margin-left:38px;
     }
 }

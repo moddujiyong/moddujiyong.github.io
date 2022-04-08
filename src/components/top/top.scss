@@ -66,34 +66,12 @@
     display: flex;
     font-size:25px;
    // width: 100%;
+   
     font-weight:300;
     cursor:pointer;
     color: white;
     
    
-}
-.topSearchIcon{
-    
-   
-    font-size:25px;
-    color:#444;
-    cursor:pointer;
-    display: flex;
-    position: absolute;
-    right:0;
-   
-    margin-right:164px;
-    color:white;
-
-}
-.searchText{
-    display:flex;
-    font-size: 20px;
-    color:white;
-    position: absolute;
-    margin-right: 77px;
-    right:0;
-    background-color:  #002A5C ;
 }
 
 .topLeft{
@@ -125,62 +103,107 @@
 
 
 @media screen and(max-width: 768px){
-   .top{
-       
-    display: flex;
-       width: 100%;
-       .topSet{
-        width:100%;
+    .top{
+        width: 100%;
+        background-color:   #002A5C;
+        
+        position:sticky;
+        top:0;
+      
+        z-index:1000;
         display: flex;
-           .topLeft{
-            display: flex;
-            width:100%;
-            justify-content: center;
-             
-           }
-           .topCenter{
-          
-            display: flex;
-            width:100%;
-            
-            justify-content: center;
-
-           }
-
-           
-            .topList{
-                
-                display:flex;
-                width:100%;
-                list-style:none;
-                justify-content: space-around;   
-            
-            }   
-           .topListItem{
-    
-            display: flex;
-            font-size:15px;
-            
-            font-weight:300;
-            cursor:pointer;
-            color: white;
-            
-           
-        }
-           .topSearchIcon{
-            
-               
-                display: flex;
-                justify-content:center;
-            
-           }
-          
-           
-    }
-
+      
  
-}
-
+        font-family: 'Josefin Snas', sans-serif;
+      
+    }
+    
+    
+    
+    .topSet{
+    
+        display:flex;
+        flex-direction: column;
+        object-fit: contain;
+        width:100%;
+      
+       
+        align-items:center;
+        
+        
+      
+    
+    }
+    
+    
+    
+    .topImg{
+        width:100%;
+      
+        object-fit:contain;
+        background-color:   #002A5C;
+      //  background-color: red;
+        
+        display: flex;
+ 
+        
+    }
+    
+    
+    .topList{
+        
+        display:flex;
+        width:100%;
+     
+       
+        list-style:none;
+       
+        justify-content:space-around;
+        
+       margin-right: 40px;
+    }
+    .topListItem{
+        
+        display: flex;
+        font-size:15px;
+       // width: 100%;
+        margin-right: 5px;
+        font-weight:300;
+        cursor:pointer;
+        color: white;
+        
+       
+    }
+ 
+    
+    .topLeft{
+        width:100%;
+      
+        background-color:   #002A5C ;
+        
+        flex:1;
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    
+    }
+    
+    .topCenter{
+        flex:1;
+        
+        background-color:  #001E42;
+        
+        width:100%;
+        display:flex;
+       
+      
+       justify-content: space-around;
+       
+    }
+    
+    
 }
 
 /*@media screen and(max-width:200px){

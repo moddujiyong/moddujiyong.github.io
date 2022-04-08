@@ -126,12 +126,14 @@
      
     
      .bar-rightcd{
-         display:flex;
+     
          margin-top: 120px;
          display: flex;
          object-fit:cover;
              //width:9px;
-         height:208px;
+             width:0px;
+         height:0px;
+         
       
      }
      
@@ -140,8 +142,8 @@
          margin-top: 120px;
          display: flex;
          object-fit:cover;
-             //width:9px;
-         height:208px;
+         width:0px;
+         height:0px;
       
      }
      .bsp-all{
