@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.448b14e9.css",
-    "main.js": "/static/js/main.462418f5.js",
+    "main.js": "/static/js/main.ab39ab6f.js",
     "static/media/jeju2021_1.JPG": "/static/media/jeju2021_1.d415ad274808367bc173.JPG",
     "static/media/bsp.jpg": "/static/media/bsp.5deef398706176fd9752.jpg",
     "static/media/kimes2018.jpg": "/static/media/kimes2018.acca5e9b2f083de5cfac.jpg",
@@ -38,12 +38,12 @@
     "static/media/ud08.jpg": "/static/media/ud08.0c18d0495237aa6ba140.jpg",
     "static/media/kanghyeon.png": "/static/media/kanghyeon.bc9c04b11a0dabb3946e.png",
     "static/media/cd06.jpg": "/static/media/cd06.81576170e45988a2baaa.jpg",
+    "static/media/seulbi.png": "/static/media/seulbi.23daad779a558467eaef.png",
     "static/media/bs02.jpg": "/static/media/bs02.3ab98a3fed19140d4e84.jpg",
     "static/media/cd04.jpg": "/static/media/cd04.3ab98a3fed19140d4e84.jpg",
     "static/media/ud06.jpg": "/static/media/ud06.3ab98a3fed19140d4e84.jpg",
     "static/media/miwon.jpg": "/static/media/miwon.857d6554c86a1699f8e0.jpg",
     "static/media/jeonghwa.png": "/static/media/jeonghwa.edd46c8df54b2d3d7d3b.png",
-    "static/media/seulbi.png": "/static/media/seulbi.7e26aeeabe7d962672de.png",
     "static/media/elec2020_1.jpg": "/static/media/elec2020_1.2e01c5f2962b9923ec98.jpg",
     "static/media/insik.png": "/static/media/insik.6d153fa2cf974d91828c.png",
     "static/media/elec2020_2.jpg": "/static/media/elec2020_2.6b9d6ae241d5c2c4efaf.jpg",
@@ -75,10 +75,10 @@
     "static/media/Logo_White.png": "/static/media/Logo_White.8044fba2e63948b22775.png",
     "index.html": "/index.html",
     "main.448b14e9.css.map": "/static/css/main.448b14e9.css.map",
-    "main.462418f5.js.map": "/static/js/main.462418f5.js.map"
+    "main.ab39ab6f.js.map": "/static/js/main.ab39ab6f.js.map"
   },
   "entrypoints": [
     "static/css/main.448b14e9.css",
-    "static/js/main.462418f5.js"
+    "static/js/main.ab39ab6f.js"
   ]
 }
