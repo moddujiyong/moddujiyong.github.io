@@ -75,8 +75,9 @@ export default function Professor() {
 
        <div className="prof-summary">
           <div className="prof-name">
-          Wonseuk Jang
-           
+          장원석 
+          <span className="prof-pos"> 교수/공학박사 </span>
+            <span className="prof-eng"> Wonseuk Jang</span>
            
           </div>
       
