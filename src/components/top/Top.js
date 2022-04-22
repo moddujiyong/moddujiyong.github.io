@@ -3,6 +3,7 @@ import {IoIosSearch} from "react-icons/io";
 import "./top.scss";
 import {Link} from "react-router-dom";
 import Logo_Design_Eng from '../img/Logo_sizeAdj_new.png'
+import SideToggle from '../sidetoggle/SideToggle';
 export default function Top(){
    /* <IoIosSearch className="topSearchIcon"/>
     <div className="searchText">
@@ -21,6 +22,7 @@ export default function Top(){
                  </div>    
                 
                 <div className="topCenter">
+                
                     <ul className="topList">
                     
                      <li className="topListItem"><Link className="link" to ="/members" >Members</Link></li>
@@ -31,9 +33,9 @@ export default function Top(){
                     </ul>
                    
                  </div> 
-                
+               
             </div>
-            
+        
             
          
             

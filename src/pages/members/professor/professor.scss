@@ -62,7 +62,7 @@
 }
 .profListItem{
     //background-color: red;
-    font-family: 'roboto' ;
+    font-family: 'Roboto';
     display: flex;
 }
 
@@ -74,8 +74,8 @@
     //background-color: aqua;
     
     justify-content: center;
-    
-   // background-color: red;
+    z-index: 0;
+   
 }
 
 .prof-summary{
@@ -100,14 +100,14 @@
     display: flex;
     margin-left: 91px;
    // width:100%;
+   justify-content: center;
 }
 .profImg{
     margin-top:15px;
     display: flex;
     justify-self: center;
     object-fit: cover;
-  // width:288px;
-    //height:350px;
+    width: 288px;
 }
 
 .prof-name{
@@ -303,7 +303,7 @@
 .mcl{
     display: flex;
     font-size: 20px;
-    font-family: 'Segoe UI';
+    font-family: 'Roboto';
     margin-bottom: 29px;
     margin-left:70px;
     
@@ -342,7 +342,7 @@
 .ocl{
     display: flex;
     font-size: 20px;
-    font-family: 'Segoe UI';
+    font-family: 'Roboto';
     margin-bottom: 29px;
     margin-left:70px;
 }
@@ -378,7 +378,7 @@
     font-size: 20px;
     display: flex;
     font-size: 20px;
-    font-family: 'Segoe UI';
+    font-family: 'Roboto';
     margin-bottom: 29px;
     margin-left:70px;
 }
@@ -413,7 +413,7 @@
 .scl{ 
     display: flex;
     font-size: 20px;
-    font-family: 'Segoe UI';
+    font-family: 'Roboto';
     margin-bottom: 29px;
     margin-left:70px;
 }
@@ -447,14 +447,14 @@
 .rsl{
     display: flex;
     font-size: 20px;
-    font-family: 'Segoe UI';
+    font-family: 'Roboto';
     margin-bottom: 29px;
     margin-left:70px;
 }
 .rslt{
     margin-left: 70px;
     font-size: 20px;
-    font-family: 'Segoe UI';
+    font-family: 'Roboto';
     margin-bottom: 29px;
     font-weight: 700;
 }
@@ -490,7 +490,7 @@
 .recl{
     display: flex;
     font-size: 20px;
-    font-family: 'Segoe UI';
+    font-family: 'Roboto';
     margin-bottom: 29px;
     margin-left:70px;
 }
@@ -527,7 +527,7 @@
     font-size: 20px;
     display: flex;
     font-size: 20px;
-    font-family: 'Segoe UI';
+    font-family: 'Roboto';
     margin-bottom: 29px;
     margin-left:70px;
 }
@@ -562,7 +562,7 @@
 .icl{
     display: flex;
     font-size: 20px;
-    font-family: 'Segoe UI';
+    font-family: 'Roboto';
     margin-bottom: 29px;
     margin-left:70px;
 }
@@ -636,7 +636,7 @@
       
        margin-right: 15px;
        text-align: center;
-        font-family: 'roboto' ;
+       font-family: 'Roboto';
         display: flex;
         width:90%;
        
@@ -901,7 +901,7 @@
     .mcl{
         display: flex;
         font-size: 15px;
-        font-family: 'Segoe UI';
+        font-family: 'Roboto';
         margin-bottom: 29px;
         margin-left:0px;
     }
@@ -939,7 +939,7 @@
     .ocl{
         display: flex;
         font-size: 15px;
-        font-family: 'Segoe UI';
+        font-family: 'Roboto';
         margin-bottom: 29px;
         margin-left: 0px;
     }
@@ -973,7 +973,7 @@
     .ecl{
         display: flex;
         font-size: 15px;
-        font-family: 'Segoe UI';
+        font-family: 'Roboto';
         margin-bottom: 29px;
         margin-left: 0px;
     }
@@ -1005,7 +1005,7 @@
     
     .recl{
         font-size: 15px;
-        font-family: 'Segoe UI';
+        font-family: 'Roboto';
         margin-bottom: 29px;
         margin-left: 0px;
     }
@@ -1038,7 +1038,7 @@
     
     .scl{ 
         font-size: 15px;
-        font-family: 'Segoe UI';
+        font-family: 'Roboto';
         margin-bottom: 29px;
         margin-left: 0px;
     }
@@ -1074,7 +1074,7 @@
     
     .bcl{
         font-size: 15px;
-        font-family: 'Segoe UI';
+        font-family: 'Roboto';
         margin-bottom: 29px;
         margin-left: 0px;
         
@@ -1109,7 +1109,7 @@
     
     .icl{
         font-size: 15px;
-        font-family: 'Segoe UI';
+        font-family: 'Roboto';
         margin-bottom: 29px;
         margin-left: 0px;
         
@@ -1143,13 +1143,13 @@
     
     .rsl{
         font-size: 15px;
-        font-family: 'Segoe UI';
+        font-family: 'Roboto';
         margin-bottom: 29px;
         margin-left: 0px;
     }
     .rslt{
         font-size: 15px;
-        font-family: 'Segoe UI';
+        font-family: 'Roboto';
         margin-bottom: 29px;
         margin-left: 0px;
     }

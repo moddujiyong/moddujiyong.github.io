@@ -7,7 +7,6 @@ import Gallery from './pages/gallery/Gallery';
 import Members from './pages/members/Members';
 import Research from './pages/research/Research';
 
-
 import "./App.scss"; 
 
 import Publication from './pages/publication/Publication';
@@ -25,9 +24,8 @@ function App() {
        <Router>
          <>
          <Switch>
-          
-           <Route exact path="/">  <Top/><Home/><Footer/> </Route>
-           <Route path="/gallery"> <Top/><Gallery/><Footer/></Route>
+         
+           <Route exact path="/">   <Top/><Home/><Footer/> </Route>
            <Route path="/members"> <Top/><Members/><Footer/></Route>
            <Route exact path="/research" > <Top/><Research/><Footer/></Route>
            <Route exact path="/research/clinical"> <Top/><Research/><Footer/></Route>
@@ -37,7 +35,7 @@ function App() {
            <Route path="/publication"> <Top/><Publication/><Footer/></Route>
            <Route path="/contact"> <Top/><Contact/><Footer/></Route>
            <Route path="/gallery"> <Top/><Gallery/><Footer/></Route>
-         
+            
          </Switch>
         
          </>
