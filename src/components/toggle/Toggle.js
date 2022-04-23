@@ -1,21 +1,27 @@
 import React, {useState} from 'react';
+import './toggle.scss';
 import {Link} from "react-router-dom";
-import "./sidetoggle.scss";
-
-
-export default function SideToggle(){
+import Toggle_Icon from '../img/icon-toggle.PNG'
+export default function Toggle(){
+    
+ 
     return (
-      <div className="toggleCenter">
-         <ul className="toggleList">
+        <div className="toggle">
+            <div className="toggleSet">
+
+            <div className="toggleCenter">
+                <ul className="toggleList">
                     
                     <li className="toggleListItem"><Link className="link" to ="/members" >Members</Link></li>
                     <li className="toggleListItem"><Link className="link" to ="/research">Research</Link></li>
                     <li className="toggleListItem"><Link className="link" to ="/publication">Publication</Link></li>
                     <li className="toggleListItem"><Link className="link" to ="/contact">Contact</Link></li>
                     <li className="toggleListItem"><Link className="link" to ="/gallery" >Gallery</Link></li>
-            </ul>
-      </div>
-           
+                </ul>
 
+            </div>
+          
+            </div>
+        </div>
     )
 }
