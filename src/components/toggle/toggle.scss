@@ -1,31 +1,18 @@
-@media screen and(max-width: 768px){
 .toggle{
     width: 100%;
     //width:100vh; 
-    height:193px;
-     background-color: red;
-    
-     position:sticky;
-     top:0;
-   
-     z-index:1000;
+    height:750px;
+
      display: flex;
-     align-items: center;
+    
      justify-content: center;
      font-family: 'Roboto';
-     flex-direction: row;
+    
 }
 .toggleSet{
-
-    display:flex;
-   
-    
-    width:100%;
-  
-   
-    align-items:center;
-
+    width:80%;
 }
+
 .toggleList{
     
     display:flex;
@@ -35,31 +22,116 @@
     //margin-right:100px;
     list-style:none;
     justify-content: space-around;
-    background-color: aqua;
+   // background-color: aqua;
   
    
 }
 .toggleListItem{
     
     display: flex;
-    font-size:15px;
+    font-size:0px;
    // width: 100%;
-   background-color: blue;
+ //  background-color: blue;
     font-weight:300;
     cursor:pointer;
     color: white;
     
    
 }
-.toggleCenter{
-    flex:1;
 
-  
-    align-items: center;
+.toggleListItemTitle{
+
+    display: flex;
+    font-size:0px;
+    padding:10px;
+    font-weight:300;
+    cursor:pointer;
+    color: black;
+    border-width: 0px;
+    border-style:solid;
+    border-color: lightgray;
+    background-color: white;
+    justify-content: start;
+}
+.toggleContainer{
     width:100%;
+    
+}
+
+@media screen and(max-width: 768px){
+.toggle{
+    width: 100%;
+    //width:100vh; 
+    height:800px;
+    
+    
+    
+     
+     display: flex;
+     align-items: flex-start;
+     
+     font-family: 'Roboto';
+     
+}
+
+.toggleSet{
+    width:100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.8);
+    display: flex;
+    justify-content: end;
+}
+
+.toggleContainer{
+    width:70%;
+    height: 100%;
+    
+    display: flex;
+    background-color: white;
+    justify-content: end;
+}
+.toggleList{
+    
     display:flex;
-    align-self: center;
-  
- //   background-color: blue;
+    width:100%;
    
-}}
+    //padding:10;
+    //margin-right:100px;
+    list-style:none;
+  margin-top: 131px;
+  justify-content: center;
+  
+  flex-direction: column;
+  border-width: 5px;
+}
+.toggleListItem{
+
+    display: flex;
+    font-size:20px;
+    padding:10px;
+    font-weight:300;
+    cursor:pointer;
+    color: black;
+    border-width: 1px;
+    border-style:solid;
+    border-color: lightgray;
+    background-color: white;
+    justify-content: start;
+    
+}
+.toggleListItemTitle{
+
+    display: flex;
+    font-size:20px;
+    padding:10px;
+    font-weight:300;
+    cursor:pointer;
+    color: black;
+    border-width: 1px;
+    border-style:solid;
+    border-color: lightgray;
+    background-color: white;
+    justify-content: center;
+}
+
+}

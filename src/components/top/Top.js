@@ -20,9 +20,13 @@ export default function Top(){
                  <div className="topLeft">
                    <Link to="/"><img className="topImg" src={Logo_Design_Eng} alt=""></img> </Link> 
                    <img className="icon-toggle" onClick={()=>{setMenu(!isOpen)}} src={Toggle_Icon} alt=""></img>
-                
-                 </div>    
+                 </div>   
+                 <div className="topToggle"> 
+                   {isOpen===false ? <Toggle/> :null}
+                 </div> 
+               
                  <div className="topCenter">
+                 
                  <ul className="topList">
                     
                     <li className="topListItem"><Link className="link" to ="/members" >Members</Link></li>
@@ -34,9 +38,6 @@ export default function Top(){
              
               </div>
           
-              <div className="topToggle"> 
-              {isOpen===false ? <Toggle/> :null}
-              </div>
                
             </div>
         

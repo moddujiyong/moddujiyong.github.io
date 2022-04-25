@@ -23,6 +23,7 @@
     width:0px;
     height:0px;
     display: flex;
+    
 }
 
 .topSet{
@@ -123,7 +124,7 @@
         height:123px;
         z-index:1000;
         display: flex;
-      
+        
  
         font-family: 'Roboto';
    
@@ -134,12 +135,7 @@
         display: flex;
         cursor: pointer;
     }
-    .topToggle{
-        width:100%;
-        
-        display: flex;
-       
-    }
+  
     
     .topSet{
     
@@ -147,12 +143,18 @@
         flex-direction: column;
         object-fit: contain;
         width:100%;
-     
+        
         align-items:center;
       
     //background-color: red;
     }
-    
+    .topToggle{
+        width:100%;
+        
+        display: flex;
+        justify-content:end;
+      
+    }
    /* .toggle-click{
         font-size: 20px;
     }
