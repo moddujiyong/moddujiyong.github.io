@@ -72,11 +72,12 @@
     border-right-width:0;
     border-bottom-width:1px;
     border-color: #FFC341;
-    
+   // background-color: red;
 }
 
 .memberSmallItem{
     font-size: 20px;
+    
     margin-left: 38px;
     margin-bottom:26px;
     border-style: solid;
@@ -95,10 +96,10 @@
     .memberSide{
       //  background-color: skyblue;
        
-        width:80%;
+        width:100%;
         margin-right:0;
         display: flex;
-        flex-direction: column;
+      
         
     }
     
@@ -110,10 +111,13 @@
         font-weight: 1000;
         flex-direction: column;
        // border-style: solid;
-    
-        width:80%;
+       
+        width:100%;
        
         margin-left:0px;
+
+        
+    
     }
     .title_border{
         display:flex;
@@ -132,37 +136,38 @@
     
     .memberList{
         display:flex;
-        margin-left: -20px;
-      
+    //    margin-left: -20px;
+        flex-direction: row;
+        justify-content: center;
     }
     .memberside-container{
         display:flex;
-        width:10%;
-       
+        margin-top: 0px;
+        justify-content: center;
         margin-left: 0px;
     }
     .memberContent{
         
         display:flex;
-        flex-direction: column;
-       
+        flex-direction: row;
+        justify-content: center;
         list-style: none;
-        margin-top: 26px;
+        margin-top: 0px;
         margin-left: 0px;
-       
-       // background-color: green;
+        width:100%;
+      // background-color: green;
     }
     
     .memberListItem{
         
         font-size:12px;
         width:100%;
-        
+        justify-content: center;
         margin-bottom: 17px;
         font-family: 'Roboto';
         font-weight: 700;
         opacity: 1;
-         
+         align-items: center;
         display:flex;
         
         cursor:pointer;
@@ -173,14 +178,14 @@
         border-right-width:0;
         border-bottom-width:1px;
         border-color: #FFC341;
-      
+     //   background-color: red;
     }
     
     .memberSmallItem{
         font-size: 10px;
         width:100%;
-        margin-left: 0px;
-        
+        margin-left: 15px;
+        margin-top: 70px;
         margin-bottom:26px;
         border-style: solid;
         border-top-width: 0;
@@ -191,7 +196,9 @@
         font-family: 'Roboto';
         opacity: 1;
         font-weight: 600;
-        
+        display:flex;
+        flex-direction: column;
+       // background-color: skyblue;
         cursor:pointer;
     }
 }

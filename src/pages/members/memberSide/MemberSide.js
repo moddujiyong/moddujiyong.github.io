@@ -67,10 +67,10 @@ export default function MemberSide({ select, setSelect, selectStudent, setSelect
           <li className="memberListItem" onClick={clickStu} style={{marginBottom: select === 'Student'  ? 20 : 33, color: select === 'Student' ? 'black' : 'grey'}} >Students</li>
             {select === 'Student' ? 
             <>
-            <li className="memberSmallItem" onClick={clickphd} style={{ color: selectStudent === 'Ph.D course' ? 'black' : 'grey'}} >- Ph.D course</li>
-            <li className="memberSmallItem" onClick={clickmsph} style={{ color: selectStudent === 'MS/Ph.D course' ? 'black' : 'grey'}} >- MS/Ph.D course</li>
-            <li className="memberSmallItem" onClick={clickms} style={{ color: selectStudent === 'MS course' ? 'black' : 'grey'}} >- MS course</li>
-            <li className="memberSmallItem" onClick={clickintern} style={{ color: selectStudent === 'Intern' ? 'black' : 'grey'}} >- Intern</li>
+            <li className="memberSmallItem" onClick={clickphd} style={{ color: selectStudent === 'Ph.D course' ? 'black' : 'grey'}} > Ph.D course</li>
+            <li className="memberSmallItem" onClick={clickmsph} style={{ color: selectStudent === 'MS/Ph.D course' ? 'black' : 'grey'}} > MS/Ph.D course</li>
+            <li className="memberSmallItem" onClick={clickms} style={{ color: selectStudent === 'MS course' ? 'black' : 'grey'}} > MS course</li>
+            <li className="memberSmallItem" onClick={clickintern} style={{ color: selectStudent === 'Intern' ? 'black' : 'grey'}} > Intern</li>
             </>
             :
             null

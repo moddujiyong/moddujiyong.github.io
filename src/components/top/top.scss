@@ -112,6 +112,64 @@
 .toggle-click{
     font-size: 0;
 }
+.toggle{
+    width: 100%;
+    //width:100vh; 
+    height:750px;
+     display: flex;
+    
+     justify-content: center;
+     font-family: 'Roboto';
+    
+}
+.toggleSet{
+    width:80%;
+}
+
+.toggleList{
+    
+    display:flex;
+    width:100%;
+    height: 33px;
+    //padding:10;
+    //margin-right:100px;
+    list-style:none;
+    justify-content: space-around;
+   // background-color: aqua;
+  
+   
+}
+.toggleListItem{
+    
+    display: flex;
+    font-size:0px;
+   // width: 100%;
+ //  background-color: blue;
+    font-weight:300;
+    cursor:pointer;
+    color: white;
+    
+   
+}
+
+.toggleListItemTitle{
+
+    display: flex;
+    font-size:0px;
+    padding:10px;
+    font-weight:300;
+    
+    color: black;
+    border-width: 0px;
+    border-style:solid;
+    border-color: lightgray;
+   // background-color: white;
+    justify-content: start;
+}
+.toggleContainer{
+    width:100%;
+    
+}
 
 @media screen and(max-width: 768px){
     .top{
@@ -121,19 +179,20 @@
         
         position:sticky;
         top:0;
-        height:123px;
+        height:60px;
         z-index:1000;
         display: flex;
-        
- 
+   
         font-family: 'Roboto';
    
     }
     .icon-toggle{
-        width:50px;
-        height:50px;
+        width:25px;
+        height:25px;
         display: flex;
         cursor: pointer;
+        margin-top: 40px;
+        
     }
   
     
@@ -143,10 +202,10 @@
         flex-direction: column;
         object-fit: contain;
         width:100%;
-        
+        margin-top: 0px;
         align-items:center;
-      
-    //background-color: red;
+        height: 130px;
+       //background-color: red;
     }
     .topToggle{
         width:100%;
@@ -165,7 +224,7 @@
         margin-top: 40px;
         object-fit:contain;
         background-color:   #002A5C;
-
+        height: 60px;
         display: flex;
       
     }
@@ -205,9 +264,9 @@
         flex:1;
        
         display: flex;
-        justify-content: center;
+       
         align-items: center;
-        
+        justify-content: space-between;
     
     }
     
@@ -222,7 +281,80 @@
        justify-content: space-around;
     }
     
+    .toggle{
+        width: 100%;
+        //width:100vh; 
+        height:850px;
+        
+        
+        
+         
+         display: flex;
+         align-items: flex-start;
+         
+         font-family: 'Roboto';
+         
+    }
     
+    .toggleSet{
+        width:100%;
+        height: 100%;
+        background-color: rgba(0,0,0,0.8);
+        display: flex;
+        justify-content: end;
+    }
+    
+    .toggleContainer{
+        width:50%;
+        height: 100%;
+        
+        display: flex;
+        background-color: white;
+        justify-content: end;
+    }
+    .toggleList{
+        
+        display:flex;
+        width:100%;
+       
+        //padding:10;
+        //margin-right:100px;
+        list-style:none;
+      margin-top: 131px;
+      justify-content: center;
+      
+      flex-direction: column;
+      border-width: 5px;
+    }
+    .toggleListItem{
+    
+        display: flex;
+        font-size:20px;
+        padding:10px;
+        font-weight:300;
+        cursor:pointer;
+        color: black;
+        border-width: 1px;
+        border-style:solid;
+        border-color: lightgray;
+        background-color: white;
+        justify-content: start;
+        
+    }
+    .toggleListItemTitle{
+    
+        display: flex;
+        font-size:20px;
+        padding:10px;
+        font-weight:300;
+       
+        color: black;
+        border-width: 1px;
+        border-style:solid;
+        border-color: lightgray;
+        background-color: white;
+        justify-content: center;
+    }
 }
 
 /*@media screen and(max-width:200px){

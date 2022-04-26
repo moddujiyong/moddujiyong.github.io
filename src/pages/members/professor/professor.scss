@@ -61,7 +61,7 @@
     
 }
 .profListItem{
-    //background-color: red;
+  //  background-color: red;
     font-family: 'Roboto';
     display: flex;
 }
@@ -582,10 +582,10 @@
         
         position: sticky;
         width:100%;
-        top:150px;    
-        z-index: 1; 
+        top:60px;    
+       
         display: flex;
-        font-size: 15px;
+        font-size: 25px;
         flex-direction: column;
         font-weight:700;
         margin-top: 10px;
@@ -598,7 +598,8 @@
         width:100%;
         margin-left:0px;
         margin-bottom: 23.5px;
-    //    background-color: red;
+       // background-color: red;
+     //  background-color: blue;
     }
     
     .prof-scrollMenu{
@@ -617,7 +618,7 @@
         font-family: 'Roboto' ;
         margin-left: -10px;
       //  background-color: red;
-     //   background-color: red;
+       // background-color: red;
     }
     .profList{
         
@@ -626,13 +627,13 @@
         list-style: none;
         display:flex;
         
-       // background-color: blue;
+      //  background-color: blue;
         
         cursor:pointer;
         
     }
     .profListItem{
-    //    background-color:green;
+     //   background-color:green;
       
        margin-right: 15px;
        text-align: center;
@@ -857,7 +858,8 @@
         display: flex;
         object-fit:cover;
         //width:9px;
-        height:208px;
+        width:0px;
+        height:0px;
     }
     
     .bar-left1{
@@ -865,16 +867,16 @@
         margin-top: 100px;
         display: flex;
         object-fit:cover;
-        width:9px;
-        height:208px;
+        width:0px;
+        height:0px;
     }
     .bar-left2{
         
         margin-top: 10px;
         display: flex;
         object-fit:cover;
-        width:9px;
-        height:208px;
+        width:0px;
+        height:0px;
     }
     
     .bar-left3{
@@ -882,8 +884,8 @@
         margin-top: 60px;
         display: flex;
         object-fit:cover;
-        width:9px;
-        height:208px;
+        width:00px;
+        height:0px;
     }
     .mc{
         display:flex;

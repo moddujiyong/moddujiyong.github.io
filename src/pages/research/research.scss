@@ -28,13 +28,13 @@
     margin-top: 64px;
 }
 
-@media screen and(width:768px) {
+@media screen and(max-width:768px) {
     .research{
         display:flex;
       //  background-color: orange;
        
         margin-bottom: 0px;
-        
+        flex-direction: column;
         width:100%;
     }
     
@@ -43,12 +43,12 @@
      //   background-color: greenyellow;
         margin-top: 0px;
         margin-bottom:0px;
-        width:100%;
+        width:80%;
     }
     
     .researchRight{
-        flex:5;
-        
+        flex:1;
+        display: flex;
       //  background-color: lightcoral;
       width:100%;
         margin-top: 0px;

@@ -51,7 +51,7 @@ export default function Footer({select,setSelect}){
                             <li className="footerRListItem"><Link className="link"  to ="/research/clinical">Clinical Study Design</Link></li>
                             <li className="footerRListItem"><Link className="link"  to ="/research/uxui">UX/UI Design & Usability</Link></li>
                             <li className="footerRListItem"><Link className="link"  to ="/research/industry">Medical Industry Policy</Link></li>
-                            <li className="footerRListItem"><Link className="link"  to ="/research/bio">Bio-Signal Processing & AI</Link></li>
+                            <li className="footerRListItem"><Link className="link"  to ="/research/bio">Bio Signal Processing & AI </Link></li>
                             <li className="footerRListItem"  onClick={toHomepage} >{footerText}</li>
                         
                         </ul>
