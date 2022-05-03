@@ -4,7 +4,7 @@ import "./top.scss";
 import {Link} from "react-router-dom";
 import Logo_Design_Eng from '../img/Logo_sizeAdj_new.png'
 import Toggle_Icon from '../img/icon_toggle.png'
-import {AiOutlineBars} from 'react-icons/ai'
+import {HiMenu} from 'react-icons/hi'
 
 export default function Top(){
   //  {isOpen===true ? <SideToggle/> :null}

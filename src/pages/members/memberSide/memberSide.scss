@@ -136,9 +136,10 @@
     
     .memberList{
         display:flex;
-    //    margin-left: -20px;
+        margin-left: 0px;
         flex-direction: row;
         justify-content: center;
+       
     }
     .memberside-container{
         display:flex;
@@ -167,9 +168,9 @@
         font-family: 'Roboto';
         font-weight: 700;
         opacity: 1;
-         align-items: center;
+        align-items: center;
         display:flex;
-        
+        margin-right: 10px;
         cursor:pointer;
         border-style: solid;
         height: 46.5px;
@@ -184,7 +185,7 @@
     .memberSmallItem{
         font-size: 10px;
         width:100%;
-        margin-left: 15px;
+        margin-left: 10px;
         margin-top: 70px;
         margin-bottom:26px;
         border-style: solid;

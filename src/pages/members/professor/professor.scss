@@ -583,7 +583,7 @@
         position: sticky;
         width:100%;
         top:60px;    
-       
+      //  margin-left: 10px;
         display: flex;
         font-size: 25px;
         flex-direction: column;
@@ -596,7 +596,7 @@
     .header-title{
         display: flex;
         width:100%;
-        margin-left:0px;
+        margin-left:10px;
         margin-bottom: 23.5px;
        // background-color: red;
      //  background-color: blue;
@@ -616,7 +616,7 @@
         border-bottom-width:1px;
         border-color: #707070;
         font-family: 'Roboto' ;
-        margin-left: -10px;
+        margin-left: 0px;
       //  background-color: red;
        // background-color: red;
     }
@@ -659,7 +659,7 @@
         display: flex;
         flex-direction: column;
       // background-color: red;
-        margin-left: 0px;
+        margin-left: 10px;
       //  background-color: red;
         
        // height:301px;
@@ -692,22 +692,23 @@
    
     .prof-name{
         display: flex;
-        flex-direction: column;
+        
         font-size: 20px;
        // font-family: 'Segoe UI';
         opacity:1;
         font-weight: 700;
         font-family: 'Roboto' ;
-        margin-top:15px;
+      
         margin-bottom: 10px;
-
-        
+        flex-direction: row;
+        justify-content: center;
      //   background-color: pink;
     }
     .prof-pos{
         display: flex;
-        font-size:18px;
+        font-size:16px;
         font-family: 'Roboto' ;
+        margin-left: 10px;
         
     }
     .prof-eng{
@@ -738,7 +739,7 @@
     .fos-container{
         display:flex;
         width:100%;
-        flex-direction: column;
+        flex-direction: row;
         margin-bottom: 10px;
      //   background-color: red;
     }
@@ -764,7 +765,7 @@
     .email-container{
         display:flex;
         width:100%;
-        flex-direction: column;
+        flex-direction: row;
         margin-bottom: 10px;
     }
     
@@ -789,7 +790,7 @@
     .tel-container{
         display:flex;
         width:100%;
-        flex-direction: column;
+        flex-direction: row;
         margin-bottom: 10px;
     }
     

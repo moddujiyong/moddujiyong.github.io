@@ -209,7 +209,7 @@
     }
     .alu-title{
         display:flex;
-        margin-left:0px;
+        margin-left:10px;
         margin-bottom: 23.5px;
         font-weight:700;
         width:80%;
@@ -230,6 +230,7 @@
        flex-direction: column;
        display:flex;
        width:90%;
+       margin-left: 10px;
     }
     
     .alu-left{
@@ -271,7 +272,7 @@
         //  background-color: yellow;
             flex:2;
             display: flex;
-            margin-left: 10px;
+            margin-left: 0px;
             flex-direction: column;
     }
     .alu-name{
@@ -319,7 +320,7 @@
     }
     
     .alu-edul1{
-        margin-left: 10px;
+        margin-left: 0px;
         font-size:16px;
         margin-bottom: 29px;
         font-family: 'Roboto' ;
@@ -327,7 +328,7 @@
     }
     
     .alu-aff{
-        margin-left: 10px;
+        margin-left: 0px;
       
         font-size:16px;
         color:#002650;
@@ -337,13 +338,13 @@
     }
     
     .alu-affl{
-        margin-left: 10px;
+        margin-left: 0px;
         font-size:16px;
         font-family: 'Roboto' ;
         margin-bottom: 29px;
     }
     .alu-dis{
-        margin-left: 10px;
+        margin-left: 0px;
       
         font-size:16px;
         color:#002650;
@@ -353,14 +354,14 @@
     }
     
     .alu-disl{
-        margin-left: 10px;
+        margin-left: 0px;
         font-size:16px;
         font-family: 'Roboto' ;
         margin-bottom: 29px;
     }
     
     .alu-contact{
-        margin-left: 10px;
+        margin-left: 0px;
       
         font-size:16px;
         color:#002650;
@@ -370,7 +371,7 @@
     }
     
     .alu-contactl{
-        margin-left: 10px;
+        margin-left: 0px;
         font-size:16px;
         font-family: 'Roboto' ;
         margin-bottom: 29px;
