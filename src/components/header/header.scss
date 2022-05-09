@@ -110,3 +110,41 @@ header{
      
  }
 } 
+
+@media screen and(max-width: 1065px){
+
+    .container{
+        display: flex;
+        position: absolute;
+        flex-direction: column;
+        // background-color: red;
+        margin-left: 10px;
+        top: 10px;
+    
+        z-index: 3;
+        
+    }
+
+    .headerImg{
+        display:flex;
+        width:100%;
+        justify-content: center;
+    }
+     .headerTitles{
+ 
+         display: flex;
+         width: 100%;
+
+    .headerTitleSmall{
+         display: flex;
+         font-size: 16px;
+         justify-content: center;
+     }
+     .headerTitleSmaller{
+        display: flex;
+        font-size: 12px;
+        justify-content: center;
+    }
+     
+ }
+} 
