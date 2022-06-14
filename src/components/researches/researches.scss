@@ -73,9 +73,11 @@
     background-color: lightgray;
 }
 .researchesTitle{
-    padding:17px;
+    //padding:17px;
+    width: 100%;
     display: flex;
     font-size: 26px;
+    justify-content: center;
     height:71px;
     align-items: center;
   
@@ -84,7 +86,7 @@
     font-family: 'Roboto';
     opacity: 1;
     background-color: #002a5c;
-    margin-bottom: 17px;
+    margin-bottom: 0px;
 }
 
 

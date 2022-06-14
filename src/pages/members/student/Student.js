@@ -220,7 +220,7 @@ name = {'Jiyong Chung'}
 EName = {null} 
 edu1 = {'Bachelor in Computer Engineering, Tech University of Korea (2022)'} 
 edu2 = {null} 
-int = {'Bio-signal processing, AI & Deep learning'}
+int = {'Bio-signal processing, AI & Deep learning, Usability/Human Factors Engineering'}
 con = {'cowjy0427@yonsei.ac.kr'}/>
 
 
@@ -298,7 +298,7 @@ con = {'cowjy0427@yonsei.ac.kr'}/>
         EName = {null} 
         edu1 = {'Bachelor in Computer Engineering, Tech University of Korea (2022)'} 
         edu2 = {null} 
-        int = {'Bio-signal processing, AI & Deep learning'}
+        int = {'Bio-signal processing, AI & Deep learning, Usability/Human Factors Engineering'}
         con = {'cowjy0427@yonsei.ac.kr'}
         rphoto={BarImgStu}
         />
