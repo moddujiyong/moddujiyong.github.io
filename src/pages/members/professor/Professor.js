@@ -13,7 +13,7 @@ export default function Professor() {
   const 지식경제부="<지식경제부>"
   const 식품의약품안전평가원="<식품의약품안전평가원>"
   const 범부처전주기의료기기연구개발사업단="<범부처전주기의료기기연구개발사업단>"
-  const 뉴풍="<(주)뉴풍>"
+  const 뉴퐁="<(주)뉴퐁>"
   const 시지바이오="<(주)시지바이오>"
   const 엣지케어="<(주)엣지케어>"
   const 웨이센="<(주)웨이센>"
@@ -37,17 +37,17 @@ export default function Professor() {
 
   const onMainCareerClick=()=>{
     mRef.current?.scrollIntoView({block:'end',behavior:'smooth'});
-    setSelect('Major Career')
+    setSelect('주요 경력')
   };
 
   const onScolarCareerClick=()=>{
     sRef.current?.scrollIntoView({block:'start',behavior:'smooth'});
-    setSelect('Academia Career')
+    setSelect('학술 경력')
   };
   const onResearchSubjectClick=()=>{
    
     rRef.current?.scrollIntoView({block:'start',behavior:'smooth'});
-    setSelect('Research Subjects')
+    setSelect('연구 과제')
   };
   return (   
     <div className="professor" >
@@ -60,9 +60,9 @@ export default function Professor() {
         <div className="prof-scrollMenu">
            <ul className="profList">
             <li className="profListItem" onClick={onAllClick} style={{color: select === 'All' ? 'black' : 'grey'}}>All</li>
-            <li className="profListItem" onClick={onMainCareerClick} style={{color: select === '주요경력' ? 'black' : 'grey'}}>주요경력</li>
-            <li className="profListItem" onClick={onScolarCareerClick}style={{color: select === '학술경력' ? 'black' : 'grey'}}>학술경력</li>
-            <li className="profListItem" onClick={onResearchSubjectClick}style={{color: select === '연구과제' ? 'black' : 'grey'}}>연구과제</li>          
+            <li className="profListItem" onClick={onMainCareerClick} style={{color: select === '주요 경력' ? 'black' : 'grey'}}>주요 경력</li>
+            <li className="profListItem" onClick={onScolarCareerClick}style={{color: select === '학술 경력' ? 'black' : 'grey'}}>학술 경력</li>
+            <li className="profListItem" onClick={onResearchSubjectClick}style={{color: select === '연구 과제' ? 'black' : 'grey'}}>연구 과제</li>          
                  
            </ul>
         </div>
@@ -308,7 +308,7 @@ export default function Professor() {
           <span className="rsl">2020. 9 ~ 2024. 12 : 급만성 폐질환 치료를 위한 생체신호 분석기반 스마트 호흡치료기 개발</span>
           <span className="rsl">2020. 9 ~ 2021. 2 : (간호대) 스마트 헬스케어 의료기기 핵심기술 개발(RFP명) </span>
           <span className="rsl">2020. 8 ~ 2021. 1 : 의료기기 평가기술 개발</span>
-          <span className="rslt">{뉴풍}</span>
+          <span className="rslt">{뉴퐁}</span>
           <span className="rsl"> 2020. 3 ~ 2020. 8 : 하안검 치료용 정밀 초음파 수술기에 대한 사용적합성 평가</span>
           <span className="rslt">{시지바이오}</span>
           <span className="rsl">2020. 1 ~ 2020. 6 : 생체활성 소재 기반의 임상적 요구에 최적화된 기능성 환자 맞춤형 척추 유합 임플란트 및 제조 시스템 개발</span>

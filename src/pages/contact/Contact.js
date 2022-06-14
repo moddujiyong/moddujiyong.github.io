@@ -5,6 +5,8 @@ import {RiMapPin2Fill} from "react-icons/ri";
 import {MdContactMail} from "react-icons/md";
 import {MdPersonSearch} from "react-icons/md";
 import { FaGraduationCap} from "react-icons/fa";
+
+//<span className="application_content">Graduate students - No openings for now </span>
 export default function contact() {
 
    const toHomepage = () => {
@@ -45,7 +47,7 @@ export default function contact() {
             <div className="application">
                <span className="application_title"><MdPersonSearch className="application_icon"/>Application</span>
                <span className="application_content">Interns - Opening per semester </span>
-               <span className="application_content">Graduate students - No openings for now </span>
+               <span className="application_content">Graduate students - Contact us </span>
                <span className="application_content">Requirements - CV & Academic Record (recommended) </span>
             </div>
 
