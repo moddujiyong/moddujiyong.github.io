@@ -252,6 +252,7 @@ export default function Alumni() {
     
 
       <div className="alu-profile">
+      <img className="bar-left" src={BarImgAlu} alt="" />
         <div className="alu-left">
           <div className="alu-course">
               MS
@@ -280,7 +281,7 @@ export default function Alumni() {
         
           </div>
         </div>
-        <img className="bar-rights" src={BarImgAlu} alt="" />
+        
       </div>
 
 
