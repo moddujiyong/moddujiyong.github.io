@@ -45,7 +45,7 @@ name = {'Yourim Kim'}
 EName = {null} 
 edu1 = {'Master in Medical Device Engineering & Management (2020)'} 
 edu2 = {'Bachelor in Biomedical Engineering, Konkuk University (2017)'} 
-int = {'Medical Device Clinical Study Design, Clinical Effectiveness Evaluation'}
+int = {'Medical Device Clinical Study Design, Clinical Effectiveness Evaluation, \nMedical Device Industry Policy, Medical Regulatory Affairs'}
 con = {'yxxrm_k@naver.com / yxxrmk@yonsei.ac.kr'}
 rphoto={BarImgStu}/>
 <StudentLayout 
@@ -114,7 +114,7 @@ name = {'Heeyeong Choi'}
 EName = {null} 
 edu1 = {'Bachelor in Biomedical Engineering, Yonsei University (2021)'} 
 edu2 = {null} 
-int = {'Medical Device Clinical Study Design, Clinical Effectiveness Evaluation, Medical Regulatory Affairs'}
+int = {'Medical Device Clinical Study Design, Clinical Effectiveness Evaluation, \nMedical Regulatory Affairs'}
 con = {'chy980423@naver.com / hyeong0423@yonsei.ac.kr'}
 rphoto={BarImgStu}/>
 
@@ -161,7 +161,7 @@ name = {'Changhyun Lim'}
 EName = {null} 
 edu1 = {'Bachelor in Healthcare Industry, Cha University (2021)'} 
 edu2 = {null} 
-int = {'Medical Device Clinical Study Design, Clinical Effectiveness Evaluation, Medical Regulatory Affairs'}
+int = {'Medical Device Clinical Study Design, Clinical Effectiveness Evaluation, \nMedical Regulatory Affairs'}
 con = {'julius1231@naver.com'}
 rphoto={BarImgStu}/>
 
@@ -256,7 +256,7 @@ con = {'cowjy0427@yonsei.ac.kr'}/>
               EName = {null} 
               edu1 = {'Master in Medical Device Engineering & Management (2020)'} 
               edu2 = {'Bachelor in Biomedical Engineering, Konkuk University (2017)'} 
-              int = {'Medical Device Clinical Study Design, Clinical Effectiveness Evaluation'}
+              int = {'Medical Device Clinical Study Design, Clinical Effectiveness Evaluation, \nMedical Device Industry Policy, Medical Regulatory Affairs'}
               con = {'yxxrm_k@naver.com / yxxrmk@yonsei.ac.kr'}
               rphoto={BarImgStu}/>
               
@@ -368,7 +368,7 @@ con = {'cowjy0427@yonsei.ac.kr'}/>
        EName = {null} 
         edu1 = {'Bachelor in Biomedical Engineering, Yonsei University (2021)'} 
         edu2 = {null} 
-        int = {'Medical Device Clinical Study Design, Clinical Effectiveness Evaluation, Medical Regulatory Affairs'}
+        int = {'Medical Device Clinical Study Design, Clinical Effectiveness Evaluation, \nMedical Regulatory Affairs'}
         con = {'chy980423@naver.com / hyeong0423@yonsei.ac.kr'}/>
 
         <StudentLayout 
@@ -413,7 +413,7 @@ con = {'cowjy0427@yonsei.ac.kr'}/>
         EName = {null} 
         edu1 = {'Bachelor in Healthcare Industry, Cha University (2021)'} 
         edu2 = {null} 
-        int = {'Medical Device Clinical Study Design, Clinical Effectiveness Evaluation, Medical Regulatory Affairs'}
+        int = {'Medical Device Clinical Study Design, Clinical Effectiveness Evaluation, \nMedical Regulatory Affairs'}
         con = {'julius1231@naver.com'}/>
 
       
