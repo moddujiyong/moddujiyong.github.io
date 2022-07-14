@@ -13,8 +13,8 @@ import GalleryPhoto11 from "../../components/img/kimes2021_1.jpg";
 import GalleryPhoto12 from "../../components/img/mddu2021_1.JPG";
 import GalleryPhoto13 from "../../components/img/mddu2020_1.jpg";
 import GalleryPhoto14 from "../../components/img/mddu2020_2.jpg";
-
-
+import GalleryPhoto15 from "../../components/img/202207jeju1.jpg";
+import GalleryPhoto16 from "../../components/img/202207jeju2.jpg";
 
 import "./gallery.scss"
 
@@ -32,14 +32,37 @@ export default function contact() {
 
             <div className="gallery-content">
               <div className="gallery-body">
+
+              <div className="gal-field"> 
+                  
+                  <div className="gal-photo"> 
+                     <div className="img-container">
+                      <img className="galImg" src={GalleryPhoto15} alt=""/> 
+                      </div>
+                    <div className="gal-name">
+                      <span className="gal-info"> 2022.07 - 제주도 </span>
+                      <span className="gal-loc">대한전자공학회</span>
+                    </div>
+                </div>
+
+                <div className="gal-photo"> 
+                <div className="img-container">
+                    <img className="galImg" src={GalleryPhoto16} alt=""/> 
+                </div>
+                    <div className="gal-name">
+                      <span className="gal-info"> 2022.07 - 제주도 </span>
+                      <span className="gal-loc">대한전자공학회</span>
+                    </div>
+                </div>
+              </div>
+
+
                 <div className="gal-field"> 
                   
                   <div className="gal-photo"> 
                      <div className="img-container">
                       <img className="galImg" src={GalleryPhoto5} alt=""/> 
                       </div>
-                  
-                
                     <div className="gal-name">
                       <span className="gal-info"> 2022.02 - 제주도 </span>
                       <span className="gal-loc">ICEIC 2022</span>
