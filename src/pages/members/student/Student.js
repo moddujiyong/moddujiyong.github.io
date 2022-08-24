@@ -23,6 +23,47 @@ import MemberSide from "../memberSide/MemberSide"
 import BarImgStu from "../../../components/img/design_bar.png";
 import "./student.scss"
 import { faPhabricator } from '@fortawesome/free-brands-svg-icons';
+
+/*<StudentLayout 
+course = {'MS course'}
+photo = {ChanghyunPhoto}
+name = {'Changhyun Lim'}
+EName = {null} 
+edu1 = {'Bachelor in Healthcare Industry, Cha University (2021)'} 
+edu2 = {null} 
+int = {'Medical Device Clinical Study Design, Clinical Effectiveness Evaluation, \nMedical Regulatory Affairs'}
+con = {'julius1231@naver.com'}
+rphoto={BarImgStu}/>
+
+<StudentLayout 
+
+course = {'MS course'}
+photo = {SehoPhoto}
+name = {'Seho Kim'}
+EName = {null} 
+edu1 = {'Bachelor in Life science, Dongguk University(2022)'} 
+edu2 = {null} 
+int = {'Medical Device Clinical Study Design, Clinical Effectiveness Evaluation'}
+con = {'shkim2022@yonsei.ac.kr'}
+rphoto={BarImgStu}/>  
+
+<StudentLayout 
+
+course = {'MS course'}
+photo = {YujeongPhoto}
+name = {'Yujeong Ma'}
+EName = {null} 
+edu1 = {`Bachelor in Chemistry, Duksung Women's University(2022)`} 
+edu2 = {null} 
+int = {'Medical Device Clinical Study Design, Clinical Effectiveness Evaluation'}
+con = {'lemontree1235@naver.com'}
+rphoto={BarImgStu}
+/>
+*/
+
+
+
+
 export default function Student({select ,setSelect, selectStudent, setSelectStudent }) {
   const to="-"
 
@@ -154,20 +195,10 @@ edu2 = {null}
 int = {'Bio-signal processing, AI & Deep learning'}
 con = {'lim9234@hanmail.net'}/>
 
-<StudentLayout 
-course = {'MS course'}
-photo = {ChanghyunPhoto}
-name = {'Changhyun Lim'}
-EName = {null} 
-edu1 = {'Bachelor in Healthcare Industry, Cha University (2021)'} 
-edu2 = {null} 
-int = {'Medical Device Clinical Study Design, Clinical Effectiveness Evaluation, \nMedical Regulatory Affairs'}
-con = {'julius1231@naver.com'}
-rphoto={BarImgStu}/>
 
 
 <StudentLayout 
-lphoto={BarImgStu}
+
 course = {'MS course'}
 photo = {GyeongminPhoto}
 name = {'Gyeongmin Kwon'}
@@ -176,20 +207,10 @@ edu1 = {'Bachelor in Korean language and literature, Yonsei University(2020)'}
 edu2 = {null} 
 int = {'Usability/Human Factors Engineering, Medical Regulatory Affairs'}
 con = {'kdskkm12@naver.com'}
-/>
+rphoto={BarImgStu}/>
 
 
-<StudentLayout 
 
-course = {'MS course'}
-photo = {SehoPhoto}
-name = {'Seho Kim'}
-EName = {null} 
-edu1 = {'Bachelor in Life science, Dongguk University(2022)'} 
-edu2 = {null} 
-int = {'Medical Device Clinical Study Design, Clinical Effectiveness Evaluation'}
-con = {'shkim2022@yonsei.ac.kr'}
-rphoto={BarImgStu}/>  
 
 
 <StudentLayout 
@@ -206,21 +227,10 @@ con = {'sshee0710@naver.com'}
 
 
 
-<StudentLayout 
 
-course = {'MS course'}
-photo = {YujeongPhoto}
-name = {'Yujeong Ma'}
-EName = {null} 
-edu1 = {`Bachelor in Chemistry, Duksung Women's University(2022)`} 
-edu2 = {null} 
-int = {'Medical Device Clinical Study Design, Clinical Effectiveness Evaluation'}
-con = {'lemontree1235@naver.com'}
-rphoto={BarImgStu}
-/>
 
 <StudentLayout 
-lphoto={BarImgStu}
+
 course = {'MS / Ph.D course'}
 photo = {JiyongPhoto}
 name = {'Jiyong Chung'}
@@ -228,7 +238,8 @@ EName = {null}
 edu1 = {'Bachelor in Computer Engineering, Tech University of Korea (2022)'} 
 edu2 = {null} 
 int = {'Bio-signal processing, AI & Deep learning, Usability/Human Factors Engineering'}
-con = {'cowjy0427@yonsei.ac.kr'}/>
+con = {'cowjy0427@yonsei.ac.kr'}
+rphoto={BarImgStu}/>
 
 
 <div className="stu-profile">
@@ -405,19 +416,11 @@ con = {'cowjy0427@yonsei.ac.kr'}/>
         con = {'lim9234@hanmail.net'}
         rphoto={BarImgStu}/>
 
-      <StudentLayout 
-        lphoto={BarImgStu}
-        course = {'MS course'}
-        photo = {ChanghyunPhoto}
-        name = {'Changhyun Lim'}
-        EName = {null} 
-        edu1 = {'Bachelor in Healthcare Industry, Cha University (2021)'} 
-        edu2 = {null} 
-        int = {'Medical Device Clinical Study Design, Clinical Effectiveness Evaluation, \nMedical Regulatory Affairs'}
-        con = {'julius1231@naver.com'}/>
+    
 
       
 <StudentLayout 
+lphoto={BarImgStu}
 course = {'MS course'}
 photo = {GyeongminPhoto}
 name = {'Gyeongmin Kwon'}
@@ -426,19 +429,9 @@ edu1 = {'Bachelor in Korean language and literature, Yonsei University(2020)'}
 edu2 = {null} 
 int = {'Usability/Human Factors Engineering, Medical Regulatory Affairs'}
 con = {'kdskkm12@naver.com'}
-rphoto={BarImgStu}/>
+/>
 
 
-<StudentLayout 
-lphoto={BarImgStu}
-course = {'MS course'}
-photo = {SehoPhoto}
-name = {'Seho Kim'}
-EName = {null} 
-edu1 = {'Bachelor in Life science, Dongguk University(2022)'} 
-edu2 = {null} 
-int = {'Medical Device Clinical Study Design, Clinical Effectiveness Evaluation'}
-con = {'shkim2022@yonsei.ac.kr'}/>  
 
 
 <StudentLayout 
@@ -454,16 +447,6 @@ rphoto={BarImgStu}/>
 
 
 
-<StudentLayout 
-lphoto={BarImgStu}
-course = {'MS course'}
-photo = {YujeongPhoto}
-name = {'Yujeong Ma'}
-EName = {null} 
-edu1 = {`Bachelor in Chemistry, Duksung Women's University(2022)`} 
-edu2 = {null} 
-int = {'Medical Device Clinical Study Design, Clinical Effectiveness Evaluation'}
-con = {'lemontree1235@naver.com'}/>
 
 
 <div className="stu-profile">
