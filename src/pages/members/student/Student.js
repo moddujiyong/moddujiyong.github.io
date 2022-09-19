@@ -47,18 +47,7 @@ int = {'Medical Device Clinical Study Design, Clinical Effectiveness Evaluation'
 con = {'shkim2022@yonsei.ac.kr'}
 rphoto={BarImgStu}/>  
 
-<StudentLayout 
 
-course = {'MS course'}
-photo = {YujeongPhoto}
-name = {'Yujeong Ma'}
-EName = {null} 
-edu1 = {`Bachelor in Chemistry, Duksung Women's University(2022)`} 
-edu2 = {null} 
-int = {'Medical Device Clinical Study Design, Clinical Effectiveness Evaluation'}
-con = {'lemontree1235@naver.com'}
-rphoto={BarImgStu}
-/>
 */
 
 
@@ -225,12 +214,23 @@ int = {'Usability/Human Factors Engineering, Medical Device Industry Policy'}
 con = {'sshee0710@naver.com'}
 />
 
+<StudentLayout 
 
+course = {'MS course'}
+photo = {YujeongPhoto}
+name = {'Yujeong Ma'}
+EName = {null} 
+edu1 = {`Bachelor in Chemistry, Duksung Women's University(2022)`} 
+edu2 = {null} 
+int = {'Medical Device Clinical Study Design, Clinical Effectiveness Evaluation'}
+con = {'lemontree1235@naver.com'}
+rphoto={BarImgStu}
+/>
 
 
 
 <StudentLayout 
-
+lphoto={BarImgStu}
 course = {'MS / Ph.D course'}
 photo = {JiyongPhoto}
 name = {'Jiyong Chung'}
@@ -239,7 +239,7 @@ edu1 = {'Bachelor in Computer Engineering, Tech University of Korea (2022)'}
 edu2 = {null} 
 int = {'Bio-signal processing, AI & Deep learning, Usability/Human Factors Engineering'}
 con = {'cowjy0427@yonsei.ac.kr'}
-rphoto={BarImgStu}/>
+/>
 
 
 <div className="stu-profile">
@@ -445,7 +445,18 @@ int = {'Usability/Human Factors Engineering, Medical Device Industry Policy'}
 con = {'sshee0710@naver.com'}
 rphoto={BarImgStu}/>
 
+<StudentLayout 
+lphoto={BarImgStu}
+course = {'MS course'}
+photo = {YujeongPhoto}
+name = {'Yujeong Ma'}
+EName = {null} 
+edu1 = {`Bachelor in Chemistry, Duksung Women's University(2022)`} 
+edu2 = {null} 
+int = {'Medical Device Clinical Study Design, Clinical Effectiveness Evaluation'}
+con = {'lemontree1235@naver.com'}
 
+/>
 
 
 
