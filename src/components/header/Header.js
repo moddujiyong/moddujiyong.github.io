@@ -3,6 +3,7 @@ import "./header.scss";
 import HeaderImg from "../img/main_design_img.png";
 import Introduce from '../introduce/Introduce';
 
+
 export default function Header(){
     return (
         <div className="header">
@@ -13,6 +14,7 @@ export default function Header(){
 
                 </div>
                     
+            
                 
                 <img className="headerImg" src={HeaderImg} alt=""/>
                 

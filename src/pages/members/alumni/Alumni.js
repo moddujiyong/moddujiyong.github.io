@@ -8,6 +8,7 @@ import MiwonPhoto from "../../../components/img/miwon.jpg";
 import EunseonPhoto from "../../../components/img/eunseon.jpg";
 import YoungboPhoto from "../../../components/img/youngbo.jpg";
 import BarImgAlu from "../../../components/img/design_bar.png";
+import ChoroPhoto from "../../../components/img/choro.jpg";
 import "./alumni.scss";
 
 
@@ -286,7 +287,36 @@ export default function Alumni() {
 
 
       <div className="alu-profile">
+      <img className="bar-right" src={BarImgAlu} alt="" />
+        <div className="alu-left">
+          <div className="alu-course">
+              MS
+            </div>
+        
+            <div className="alu-photo"> 
+              <img className="aluImg" src={ChoroPhoto} alt=""/> 
+            </div>
+        </div>
+        <div className="alu-right">
+          <div className="alu-name">
+          Choro Choi    
+              
+              
+          </div>
 
+          <div className="alu-field"> 
+            <span className="alu-edu">| Education |</span>
+            <span className="alu-edul1">Master in Medical Device Engineering & Management (2022) </span>
+            <span className="alu-aff">| Affiliation |</span>
+            <span className="alu-affl"></span>
+            <span className="alu-dis">| Dissertation |</span>
+            <span className="alu-disl"> </span>
+            <span className="alu-contact">| Contact |</span>
+            <span className="alu-contactl">hisstoryxx@gmail.com</span>
+        
+          </div>
+        </div>
+        
       </div>
   </div>
    
