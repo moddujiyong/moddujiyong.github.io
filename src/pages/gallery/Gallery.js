@@ -18,7 +18,7 @@ import GalleryPhoto16 from "../../components/img/202207jeju2.jpg";
 
 import "./gallery.scss"
 
-export default function contact() {
+export default function gallery() {
   return (
     <div className="gallery">
        <div className="gallery-left">
