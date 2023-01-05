@@ -25,20 +25,20 @@ function App() {
   return (
      <div className="App">
     
-       <Router >
+       <Router basename={process.env.PUBLIC_URL}>
          <>
             <Switch>
          
               <Route exact path="/">   <Top/><Home/><Footer/> </Route>
-              <Route path="/members"> <Top/><Members/><Footer/></Route>
-              <Route exact path="/research" > <Top/><Research/><Footer/></Route>
+              <Route path="/members" component={Members}> <Top/><Members/><Footer/></Route>
+              <Route exact path="/research" component={Research}> <Top/><Research/><Footer/></Route>
               <Route exact path="/research/clinical"> <Top/><Research/><Footer/></Route>
               <Route exact path="/research/uxui"> <Top/><Research/><Footer/></Route>
               <Route exact path="/research/industry" > <Top/><Research/><Footer/></Route>
               <Route exact path="/research/bio"> <Top/><Research/><Footer/></Route>
-              <Route path="/publication"> <Top/><Publication/><Footer/></Route>
-              <Route path="/contact"> <Top/><Contact/><Footer/></Route>
-              <Route path="/gallery"> <Top/><Gallery/><Footer/></Route>
+              <Route path="/publication" component={Publication}> <Top/><Publication/><Footer/></Route>
+              <Route path="/contact" component={Contact}> <Top/><Contact/><Footer/></Route>
+              <Route path="/gallery" component={Gallery}> <Top/><Gallery/><Footer/></Route>
         
             </Switch>
   
