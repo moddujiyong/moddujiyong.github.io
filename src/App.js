@@ -2,8 +2,8 @@ import React from 'react';
 import Top from './components/top/Top';
 import Home from './pages/home/Home';
 import Footer from './components/Footer/Footer';
-//import {BrowserRouter as Router, Switch, Route, Link} from "react-router-dom";
-import {HashRouter, Switch, Route, Link} from "react-router-dom";
+import {BrowserRouter as Router, Switch, Route, Link} from "react-router-dom";
+
 import Gallery from './pages/gallery/Gallery';
 import Members from './pages/members/Members';
 import Research from './pages/research/Research';
@@ -25,7 +25,7 @@ function App() {
   return (
      <div className="App">
     
-       <HashRouter >
+       <Router >
          <>
             <Switch>
          
@@ -43,7 +43,7 @@ function App() {
             </Switch>
   
          </>
-       </HashRouter>
+       </Router>
 
     
     </div>
