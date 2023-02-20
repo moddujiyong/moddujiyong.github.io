@@ -14,8 +14,7 @@ export default function Home(){
         <div className="home">
         
         <Header/>
-        
-        <Researches/>
+        {/* <Researches/> */}
         
         </div>
 

@@ -27,21 +27,22 @@ function App() {
     
        <Router basename={process.env.PUBLIC_URL}>
          <>
+          <Top/>
             <Switch>
          
-              <Route exact path="/">   <Top/><Home/><Footer/> </Route>
-              <Route path="/members" component={Members}> <Top/><Members/><Footer/></Route>
-              <Route exact path="/research" component={Research}> <Top/><Research/><Footer/></Route>
-              <Route exact path="/research/clinical"> <Top/><Research/><Footer/></Route>
-              <Route exact path="/research/uxui"> <Top/><Research/><Footer/></Route>
-              <Route exact path="/research/industry" > <Top/><Research/><Footer/></Route>
-              <Route exact path="/research/bio"> <Top/><Research/><Footer/></Route>
-              <Route path="/publication" component={Publication}> <Top/><Publication/><Footer/></Route>
-              <Route path="/contact" component={Contact}> <Top/><Contact/><Footer/></Route>
-              <Route path="/gallery" component={Gallery}> <Top/><Gallery/><Footer/></Route>
+              <Route exact path="/"><Home/></Route>
+              <Route path="/members" component={Members}><Members/></Route>
+              <Route exact path="/research" component={Research}><Research/></Route>
+              <Route exact path="/research/clinical"><Research/></Route>
+              <Route exact path="/research/uxui"><Research/></Route>
+              <Route exact path="/research/industry" ><Research/></Route>
+              <Route exact path="/research/bio"><Research/></Route>
+              <Route path="/publication" component={Publication}><Publication/></Route>
+              <Route path="/contact" component={Contact}><Contact/></Route>
+              <Route path="/gallery" component={Gallery}><Gallery/></Route>
         
             </Switch>
-  
+          <Footer/> 
          </>
        </Router>
 
