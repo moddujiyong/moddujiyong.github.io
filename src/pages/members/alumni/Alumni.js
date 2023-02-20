@@ -10,6 +10,7 @@ import YoungboPhoto from "../../../components/img/youngbo.jpg";
 import BarImgAlu from "../../../components/img/design_bar.png";
 import ChoroPhoto from "../../../components/img/cho.jpeg";
 import "./alumni.scss";
+import { Link } from 'react-router-dom';
 
 
 export default function Alumni() {
@@ -308,7 +309,7 @@ export default function Alumni() {
             <span className="alu-edu">| Education |</span>
             <span className="alu-edul1">Master in Medical Device Engineering & Management (2022) </span>
             <span className="alu-aff">| Affiliation |</span>
-            <span className="alu-affl"> MDOC</span>
+            <Link className="alu-affl"  onClick={() => window.location.href='http://m-doc.io/'}> MDOC</Link>
             <span className="alu-dis">| Dissertation |</span>
             <span className="alu-disl"> Development of cloud-based remote monitoring system for peritoneal dialysis patients </span>
             <span className="alu-contact">| Contact |</span>
