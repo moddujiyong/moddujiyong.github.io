@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from '@next/font/google'
 import styles from '@/styles/Home.module.css'
+import Link from 'next/link'
 
 
 
@@ -67,18 +68,19 @@ export default function Home() {
                 <div className = {styles.listContainer}>
                 <ul className = {styles.links}>
                     <li className = {styles.li} style ={{backgroundColor:'#00489a'}} >
-                    <contents className = {styles.contents} >Clinical Study Design</contents>
+                    <Link href = {{pathname: 'research', query: { id : "clinical"}}}><contents className = {styles.contents} >Clinical Study Design</contents></Link>
                     </li>
                     <li className = {styles.li} style = {{ backgroundColor:'#003979'}}>
-                      <contents className = {styles.contents}>UX/UI Design & Usability</contents> 
-                      
+                    <Link href = {{pathname: 'research', query: { id : "uxui"}}}><contents className = {styles.contents}>UX/UI Design & Usability</contents> 
+                      </Link>
                       </li>
                     <li  className = {styles.li} style ={{ backgroundColor: '#005d8a'}}>
-                      <contents className = {styles.contents}>Medical Device Industry Policy</contents> 
-                      
+                    <Link href = {{pathname: 'research', query: { id : "industry"}}}><contents className = {styles.contents}>Medical Device Industry Policy</contents> 
+                      </Link>
                     </li>
                     <li  className = {styles.li} style = {{backgroundColor: '#0086c4'}}>
-                      <contents className = {styles.contents}>Bio-Signal Processing & AI</contents> 
+                    <Link href = {{pathname: 'research', query: { id : "bio"}}}> <contents className = {styles.contents}>Bio-Signal Processing & AI</contents> 
+                      </Link>
                       </li>
                     
                 </ul>

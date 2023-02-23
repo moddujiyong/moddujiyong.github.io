@@ -26,25 +26,25 @@ export default function Research() {
 
   const [select,setSelect]=useState('CD');
   
-  console.log('select',select)
+  console.log('select',location.query.id)
 
-  if(location.pathname.includes("clinical")){
+  if(location.query.id.includes("clinical")){
     recv='clinical'
     
     
  } 
- else if (location.pathname.includes("uxui")){
+ else if (location.query.id.includes("uxui")){
    
    recv="uxui"
 
  } 
  
- else if (location.pathname.includes('industry')) {
+ else if (location.query.id.includes('industry')) {
  
    recv="industry"
  }
 
- else if (location.pathname.includes('bio')) {
+ else if (location.query.id.includes('bio')) {
  
   recv="bio"
 }
