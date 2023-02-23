@@ -16,7 +16,7 @@ export default function Publication() {
 
   const scrollHeight=162;
  
-  const [select,setSelect]=useState("Journals");
+  const [select,setSelect]=useState('Journals');
   const onJourClick=()=>{
     jourRef.current?.scrollIntoView({behavior:'smooth',block:'center'})
     setSelect('Journals')
@@ -155,20 +155,20 @@ export default function Publication() {
             </div>
 
             <div className={styles.patent_content}>
-                <span className={styles.conl}>Kim, Y. H., Jang, W. S.,  Kim, Y. H. "Device for checking uterine contraction having a function for reducing battery consumption", 10-2020-0187801 (2020. 12. 30) </span>
-                <span className={styles.conl}>Kim, Y. H., Jang, W. S.,  Kim, Y. H. "Device for checking uterine contraction", 10-2020-0187800 (2020. 12. 30) </span>
-                <span className={styles.conl}>Jang, W. S., Park, S. E., Oh, H. K. "Positioning optimizer device and process of patch-type ultrasonic sensors for mobile-based bladder monitoring", PCT/KR2020/016186 (2020. 11. 17) </span>
-                <span className={styles.conl}>Jang, W. S., Park, S. E., Oh, H. K. "Positioning optimizer device and process of patch-type ultrasonic sensors for mobile-based bladder monitoring", 10-2019-0148244 (2019. 11. 19) </span>
-                <span className={styles.conl}>Jang, W. S., Park, S. E., Oh, H. K. "Bladder monitoring healthcare system and bladder monitoring process", 10-2018-0173498 (2018. 12. 31)</span>
-                <span className={styles.conl}>Jang, W. S., Yoo, S. K., Kim, B. N. "Measures to classify pain using pulse waves and heart rate variation", 10-2018-0100372 (2018. 8. 27) </span>
-                <span className={styles.conl}>Jang, W. S., Yoo, S. K., Oh, K. T., Kim, B. N., Kim, H. W. "Application processes and UX/UI systems for managing and enhancing urinary disorders", 10-2017-0184169 (2017. 12. 29)</span>
-                <span className={styles.conl}>Jang, W. S., Yoo, S. K., Oh, K. T. "Devices and methods for displaying ultrasonic images", 10-2017-0163456 (2017. 11. 30)</span>
-                <span className={styles.conl}>Jang, W. S., Yoo, S. K., Kim, B. N. "Measures to classify pain using pulse waves and heart rate variation", 10-2017-0143053 (2017. 10. 31) </span>
-                <span className={styles.conl}>Jang, W. S., Yoo, S. K., Kwon, J. H., Kim, H. W. "Ways to adjust the position of the selection point in the ultrasonic image and its device", 10-2017-0055510 (2017. 4. 28) </span>
-                <span className={styles.conl}>Jang, W. S., Yoo, S. K., Oh, K. T. "Ways to control wireless ultrasound images based on user input using hardware and graphic interfaces and its device", PCT/KR2017/004173 (2017. 4. 19)</span>
-                <span className={styles.conl}>Jang, W. S., Yoo, S. K., Oh, K. T. "Ways to control wireless ultrasound images based on user input using hardware and graphic interfaces and its device", 10-2016-0066725 (2016. 5. 30) </span>
-                <span className={styles.conl}>Jang, W. S., Yoo, S. K., Oh, K. T. "Ways to control ultrasonic images based on graphic interfaces by ultrasonic image mode and its device", 10-2016-0066737 (2016. 5. 30)</span>
-                <span className={styles.conl}>Kim, H. J., Jang, W. S., Lee, D. H., Kim, D. H., Seo, K. E., Kim, D. H., Lee, Y. J., Choi, S. H., Lee, H. H. "Radiography using radiation shielding and radiation shielding devices used in the Tomosynsis system ", 10-2013-0169303 (2013. 12. 31)</span>
+                <span className={styles.conl}>Kim, Y. H., Jang, W. S.,  Kim, Y. H. &quot;Device for checking uterine contraction having a function for reducing battery consumption&quot;, 10-2020-0187801 (2020. 12. 30) </span>
+                <span className={styles.conl}>Kim, Y. H., Jang, W. S.,  Kim, Y. H. &quot;Device for checking uterine contraction&quot;, 10-2020-0187800 (2020. 12. 30) </span>
+                <span className={styles.conl}>Jang, W. S., Park, S. E., Oh, H. K. &quot;Positioning optimizer device and process of patch-type ultrasonic sensors for mobile-based bladder monitoring&quot;, PCT/KR2020/016186 (2020. 11. 17) </span>
+                <span className={styles.conl}>Jang, W. S., Park, S. E., Oh, H. K. &quot;Positioning optimizer device and process of patch-type ultrasonic sensors for mobile-based bladder monitoring&quot;, 10-2019-0148244 (2019. 11. 19) </span>
+                <span className={styles.conl}>Jang, W. S., Park, S. E., Oh, H. K. &quot;Bladder monitoring healthcare system and bladder monitoring process&quot;, 10-2018-0173498 (2018. 12. 31)</span>
+                <span className={styles.conl}>Jang, W. S., Yoo, S. K., Kim, B. N. &quot;Measures to classify pain using pulse waves and heart rate variation&quot;, 10-2018-0100372 (2018. 8. 27) </span>
+                <span className={styles.conl}>Jang, W. S., Yoo, S. K., Oh, K. T., Kim, B. N., Kim, H. W. &quot;Application processes and UX/UI systems for managing and enhancing urinary disorders&quot;, 10-2017-0184169 (2017. 12. 29)</span>
+                <span className={styles.conl}>Jang, W. S., Yoo, S. K., Oh, K. T. &quot;Devices and methods for displaying ultrasonic images&quot;, 10-2017-0163456 (2017. 11. 30)</span>
+                <span className={styles.conl}>Jang, W. S., Yoo, S. K., Kim, B. N. &quot;Measures to classify pain using pulse waves and heart rate variation&quot;, 10-2017-0143053 (2017. 10. 31) </span>
+                <span className={styles.conl}>Jang, W. S., Yoo, S. K., Kwon, J. H., Kim, H. W. &quot;Ways to adjust the position of the selection point in the ultrasonic image and its device&quot;, 10-2017-0055510 (2017. 4. 28) </span>
+                <span className={styles.conl}>Jang, W. S., Yoo, S. K., Oh, K. T. &quot;Ways to control wireless ultrasound images based on user input using hardware and graphic interfaces and its device&quot;, PCT/KR2017/004173 (2017. 4. 19)</span>
+                <span className={styles.conl}>Jang, W. S., Yoo, S. K., Oh, K. T. &quot;Ways to control wireless ultrasound images based on user input using hardware and graphic interfaces and its device&quot;, 10-2016-0066725 (2016. 5. 30) </span>
+                <span className={styles.conl}>Jang, W. S., Yoo, S. K., Oh, K. T. &quot;Ways to control ultrasonic images based on graphic interfaces by ultrasonic image mode and its device&quot;, 10-2016-0066737 (2016. 5. 30)</span>
+                <span className={styles.conl}>Kim, H. J., Jang, W. S., Lee, D. H., Kim, D. H., Seo, K. E., Kim, D. H., Lee, Y. J., Choi, S. H., Lee, H. H. &quot;Radiography using radiation shielding and radiation shielding devices used in the Tomosynsis system &quot;, 10-2013-0169303 (2013. 12. 31)</span>
 
             </div>
 
@@ -177,12 +177,12 @@ export default function Publication() {
             </div>
 
             <div className={styles.book_content}>
-              <span className={styles.conl}>Raymond kai-Yu Tong. "Wearable Technology in Medicine and Health Care(Kuh, S. U., Jang, W. S., Kim. K. B., Kim, K. S. Trans.) " (2021.7) </span>
-              <span className={styles.conl}>Kim. K. B., Huh, Y. S., Hong, K. J., Lee, D. H., Yeo, S. M., Lee, S. W., Lim, H. T., Kuh, S. W. Jang, W. S. "Design of Digital Healthcare System" (2021. 4)</span>
-              <span className={styles.conl}>Lee, H., Lee, I. J., Chung, Y. S., Kim, H. S., Lee, J. J., Min, B. J., Kuh, S. U., Jang, W. S., Kim, K. B. "Medical image processing and its applications" (2020. 7) </span>
-              <span className={styles.conl}>Yonsei University College of Medicine, Kuh, S. U., Koo, K. C., Kwon, B. J., Kim, S. J., Kim, S. H., Kim, J. E., Roh, M. R., Park, J. S., Park, J. H., Yoon, Y. H., Yoon, I. S., Lee, B. K., Lee, S. K., Lee, I. J., Lim, J. Y., Jang, W. S.,  Jeong, H. K., Cho, H. B., Huh, J. K. "Medical devices and clinical medicine" (2019. 12) </span>
-              <span className={styles.conl}>Paul H., King Richard C., Fries Arthur T., Johnson."Design of Biomedical Devices and Systems 4th edition( Kuh, S. U., Jang, W. S. Trans.)" (2018. 11) </span>
-              <span className={styles.conl}>Kuh, S. U., Jang, W. S., Kwon, B. J., Kang, G. H. "MEDICAL DEVICES QUALITY MANAGEMENT SYSTEM : MDSAP: Medical Device Single Audit Program (2018. 10)</span>
+              <span className={styles.conl}>Raymond kai-Yu Tong. &quot;Wearable Technology in Medicine and Health Care(Kuh, S. U., Jang, W. S., Kim. K. B., Kim, K. S. Trans.) &quot; (2021.7) </span>
+              <span className={styles.conl}>Kim. K. B., Huh, Y. S., Hong, K. J., Lee, D. H., Yeo, S. M., Lee, S. W., Lim, H. T., Kuh, S. W. Jang, W. S. &quot;Design of Digital Healthcare System&quot; (2021. 4)</span>
+              <span className={styles.conl}>Lee, H., Lee, I. J., Chung, Y. S., Kim, H. S., Lee, J. J., Min, B. J., Kuh, S. U., Jang, W. S., Kim, K. B. &quot;Medical image processing and its applications&quot; (2020. 7) </span>
+              <span className={styles.conl}>Yonsei University College of Medicine, Kuh, S. U., Koo, K. C., Kwon, B. J., Kim, S. J., Kim, S. H., Kim, J. E., Roh, M. R., Park, J. S., Park, J. H., Yoon, Y. H., Yoon, I. S., Lee, B. K., Lee, S. K., Lee, I. J., Lim, J. Y., Jang, W. S.,  Jeong, H. K., Cho, H. B., Huh, J. K. &quot;Medical devices and clinical medicine&quot; (2019. 12) </span>
+              <span className={styles.conl}>Paul H., King Richard C., Fries Arthur T., Johnson.&quot;Design of Biomedical Devices and Systems 4th edition( Kuh, S. U., Jang, W. S. Trans.)&quot; (2018. 11) </span>
+              <span className={styles.conl}>Kuh, S. U., Jang, W. S., Kwon, B. J., Kang, G. H. &quot;MEDICAL DEVICES QUALITY MANAGEMENT SYSTEM : MDSAP: Medical Device Single Audit Program (2018. 10)</span>
               
             </div>
         </div>
