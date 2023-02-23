@@ -49,7 +49,7 @@ export default function Publication() {
         <div className={styles.pub_left}>
             <div className={styles.slider}>
             
-              <div className={styles.pub_menuTitle}>
+              <div className={styles.title_research}>
                 Publication
                 <div className={styles.title_border}>
                   <div className={styles.title_left}>
