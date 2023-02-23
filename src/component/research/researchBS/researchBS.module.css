@@ -1,0 +1,84 @@
+.researchBS{
+    display:flex;
+    flex-direction: column;
+    margin-right: 319.5px;
+    width:100%;
+    margin-bottom:482px;
+}
+
+.bs_header{  
+   display: flex;
+   width: 100%;
+   font-size: 26px;
+   font-family:'Roboto';
+   font-weight: 700;
+   flex-direction: column;
+   
+}
+.bs_title{
+    display: flex;
+
+    margin-left:60px;
+    margin-bottom: 23.5px;
+    width: 100%;
+}
+.bs_scrollMenu{
+    width: 100%;
+    border-style: solid;
+    border-top-width:1px;
+    border-left-width:0px;
+    border-right-width:0px;
+    border-bottom-width:1px;
+    border-color: #707070;
+   
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+}
+.bsList{
+    font-size: 22px;
+    list-style: none;
+    display:flex;
+    width: 100%;
+    
+    justify-content: space-around;
+  
+    cursor:pointer;
+}
+
+
+.bsp_all{
+    display: flex;
+    
+    flex-direction: column;
+
+    width: 90%;
+    height: 100%;
+    align-self: center;
+}
+
+.bspl{
+ 
+    margin-top: 22.5px;
+    border-style: solid;
+    border-top-width:0px;
+    border-left-width:0px;
+    border-right-width:0px;
+    border-bottom-width:1px;
+    border-color: #707070;
+    display: flex;
+    flex-direction: column;
+}
+
+.bsp_all{
+    display: flex;
+    
+    flex-direction: column;
+
+    width: 90%;
+    height: 100%;
+    align-self: center;
+
+}
+
+
