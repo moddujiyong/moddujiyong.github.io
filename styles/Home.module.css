@@ -36,3 +36,14 @@
   font-family:  'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif ;
   
 }
+
+.units > * {
+  background-clip: text;
+  color: transparent;
+
+}
+
+.units > :last-child {
+  transform: rotatex(180deg) translatey(15px); 
+  mask-image: linear-gradient(transparent 50%, white 90%);
+}

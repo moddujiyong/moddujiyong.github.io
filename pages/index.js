@@ -25,19 +25,24 @@ export default function Home() {
                     <span className={styles.headerTitleSmaller}>Medical Device Design & Usability Lab</span>
 
                 </div>
-
-
-             
-               
-             
-                
-                    
-            
                 
                 <img style={{display: 'flex', width: '100%', height: '100%', objectFit: "c"}} src="images/main_design_img.png" alt=""/>
                 
                 
             </div>
+
+            <div style = {{display: 'flex', width: '100%', height: 'auto', backgroundColor:'red', justifyContent:'center'}}>
+              <div style ={{display: 'flex', width: '80%', height: '300px', backgroundColor: 'blue'}}>
+                <div className = {styles.units}>
+                <div style = {{color: '#010e1e', fontSize: '2.5rem', }}>VISON </div>
+                <div style = {{color: '#010e1e', fontSize: '2.5rem', }}>VISON </div>
+                </div>
+              
+              </div>
+              
+            </div>
+
+            
               
                 
    
