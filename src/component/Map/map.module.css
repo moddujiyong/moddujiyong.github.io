@@ -1,0 +1,15 @@
+.map{
+    width:100%;
+}
+
+
+@media screen and(max-width: 768px){
+  .map{
+     width:100%;
+    
+  }
+  .map_content{
+    width: 100%;
+       
+  }
+}
