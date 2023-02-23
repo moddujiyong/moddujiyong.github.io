@@ -70,7 +70,7 @@
    
 }
 
-.prof-summary{
+.prof_summary{
     display: flex;
     flex-direction: column;
     margin-left: 37px;
@@ -78,12 +78,12 @@
     width:100%;
     
 }
-.research-interest{
+.research_interest{
     display:flex;
     flex-direction: column;
     
 }
-.prof-photo{
+.prof_photo{
     display: flex;
     margin-left: 91px;
    justify-content: center;
@@ -96,7 +96,7 @@
     width: 288px;
 }
 
-.prof-name{
+.prof_name{
     
     font-size: 26px;
     opacity:1;
@@ -106,18 +106,18 @@
     margin-bottom: 10px;
     
 }
-.prof-pos{
+.prof_pos{
     font-size:23px;
     font-family: 'Roboto' ;
     
 }
-.prof-eng{
+.prof_eng{
     margin-left: 20px;
     font-size:23px;
     font-family: 'Roboto';
 }
 
-.prof-field{
+.prof_field{
 
     border-style: solid;
     border-color:#707070;
@@ -133,7 +133,7 @@
     
 }
 
-.fos-container{
+.fos_container{
     display:flex;
     
 }
@@ -156,18 +156,18 @@
    
     
 }
-.email-container{
+.email_container{
     display: flex;
 }
 
-.prof-email{
+.prof_email{
     font-size: 20px;
     font-family: 'Roboto' ;
     opacity:1;
     font-weight: 700;
     display: flex;
 }
-.prof-emailCont{
+.prof_emailCont{
     font-size: 20px;
     font-family: 'Roboto' ;
     opacity:1;
@@ -177,7 +177,7 @@
 
 
 
-.tel-container{
+.tel_container{
     display: flex;
 }
 
@@ -218,7 +218,7 @@
 
 
 
-.main-career{
+.main_career{
     
    
     display: flex;
@@ -228,13 +228,13 @@
     justify-content: space-between;
 }
 
-.mc-container{
+.mc_container{
     flex-direction: column;
     display: flex;
     width:100%;
   
 }
-.bar-right{
+.bar_right{
     
     margin-top: 80px;
     display: flex;
@@ -242,7 +242,7 @@
     height:208px;
 }
 
-.bar-left1{
+.bar_left1{
     
     margin-top: 100px;
     display: flex;
@@ -250,7 +250,7 @@
     width:9px;
     height:208px;
 }
-.bar-left2{
+.bar_left2{
     
     margin-top: 10px;
     display: flex;
@@ -259,7 +259,7 @@
     height:208px;
 }
 
-.bar-left3{
+.bar_left3{
     
     margin-top: 60px;
     display: flex;
@@ -290,7 +290,7 @@
 }
 
 
-.other-career{
+.other_career{
     display: flex;
     width:100%;
     justify-content: space-between;
@@ -310,7 +310,7 @@
   
    
 }
-.oc-container{
+.oc_container{
     flex-direction: column;
     display: flex;
     width:100%;
@@ -325,14 +325,14 @@
     margin-left:70px;
 }
 
-.edu-career{
+.edu_career{
     display: flex;
     width:100%;
     justify-content: space-between;
     
    
 }
-.edu-container{
+.edu_container{
     flex-direction: column;
     display: flex;
     width:100%;
@@ -361,13 +361,13 @@
 
 
 
-.scolarship-career{
+.scolarship_career{
     display: flex;
     width:100%;
     justify-content: space-between;
 
 }
-.sc-container{
+.sc_container{
     flex-direction: column;
     display: flex;
     width:100%;
@@ -397,7 +397,7 @@
     justify-content: space-between;
     
 }
-.rs-container{
+.rs_container{
     flex-direction: column;
     display: flex;
     width:100%;
@@ -430,14 +430,14 @@
 }
 
 
-.reward-career{
+.reward_career{
     display: flex;
     width:100%;
     justify-content: space-between;
     
     
 }
-.rec-container{
+.rec_container{
     flex-direction: column;
     display: flex;
     width:100%;
@@ -463,13 +463,13 @@
     margin-left:70px;
 }
 
-.book-career{
+.book_career{
     display: flex;
     width:100%;
     justify-content: space-between;
 
 }
-.book-container{
+.book_container{
     flex-direction: column;
     display: flex;
     width:100%;
@@ -496,13 +496,13 @@
     margin-left:70px;
 }
 
-.intell-career{
+.intell_career{
     display: flex;
     width:100%;
     justify-content: space-between;
 
 }
-.intell-container{
+.intell_container{
     flex-direction: column;
     display: flex;
     width:100%;

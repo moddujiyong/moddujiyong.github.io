@@ -1,43 +1,43 @@
 import React, {useRef} from 'react';
 
 
-import "./studentLayout.module.css"
+import styles from "./studentLayout.module.css"
 
 export default function StudentLayout({course,lphoto,photo, name, EName, edu1, edu2, int, con, rphoto}) {
 
   return (   
-    <div className="stu-profile">
-       <img className="bar-left" src={lphoto} alt="" />
-        <div className="stu-left">
+    <div className={styles.stu_profile}>
+       <img className={styles.bar_left} src={lphoto} alt="" />
+        <div className={styles.stu_left}>
        
-           <div className="stu-course">
+           <div className={styles.stu_course}>
                {course}
             </div>
            
-            <div className="stu-photo"> 
-              <img className="stuImg" src={photo} alt=""/> 
+            <div className={styles.stu_photo}> 
+              <img className={styles.stuImg} src={photo} alt=""/> 
             </div>
         </div>
-        <div className="stu-right">
-          <div className="stu-name">
+        <div className={styles.stu_right}>
+          <div className={styles.stu_name}>
               {name}
              
-              <span className="stu-eng"> {EName}</span>
+              <span className={styles.stu_eng}> {EName}</span>
           </div>
 
-          <div className="stu-field"> 
-            <div className='stu-subContainer'>
-            <span className="stu-edu"></span>
-            <span className="stu-edu">| Education |</span>
-            <span className="stu-edul1">{edu1}</span>
-            {edu2 && <span className="stu-edul2">{edu2}</span>}
-            <span className="stu-ri">| Research Interest |</span>
-            <span className="stu-ril">{int} </span>
-            <span className="stu-contact">| Contact |</span>
-            <span className="stu-contactl">{con}</span>
+          <div className={styles.stu_field}> 
+            <div className={styles.stu_subContainer}>
+            <span className={styles.stu_edu}></span>
+            <span className={styles.stu_edu}>| Education |</span>
+            <span className={styles.stu_edul1}>{edu1}</span>
+            {edu2 && <span className={styles.stu_edul2}>{edu2}</span>}
+            <span className={styles.stu_ri}>| Research Interest |</span>
+            <span className={styles.stu_ril}>{int} </span>
+            <span className={styles.stu_contact}>| Contact |</span>
+            <span className={styles.stu_contactl}>{con}</span>
             </div>
 
-            <img className="bar-rights" src={rphoto} alt="" />
+            <img className={styles.bar_rights} src={rphoto} alt="" />
           
           </div>
           

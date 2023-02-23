@@ -1,42 +1,65 @@
-.text{  
-    justify-content: center; 
-    text-align:center; 
-    color:#fff;
-    font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;
-    font-size: 0.8rem;
-}
-
-.textCopy{
-    padding: 40px;
-    justify-content: center; 
-    text-align:center; 
-    color:#fff;
-    font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;
-    font-size: 0.8rem;
-    
-
-}
-/* Responsive Design */
-
-@media(max-width: 992px) {
-
-    .text{
-        font-size: 0.6rem;
-    }
-    .textCopy{
-        font-size: 0.6rem;
-    }
-    
-}
-
-@media (max-width: 576px) {
-
-    .text{
-        font-size: 0.4rem;
-    }
-    .textCopy{
-        font-size: 0.4rem;
-    }
+.intern{
+    display:flex;
+    flex-direction: column;
    
+   
+    font-weight:500;        
+}
+
+.intern_header{
+  
+    
+    display: flex;
+    font-size: 26px;
+    flex-direction: column;
+  
+    
     
 }
+
+
+
+.intern_info{
+   
+    display: flex;
+    border-top: solid;
+    border-top-width: 1px;
+    
+   
+    flex-direction: column;
+}
+
+
+.iilt{
+   
+  
+    color:#002650;
+    font-weight: 700;
+    display:flex;
+    justify-content: start;
+    font-size: 24px;
+    font-family: 'Roboto';
+  
+    opacity: 1;
+   
+    margin-top: 63.5px;
+    margin-left:38px;
+   
+
+}
+.iild{
+    margin-left:10px;
+    margin-top: 3px;
+    font-size: 20px;
+    font-family: 'Roboto';
+    margin-bottom: 20px;
+   
+}
+.iil{
+    
+    font-size: 20px;
+    font-family: 'Roboto';
+    margin-bottom: 40px;
+    margin-left:38px;
+}
+

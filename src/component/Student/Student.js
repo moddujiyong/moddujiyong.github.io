@@ -23,6 +23,7 @@ import MemberSide from "../memberSide/MemberSide"
 import { images } from '@/next.config';
 // import BarImgStu from "../../../components/img/design_bar.png";
 
+import styles from './Student.module.css';
 
 
 /*<StudentLayout 
@@ -71,12 +72,12 @@ export default function Student({select ,setSelect, selectStudent, setSelectStud
 
   const BarImgStu = "images/design_bar.png"
   return (
-    <div className="student" >
+    <div className={styles.student} >
       {select === 'Student' && selectStudent === '' ? 
 
 <>
-<div className="stu-header" >
-   <div className="stu-title">
+<div className={styles.stu_header} >
+   <div className={styles.stu_title}>
    Students
   </div>
 </div>
@@ -245,7 +246,7 @@ con = {'cowjy0427@yonsei.ac.kr'}
 />
 
 
-<div className="stu-profile">
+<div className={styles.stu_profile}>
 
 </div>
 
@@ -255,8 +256,8 @@ con = {'cowjy0427@yonsei.ac.kr'}
       
       select === 'Student' && selectStudent ==='Ph.D course'?
         <>
-          <div className="stu-header" >
-             <div className="stu-title">
+          <div className={styles.stu_header} >
+             <div className={styles.stu_title}>
                Students {to} Ph.D course
             </div>
           </div>
@@ -274,7 +275,7 @@ con = {'cowjy0427@yonsei.ac.kr'}
               con = {'yxxrm_k@naver.com / yxxrmk@yonsei.ac.kr'}
               rphoto={BarImgStu}/>
               
-         <div className="stu-profile">
+         <div className={styles.stu_profile}>
      
         </div>
           
@@ -284,8 +285,8 @@ con = {'cowjy0427@yonsei.ac.kr'}
 
         selectStudent==='MS/Ph.D course'?
         <>
-          <div className="stu-header" >
-             <div className="stu-title">
+          <div className={styles.stu_header} >
+             <div className={styles.stu_title}>
                Students {to} MS/Ph.D course
             </div>
           </div>
@@ -314,7 +315,7 @@ con = {'cowjy0427@yonsei.ac.kr'}
 
       <StudentLayout 
         course = {'MS / Ph.D course'}
-        photo = {"images/jiyoung.jpg"}
+        photo = {"images/jiyong.jpg"}
         name = {'Jiyong Chung'}
         EName = {null} 
         edu1 = {'Bachelor in Computer Engineering, Tech University of Korea (2022)'} 
@@ -324,7 +325,7 @@ con = {'cowjy0427@yonsei.ac.kr'}
         rphoto={BarImgStu}
         />
      
-        <div className="stu-profile">
+        <div className={styles.stu_profile}>
      
         </div>
       
@@ -334,8 +335,8 @@ con = {'cowjy0427@yonsei.ac.kr'}
         :
         selectStudent==='MS course'?
         <>
-         <div className="stu-header" >
-             <div className="stu-title">
+         <div className={styles.stu_header} >
+             <div className={styles.stu_title}>
                Students {to} MS course
             </div>
           </div>
@@ -344,7 +345,7 @@ con = {'cowjy0427@yonsei.ac.kr'}
         <StudentLayout 
        lphoto={BarImgStu}
        course = {'MS course'}
-       photo = {"images/seoulbi.png"}
+       photo = {"images/seulbi.png"}
        name = {'Seulbi Lee'}
        EName = {null} 
         edu1 = {'Bachelor in Biomedical Engineering, Yonsei University (2021)'} 
@@ -367,7 +368,7 @@ con = {'cowjy0427@yonsei.ac.kr'}
        <StudentLayout 
        lphoto={BarImgStu}
        course = {'MS course'}
-       photo = {"images/heeyeoung.png"}
+       photo = {"images/heeyoung.png"}
        name = {'Heeyeong Choi'}
        EName = {null} 
         edu1 = {'Bachelor in Biomedical Engineering, Yonsei University (2021)'} 
@@ -453,7 +454,7 @@ con = {'lemontree1235@naver.com'}
 
 
 
-<div className="stu-profile">
+<div className={styles.stu_profile}>
 
 </div>
 
@@ -463,8 +464,8 @@ con = {'lemontree1235@naver.com'}
          :
         selectStudent==='Intern'?
          <>
-          <div className="stu-header" >
-             <div className="stu-title">
+          <div className={styles.stu_header} >
+             <div className={styles.stu_title}>
              Students {to} Intern
             </div>
           </div>

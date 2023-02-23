@@ -1,53 +1,53 @@
 import React, {useRef} from 'react';
 
-import styles from "./staff.module.css"
+import styles from "./Staff.module.css"
 export default function Staffs() {
 
   const BarImgAdm = "images/design_bar.png"
   const BoraPhoto = "images/bora.jpg"
 
   return (   
-    <div className="staffs" >
-      <div className="staffs-header" >
-        <div className="staffs-title">
+    <div className={styles.staffs} >
+      <div className={styles.staffs_header} >
+        <div className={styles.staffs_title}>
           Staffs
         </div>
   
       </div>
 
-      <div className="staffs-profile">
-      <div className="staffs-left">
-           <div className="staffs-course">
+      <div className={styles.staffs_profile}>
+      <div className={styles.staffs_left}>
+           <div className={styles.staffs_course}>
                Administrator
             </div>
         
-            <div className="staffs-photo"> 
-              <img className="staffsImg" src={BoraPhoto} alt=""/> 
+            <div className={styles.staffs_photo}> 
+              <img className={styles.staffsImg} src={BoraPhoto} alt=""/> 
             </div>
         </div>
-        <div className="staffs-right">
-          <div className="staffs-name">
+        <div className={styles.staffs_right}>
+          <div className={styles.staffs_name}>
           Bora Kim
           
              
           </div>
 
-          <div className="staffs-field"> 
-            <span className="staffs-edu">| Education |</span>
-            <span className="staffs-edul1">Bachelor in Advanced Materials Engineering, Sejong University (2017) </span>
+          <div className={styles.staffs_field}> 
+            <span className={styles.staffs_edu}>| Education |</span>
+            <span className={styles.staffs_edul1}>Bachelor in Advanced Materials Engineering, Sejong University (2017) </span>
           
-            <span className="staffs-ri">| Task |</span>
-            <span className="staffs-ril">Administration </span>
-            <span className="staffs-contact">| Contact |</span>
-            <span className="staffs-contactl">arobk@naver.com / arobk@yonsei.ac.kr</span>
+            <span className={styles.staffs_ri}>| Task |</span>
+            <span className={styles.staffs_ril}>Administration </span>
+            <span className={styles.staffs_contact}>| Contact |</span>
+            <span className={styles.staffs_contactl}>arobk@naver.com / arobk@yonsei.ac.kr</span>
          
           </div>
          
         </div>
-        <img className="bar-rights" src={BarImgAdm} alt="" />
+        <img className={styles.bar_rights} src={BarImgAdm} alt="" />
       </div>
 
-      <div className="staffs-profile">
+      <div className={styles.staffs_profile}>
 
         
       </div>

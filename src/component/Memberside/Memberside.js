@@ -1,6 +1,7 @@
 import styles from './memberside.module.css'
 
 import React,{useState} from 'react'
+import StudentLayout from '../studentLayout/StudentLayout'
 export default function MemberSide({ select, setSelect, selectStudent, setSelectStudent} ) {
 
 
@@ -46,39 +47,39 @@ export default function MemberSide({ select, setSelect, selectStudent, setSelect
 
 
   return (
-    <div className="memberSide">
-       <div className='title_member'>
+    <div className={styles.memberSide}>
+       <div className={styles.title_member}>
           Members
-        <div className="title_border">
-            <div className="title_left">
+        <div className={styles.title_border}>
+            <div className={styles.title_left}>
               
             </div>
-            <div className="title_right">
+            <div className={styles.title_right}>
               
             </div>
         </div>  
          
        </div>
 
-      <div className="memberList">
-        <div className="memberside-container">
-        <ul className="memberContent">
-          <li className="memberListItem" onClick={clickPro} style={{color: select === 'Professor' ? 'black' : 'grey'}} >Professor</li>
-          <li className="memberListItem" onClick={clickStu} style={{marginBottom: select === 'Student'  ? 20 : 33, color: select === 'Student' ? 'black' : 'grey'}} >Students</li>
+      <div className={styles.memberList}>
+        <div className={styles.memberside_container}>
+        <ul className={styles.memberContent}>
+          <li className={styles.memberListItem} onClick={clickPro} style={{color: select === 'Professor' ? 'black' : 'grey'}} >Professor</li>
+          <li className={styles.memberListItem} onClick={clickStu} style={{marginBottom: select === 'Student'  ? 20 : 33, color: select === 'Student' ? 'black' : 'grey'}} >Students</li>
             {select === 'Student' ? 
             <>
-            <li className="memberSmallItem" onClick={clickphd} style={{ color: selectStudent === 'Ph.D course' ? 'black' : 'grey'}} > Ph.D course</li>
-            <li className="memberSmallItem" onClick={clickmsph} style={{ color: selectStudent === 'MS/Ph.D course' ? 'black' : 'grey'}} > MS/Ph.D course</li>
-            <li className="memberSmallItem" onClick={clickms} style={{ color: selectStudent === 'MS course' ? 'black' : 'grey'}} > MS course</li>
-            <li className="memberSmallItem" onClick={clickintern} style={{ color: selectStudent === 'Intern' ? 'black' : 'grey'}} > Intern</li>
+            <li className={styles.memberSmallItem} onClick={clickphd} style={{ color: selectStudent === 'Ph.D course' ? 'black' : 'grey'}} > Ph.D course</li>
+            <li className={styles.memberSmallItem} onClick={clickmsph} style={{ color: selectStudent === 'MS/Ph.D course' ? 'black' : 'grey'}} > MS/Ph.D course</li>
+            <li className={styles.memberSmallItem} onClick={clickms} style={{ color: selectStudent === 'MS course' ? 'black' : 'grey'}} > MS course</li>
+            <li className={styles.memberSmallItem} onClick={clickintern} style={{ color: selectStudent === 'Intern' ? 'black' : 'grey'}} > Intern</li>
             </>
             :
             null
   }
 
 
-          <li className="memberListItem" onClick={clickStaffs}style={{color: select === 'Staffs' ? 'black' : 'grey'}}>Staffs</li>
-          <li className="memberListItem" onClick={clickAlu} style={{color: select === 'Alumni' ? 'black' : 'grey'}}>Alumni</li>
+          <li className={styles.memberListItem} onClick={clickStaffs}style={{color: select === 'Staffs' ? 'black' : 'grey'}}>Staffs</li>
+          <li className={styles.memberListItem} onClick={clickAlu} style={{color: select === 'Alumni' ? 'black' : 'grey'}}>Alumni</li>
         </ul>
         </div>
       </div>
