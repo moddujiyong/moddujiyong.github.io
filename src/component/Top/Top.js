@@ -13,7 +13,7 @@ const Top = () => {
         
     }
     return (
-        <div>
+        <div style = {{position : "relative", padding : "0 2rem"}}>
             <div style = {{display : "flex",flexDirection:'column', }}>
             {/* <div style = {{ flex : "100px 0 0"}}>
             <img src = "/images/LogoDesign_Eng.png" alt ="logo"/>
@@ -67,10 +67,7 @@ const Top = () => {
                     color: pink;
                 }
 
-                header{
-                    position : relative;
-                    padding : 0 2rem;
-                }
+             
                             `}
 
             </style>
