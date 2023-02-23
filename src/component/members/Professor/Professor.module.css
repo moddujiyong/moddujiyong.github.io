@@ -25,6 +25,7 @@
    display: flex;
    margin-left:50px;
    margin-bottom: 23.5px;   
+   font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif; 
     }
 
 .prof_scrollMenu{
@@ -37,7 +38,7 @@
     border-right-width:0px;
     border-bottom-width:1px;
     border-color: #707070;
-    font-family: 'Roboto' ;
+    font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;   ;
    background-color: white;
   
 }
@@ -48,7 +49,7 @@
     display:flex;
     width: 100%;
     justify-content: space-around;
-    font-family: 'Roboto' ;
+    font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;   ;
    margin-top: 10px;
    margin-bottom: 10px;
     cursor:pointer;
@@ -57,7 +58,7 @@
     
 }
 .profListItem{
-    font-family: 'Roboto';
+    font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;  ;
     display: flex;
 }
 
@@ -101,20 +102,20 @@
     font-size: 26px;
     opacity:1;
     font-weight: 700;
-    font-family: 'Roboto' ;
+    font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;   ;
     margin-top:15px;
     margin-bottom: 10px;
     
 }
 .prof_pos{
     font-size:23px;
-    font-family: 'Roboto' ;
+    font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;   ;
     
 }
 .prof_eng{
     margin-left: 20px;
     font-size:23px;
-    font-family: 'Roboto';
+    font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;  ;
 }
 
 .prof_field{
@@ -142,7 +143,7 @@
   
     display: flex;
     font-size: 20px;
-    font-family: 'Roboto' ;
+    font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;   ;
     opacity:1;
     font-weight: 700;
     
@@ -151,7 +152,7 @@
     display: flex;
     margin-left: 10px;
     font-size: 20px;
-    font-family: 'Roboto' ;
+    font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;   ;
     opacity:1;
    
     
@@ -162,14 +163,14 @@
 
 .prof_email{
     font-size: 20px;
-    font-family: 'Roboto' ;
+    font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;   ;
     opacity:1;
     font-weight: 700;
     display: flex;
 }
 .prof_emailCont{
     font-size: 20px;
-    font-family: 'Roboto' ;
+    font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;   ;
     opacity:1;
     margin-left: 10px;
     display: flex;
@@ -184,7 +185,7 @@
 .tel{
     display: flex;
     font-size: 20px;
-    font-family: 'Roboto' ;
+    font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;   ;
     opacity:1;
     font-weight: 700;
     
@@ -193,7 +194,7 @@
     display: flex;
     margin-left: 10px;
     font-size: 20px;
-    font-family: 'Roboto' ;
+    font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;   ;
     opacity:1;
 }
 
@@ -209,7 +210,7 @@
 .ril{
     display: flex;
     font-size: 20px;
-    font-family: 'Roboto' ;
+    font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;   ;
    
 }
 
@@ -283,7 +284,7 @@
 .mcl{
     display: flex;
     font-size: 20px;
-    font-family: 'Roboto';
+    font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;  ;
     margin-bottom: 29px;
     margin-left:70px;
     
@@ -320,7 +321,7 @@
 .ocl{
     display: flex;
     font-size: 20px;
-    font-family: 'Roboto';
+    font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;  ;
     margin-bottom: 29px;
     margin-left:70px;
 }
@@ -354,7 +355,7 @@
     font-size: 20px;
     display: flex;
     font-size: 20px;
-    font-family: 'Roboto';
+    font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;  ;
     margin-bottom: 29px;
     margin-left:70px;
 }
@@ -386,7 +387,7 @@
 .scl{ 
     display: flex;
     font-size: 20px;
-    font-family: 'Roboto';
+    font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;  ;
     margin-bottom: 29px;
     margin-left:70px;
 }
@@ -417,14 +418,14 @@
 .rsl{
     display: flex;
     font-size: 20px;
-    font-family: 'Roboto';
+    font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;  ;
     margin-bottom: 29px;
     margin-left:70px;
 }
 .rslt{
     margin-left: 70px;
     font-size: 20px;
-    font-family: 'Roboto';
+    font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;  ;
     margin-bottom: 29px;
     font-weight: 700;
 }
@@ -458,7 +459,7 @@
 .recl{
     display: flex;
     font-size: 20px;
-    font-family: 'Roboto';
+    font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;  ;
     margin-bottom: 29px;
     margin-left:70px;
 }
@@ -491,7 +492,7 @@
     font-size: 20px;
     display: flex;
     font-size: 20px;
-    font-family: 'Roboto';
+    font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;  ;
     margin-bottom: 29px;
     margin-left:70px;
 }
@@ -523,7 +524,7 @@
 .icl{
     display: flex;
     font-size: 20px;
-    font-family: 'Roboto';
+    font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;  ;
     margin-bottom: 29px;
     margin-left:70px;
 }

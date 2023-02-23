@@ -47,7 +47,7 @@
 display:flex;
 justify-content: start;
  font-size:22px;
- font-family: 'Roboto';
+ font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;  ;
  color: #002650;
  opacity: 1;
  font-weight: 1000;
@@ -81,7 +81,7 @@ justify-content: start;
 .staffs_name{
    
     font-weight: 700;
-    font-family: 'Roboto';
+    font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;  ;
     margin-left: 10px;
     margin-bottom: 17px;
    
@@ -125,7 +125,7 @@ justify-content: start;
     margin-left: 10px;
     font-size: 20px;
     margin-bottom: 29px;
-    font-family: 'Roboto' ;
+    font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;   ;
     margin-bottom: 29px;
 }
 
@@ -142,7 +142,7 @@ justify-content: start;
 .staffs_ril{
     margin-left: 10px;
     font-size: 20px;
-    font-family: 'Roboto' ;
+    font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;   ;
     margin-bottom: 29px;
 }
 
@@ -159,6 +159,6 @@ justify-content: start;
 .staffs_contactl{
     margin-left: 10px;
     font-size: 20px;
-    font-family: 'Roboto' ;
+    font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;   ;
     margin-bottom: 29px;
 }

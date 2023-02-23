@@ -12,7 +12,7 @@
 .ud_header{
 
   font-size: 26px;
-  font-family:'Roboto';
+  font-family:'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;
   font-weight: 700;
   display: flex;
   width:100%;
@@ -22,7 +22,7 @@
 .ud_title{
  
   display: flex;
-
+  font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif; 
   margin-left:60px;
   margin-bottom: 23.5px;
   width: 100%;
@@ -46,7 +46,7 @@
   width: 100%;
 
   justify-content: space-around;
-
+  font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif; 
   cursor:pointer;
 }
 
@@ -80,9 +80,8 @@
  width: 100%;
  margin-right: 10px;
   font-weight:700;
-
   font-size:25px;
-  font-family: 'Roboto';
+  font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;
   color: #002650;
   margin-bottom: 20px;
   margin-top:20px;

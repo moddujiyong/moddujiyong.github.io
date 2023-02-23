@@ -79,7 +79,7 @@
 
 .address_title{
   font-size: 25px;
-  font-family: 'Roboto';
+  font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;  ;
   padding:15px;
   font-weight: 1000;
 
@@ -108,7 +108,7 @@
 
 .email_title{
   font-size: 25px;
-  font-family: 'Roboto';
+  font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;  ;
   padding:15px;
   font-weight: 1000;
 
@@ -137,7 +137,7 @@
 
 .application_title{
   font-size: 25px;
-  font-family: 'Roboto';
+  font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;  ;
   padding:15px;
  font-weight: 1000;
  border-style: solid;
@@ -165,7 +165,7 @@
 
 .department_title{
   font-size: 25px;
-  font-family: 'Roboto';
+  font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;  ;
   padding:15px;
   font-weight: 1000;
   border-style: solid;

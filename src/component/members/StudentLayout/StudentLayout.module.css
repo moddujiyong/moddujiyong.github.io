@@ -29,7 +29,7 @@
     display:flex;
     justify-content: start;
     font-size: 22px;
-    font-family: 'Roboto';
+    font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;  ;
     color: #002650;
     opacity: 1;
     font-weight: 1000;
@@ -70,7 +70,7 @@
    
     font-size:26px;
     font-weight: 700;
-    font-family: 'Roboto';
+    font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;  ;
     margin-left: 10px;
     margin-bottom: 17px;
   
@@ -121,14 +121,14 @@
     margin-left: 10px;
     font-size: 20px;
     margin-bottom: 29px;
-    font-family: 'Roboto' ;
+    font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;   ;
     margin-bottom: 29px;
 }
 
 .stu_edul2{
     margin-left: 10px;
     font-size: 20px;
-    font-family: 'Roboto' ;
+    font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;   ;
     margin-bottom: 29px;
 }
 
@@ -147,7 +147,7 @@
     margin-left: 10px;
     margin-right: 120px;
     font-size: 20px;
-    font-family: 'Roboto' ;
+    font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;   ;
     margin-bottom: 29px;
 }
 
@@ -164,7 +164,7 @@
 .stu_contactl{
     margin-left: 10px;
     font-size: 20px;
-    font-family: 'Roboto' ;
+    font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;   ;
     margin-bottom: 29px;
 }
 

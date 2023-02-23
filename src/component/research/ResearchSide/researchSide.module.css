@@ -5,7 +5,7 @@
    flex-direction: column;
   }
   .title_research{
-      
+    font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif; 
       display:flex;
       font-size: 27px;
       opacity:1;
@@ -53,7 +53,7 @@
       font-size:17px;
       width:208px;
       margin-bottom: 33px;
-      font-family: 'Roboto';
+      font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;  ;
       font-weight: 600;
       opacity: 1;
       cursor:pointer;
