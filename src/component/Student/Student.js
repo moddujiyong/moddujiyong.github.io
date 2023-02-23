@@ -168,7 +168,7 @@ con = {'wlals2qj@naver.com / jmson1707@yonsei.ac.kr'}
 
 <StudentLayout 
 course = {'MS course'}
-photo = {"images/kanghyeoun.png"}
+photo = {"images/kanghyeon.png"}
 name = {'Kanghyeon You'}
 EName = {null} 
 edu1 = {'Bachelor in Healthcare Industry, Cha University (2021)'} 
@@ -209,7 +209,7 @@ rphoto={BarImgStu}/>
 <StudentLayout 
 lphoto={BarImgStu}
 course = {'MS course'}
-photo = {"images/seounghee.png"}
+photo = {"images/seunghee.png"}
 name = {'Seunghee Kim'}
 EName = {null} 
 edu1 = {'Bachelor in Healthcare Industry, Cha University (2021)'} 
@@ -236,7 +236,7 @@ rphoto={BarImgStu}
 <StudentLayout 
 lphoto={BarImgStu}
 course = {'MS / Ph.D course'}
-photo = {"images/jiyoung.jpg"}
+photo = {"images/jiyong.jpg"}
 name = {'Jiyong Chung'}
 EName = {null} 
 edu1 = {'Bachelor in Computer Engineering, Tech University of Korea (2022)'} 
@@ -489,46 +489,3 @@ con = {'lemontree1235@naver.com'}
   )
  
 } 
-{/* /* return (   
-
-    <div className="student" >
-      { select === 'Student' ? 
-      <>
-    {all}
-      </>
-      :
-       selectStudent === 'Ph.D course' ?
-          <>
-        {ph}
-        </>
-        :
-          selectStudent === 'MS/Ph.D course' ?
-          {msph}
-                  :
-                selectStudent === 'MS course' ?
-                    {ms}
-
-                        :
-      
-                    <Intern/>
-                  }
-      
-   
-  
-    </div>
-  )*/
-
-
-
-/*selectStudent === 'Ph.D course' ?
-
-{ph}
-
-:
-selectStudent === 'MS/Ph.D course' ?
-{msph}
-:
-selectStudent === 'MS course' ?
-{ms}
-
-                :*/ }

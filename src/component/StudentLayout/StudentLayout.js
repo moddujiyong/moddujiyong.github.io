@@ -7,7 +7,7 @@ export default function StudentLayout({course,lphoto,photo, name, EName, edu1, e
 
   return (   
     <div className={styles.stu_profile}>
-       <img className={styles.bar_left} src={lphoto} alt="" />
+       {/* <img className={styles.bar_left} src={lphoto} alt="" /> */}
         <div className={styles.stu_left}>
        
            <div className={styles.stu_course}>
@@ -37,7 +37,7 @@ export default function StudentLayout({course,lphoto,photo, name, EName, edu1, e
             <span className={styles.stu_contactl}>{con}</span>
             </div>
 
-            <img className={styles.bar_rights} src={rphoto} alt="" />
+            {/* <img className={styles.bar_rights} src={rphoto} alt="" /> */}
           
           </div>
           

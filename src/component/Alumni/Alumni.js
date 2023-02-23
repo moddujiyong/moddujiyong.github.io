@@ -1,6 +1,7 @@
 
 import styles from './Alumni.module.css'
 import React, {useRef} from 'react';
+import AluminiLayout from '../AluminiLayout/AluminiLayout';
 
 // import MisoPhoto from "../../../components/img/miso.png";
 // import InsikPhoto from "../../../components/img/insik.png";
@@ -27,301 +28,83 @@ export default function Alumni() {
           Alumni
         </div>
       </div>
-    <div className={styles.alu_profile}>
-        <div className={styles.alu_left}>
-          <div className={styles.alu_course}>
-              MS
-            </div>
-        
-            <div className={styles.alu_photo}> 
-              <img className={styles.aluImg} src="images/miso.png" alt=""/> 
-            </div>
-        </div>
-        <div className={styles.alu_right}>
-          <div className={styles.alu_name}>
-          Miso Choi     
-            
-          </div>
-
-          <div className={styles.alu_field}> 
-            <span className={styles.alu_edu}>| Education |</span>
-            <span className={styles.alu_edul1}>Master in Medical Device Engineering & Management (2020) </span>
-            <span className={styles.alu_aff}>| Affiliation |</span>
-            <span className={styles.alu_affl}></span>
-            <span className={styles.alu_dis}>| Dissertation |</span>
-            <span className={styles.alu_disl}>Strategies for Korean Medical Devices to enter the Chinese market through the Analysis of Chinese Devices System</span>
-            <span className={styles.alu_contact}>| Contact |</span>
-            <span className={styles.alu_contactl}>msc17@yonsei.ac.kr</span>
-        
-          </div>
-        </div>
-        <img className={styles.bar_rights} src="images/design_bar.png" alt="" />
-      </div>
-
-      <div className={styles.alu_profile}>
-      <img className={styles.bar_left} src="images/design_bar.png" alt="" />
-        <div className={styles.alu_left}>
-          <div className={styles.alu_course}>
-              MS
-            </div>
-        
-            <div className={styles.alu_photo}> 
-              <img className={styles.aluImg} src="images/insik.png" alt=""/> 
-            </div>
-        </div>
-        <div className={styles.alu_right}>
-          <div className={styles.alu_name}>
-          Insik Im
-         
-            
-          </div>
-
-          <div className={styles.alu_field}> 
-            <span className={styles.alu_edu}>| Education |</span>
-            <span className={styles.alu_edul1}>Master in Medical Device Engineering & Management (2021) </span>
-            <span className={styles.alu_aff}>| Affiliation |</span>
-            <span className={styles.alu_affl}>Medtronic</span>
-            <span className={styles.alu_dis}>| Dissertation |</span>
-            <span className={styles.alu_disl}>A Study on the Diagnosis Korea Medical Device Industry through Management Performance and Enterprise Value </span>
-            <span className={styles.alu_contact}>| Contact |</span>
-            <span className={styles.alu_contactl}>insik7410@gmail.com</span>
-        
-          </div>
-        </div>
-        
-      </div>
-
-      <div className={styles.alu_profile}>
-        <div className={styles.alu_left}>
-          <div className={styles.alu_course}>
-              MS
-            </div>
-        
-            <div className={styles.alu_photo}> 
-              <img className={styles.aluImg} src="images/sihyun.png" alt=""/> 
-            </div>
-        </div>
-        <div className={styles.alu_right}>
-          <div className={styles.alu_name}>
-          Sihyun Han     
-          
-             
-          </div>
-
-          <div className={styles.alu_field}> 
-            <span className={styles.alu_edu}>| Education |</span>
-            <span className={styles.alu_edul1}>Master in Medical Device Engineering & Management (2021)  </span>
-            <span className={styles.alu_aff}>| Affiliation |</span>
-            <span className={styles.alu_affl}>Synex</span>
-            <span className={styles.alu_dis}>| Dissertation |</span>
-            <span className={styles.alu_disl}>A Study on the Application of Digital Clinical Trial System to Medical Device  </span>
-            <span className={styles.alu_contact}>| Contact |</span>
-            <span className={styles.alu_contactl}>2007andy@naver.com</span>
-        
-          </div>
-        </div>
-        <img className={styles.bar_rights} src="images/design_bar.png"alt="" />
-      </div>
-
-
-      <div className={styles.alu_profile}>
-      <img className={styles.bar_left} src="images/design_bar.png" alt="" />
-        <div className={styles.alu_left}>
-          <div className={styles.alu_course}>
-              MS
-            </div>
-        
-            <div className={styles.alu_photo}> 
-              <img className={styles.aluImg} src="images/hanji.png" alt=""/> 
-            </div>
-        </div>
-        <div className={styles.alu_right}>
-          <div className={styles.alu_name}>
-          Hanji Lee      
-          
-              <span className="alu_eng"> </span>
-          </div>
-
-          <div className={styles.alu_field}> 
-            <span className={styles.alu_edu}>| Education |</span>
-            <span className={styles.alu_edul1}>Master in Medical Device Engineering & Management (2022)  </span>
-            <span className={styles.alu_aff}>| Affiliation |</span>
-            <span className={styles.alu_affl}>Abbott</span>
-            <span className={styles.alu_dis}>| Dissertation |</span>
-            <span className={styles.alu_disl}>Improvement of domestic regulation based on analysis of global regulations for digital therapeutics   </span>
-            <span className={styles.alu_contact}>| Contact |</span>
-            <span className={styles.alu_contactl}>hangilee00@gmail.com</span>
-        
-          </div>
-        </div>
-        
-      </div>
-
-
-      <div className={styles.alu_profile}>
-        
-        <div className={styles.alu_left}>
-          <div className={styles.alu_course}>
-              MS
-            </div>
-        
-            <div className={styles.alu_photo}> 
-              <img className={styles.aluImg} src="images/jeonguk.jpg" alt=""/> 
-            </div>
-        </div>
-        <div className={styles.alu_right}>
-          <div className={styles.alu_name}>
-          Jeonguk Choi     
-        
-          </div>
-
-          <div className={styles.alu_field}> 
-            <span className={styles.alu_edu}>| Education |</span>
-            <span className={styles.alu_edul1}>Master in Medical Device Engineering & Management (2022)   </span>
-            <span className={styles.alu_aff}>| Affiliation |</span>
-            <span className={styles.alu_affl}>Vuno </span>
-            <span className={styles.alu_dis}>| Dissertation |</span>
-            <span className={styles.alu_disl}>User Interface Design for Ventilator Central Monitoring System Applying Human Factors Engineering   </span>
-            <span className={styles.alu_contact}>| Contact |</span>
-            <span className={styles.alu_contactl}>hrju5110@naver.com</span>
-        
-          </div>
-        </div>
-        <img className={styles.bar_rights} src="images/design_bar.png" alt="" />
-      </div>
-
-
-      <div className={styles.alu_profile}>
-      <img className={styles.bar_left} src="images/design_bar.png"alt="" />
-        <div className={styles.alu_left}>
-          <div className={styles.alu_course}>
-              MS
-            </div>
-        
-            <div className={styles.alu_photo}> 
-              <img className={styles.aluImg} src="images/miwon.jpg" alt=""/> 
-            </div>
-        </div>
-        <div className={styles.alu_right}>
-          <div className={styles.alu_name}>
-          MiWon Song       
-             
-              
-          </div>
-
-          <div className={styles.alu_field}> 
-            <span className={styles.alu_edu}>| Education |</span>
-            <span className={styles.alu_edul1}>Master in Medical Device Engineering & Management (2022)   </span>
-            <span className={styles.alu_aff}>| Affiliation |</span>
-            <span className={styles.alu_affl}>Gangnam Severance Hospital (Medical Device Usability Research Center) </span>
-            <span className={styles.alu_dis}>| Dissertation |</span>
-            <span className={styles.alu_disl}>Assessment for usefulness of A_mode sonography for muscle change after training   </span>
-            <span className={styles.alu_contact}>| Contact |</span>
-            <span className={styles.alu_contactl}>aldnjthd@naver.com / mwsong0529@yuhs.ac</span>
-        
-          </div>
-        </div>
-        
-      </div>
-
-      <div className={styles.alu_profile}>
-        <div className={styles.alu_left}>
-          <div className={styles.alu_course}>
-              MS
-            </div>
-        
-            <div className={styles.alu_photo}> 
-              <img className={styles.aluImg}  src="images/eunseon.jpg" alt=""/> 
-            </div>
-        </div>
-        <div className={styles.alu_right}>
-          <div className={styles.alu_name}>
-          EunSeon Lee     
-              
-          </div>
-
-          <div className={styles.alu_field}> 
-            <span className={styles.alu_edu}>| Education |</span>
-            <span className={styles.alu_edul1}>Master in Medical Device Engineering & Management (2022) </span>
-            <span className={styles.alu_aff}>| Affiliation |</span>
-            <span className={styles.alu_affl}>Seegene</span>
-            <span className={styles.alu_dis}>| Dissertation |</span>
-            <span className={styles.alu_disl}>Analysis of Emergency Use Authorization (EUA) for In Vitro Diagnostic Medical Devices (IVD) on Emerging Infectious Disease </span>
-            <span className={styles.alu_contact}>| Contact |</span>
-            <span className={styles.alu_contactl}>eunseon.lee92@gmail.com</span>
-        
-          </div>
-        </div>
-        <img className={styles.bar_rights} src="images/design_bar.png" alt="" />
-      </div>
+    <AluminiLayout 
+        course = {"MS"} 
+        photo = {"miso.png"} 
+        name = {"Miso Choi"} 
+        edu1 = {"Master in Medical Device Engineering & Management (2020)"} 
+        dissertation = {"Strategies for Korean Medical Devices to enter the Chinese market through the Analysis of Chinese Devices System"} 
+        affilation = {""} 
+        con = {"msc17@yonsei.ac.kr"}   />
+    <AluminiLayout 
+        course = {"MS"} 
+        photo = {"insik.png"} 
+        name = {"Insik Im"} 
+        edu1 = {"Master in Medical Device Engineering & Management (2021)"} 
+        dissertation = {"Strategies for Korean Medical Devices to enter the Chinese market through the Analysis of Chinese Devices SysteA Study on the Diagnosis Korea Medical Device Industry through Management Performance and Enterprise Value "} 
+        affilation = {"Medtronic"} 
+        con = {"insik7410@gmail.com"}   />
+    <AluminiLayout 
+        course = {"MS"} 
+        photo = {"sihyun.png"} 
+        name = {"Sihyun Han"} 
+        edu1 = {"Master in Medical Device Engineering & Management (2021)"} 
+        dissertation = {"A Study on the Application of Digital Clinical Trial System to Medical Device"} 
+        affilation = {"Synex"} 
+        con = {"2007andy@naver.com"}   />
+    <AluminiLayout 
+        course = {"MS"} 
+        photo = {"hanji.png"} 
+        name = {"Hanji Lee"} 
+        edu1 = {"Master in Medical Device Engineering & Management (2022)"} 
+        dissertation = {"Improvement of domestic regulation based on analysis of global regulations for digital therapeutics"} 
+        affilation = {"Abbott"} 
+        con = {"hangilee00@gmail.com"}   />
+    <AluminiLayout 
+        course = {"MS"} 
+        photo = {"jeonguk.jpg"} 
+        name = {"Jeonguk Choi "} 
+        edu1 = {"Master in Medical Device Engineering & Management (2022)"} 
+        dissertation = {"User Interface Design for Ventilator Central Monitoring System Applying Human Factors Engineering"} 
+        affilation = {"Vuno"} 
+        con = {"hrju5110@naver.com"}   />
+    <AluminiLayout 
+        course = {"MS"} 
+        photo = {"miwon.jpg"} 
+        name = {"MiWon Song"} 
+        edu1 = {"Master in Medical Device Engineering & Management (2022)"} 
+        dissertation = {"Assessment for usefulness of A_mode sonography for muscle change after training"} 
+        affilation = {"Gangnam Severance Hospital (Medical Device Usability Research Center) "} 
+        con = {"aldnjthd@naver.com / mwsong0529@yuhs.ac"}   />
     
-
-      <div className={styles.alu_profile}>
-      <img className={styles.bar_left} src="images/design_bar.png" alt="" />
-        <div className={styles.alu_left}>
-          <div className={styles.alu_course}>
-              MS
-            </div>
+      <AluminiLayout 
+        course = {"MS"} 
+        photo = {"eunseon.jpg"} 
+        name = {"EunSeon Lee  "} 
+        edu1 = {"Master in Medical Device Engineering & Management (2022)"} 
+        dissertation = {"Analysis of Emergency Use Authorization (EUA) for In Vitro Diagnostic Medical Devices (IVD) on Emerging Infectious Disease "} 
+        affilation = {"Seegene"} 
+        con = {"eunseon.lee92@gmail.com"}   />
+    <AluminiLayout 
+        course = {"MS"} 
+        photo = {"youngbo.jpg"} 
+        name = {"Youngbo Cho   "} 
+        edu1 = {"Master in Medical Device Engineering & Management (2022)"} 
+        dissertation = {"A Study on the Global Harmonized Adverse Event Reporting System for Domestic Medical Device Manufacturers "} 
+        affilation = {"Guerbet"} 
+        con = {"miracle0134@naver.com"}   />
+    <AluminiLayout 
+        course = {"MS"} 
+        photo = {"cho.jpeg"} 
+        name = {"Choro Choi"} 
+        edu1 = {"Master in Medical Device Engineering & Management (2022)"} 
+        dissertation = {"Development of cloud_based remote monitoring system for peritoneal dialysis patients"} 
+        affilation = {"MDOC"} 
+        con = {"hisstoryxx@gmail.com"}   />
         
-            <div className={styles.alu_photo}> 
-              <img className={styles.aluImg} src="images/youngbo.jpg" alt=""/> 
-            </div>
-        </div>
-        <div className={styles.alu_right}>
-          <div className={styles.alu_name}>
-          Youngbo Cho    
-              
-              
-          </div>
-
-          <div className={styles.alu_field}> 
-            <span className={styles.alu_edu}>| Education |</span>
-            <span className={styles.alu_edul1}>Master in Medical Device Engineering & Management (2022) </span>
-            <span className={styles.alu_aff}>| Affiliation |</span>
-            <span className={styles.alu_affl}>Guerbet</span>
-            <span className={styles.alu_dis}>| Dissertation |</span>
-            <span className={styles.alu_disl}>A Study on the Global Harmonized Adverse Event Reporting System for Domestic Medical Device Manufacturers  </span>
-            <span className={styles.alu_contact}>| Contact |</span>
-            <span className={styles.alu_contactl}>miracle0134@naver.com</span>
-        
-          </div>
-        </div>
-        
-      </div>
 
 
-      <div className={styles.alu_profile}>
-      <img className="bar_right" src="images/design_bar.png" alt="" />
-        <div className={styles.alu_left}>
-          <div className={styles.alu_course}>
-              MS
-            </div>
-        
-            <div className={styles.alu_photo}> 
-              <img className={styles.aluImg} src="images/cho.jpeg" alt=""/> 
-            </div>
-        </div>
-        <div className={styles.alu_right}>
-          <div className={styles.alu_name}>
-          Choro Choi    
-              
-              
-          </div>
 
-          <div className={styles.alu_field}> 
-            <span className={styles.alu_edu}>| Education |</span>
-            <span className={styles.alu_edul1}>Master in Medical Device Engineering & Management (2022) </span>
-            <span className={styles.alu_aff}>| Affiliation |</span>
-            {/* <Link className={styles.alu_affl}  onClick={() => window.location.href='http://m_doc.io/'}> MDOC</Link> */}
-            <span className={styles.alu_dis}>| Dissertation |</span>
-            <span className={styles.alu_disl}> Development of cloud_based remote monitoring system for peritoneal dialysis patients </span>
-            <span className={styles.alu_contact}>| Contact |</span>
-            <span className={styles.alu_contactl}>hisstoryxx@gmail.com</span>
-        
-          </div>
-        </div>
-        
-      </div>
   </div>
    
   )
