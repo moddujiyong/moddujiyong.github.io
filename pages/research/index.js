@@ -28,23 +28,23 @@ export default function Research() {
   
   console.log('select',location.query.id)
 
-  if(location.query.id.includes("clinical")){
+  if(location?.query?.id?.includes("clinical")){
     recv='clinical'
     
     
  } 
- else if (location.query.id.includes("uxui")){
+ else if (location.query.id?.includes("uxui")){
    
    recv="uxui"
 
  } 
  
- else if (location.query.id.includes('industry')) {
+ else if (location.query.id?.includes('industry')) {
  
    recv="industry"
  }
 
- else if (location.query.id.includes('bio')) {
+ else if (location.query.id?.includes('bio')) {
  
   recv="bio"
 }

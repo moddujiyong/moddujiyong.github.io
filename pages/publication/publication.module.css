@@ -1,0 +1,270 @@
+.publication{
+    display:flex;
+  
+    margin-bottom:482px;
+    width: 100%;
+   
+
+}
+
+.pub_left{
+    margin-top:74px;
+    flex:1;
+   
+    display:flex;
+    margin-right:10px;
+    margin-left:10px;
+   width:100%;
+    flex-direction: column;
+}
+.slider{
+  display:flex;
+  flex-direction: column;
+  position:sticky;  
+  z-index: 1;
+ 
+  top:200px;
+  width:100%;
+  
+}
+
+
+.pub_menuTitle{
+    display:flex;
+    font-size: 27px;
+    opacity: 1;
+    font-weight: 1000;
+    flex-direction: column;
+
+
+    width:100%;
+   
+    margin-left:51px;
+
+    
+}
+
+.pubContent{
+  display:flex;
+  flex-direction: column;
+  width:100%;
+  list-style: none;
+  margin-top: 51px;
+  
+
+  
+}
+
+.pub_list{
+  list-style: none;
+  display:flex;
+  width:100%;
+  left:0;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+
+
+
+.pub_item{
+  display:flex;
+  width:80%;
+  font-size:22px;
+  margin-right: 10px;
+  margin-bottom: 33px;
+  font-family: 'Roboto';
+  font-weight: 700;
+  opacity: 1;
+  cursor:pointer;
+  border-style: solid;
+  height: 46.5px;
+  border-top-width: 0;
+  border-left-width:0;
+  border-right-width:0;
+  border-bottom-width:1px;
+  border-color: #FFC341;
+  color:'#707070'
+}
+
+.pub_right{
+    flex:5;
+    display:flex;
+    width:100%;
+    margin-left:30px;
+    flex-direction: column;
+    height:100%;
+    margin-top:64px;
+  
+    margin-right: 319.5px;
+}
+
+
+.pub_header{
+
+  display:flex;
+  width:100%;
+  font-weight:700;
+    font-size: 26px;
+    flex-direction: column;   
+    border-color: #707070;
+    border-style: solid;
+    border-top-width:0px;
+    border-left-width:0px;
+    border-right-width:0px;
+    border-bottom-width:1px;
+}
+.pub_title{
+    display:flex;
+
+    margin-left:50px;
+    margin-bottom: 23.5px;
+
+}
+
+
+.international_journal{
+  
+  display:flex;
+  justify-content: start;
+  font-size:22px;
+  
+  color: #002650;
+  opacity: 1;
+  font-weight: 1000;
+  margin-top: 40px;
+  margin-left:38px;
+  margin-bottom: 22.6px;
+}
+
+ .journal_content{
+  display:flex;
+  flex-direction: column;
+
+   font-size:22px;
+   margin-bottom:60px;
+   margin-left:38px;
+   
+   font-family: 'Roboto';
+ }
+ 
+
+
+
+.domestic_journal{
+
+  display:flex;
+  justify-content: start;
+  font-size:22px;
+  font-family: 'Roboto';
+  color: #002650;
+  opacity: 1;
+  font-weight: 1000;
+  margin-top: 40px;
+  margin-left:38px;
+  margin-bottom: 22.6px;
+}
+
+.international_conference{
+
+  display:flex;
+  justify-content: start;
+  font-size:22px;
+  font-family: 'Roboto';
+  color: #002650;
+  opacity: 1;
+  font-weight: 1000;
+  margin-top: 40px;
+  margin-left:38px;
+  margin-bottom: 22.6px;
+}
+
+.conference_content{
+  font-size:22px;
+  display:flex;
+  flex-direction: column;
+  margin-bottom:60px;
+  margin-left:38px;
+  margin-right: 47px;
+}
+
+.domestic_conference{
+
+  display:flex;
+  justify-content: start;
+  font-size:22px;
+  font-family: 'Roboto';
+  color: #002650;
+  opacity: 1;
+  font-weight: 1000;
+  margin-top: 40px;
+  margin-left:38px;
+  margin-bottom: 22.6px;
+}
+
+.patent{
+
+  display:flex;
+  justify-content: start;
+  font-size:22px;
+  font-family: 'Roboto';
+  color: #002650;
+  opacity: 1;
+  font-weight: 1000;
+  margin-top: 40px;
+  margin-left:38px;
+  margin-bottom: 22.6px;
+}
+
+.patent_content{
+  display:flex;
+  flex-direction: column;
+  font-size:22px;
+  margin-bottom:60px;
+  margin-left:38px;
+  margin-right: 47px;
+}
+
+.book{
+
+  display:flex;
+  justify-content: start;
+  font-size:22px;
+  font-family: 'Roboto';
+  color: #002650;
+  opacity: 1;
+  font-weight: 1000;
+  margin-top: 40px;
+  margin-left:38px;
+  margin-bottom: 22.6px;
+}
+
+.book_content{
+  display:flex;
+  flex-direction: column;
+  font-size:22px;
+  margin-bottom:60px;
+  margin-left:38px;
+  margin-right: 47px;
+}
+
+.conl{
+  display:flex;
+  
+  margin-bottom: 29px;
+}
+
+.title_border{
+    display:flex;
+}
+
+.title_left{
+    border-style: solid;
+    width:104px;
+    
+    border-color: #002650;
+}
+.title_right{
+    width:104px;
+    background-color: #FFC341;
+}
