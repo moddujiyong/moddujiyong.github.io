@@ -1,11 +1,44 @@
+import React,{useEffect, useState} from 'react'
 import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from '@next/font/google'
-import styles from '@/styles/Home.module.css'
+import styles from './members.module.css'
+
+import MemberSide from '@/src/component/Memberside/Memberside'
+import Professor from '@/src/component/Professor/Professor'
+import Alumni from '@/src/component/Alumni/Alumni'
+import Student from '@/src/component/Student/Student'
+import Staffs from '@/src/component/Staff/Staff'
+import StudentLayout from '@/src/component/studentLayout/StudentLayout'
 
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Members() {
+
+  const [select,setSelect]=useState('Professor');
+
+  const [selectStudent,setSelectStudent]=useState();
+
+  const [page, setPage] = useState('');
+
+  useEffect(() => {
+
+    if(select === 'Alumni') {
+      setPage('Alumni')
+        
+      
+    } else if (select === 'Student'){
+      setPage('Student')
+    } else if (select === 'Staffs') {
+      setPage('Staffs')
+      
+    }
+    else{
+      setPage('Professor')
+    }
+  },[select])
+
+
   return (
     <div>
       <Head>
@@ -13,6 +46,45 @@ export default function Members() {
           members | mddu
         </title>
       </Head>
+
+      <div className={styles.members}>
+        
+        <div className={styles.membersLeft}>
+        <MemberSide select={select} setSelect={setSelect} selectStudent = {selectStudent }   setSelectStudent = {setSelectStudent}  />
+      </div>
+    
+      {select === 'Alumni' ?
+        <>
+     
+      <div className={styles.membersRight}>
+        <Alumni/>
+      </div>
+      </>
+
+      :
+          select === 'Student'?
+          
+         
+          <div className={styles.membersRight}>
+            
+          <Student select={select} setSelect={setSelect} selectStudent = {selectStudent }   setSelectStudent = {setSelectStudent} />
+          </div>
+          
+            :
+             select === 'Staffs'?
+               
+              <div className={styles.membersRight}>
+              <Staffs/>
+              </div>
+              
+              :
+              <div className={styles.membersRight}>
+              <Professor/>
+              </div>
+      } 
+      
+      
+    </div>
      
     </div>
   )
