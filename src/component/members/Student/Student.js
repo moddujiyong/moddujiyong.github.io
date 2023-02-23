@@ -451,6 +451,19 @@ con = {'lemontree1235@naver.com'}
 
 />
 
+<StudentLayout 
+lphoto={BarImgStu}
+course = {'MS course'}
+photo = {"images/jiyoon.jpeg"}
+name = {'Jiyoon Oh'}
+EName = {null} 
+edu1 = {`Bachelor in Biomedical Engineering, Yonsei University (2023)`} 
+edu2 = {null} 
+int = {' Medical Device Clinical Study Design, Medical Regulatory Affairs'}
+con = {'5wldbs27@naver.com'}
+
+/>
+
 
 
 <div className={styles.stu_profile}>
