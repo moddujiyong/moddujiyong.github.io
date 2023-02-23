@@ -15,6 +15,47 @@ export default function Home() {
           Home | mddu
         </title>
       </Head>
+
+
+      <style jsx>{`
+            
+            li {
+                display: flex;
+                flex-direction: column;
+                list-style: none;
+                width : 220px;
+                height : auto;
+                align-self: center;
+                border-radius: 10px; 
+                padding: 20px;
+                cursor: pointer;
+                transition: scale 0.2 ease;
+                justify-content: center;
+            }
+
+            li:hover{
+                scale: 1.05;
+                color: #fff;
+            }
+
+            contents {
+                text-decoration: none;
+                color : #fff;
+                font-size: 1.5rem;
+                font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;
+                
+                
+            }
+            contents:hover {
+                color : #0167b3;
+            }
+
+           
+
+         
+                        `}
+
+        </style>
       
       <div className ={styles.header}>
             <div className={styles.headerTitles}>
@@ -26,18 +67,45 @@ export default function Home() {
 
                 </div>
                 
-                <img style={{display: 'flex', width: '100%', height: '100%', objectFit: "c"}} src="images/main_design_img.png" alt=""/>
+                <img style={{display: 'flex', width: '100%', height: '100%', objectFit: "contain"}} src="images/main_design_img.png" alt=""/>
                 
                 
             </div>
 
-            <div style = {{display: 'flex', width: '100%', height: 'auto', backgroundColor:'red', justifyContent:'center'}}>
-              <div style ={{display: 'flex', width: '80%', height: '300px', backgroundColor: 'blue'}}>
-                <div className = {styles.units}>
-                <div style = {{color: '#010e1e', fontSize: '2.5rem', }}>VISON </div>
-                <div style = {{color: '#010e1e', fontSize: '2.5rem', }}>VISON </div>
+            <div style = {{display: 'flex', width: '100%', height: '100%',  justifyContent:'center'}}>
+              <div style ={{display: 'flex', flexDirection:'column', width: '80%', height: '80%', }}>
+                <div style = {{marginTop: '30px'}}> 
+                  <div className = {styles.units}>
+                <div style = {{color: '#010e1e', fontSize: '3rem', }}>VISON </div>
+                <div style = {{color: '#010e1e', fontSize: '3rem', }}>VISON </div>
                 </div>
-              
+
+
+                </div>
+               
+               
+                
+                <img style={{display: 'flex', width: '100%', height: '100%', objectFit:"contain", zIndex: 1}} src="images/upGo.jpeg" alt=""/>
+
+                <div className = {styles.listContainer}>
+                <ul className = {styles.links}>
+                    <li style ={{backgroundColor:'#00489a'}} >
+                    <contents >Clinical Study Design</contents>
+                    </li>
+                    <li style = {{ backgroundColor:'#003979'}}>
+                      <contents>UX/UI Design & Usability</contents> 
+                      
+                      </li>
+                    <li style ={{ backgroundColor: '#005d8a'}}>
+                      <contents>Medical Device Industry Policy</contents> 
+                      
+                    </li>
+                    <li style = {{backgroundColor: '#0086c4'}}>
+                      <contents>Bio-Signal Processing & AI</contents> 
+                      </li>
+                    
+                </ul>
+                </div>
               </div>
               
             </div>

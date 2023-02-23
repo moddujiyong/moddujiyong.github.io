@@ -47,3 +47,36 @@
   transform: rotatex(180deg) translatey(15px); 
   mask-image: linear-gradient(transparent 50%, white 90%);
 }
+
+.listContainer{
+  position: absolute;
+  bottom: 60px;
+ 
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  z-index: 100;
+  left: 50%;
+  transform: translate(-50%, -50%);
+ 
+}
+
+
+
+.listContainer .links{
+  display: flex;
+  gap: 1rem;
+  
+  
+}
+
+.action_btn {
+  flex-direction: column;
+  background-color: #0167b3;
+  padding : 0.5rem 1rem;
+  border-radius: 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: scale 0.2 ease;
+  justify-content: center;
+}
