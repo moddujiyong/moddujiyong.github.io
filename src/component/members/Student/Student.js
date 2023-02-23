@@ -16,11 +16,10 @@ import React, {useRef} from 'react';
 // import YujeongPhoto from "../../../components/img/yujeong.jpg";
 // import ChanghyunPhoto from "../../../components/img/changhyun.png";
 
-import Intern from '../intern/Intern';
+import Intern from '../Intern/Intern';
 import StudentLayout from '../studentLayout/StudentLayout';
 
-import MemberSide from "../memberSide/MemberSide"
-import { images } from '@/next.config';
+
 // import BarImgStu from "../../../components/img/design_bar.png";
 
 import styles from './Student.module.css';

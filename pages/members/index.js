@@ -4,12 +4,12 @@ import Image from 'next/image'
 import { Inter } from '@next/font/google'
 import styles from './members.module.css'
 
-import MemberSide from '@/src/component/Memberside/Memberside'
-import Professor from '@/src/component/Professor/Professor'
-import Alumni from '@/src/component/Alumni/Alumni'
-import Student from '@/src/component/Student/Student'
-import Staffs from '@/src/component/Staff/Staff'
-import StudentLayout from '@/src/component/studentLayout/StudentLayout'
+import MemberSide from '@/src/component/members/Memberside/Memberside'
+import Professor from '@/src/component/members/Professor/Professor'
+import Alumni from '@/src/component/members/Alumni/Alumni'
+import Student from '@/src/component/members/Student/Student'
+import Staffs from '@/src/component/members/Staff/Staff'
+import StudentLayout from '@/src/component/members/studentLayout/StudentLayout'
 
 const inter = Inter({ subsets: ['latin'] })
 
