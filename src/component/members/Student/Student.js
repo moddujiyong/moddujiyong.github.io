@@ -91,7 +91,7 @@ edu2 = {'Bachelor in Biomedical Engineering, Konkuk University (2017)'}
 int = {'Medical Device Clinical Study Design, Clinical Effectiveness Evaluation, \nMedical Device Industry Policy, Medical Regulatory Affairs'}
 con = {'yxxrm_k@naver.com / yxxrmk@yonsei.ac.kr'}
 rphoto={BarImgStu}/>
-<StudentLayout 
+{/* <StudentLayout 
 lphoto={BarImgStu}
 course = {'MS / Ph.D course'}
 photo = {"images/sangeun.png"}
@@ -100,11 +100,11 @@ EName = {null}
 edu1 = {'Bachelor in Biomedical Engineering, Yonsei University (2018)'} 
 edu2 = {null} 
 int = {'UX/UI Design,  Usability/Human Factors Engineering, Android Programming'}
-con = {'pse7036@naver.com / sang-eun.park@yonsei.ac.kr'}/>
+con = {'pse7036@naver.com / sang-eun.park@yonsei.ac.kr'}/> */}
 
 
 
-<StudentLayout 
+{/* <StudentLayout 
 lphoto={BarImgStu}
 course = {'MS course'}
 photo = {"images/seulbi.png"}
@@ -113,9 +113,9 @@ EName = {null}
 edu1 = {'Bachelor in Biomedical Engineering, Yonsei University (2021)'} 
 edu2 = {null} 
 int = {'Medical Device Clinical Study Design, Clinical Effectiveness Evaluation'}
-con = {'bee5747@naver.com / bee5747@yonsei.ac.kr'}/>
+con = {'bee5747@naver.com / bee5747@yonsei.ac.kr'}/> */}
 
-<StudentLayout 
+{/* <StudentLayout 
 course = {'MS course'}
 photo = {"images/jiyun.jpg"}
 name = {'Jiyun Jeong'}
@@ -124,7 +124,7 @@ edu1 = {'Bachelor in Biomedical Engineering, Yonsei University (2014)'}
 edu2 = {null} 
 int = {'Usability/Human Factors Engineering'}
 con = {'ravissante25@gmail.com / jiyunj@yonsei.ac.kr'}
-rphoto={BarImgStu}/>
+rphoto={BarImgStu}/> */}
 
 
 <StudentLayout 
@@ -139,7 +139,7 @@ int = {'UX/UI Design, Usability/Human Factors Engineering'}
 con = {'hyeonkyeong97@daum.net / hyeonk@yonsei.ac.kr'}/>
 
 
-<StudentLayout 
+{/* <StudentLayout 
 
 course = {'MS course'}
 photo = {"images/heeyoung.png"}
@@ -149,7 +149,7 @@ edu1 = {'Bachelor in Biomedical Engineering, Yonsei University (2021)'}
 edu2 = {null} 
 int = {'Medical Device Clinical Study Design, Clinical Effectiveness Evaluation, \nMedical Regulatory Affairs'}
 con = {'chy980423@naver.com / hyeong0423@yonsei.ac.kr'}
-rphoto={BarImgStu}/>
+rphoto={BarImgStu}/> */}
 
 
 
@@ -240,7 +240,7 @@ name = {'Jiyong Chung'}
 EName = {null} 
 edu1 = {'Bachelor in Computer Engineering, Tech University of Korea (2022)'} 
 edu2 = {null} 
-int = {'Bio-signal processing, AI & Deep learning, Usability/Human Factors Engineering'}
+int = {'Usability/Human Factors Engineering '}
 con = {'cowjy0427@yonsei.ac.kr'}
 />
 
@@ -289,7 +289,7 @@ con = {'cowjy0427@yonsei.ac.kr'}
                Students {to} MS/Ph.D course
             </div>
           </div>
-       <StudentLayout
+       {/* <StudentLayout
        
        course = {'MS / Ph.D course'}
         photo = {"images/sangeun.png"}
@@ -299,7 +299,7 @@ con = {'cowjy0427@yonsei.ac.kr'}
         edu2 = {null} 
         int = {'UX/UI Design,  Usability/Human Factors Engineering, Android Programming'}
         con = {'pse7036@naver.com / sang-eun.park@yonsei.ac.kr'}
-        rphoto={BarImgStu}/>
+        rphoto={BarImgStu}/> */}
 
       <StudentLayout 
         lphoto={BarImgStu}
@@ -319,7 +319,7 @@ con = {'cowjy0427@yonsei.ac.kr'}
         EName = {null} 
         edu1 = {'Bachelor in Computer Engineering, Tech University of Korea (2022)'} 
         edu2 = {null} 
-        int = {'Bio-signal processing, AI & Deep learning, Usability/Human Factors Engineering'}
+        int = {'Usability/Human Factors Engineering '}
         con = {'cowjy0427@yonsei.ac.kr'}
         rphoto={BarImgStu}
         />
@@ -341,7 +341,7 @@ con = {'cowjy0427@yonsei.ac.kr'}
           </div>
         
 
-        <StudentLayout 
+        {/* <StudentLayout 
        lphoto={BarImgStu}
        course = {'MS course'}
        photo = {"images/seulbi.png"}
@@ -351,9 +351,9 @@ con = {'cowjy0427@yonsei.ac.kr'}
         edu2 = {null} 
         int = {'Medical Device Clinical Study Design, Clinical Effectiveness Evaluation'}
         con = {'bee5747@naver.com / bee5747@yonsei.ac.kr'}/>
+ */}
 
-
-        <StudentLayout 
+        {/* <StudentLayout 
        course = {'MS course'}
        photo = {"images/jiyun.jpg"}
        name = {'Jiyun Jeong'}
@@ -362,9 +362,9 @@ con = {'cowjy0427@yonsei.ac.kr'}
         edu2 = {null} 
         int = {'Usability/Human Factors Engineering'}
         con = {'ravissante25@gmail.com / jiyunj@yonsei.ac.kr'}
-        rphoto={BarImgStu}/>
+        rphoto={BarImgStu}/> */}
 
-       <StudentLayout 
+       {/* <StudentLayout 
        lphoto={BarImgStu}
        course = {'MS course'}
        photo = {"images/heeyoung.png"}
@@ -373,7 +373,7 @@ con = {'cowjy0427@yonsei.ac.kr'}
         edu1 = {'Bachelor in Biomedical Engineering, Yonsei University (2021)'} 
         edu2 = {null} 
         int = {'Medical Device Clinical Study Design, Clinical Effectiveness Evaluation, \nMedical Regulatory Affairs'}
-        con = {'chy980423@naver.com / hyeong0423@yonsei.ac.kr'}/>
+        con = {'chy980423@naver.com / hyeong0423@yonsei.ac.kr'}/> */}
 
         <StudentLayout 
        course = {'MS course'}

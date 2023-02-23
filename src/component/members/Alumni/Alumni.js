@@ -101,7 +101,47 @@ export default function Alumni() {
         dissertation = {"Development of cloud_based remote monitoring system for peritoneal dialysis patients"} 
         affilation = {"MDOC"} 
         con = {"hisstoryxx@gmail.com"}   />
-        
+
+<AluminiLayout 
+        course = {"MS / Ph.D course"} 
+        photo = {"sangeun.png"} 
+        name = {"Sangeun Park"} 
+        edu1 = {"Master & Ph.D in Medical Device Engineering & Management (2023)"} 
+        dissertation = {""} 
+        affilation = {"EDGECARE"} 
+        con = {"pse7036@naver.com"}   />
+
+<AluminiLayout 
+        course = {"MS"} 
+        photo = {"seulbi.png"} 
+        name = {"Seulbi Lee"} 
+        edu1 = {"Master in Medical Device Engineering & Management (2023)"} 
+        dissertation = {""} 
+        affilation = {""} 
+        con = {"bee5747@naver.com"}   />
+
+<AluminiLayout 
+        course = {"MS"} 
+        photo = {"jiyun.jpg"} 
+        name = {"Jiyun Jeong"} 
+        edu1 = {"Master in Medical Device Engineering & Management (2023)"} 
+        dissertation = {""} 
+        affilation = {""} 
+        con = {"ravissante25@gmail.com"}   />
+        <AluminiLayout 
+        course = {"MS"} 
+        photo = {"heeyoung.png"} 
+        name = {"Heeyeong Choi"} 
+        edu1 = {"Master in Medical Device Engineering & Management (2023)"} 
+        dissertation = {""} 
+        affilation = {"Siemens Healthineers"} 
+        con = {"chy980423@naver.com"}   />
+
+
+
+
+
+
 
 
 
