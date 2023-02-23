@@ -44,7 +44,7 @@ export default function Staffs() {
           </div>
          
         </div>
-        <img className={styles.bar_rights} src={BarImgAdm} alt="" />
+       
       </div>
 
       <div className={styles.staffs_profile}>

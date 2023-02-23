@@ -10,7 +10,7 @@
 .prof_header{
     
     position: sticky;
-    top:150px;    
+    top:0px;    
     z-index: 1; 
     display: flex;
     font-size: 26px;
