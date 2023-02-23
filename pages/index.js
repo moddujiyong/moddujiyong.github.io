@@ -3,12 +3,15 @@ import Image from 'next/image'
 import { Inter } from '@next/font/google'
 import styles from '@/styles/Home.module.css'
 
-import Introduce from '@/src/component/Introduce'
+
 
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
+
+  const introText='We do "Design & Development" and "Research & Evaluation" focusing on "Practical Healthcare Industry" within "Medical Device Regulation".';
   return (
+    <div>
     <div style ={{position : "relative", padding : "0 2rem",}}>
       <Head>
         <title>
@@ -19,36 +22,8 @@ export default function Home() {
 
       <style jsx>{`
             
-            li {
-                display: flex;
-                flex-direction: column;
-                list-style: none;
-                width : 220px;
-                height : auto;
-                align-self: center;
-                border-radius: 10px; 
-                padding: 20px;
-                cursor: pointer;
-                transition: scale 0.2 ease;
-                justify-content: center;
-            }
 
-            li:hover{
-                scale: 1.05;
-                color: #fff;
-            }
-
-            contents {
-                text-decoration: none;
-                color : #fff;
-                font-size: 1.5rem;
-                font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;
-                
-                
-            }
-            contents:hover {
-                color : #0167b3;
-            }
+          
 
            
 
@@ -76,8 +51,8 @@ export default function Home() {
               <div style ={{display: 'flex', flexDirection:'column', width: '80%', height: '80%', }}>
                 <div style = {{marginTop: '30px'}}> 
                   <div className = {styles.units}>
-                <div style = {{color: '#010e1e', fontSize: '3rem', }}>VISON </div>
-                <div style = {{color: '#010e1e', fontSize: '3rem', }}>VISON </div>
+                <div className = {styles.visionText}>VISON </div>
+                <div className = {styles.visionText}>VISON </div>
                 </div>
 
 
@@ -89,34 +64,44 @@ export default function Home() {
 
                 <div className = {styles.listContainer}>
                 <ul className = {styles.links}>
-                    <li style ={{backgroundColor:'#00489a'}} >
-                    <contents >Clinical Study Design</contents>
+                    <li className = {styles.li} style ={{backgroundColor:'#00489a'}} >
+                    <contents className = {styles.contents} >Clinical Study Design</contents>
                     </li>
-                    <li style = {{ backgroundColor:'#003979'}}>
-                      <contents>UX/UI Design & Usability</contents> 
+                    <li className = {styles.li} style = {{ backgroundColor:'#003979'}}>
+                      <contents className = {styles.contents}>UX/UI Design & Usability</contents> 
                       
                       </li>
-                    <li style ={{ backgroundColor: '#005d8a'}}>
-                      <contents>Medical Device Industry Policy</contents> 
+                    <li  className = {styles.li} style ={{ backgroundColor: '#005d8a'}}>
+                      <contents className = {styles.contents}>Medical Device Industry Policy</contents> 
                       
                     </li>
-                    <li style = {{backgroundColor: '#0086c4'}}>
-                      <contents>Bio-Signal Processing & AI</contents> 
+                    <li  className = {styles.li} style = {{backgroundColor: '#0086c4'}}>
+                      <contents className = {styles.contents}>Bio-Signal Processing & AI</contents> 
                       </li>
                     
                 </ul>
                 </div>
               </div>
+
+
+              
               
             </div>
 
-            
-              
-                
-   
            
-           <Introduce/>
+            
+          
         </div>
+        
     </div>
+
+<div style = {{display: 'flex', position : "relative", padding : "0 2rem" , marginTop: '50px', width: '100%', height: '100%',  justifyContent:'center'}}>
+<div className = {styles.textContainer}>
+
+  {introText}
+  
+</div>
+</div>
+</div>
   )
 }
