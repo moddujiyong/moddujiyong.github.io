@@ -3,6 +3,7 @@ import '@fortawesome/fontawesome-svg-core/styles.css'
 import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
 import styles from './top.module.css'
 import { useState } from "react";
+import Link from "next/link";
 
 const Top = () => {
 
@@ -13,7 +14,7 @@ const Top = () => {
         
     }
     return (
-        <div style = {{position : "relative", padding : "0 2rem"}}>
+        <div style = {{position : "relative", padding : "0 2rem", }}>
             <div style = {{display : "flex",flexDirection:'column', }}>
             {/* <div style = {{ flex : "100px 0 0"}}>
             <img src = "/images/LogoDesign_Eng.png" alt ="logo"/>
@@ -22,33 +23,35 @@ const Top = () => {
             </div> */}
 
             <div className = {styles.navbar}>
-                <div class = {styles.logo}>
-                    <a href= "#">web dev creates</a>
+                <div className = {styles.logo}>
+                    <Link href="/">
+                    <img src = "images/LogoDesign.png" width = "300" />
+                    </Link>
                 </div>
-                <ul class = {styles.links}>
-                    <li><a href = "#">Home</a></li>
-                    <li><a href = "about" >About</a></li>
-                    <li><a href = "services"> Services</a></li>
-                    <li><a href = "contact">Contact</a></li>
+                <ul className = {styles.links}>
+                    <li><a href = "members" >Members</a></li>
+                    <li><a href = "research">Research</a></li>
+                    <li><a href = "publication">Publication</a></li>
+                    <li><a href = "gallery">Gallery</a></li>
                     
                 </ul>
-                <a href = "#" className={styles.action_btn}>get started</a>
+                <a href = "contact" className={styles.action_btn} style ={{color: "#fff"}}>Contact</a>
                 <div className = {styles.togle_btn} onClick = {() => barClick()}>
                  {toggle ? 
-                 <FontAwesomeIcon icon={faXmark} />
+                 <FontAwesomeIcon icon={faXmark} color = "#002650"  />
                  :
-                 <FontAwesomeIcon icon={faBars} />
+                 <FontAwesomeIcon icon={faBars} color = "#002650" />
                  }
 
                 </div>
             </div>
 
             <div className ={toggle ? styles.dropDownMenuOpen : styles.dropDownMenu}>
-            <li><a href = "#">Home</a></li>
-                    <li><a href = "about" >About</a></li>
-                    <li><a href = "services"> Services</a></li>
-                    <li><a href = "contact">Contact</a></li>
-                    <li><a href = "#" className={styles.action_btn}>get started</a></li>
+                    <li><a href = "members" >Members</a></li>
+                    <li><a href = "research">Research</a></li>
+                    <li><a href = "publication">Publication</a></li>
+                    <li><a href = "gallery">Gallery</a></li>
+                    <li><a href = "contact" className={styles.action_btn} style ={{color: "#fff"}}>Contact</a></li>
             </div>
 
       
@@ -60,12 +63,16 @@ const Top = () => {
 
                 a {
                     text-decoration: none;
-                    color : #fff;
-                    font-size: 1rem
+                    color : #484848;
+                    font-size: 1.5rem;
+                    font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;
+                    
                 }
                 a:hover {
-                    color: pink;
+                    color : #0167b3;
                 }
+
+               
 
              
                             `}
