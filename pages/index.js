@@ -24,6 +24,8 @@ export default function Home() {
     }
   },[])
 
+ 
+
   const introText='We do "Design & Development" and "Research & Evaluation" focusing on "Practical Healthcare Industry" within "Medical Device Regulation".';
   return (
     <div>
@@ -68,7 +70,7 @@ export default function Home() {
 
             <div style = {{display: 'flex', width: '100%', height: '100%',  justifyContent:'center'}}>
               <div style ={{display: 'flex', flexDirection:'column', width: '80%', height: '80%', }}>
-                <div style = {{marginTop: '30px', opacity: (position - 20)/80}}> 
+                <div style = {{marginTop: '30px' }}> 
                   <div className = {styles.units}>
                 <div className = {styles.visionText}>VISON </div>
                 <div className = {styles.visionText}>VISON </div>
@@ -79,7 +81,7 @@ export default function Home() {
                
                
                 
-                <img style={{display: 'flex', opacity: (position - 30)/50, width: '100%', height: '100%', objectFit:"contain", zIndex: 1}} src="images/upGo.jpeg" alt=""/>
+                <img style={{display: 'flex', opacity: (position - 30)/50 + 0.3, width: '100%', height: '100%', objectFit:"contain", zIndex: 1}} src="images/upGo.jpeg" alt=""/>
 
                 <div className = {styles.listContainer}>
                 <ul className = {styles.links}>
