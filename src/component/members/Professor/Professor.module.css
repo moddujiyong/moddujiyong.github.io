@@ -3,7 +3,6 @@
 .professor{
     display:flex;
     flex-direction: column;
-    margin-right: 319.5px;
     width:100%;
 }
 
@@ -86,7 +85,6 @@
 }
 .prof_photo{
     display: flex;
-    margin-left: 91px;
    justify-content: center;
 }
 .profImg{
@@ -94,7 +92,8 @@
     display: flex;
     justify-self: center;
     object-fit: cover;
-    width: 288px;
+    /* width: 288px; */
+    width: auto;
 }
 
 .prof_name{
@@ -276,7 +275,7 @@
     opacity: 1;
     font-weight: 700;
     margin-bottom: 29px;
-    margin-left:70px;
+    /* margin-left:70px; */
    
 }
 
@@ -286,7 +285,7 @@
     font-size: 20px;
     font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;  ;
     margin-bottom: 29px;
-    margin-left:70px;
+    /* margin-left:70px; */
     
 }
 
@@ -307,7 +306,7 @@
     opacity: 1;
     font-weight: 700;
     margin-bottom: 29px;
-    margin-left:70px;
+    /* margin-left:70px; */
   
    
 }
@@ -323,7 +322,7 @@
     font-size: 20px;
     font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;  ;
     margin-bottom: 29px;
-    margin-left:70px;
+    /* margin-left:70px; */
 }
 
 .edu_career{
@@ -348,7 +347,7 @@
     opacity: 1;
     font-weight: 700;
     margin-bottom: 29px;
-    margin-left:70px;
+    /* margin-left:70px; */
 }
 
 .ecl{
@@ -357,7 +356,7 @@
     font-size: 20px;
     font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;  ;
     margin-bottom: 29px;
-    margin-left:70px;
+    /* margin-left:70px; */
 }
 
 
@@ -381,7 +380,7 @@
     opacity: 1;
     font-weight: 700;
     margin-bottom: 29px;
-    margin-left:70px;
+    /* margin-left:70px; */
 }
 
 .scl{ 
@@ -389,7 +388,7 @@
     font-size: 20px;
     font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;  ;
     margin-bottom: 29px;
-    margin-left:70px;
+    /* margin-left:70px; */
 }
 
 .research-subject{
@@ -412,7 +411,7 @@
     opacity: 1;
     font-weight: 700;
     margin-bottom: 29px;
-    margin-left:70px;
+    /* margin-left:70px; */
 }
 
 .rsl{
@@ -420,7 +419,7 @@
     font-size: 20px;
     font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;  ;
     margin-bottom: 29px;
-    margin-left:70px;
+    /* margin-left:70px; */
 }
 .rslt{
     margin-left: 70px;
@@ -453,7 +452,7 @@
     opacity: 1;
     font-weight: 700;
     margin-bottom: 29px;
-    margin-left:70px;
+    /* margin-left:70px; */
 }
 
 .recl{
@@ -461,7 +460,7 @@
     font-size: 20px;
     font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;  ;
     margin-bottom: 29px;
-    margin-left:70px;
+    /* margin-left:70px; */
 }
 
 .book_career{
@@ -485,7 +484,7 @@
     opacity: 1;
     font-weight: 700;
     margin-bottom: 29px;
-    margin-left:70px;
+    /* margin-left:70px; */
 }
 
 .bcl{
@@ -494,7 +493,7 @@
     font-size: 20px;
     font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;  ;
     margin-bottom: 29px;
-    margin-left:70px;
+    /* margin-left:70px; */
 }
 
 .intell_career{
@@ -518,7 +517,7 @@
     opacity: 1;
     font-weight: 700;
     margin-bottom: 29px;
-    margin-left:70px;
+    /* margin-left:70px; */
 }
 
 .icl{
@@ -526,13 +525,199 @@
     font-size: 20px;
     font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;  ;
     margin-bottom: 29px;
-    margin-left:70px;
+    /* margin-left:70px; */
 }
 
 /* Responsive Design */
 
 @media(max-width: 992px) {
     
+    .profImg{
+        
+        width: 200px;
+    }
+    
+    .prof_profile{
+        width: 100%;
+        margin-bottom: 53.5px;
+        display: flex;
+        justify-content: center;
+        z-index: 0;
+        flex-direction: column;
+       
+    }
+    .prof_header{
+        font-size: 1.5rem;
+    }
+    .profList{
+        font-size: 1rem;
+    }
+    .prof_name{
+    
+        font-size: 1.5rem;
+ 
+    }
+    .prof_pos{
+        font-size:1rem;
+        
+        
+    }
+    .prof_eng{
+   
+        font-size:1rem;
+        
+    }
+    .fos{
+
+        font-size: 1rem;
+  
+    }
+    .fosCont{
+       
+        font-size: 1rem;
+       
+        
+    }
+
+
+.prof_email{
+    font-size: 1rem;
+    
+}
+.prof_emailCont{
+    font-size: 1rem;
+    
+}
+
+.tel{
+    
+    font-size: 1rem;
+
+}
+.telCont{
+ 
+    font-size: 1rem;
+    
+}
+
+.ri{
+   
+    font-size: 1rem;
+
+}
+
+.ril{
+    
+    font-size: 1rem;
+   
+}
+
+
+.mc{
+    
+    font-size: 1rem;
+   
+}
+
+
+.mcl{
+   
+    font-size: 1rem;
+
+    
+}
+
+.oc{
+   
+    font-size: 1rem;
+
+}
+
+.ocl{
+    
+    font-size: 1rem;
+  
+}
+
+
+
+.ec{
+   
+    font-size: 1rem;
+
+}
+
+.ecl{
+    font-size: 1rem;
+
+}
+
+
+.sc{
+    
+    font-size: 1rem;
+
+}
+
+.scl{ 
+    
+    font-size: 1rem;
+   
+}
+
+
+.rs{
+ 
+    font-size: 1rem;
+
+}
+
+.rsl{
+    
+    font-size: 1rem;
+}
+.rslt{
+    
+    font-size: 1rem;
+   
+}
+
+
+.rec{
+    
+    font-size: 1rem;
+
+}
+
+.recl{
+    
+    font-size: 1rem;
+   
+}
+
+.bc{
+   
+    font-size: 1rem;
+   
+}
+
+.bcl{
+    font-size: 1rem;
+   
+}
+
+
+.ic{
+   
+    font-size: 1rem;
+   ;
+}
+
+.icl{
+  
+    font-size: 1rem;
+    
+}
 }
 
 @media (max-width: 576px) {

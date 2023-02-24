@@ -69,7 +69,7 @@ export default function Professor() {
      
       <div className={styles.prof_profile} ref={aRef}>
          <div className={styles.prof_photo}>
-             <img className={styles.profImg} src="images/JangWonSuk.jpg" style={{width:'288px', height: '350px'}} alt=""/>
+             <img className={styles.profImg} src="images/JangWonSuk.jpg"  alt=""/>
          </div>
   
          <div className={styles.prof_summary}>

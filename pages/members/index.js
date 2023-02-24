@@ -47,7 +47,13 @@ export default function Members() {
         </title>
       </Head>
 
+      <div style ={{position : "relative", padding : "0 2rem",}}>
+
+      
+
       <div className={styles.members}>
+
+        <div style ={{display:'flex'  ,flexDirection:'row'}}>
         
         <div className={styles.membersLeft}>
         <MemberSide select={select} setSelect={setSelect} selectStudent = {selectStudent }   setSelectStudent = {setSelectStudent}  />
@@ -83,7 +89,8 @@ export default function Members() {
               </div>
       } 
       
-      
+      </div>
+      </div>
     </div>
      
     </div>
