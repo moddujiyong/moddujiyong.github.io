@@ -135,5 +135,11 @@
         width: unset;
     }
 
+    .navbar .togle_btn {
+       padding: 10px;
+        
+    }
+    
+
     
 }

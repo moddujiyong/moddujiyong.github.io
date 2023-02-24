@@ -188,6 +188,52 @@
   .back{
     height: 150px;
   }
+
+  .listContainer{
+    position: absolute;
+   
+    bottom: 30px;
+   
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    z-index: 100;
+    left: 50%;
+    transform: translate(-50%, -50%);
+   
+  }
+  
+  
+  
+  .listContainer .links{
+    display: flex;
+    gap: 1rem;
+    
+    
+  }
+  
+  
+  .textContainer{
+    width: 80%;
+    font-size: 2rem;
+    font-family:  'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;
+    text-align: center;
+  }
+  
+  .li {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    width : auto;
+    height : auto;
+    align-self: center;
+    border-radius: 10px; 
+    padding: 20px;
+    cursor: pointer;
+    transition: scale 0.2 ease;
+    justify-content: center;
+  }
+  
   
   
 }
