@@ -70,7 +70,7 @@ export default function Home() {
 
             <div style = {{display: 'flex', width: '100%', height: '100%',  justifyContent:'center'}}>
               <div style ={{display: 'flex', flexDirection:'column', width: '80%', height: '80%', }}>
-                <div style = {{marginTop: '30px' }}> 
+                <div style = {{marginTop: '30px', }}> 
                   <div className = {styles.units}>
                 <div className = {styles.visionText}>VISON </div>
                 <div className = {styles.visionText}>VISON </div>
@@ -80,23 +80,24 @@ export default function Home() {
                 </div>
                
                
+           <img style={{ display: 'flex', opacity: (position - 20)/50 + 0.9, width: '100%', height: '100%', objectFit:"contain", zIndex: -1}} src="images/upGo.jpeg" alt=""/>\
                 
-                <img style={{display: 'flex', opacity: (position - 30)/50 + 0.3, width: '100%', height: '100%', objectFit:"contain", zIndex: 1}} src="images/upGo.jpeg" alt=""/>
+                
 
                 <div className = {styles.listContainer}>
                 <ul className = {styles.links}>
-                    <li className = {styles.li} style ={{backgroundColor:'#00489a' ,opacity: (position - 40)/50}} >
+                    <li className = {styles.li} style ={{backgroundColor:'#00489a' ,opacity: (position - 30)/50 + 0.95}} >
                     <Link href = {{pathname: 'research', query: { id : "clinical"}}} style = {{textAlign:'center'}}><contents className = {styles.contents} >Clinical Study Design</contents></Link>
                     </li>
-                    <li className = {styles.li} style = {{ backgroundColor:'#003979',opacity: (position - 40)/50}}>
+                    <li className = {styles.li} style = {{ backgroundColor:'#003979',opacity: (position - 30)/50+ 0.95}}>
                     <Link href = {{pathname: 'research', query: { id : "uxui"}}} style = {{textAlign:'center'}}><contents className = {styles.contents}>UX/UI Design & Usability</contents> 
                       </Link>
                       </li>
-                    <li  className = {styles.li} style ={{ backgroundColor: '#005d8a',opacity: (position - 40)/50}}>
+                    <li  className = {styles.li} style ={{ backgroundColor: '#005d8a',opacity: (position - 30)/50+ 0.95}}>
                     <Link href = {{pathname: 'research', query: { id : "industry"}}} style = {{textAlign:'center'}}><contents className = {styles.contents}>Medical Device Industry Policy</contents> 
                       </Link>
                     </li>
-                    <li  className = {styles.li} style = {{backgroundColor: '#0086c4',opacity: (position - 40)/50}}>
+                    <li  className = {styles.li} style = {{backgroundColor: '#0086c4',opacity: (position - 30)/50+ 0.95}}>
                     <Link href = {{pathname: 'research', query: { id : "clinical"}}} style = {{textAlign:'center'}}> <contents className = {styles.contents}>Bio-Signal Processing & AI</contents> 
                       </Link>
                       </li>
@@ -117,7 +118,7 @@ export default function Home() {
         
     </div>
 
-<div style = {{display: 'flex', position : "relative", padding : "0 2rem" , marginTop: '50px', width: '100%', height: '100%',  justifyContent:'center'}}>
+<div style = {{display: 'flex', position : "relative", padding : "0 2rem" , marginTop: '100px', marginBottom: '100px', width: '100%', height: '100%',  justifyContent:'center'}}>
 <div className = {styles.textContainer}>
 
   {introText}
