@@ -3,7 +3,8 @@ import styles from './footer.module.css'
 const Footer = () => {
 
     return (
-        <div style = {{width:'100%', flexDirection:'column', position : "relative", padding : "0 2rem", bottom:'0', backgroundColor: '#002650'}}>
+        <div style= {{position : "relative", padding : "0 2rem"}}>
+        <div style = {{width:'100%', flexDirection:'column', bottom:'0', backgroundColor: '#002650'}}>
             <div style = {{width:'100%', display:'flex', justifyContent:'center', alignSelf:'center'}}>
             <img style= {{width: '50%'}} src = "/images/LogoDesign_Eng.png" alt ="logo"/>
             </div>
@@ -21,6 +22,7 @@ const Footer = () => {
                 Copyright © hisstoryxx. All rights reserved.
             </div>
             
+        </div>
         </div>
     )
 }
