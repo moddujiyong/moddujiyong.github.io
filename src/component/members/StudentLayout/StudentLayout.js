@@ -1,7 +1,7 @@
 import React, {useRef} from 'react';
 
 
-import styles from "./studentLayout.module.css"
+import styles from "./StudentLayout.module.css"
 
 export default function StudentLayout({course,lphoto,photo, name, EName, edu1, edu2, int, con, rphoto}) {
 

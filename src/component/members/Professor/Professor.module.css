@@ -184,7 +184,7 @@
 .tel{
     display: flex;
     font-size: 20px;
-    font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;   ;
+    font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;   
     opacity:1;
     font-weight: 700;
     
@@ -193,7 +193,7 @@
     display: flex;
     margin-left: 10px;
     font-size: 20px;
-    font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;   ;
+    font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;   
     opacity:1;
 }
 
@@ -209,7 +209,7 @@
 .ril{
     display: flex;
     font-size: 20px;
-    font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;   ;
+    font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;   
    
 }
 
@@ -534,7 +534,7 @@
     
     .profImg{
         
-        width: 200px;
+        width: 80%;
     }
     
     .prof_profile{

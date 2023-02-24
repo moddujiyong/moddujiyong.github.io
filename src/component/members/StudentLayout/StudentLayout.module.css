@@ -43,12 +43,9 @@
 
 }
 .stuImg{
-    
-    
-    width:212px;
-    height: 276px;
+
+    width: 100%;
     justify-self: center;
- 
     display: flex;
     
    
@@ -188,3 +185,88 @@
     z-index: 2;
     
 }
+
+
+@media (max-width: 992px){
+
+    
+    .stu_course{
+
+        font-size: 1.5rem;
+        
+    }
+    .stu_name{
+   
+        font-size:1rem;
+       
+    }
+    .stu_pos{
+        font-size:1rem;         
+    }
+    
+    .stu_eng{
+        
+        font-size: 1rem;
+    }
+    
+  
+    .stu_edu{
+      
+        font-size: 1rem;
+       
+    }
+    
+    .stu_edul1{
+       
+        font-size: 1rem;
+        
+    }
+    
+    .stu_edul2{
+       
+        font-size: 1rem;
+      
+    }
+    
+    .stu_ri{
+  
+        font-size: 1rem;
+        
+    }
+    
+    .stu_ril{
+
+        font-size: 1rem;
+        
+    }
+    
+    .stu_contact{
+
+        font-size: 1rem;
+     
+    }
+    
+    .stu_contactl{
+   
+        font-size: 1rem;
+       
+    }
+
+.stu_profile{
+    
+    flex-direction: column;
+}
+.stuImg{
+
+    width: 80%;
+    justify-self: center;
+    display: flex;
+    
+   
+}
+
+    
+  
+    
+    
+    }

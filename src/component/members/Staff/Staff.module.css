@@ -1,8 +1,6 @@
 .staffs{
     display:flex;
     flex-direction: column;
-     margin-right: 319.5px;
-    
      width:100%;
 }
 
@@ -12,13 +10,14 @@
     font-size: 26px;
     flex-direction: column;
     font-weight:700;
+    font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;
 }
 .staffs_title{
     display:flex;
     margin-left:50px;
     margin-bottom: 23.5px;
-   
     width:100%;
+    font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;
 }
 
 
@@ -54,14 +53,12 @@ justify-content: start;
  margin-top: 40px;
  margin-left:38px;
  margin-bottom: 22.6px;
+ 
 }
 .staffsImg{
-    width:212px;
-    height: 276px;
+    width:100%;
     justify-self: center;
-    
     display: flex;
-  
 }
 .staffs_photo{
   
@@ -162,3 +159,82 @@ justify-content: start;
     font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;   ;
     margin-bottom: 29px;
 }
+
+
+@media (max-width: 992px){
+
+    .staffs_profile{
+        flex-direction: column;
+    }
+
+    .staffsImg{
+        width:80%;
+ 
+    }
+
+    .staffs_header{
+
+        font-size: 1.5rem;
+        
+    }
+
+    .staffs_course{
+        
+         font-size: 1.5rem;
+      
+        }
+
+        .staffs_pos{
+            font-size:1rem;
+            
+            
+         
+        }
+        .staffs_eng{
+           
+            font-size: 1rem;
+        }
+        
+       
+        
+        .staffs_edu{
+            
+            font-size: 1rem;
+           
+        }
+        
+        .staffs_edul1{
+           
+            font-size: 1rem;
+            
+        }
+        
+        .staffs_ri{
+           
+            font-size: 1rem;
+      
+        }
+        
+        .staffs_ril{
+            
+            font-size: 1rem;
+          
+        }
+        
+        .staffs_contact{
+         
+            font-size: 1rem;
+           
+        }
+        
+        .staffs_contactl{
+        
+            font-size: 1rem;
+            
+        }
+        
+    
+  
+    
+    
+    }
