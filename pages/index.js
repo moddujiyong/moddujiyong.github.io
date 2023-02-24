@@ -60,7 +60,7 @@ export default function Home() {
                     <span className={styles.headerTitleSmaller}>Medical Device Design & Usability Lab</span>
 
                 </div>
-                <div className = {styles.back} style = {{backgroundPositionY : position /2}}>
+                <div className = {styles.back} style = {{backgroundPositionY : position /1.2}}>
 
                 </div>
                 {/* <img style={{display: 'flex', width: '100%', height: '100%', objectFit: "contain"}} src="images/main_design_img.png" alt=""/> */}
@@ -70,7 +70,7 @@ export default function Home() {
 
             <div style = {{display: 'flex', width: '100%', height: '100%',  justifyContent:'center'}}>
               <div style ={{display: 'flex', flexDirection:'column', width: '80%', height: '80%', }}>
-                <div style = {{marginTop: '30px', }}> 
+                <div style = {{marginTop: '30px',opacity: (position - 10)/50 + 0.5 }}> 
                   <div className = {styles.units}>
                 <div className = {styles.visionText}>VISON </div>
                 <div className = {styles.visionText}>VISON </div>
@@ -86,7 +86,7 @@ export default function Home() {
 
                 <div className = {styles.listContainer}>
                 <ul className = {styles.links}>
-                    <li className = {styles.li} style ={{backgroundColor:'#00489a' ,opacity: (position - 30)/50 + 0.95}} >
+                    <li className = {styles.li} style ={{backgroundColor:'#00489a' ,opacity: (position - 30)/50 + 0.95,  }} >
                     <Link href = {{pathname: 'research', query: { id : "clinical"}}} style = {{textAlign:'center'}}><contents className = {styles.contents} >Clinical Study Design</contents></Link>
                     </li>
                     <li className = {styles.li} style = {{ backgroundColor:'#003979',opacity: (position - 30)/50+ 0.95}}>
