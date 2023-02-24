@@ -128,3 +128,26 @@
     
 }
 }
+
+@media (max-width: 576px) {
+    
+.title_member{
+    font-size: 1rem;
+}
+
+.memberListItem{
+    
+    font-size:0.8rem;
+    /* width:208px; */
+    margin-bottom: 13px;
+    height: 25px;
+}
+
+.memberSmallItem{
+    font-size: 1rem;
+    
+}
+    
+
+    
+}
