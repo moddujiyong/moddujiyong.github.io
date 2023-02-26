@@ -15,6 +15,12 @@
     
 }
 
+.back {
+    display: flex;
+    width: 300px;
+  
+}
+
 .navbar .links {
     display: flex;
     gap: 2rem;
@@ -139,6 +145,12 @@
        padding: 10px;
         
     }
+    .back {
+        display: flex;
+        width: 200px;
+      
+    }
+
     
 
     

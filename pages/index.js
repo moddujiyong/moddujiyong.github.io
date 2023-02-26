@@ -80,7 +80,7 @@ export default function Home() {
                 </div>
                
                
-           <img style={{ display: 'flex', opacity: (position - 20)/50 + 0.9, width: '100%', height: '100%', objectFit:"contain", zIndex: -1}} src="images/upGo.jpeg" alt=""/>\
+           <img style={{ display: 'flex', opacity: (position - 20)/50 + 0.9, width: '100%', height: '100%', objectFit:"contain", zIndex: -1}} src="images/upGo.jpeg" alt=""/>
                 
                 
                 <div style ={{ position : "relative",

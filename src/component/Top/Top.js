@@ -25,7 +25,9 @@ const Top = () => {
             <div className = {styles.navbar}>
                 <div className = {styles.logo}>
                     <Link href="/">
-                    <img src = "images/LogoDesign.png" width = "300" />
+                    <img className = {styles.back} src = "images/LogoDesign.png" />
+
+                   
                     </Link>
                 </div>
                 <ul className = {styles.links}>
