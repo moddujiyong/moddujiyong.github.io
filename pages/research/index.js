@@ -79,6 +79,8 @@ export default function Research() {
         </title>
       </Head>
 
+      <div style ={{position : "relative", padding : "0 2rem",}}>
+
       <div className={styles.research}>
       <div className={styles.researchLeft}>
       <ResearchSide select={select} setSelect={setSelect}/>
@@ -110,6 +112,7 @@ export default function Research() {
         
          }
    
+  </div>
   </div>
      
     </div>
