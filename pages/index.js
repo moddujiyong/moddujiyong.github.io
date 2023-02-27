@@ -99,7 +99,7 @@ export default function Home() {
                       </Link>
                     </li>
                     <li  className = {styles.li} style = {{backgroundColor: '#0086c4',opacity: (position - 30)/50+ 0.95}}>
-                    <Link href = {{pathname: 'research', query: { id : "clinical"}}} style = {{textAlign:'center'}}> <contents className = {styles.contents}>Bio-Signal Processing & AI</contents> 
+                    <Link href = {{pathname: 'research', query: { id : "bio"}}} style = {{textAlign:'center'}}> <contents className = {styles.contents}>Bio-Signal Processing & AI</contents> 
                       </Link>
                       </li>
                     
