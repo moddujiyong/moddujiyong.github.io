@@ -2,8 +2,7 @@
     display:flex;
     flex-direction: column;
     width: 100%;
-    margin-bottom:482px;
-
+    
 
 }
 
@@ -22,6 +21,7 @@
     margin-left:50px;
     margin-bottom: 23.5px;
     width: 100%;
+    white-space: normal;
 }
 .cd_scrollMenu{
     width: 100%;
@@ -40,7 +40,6 @@
     list-style: none;
     display:flex;
     width: 100%;
-   
     justify-content: space-around;
     cursor:pointer;
 }
@@ -77,3 +76,49 @@
     margin-bottom: 20px;
     margin-top:20px;
 }
+
+@media(max-width: 992px) {
+    
+
+    .cd_header{  
+       font-size: 1.2rem;
+    }
+    .cdList{
+        font-size: 1rem;
+   
+    }
+
+    .cspl{
+     
+        margin-top: 22.5px;
+        border-style: solid;
+        border-top-width:0px;
+        border-left-width:0px;
+        border-right-width:0px;
+        border-bottom-width:1px;
+        border-color: #707070;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 576px) {
+    
+    .cd_header{  
+        font-size: 0.8rem;
+     }
+
+     .cdList{
+        font-size: 0.8rem;
+   
+    }
+
+     .cd_title{
+       
+        margin-left:20px;
+        
+        
+    }
+    
+}
+

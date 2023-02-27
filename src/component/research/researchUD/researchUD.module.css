@@ -2,11 +2,8 @@
 .researchUD{
   display:flex;
   flex-direction: column;
-
-    margin-right: 319.5px;
-
   width:100%;
-  margin-bottom:482px;
+ 
 }
 
 .ud_header{
@@ -23,12 +20,13 @@
  
   display: flex;
   font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif; 
-  margin-left:60px;
+  margin-left:50px;
   margin-bottom: 23.5px;
   width: 100%;
+  white-space: normal;
 }
 .ud_scrollMenu{
-   width:100%;
+  width:100%;
   display: flex;
   padding: 10px;
   justify-content: space-around;
@@ -44,7 +42,6 @@
   list-style: none;
   display:flex;
   width: 100%;
-
   justify-content: space-around;
   font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif; 
   cursor:pointer;
@@ -52,13 +49,10 @@
 
 .udu_all{
   display: flex;
-  
   flex-direction: column;
-
   width: 90%;
   height: 100%;
   align-self: center;
-
 
 }
 
@@ -85,4 +79,51 @@
   color: #002650;
   margin-bottom: 20px;
   margin-top:20px;
+}
+
+
+
+@media(max-width: 992px) {
+    
+
+  .ud_header{  
+     font-size: 1.2rem;
+  }
+  .udList{
+      font-size: 1rem;
+ 
+  }
+
+  .udul{
+   
+      margin-top: 22.5px;
+      border-style: solid;
+      border-top-width:0px;
+      border-left-width:0px;
+      border-right-width:0px;
+      border-bottom-width:1px;
+      border-color: #707070;
+      display: flex;
+      flex-direction: column;
+  }
+}
+
+@media (max-width: 576px) {
+  
+  .ud_header{  
+      font-size: 0.8rem;
+   }
+
+   .udList{
+      font-size: 0.8rem;
+ 
+  }
+
+   .ud_title{
+     
+      margin-left:20px;
+      
+      
+  }
+  
 }

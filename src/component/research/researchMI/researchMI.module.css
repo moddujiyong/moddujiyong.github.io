@@ -1,10 +1,8 @@
 .researchMI{
     display:flex;
     flex-direction: column;
-
-  margin-right: 319.5px;
-  width:100%;
-  margin-bottom:482px;
+    width:100%;
+  
 }
 
 .mi_header{
@@ -20,12 +18,13 @@
   
   display: flex;
   font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif; 
-  margin-left:60px;
+  margin-left:50px;
   margin-bottom: 23.5px;
   width: 100%;
+  white-space: normal;
 }
 .mi_scrollMenu{
-  width:100%;
+    width:100%;
     border-style: solid;
     border-top-width:1px;
     border-left-width:0px;
@@ -42,16 +41,13 @@
   list-style: none;
   display:flex;
   width: 100%;
-  
   justify-content: space-around;
   cursor:pointer;
 }
 
 .mip_all{
-     display: flex;
-    
+    display: flex;
     flex-direction: column;
- 
     width: 90%;
     height: 100%;
     align-self: center;
@@ -80,4 +76,50 @@
   font-weight:700;
   margin-bottom: 20px;
     margin-top:20px;
+}
+
+
+@media(max-width: 992px) {
+    
+
+  .mi_header{  
+     font-size: 1.2rem;
+  }
+  .miList{
+      font-size: 1rem;
+ 
+  }
+
+  .mipl{
+   
+      margin-top: 22.5px;
+      border-style: solid;
+      border-top-width:0px;
+      border-left-width:0px;
+      border-right-width:0px;
+      border-bottom-width:1px;
+      border-color: #707070;
+      display: flex;
+      flex-direction: column;
+  }
+}
+
+@media (max-width: 576px) {
+  
+  .mi_header{  
+      font-size: 0.8rem;
+   }
+
+   .miList{
+      font-size: 0.8rem;
+ 
+  }
+
+   .mi_title{
+     
+      margin-left:20px;
+      
+      
+  }
+  
 }
