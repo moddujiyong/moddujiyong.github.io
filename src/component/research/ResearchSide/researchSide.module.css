@@ -80,7 +80,7 @@
     
     .researchListItem{
         
-        font-size:1rem;
+        font-size:0.8rem;
         /* width:208px; */
         width: 100%;
         margin-bottom: 33px;
@@ -111,7 +111,7 @@
     
     .researchListItem{
         
-        font-size:0.8rem;
+        font-size:0.5rem;
         /* width:208px; */
         margin-bottom: 13px;
         height: 25px;
