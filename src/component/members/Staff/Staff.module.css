@@ -76,7 +76,7 @@ justify-content: start;
     flex-direction: column;
 }
 .staffs_name{
-   
+    font-size: 26px;
     font-weight: 700;
     font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;  ;
     margin-left: 10px;
@@ -170,6 +170,13 @@ justify-content: start;
     .staffsImg{
         width:80%;
  
+    }
+
+    .staffs_name{
+        font-size: 1rem;
+       
+       
+    
     }
 
     .staffs_header{
