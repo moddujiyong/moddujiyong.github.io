@@ -1,26 +1,18 @@
 .contact{
   display:flex;
-  margin-bottom:200px;
+
   width: 100%;
-  margin-right: 319.5px;
+
 }
 
-.contactLeft{
-  flex:1;
-  margin-top: 64px;
-  margin-bottom: 200px;
-  height: 100%;
-}
 
 .contactRight{
-  flex:5;
   margin-top: 64px;
+  width: 100%;
   height:100%;
 }
 .contact_content{
   display:flex;
-  margin-right:319.5px;
-
   flex-direction: column;
   border-style: solid;
   border-top-width:1px;
@@ -28,27 +20,33 @@
   border-right-width:0px;
   border-bottom-width:0px;
   border-color: #707070;
+  margin-left: 50px;
  
 }
 .contact_header{
   display: flex;
+  width: 100%;
   font-size:26px;
- margin-left:50px;
+  margin-left:50px;
   margin-bottom: 23.5px;
   font-weight:700;
+  font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif; 
+   
 }
 
 .google_Map{
   display:flex;
+  width: 100%;
   margin-top: 24.5px;
   justify-content: center;
   margin-bottom: 24px;
-  margin-left: 50px;
+  background-color: chocolate;
+  
 
 }
 .address{
-  margin-right: 50px;
-  margin-left: 50px;
+
+  
   background-color: white;
   display:flex;
   flex-direction: column;
@@ -98,8 +96,8 @@
   border-color: #707070;
 }
 .email{
-  margin-right: 50px;
-  margin-left: 50px;
+  
+ 
   display:flex;
   flex-direction: column;
   background-color: white;
@@ -127,8 +125,8 @@
 
 
 .application{
-  margin-right: 50px;
-  margin-left: 50px;
+ 
+  
   display:flex;
   flex-direction: column;
   background-color: white;
@@ -154,8 +152,7 @@
   
 }
 .department{
-  margin-left: 50px;
-  margin-right: 50px;
+
   display:flex;
   flex-direction: column;
   background-color: white;
@@ -188,4 +185,97 @@
   color: #707070;
   cursor: pointer;
  
+}
+
+@media(max-width: 992px) {
+  
+.contact_header{
+  
+  font-size:1.5rem;
+  
+}
+
+
+
+.address_icon{
+  
+  font-size: 1.5rem;
+}
+.email_icon{
+
+  font-size: 1.5rem;
+}
+.application_icon{
+  
+  font-size: 1.5rem;
+}
+.department_icon{
+
+  font-size: 1.5rem;
+}
+
+
+.address_title{
+  font-size: 1.5rem;
+  
+
+}
+
+
+.address_content{
+ 
+  font-size: 1rem;
+ 
+}
+
+
+.email_title{
+  font-size: 1.5rem;
+
+}
+.email_content{
+  
+  font-size: 1rem;
+
+}
+
+.application_title{
+  font-size: 1.5rem;
+ 
+}
+.application_content{
+ 
+  font-size: 1rem;
+ 
+
+}
+
+
+
+.department_title{
+  font-size: 1.5rem;
+ 
+}
+.department_content{
+ 
+  font-size: 1rem;
+  
+ 
+}
+
+.department_content_mdi{
+  padding:18px;
+  font-size: 1rem;
+  color: #707070;
+  cursor: pointer;
+ 
+}
+}
+
+@media (max-width: 576px) {
+  
+
+  
+
+  
 }

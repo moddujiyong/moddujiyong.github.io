@@ -29,10 +29,10 @@ export default function Contact() {
         </title>
       </Head>
 
+      <div style ={{position : "relative", padding : "0 2rem",}}>
+
       <div className={styles.contact}>
-       <div className={styles.contactLeft}>
-            
-       </div>
+      
 
        <div className={styles.contactRight}>
         
@@ -81,7 +81,7 @@ export default function Contact() {
             </div>
         </div>
        </div>
-
+       </div>
      
     </div>
      

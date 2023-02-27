@@ -12,7 +12,6 @@
       opacity:1;
       font-weight:1000;
       flex-direction: column;
-     
       width:100%
       
   }
@@ -24,7 +23,6 @@
   .titleResearch_left{
       border-style: solid;
       width:50%;
-      
       border-color: #002650;
   }
   .titleResearch_right{
