@@ -81,7 +81,6 @@ export default function Student({select ,setSelect, selectStudent, setSelectStud
   </div>
 </div>
 <StudentLayout 
-
 course = {'Ph.D course'}
 photo = {"images/yourim.png"}
 name = {'Yourim Kim'}
@@ -90,41 +89,7 @@ edu1 = {'Master in Medical Device Engineering & Management (2020)'}
 edu2 = {'Bachelor in Biomedical Engineering, Konkuk University (2017)'} 
 int = {'Medical Device Clinical Study Design, Clinical Effectiveness Evaluation, \nMedical Device Industry Policy, Medical Regulatory Affairs'}
 con = {'yxxrm_k@naver.com / yxxrmk@yonsei.ac.kr'}
-rphoto={BarImgStu}/>
-{/* <StudentLayout 
-lphoto={BarImgStu}
-course = {'MS / Ph.D course'}
-photo = {"images/sangeun.png"}
-name = {'Sangeun Park'}
-EName = {null} 
-edu1 = {'Bachelor in Biomedical Engineering, Yonsei University (2018)'} 
-edu2 = {null} 
-int = {'UX/UI Design,  Usability/Human Factors Engineering, Android Programming'}
-con = {'pse7036@naver.com / sang-eun.park@yonsei.ac.kr'}/> */}
-
-
-
-{/* <StudentLayout 
-lphoto={BarImgStu}
-course = {'MS course'}
-photo = {"images/seulbi.png"}
-name = {'Seulbi Lee'}
-EName = {null} 
-edu1 = {'Bachelor in Biomedical Engineering, Yonsei University (2021)'} 
-edu2 = {null} 
-int = {'Medical Device Clinical Study Design, Clinical Effectiveness Evaluation'}
-con = {'bee5747@naver.com / bee5747@yonsei.ac.kr'}/> */}
-
-{/* <StudentLayout 
-course = {'MS course'}
-photo = {"images/jiyun.jpg"}
-name = {'Jiyun Jeong'}
-EName = {null} 
-edu1 = {'Bachelor in Biomedical Engineering, Yonsei University (2014)'} 
-edu2 = {null} 
-int = {'Usability/Human Factors Engineering'}
-con = {'ravissante25@gmail.com / jiyunj@yonsei.ac.kr'}
-rphoto={BarImgStu}/> */}
+/>
 
 
 <StudentLayout 

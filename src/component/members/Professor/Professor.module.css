@@ -12,7 +12,7 @@
     top:0px;    
     z-index: 1; 
     display: flex;
-    font-size: 26px;
+    font-size: 1.5rem;
     flex-direction: column;
     font-weight:700;
     background-color: white;
@@ -43,7 +43,7 @@
 }
 .profList{
     
-    font-size: 22px;
+    font-size: 1rem;
     list-style: none;
     display:flex;
     width: 100%;
@@ -91,40 +91,41 @@
     margin-top:15px;
     display: flex;
     justify-self: center;
-    object-fit: cover;
+    object-fit: contain;
     /* width: 288px; */
-    width: auto;
+    width: 80%;
 }
 
 .prof_name{
     
-    font-size: 26px;
+    font-size: 1.5rem;
     opacity:1;
     font-weight: 700;
-    font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;   ;
+    font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;   
     margin-top:15px;
     margin-bottom: 10px;
     
 }
 .prof_pos{
-    font-size:23px;
+    font-size:1rem;
     font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;   ;
     
 }
 .prof_eng{
-    margin-left: 20px;
-    font-size:23px;
+    margin-left: 1rem;
+    font-size:1rem;
     font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;  ;
 }
 
 .prof_field{
-
+    
     border-style: solid;
     border-color:#707070;
     border-left-width: 0 ;
     border-right-width: 0 ;
     border-top-width: 1px;
     border-bottom-width: 0;
+    width: 90%;
     display:flex;
     flex-direction: column;
     padding-top: 37px;
@@ -141,7 +142,7 @@
 .fos{
   
     display: flex;
-    font-size: 20px;
+    font-size: 1rem;
     font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;   ;
     opacity:1;
     font-weight: 700;
@@ -150,7 +151,7 @@
 .fosCont{
     display: flex;
     margin-left: 10px;
-    font-size: 20px;
+    font-size: 1rem;
     font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;   ;
     opacity:1;
    
@@ -161,14 +162,14 @@
 }
 
 .prof_email{
-    font-size: 20px;
+    font-size: 1rem;
     font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;   ;
     opacity:1;
     font-weight: 700;
     display: flex;
 }
 .prof_emailCont{
-    font-size: 20px;
+    font-size: 1rem;
     font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;   ;
     opacity:1;
     margin-left: 10px;
@@ -183,7 +184,7 @@
 
 .tel{
     display: flex;
-    font-size: 20px;
+    font-size: 1rem;
     font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;   
     opacity:1;
     font-weight: 700;
@@ -192,15 +193,15 @@
 .telCont{
     display: flex;
     margin-left: 10px;
-    font-size: 20px;
+    font-size: 1rem;
     font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;   
     opacity:1;
 }
 
 .ri{
     display: flex;
-    margin-top: 20px;
-    font-size: 20px;
+    margin-top: 1rem;
+    font-size: 1rem;
     color:#002650;
     opacity: 1;
     font-weight: 700;
@@ -208,7 +209,7 @@
 
 .ril{
     display: flex;
-    font-size: 20px;
+    font-size: 1rem;
     font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;   
    
 }
@@ -270,7 +271,7 @@
 .mc{
     display:flex;
     margin-top: 29px;
-    font-size: 20px;
+    font-size: 1rem;
     color:#002650;
     opacity: 1;
     font-weight: 700;
@@ -282,7 +283,7 @@
 
 .mcl{
     display: flex;
-    font-size: 20px;
+    font-size: 1rem;
     font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;  ;
     margin-bottom: 29px;
     /* margin-left:70px; */
@@ -301,7 +302,7 @@
    
     display:flex;
     margin-top: 29px;
-    font-size: 20px;
+    font-size: 1rem;
     color:#002650;
     opacity: 1;
     font-weight: 700;
@@ -319,7 +320,7 @@
 }
 .ocl{
     display: flex;
-    font-size: 20px;
+    font-size: 1rem;
     font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;  ;
     margin-bottom: 29px;
     /* margin-left:70px; */
@@ -342,7 +343,7 @@
 .ec{
     display:flex;
     margin-top: 29px;
-    font-size: 20px;
+    font-size: 1rem;
     color:#002650;
     opacity: 1;
     font-weight: 700;
@@ -351,9 +352,9 @@
 }
 
 .ecl{
-    font-size: 20px;
+    font-size: 1rem;
     display: flex;
-    font-size: 20px;
+    font-size: 1rem;
     font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;  ;
     margin-bottom: 29px;
     /* margin-left:70px; */
@@ -375,7 +376,7 @@
 .sc{
     display:flex;
     margin-top: 29px;
-    font-size: 20px;
+    font-size: 1rem;
     color:#002650;
     opacity: 1;
     font-weight: 700;
@@ -385,7 +386,7 @@
 
 .scl{ 
     display: flex;
-    font-size: 20px;
+    font-size: 1rem;
     font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;  ;
     margin-bottom: 29px;
     /* margin-left:70px; */
@@ -406,7 +407,7 @@
 .rs{
     display:flex;
     margin-top: 29px;
-    font-size: 20px;
+    font-size: 1rem;
     color:#002650;
     opacity: 1;
     font-weight: 700;
@@ -416,14 +417,14 @@
 
 .rsl{
     display: flex;
-    font-size: 20px;
+    font-size: 1rem;
     font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;  ;
     margin-bottom: 29px;
     /* margin-left:70px; */
 }
 .rslt{
     margin-left: 70px;
-    font-size: 20px;
+    font-size: 1rem;
     font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;  ;
     margin-bottom: 29px;
     font-weight: 700;
@@ -447,7 +448,7 @@
 .rec{
     display:flex;
     margin-top: 29px;
-    font-size: 20px;
+    font-size: 1rem;
     color:#002650;
     opacity: 1;
     font-weight: 700;
@@ -457,7 +458,7 @@
 
 .recl{
     display: flex;
-    font-size: 20px;
+    font-size: 1rem;
     font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;  ;
     margin-bottom: 29px;
     /* margin-left:70px; */
@@ -479,7 +480,7 @@
 .bc{
     display:flex;
     margin-top: 29px;
-    font-size: 20px;
+    font-size: 1rem;
     color:#002650;
     opacity: 1;
     font-weight: 700;
@@ -488,9 +489,9 @@
 }
 
 .bcl{
-    font-size: 20px;
+    font-size: 1rem;
     display: flex;
-    font-size: 20px;
+    font-size: 1rem;
     font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;  ;
     margin-bottom: 29px;
     /* margin-left:70px; */
@@ -512,7 +513,7 @@
 .ic{
     display:flex;
     margin-top: 29px;
-    font-size: 20px;
+    font-size: 1rem;
     color:#002650;
     opacity: 1;
     font-weight: 700;
@@ -522,7 +523,7 @@
 
 .icl{
     display: flex;
-    font-size: 20px;
+    font-size: 1rem;
     font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;  ;
     margin-bottom: 29px;
     /* margin-left:70px; */
@@ -534,7 +535,8 @@
     
     .profImg{
         
-        width: 80%;
+        width: 40%;
+        padding: 10px
     }
     
     .prof_profile{
@@ -547,95 +549,95 @@
        
     }
     .prof_header{
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
     .profList{
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
     .prof_name{
     
-        font-size: 1.5rem;
+        font-size: 1.3rem;
  
     }
     .prof_pos{
-        font-size:1rem;
+        font-size:0.8rem;
         
         
     }
     .prof_eng{
    
-        font-size:1rem;
+        font-size:0.8rem;
         
     }
     .fos{
 
-        font-size: 1rem;
+        font-size: 0.8rem;
   
     }
     .fosCont{
        
-        font-size: 1rem;
+        font-size: 0.8rem;
        
         
     }
 
 
 .prof_email{
-    font-size: 1rem;
+    font-size: 0.8rem;
     
 }
 .prof_emailCont{
-    font-size: 1rem;
+    font-size: 0.8rem;
     
 }
 
 .tel{
     
-    font-size: 1rem;
+    font-size: 0.8rem;
 
 }
 .telCont{
  
-    font-size: 1rem;
+    font-size: 0.8rem;
     
 }
 
 .ri{
    
-    font-size: 1rem;
+    font-size: 0.8rem;
 
 }
 
 .ril{
     
-    font-size: 1rem;
+    font-size: 0.8rem;
    
 }
 
 
 .mc{
     
-    font-size: 1rem;
+    font-size: 0.8rem;
    
 }
 
 
 .mcl{
    
-    font-size: 1rem;
+    font-size: 0.8rem;
 
     
 }
 
 .oc{
    
-    font-size: 1rem;
+    font-size: 0.8rem;
 
 }
 
 .ocl{
     
-    font-size: 1rem;
+    font-size: 0.8rem;
   
 }
 
@@ -643,79 +645,79 @@
 
 .ec{
    
-    font-size: 1rem;
+    font-size: 0.8rem;
 
 }
 
 .ecl{
-    font-size: 1rem;
+    font-size: 0.8rem;
 
 }
 
 
 .sc{
     
-    font-size: 1rem;
+    font-size: 0.8rem;
 
 }
 
 .scl{ 
     
-    font-size: 1rem;
+    font-size: 0.8rem;
    
 }
 
 
 .rs{
  
-    font-size: 1rem;
+    font-size: 0.8rem;
 
 }
 
 .rsl{
     
-    font-size: 1rem;
+    font-size: 0.8rem;
 }
 .rslt{
     
-    font-size: 1rem;
+    font-size: 0.8rem;
    
 }
 
 
 .rec{
     
-    font-size: 1rem;
+    font-size: 0.8rem;
 
 }
 
 .recl{
     
-    font-size: 1rem;
+    font-size: 0.8rem;
    
 }
 
 .bc{
    
-    font-size: 1rem;
+    font-size: 0.8rem;
    
 }
 
 .bcl{
-    font-size: 1rem;
+    font-size: 0.8rem;
    
 }
 
 
 .ic{
    
-    font-size: 1rem;
+    font-size: 0.8rem;
    ;
 }
 
 .icl{
   
-    font-size: 1rem;
+    font-size: 0.8rem;
     
 }
 }
@@ -723,5 +725,191 @@
 @media (max-width: 576px) {
     
 
+    .profImg{
+        
+        width: 40%;
+        padding: 10px
+    }
     
+    .prof_profile{
+        width: 100%;
+        margin-bottom: 53.5px;
+        display: flex;
+        justify-content: center;
+        z-index: 0;
+        flex-direction: column;
+       
+    }
+    .prof_header{
+        font-size: 0.8rem;
+    }
+    .profList{
+        font-size: 0.6rem;
+    }
+    .prof_name{
+    
+        font-size: 1rem;
+ 
+    }
+    .prof_pos{
+        font-size:0.5rem;
+        
+        
+    }
+    .prof_eng{
+   
+        font-size:0.5rem;
+        
+    }
+    .fos{
+
+        font-size: 0.5rem;
+  
+    }
+    .fosCont{
+       
+        font-size: 0.5rem;
+       
+        
+    }
+
+
+.prof_email{
+    font-size: 0.5rem;
+    
+}
+.prof_emailCont{
+    font-size: 0.5rem;
+    
+}
+
+.tel{
+    
+    font-size: 0.5rem;
+
+}
+.telCont{
+ 
+    font-size: 0.5rem;
+    
+}
+
+.ri{
+   
+    font-size: 0.5rem;
+
+}
+
+.ril{
+    
+    font-size: 0.5rem;
+   
+}
+
+
+.mc{
+    
+    font-size: 0.5rem;
+   
+}
+
+
+.mcl{
+   
+    font-size: 0.5rem;
+
+    
+}
+
+.oc{
+   
+    font-size: 0.5rem;
+
+}
+
+.ocl{
+    
+    font-size: 0.5rem;
+  
+}
+
+
+
+.ec{
+   
+    font-size: 0.5rem;
+
+}
+
+.ecl{
+    font-size: 0.5rem;
+
+}
+
+
+.sc{
+    
+    font-size: 0.5rem;
+
+}
+
+.scl{ 
+    
+    font-size: 0.5rem;
+   
+}
+
+
+.rs{
+ 
+    font-size: 0.5rem;
+
+}
+
+.rsl{
+    
+    font-size: 0.5rem;
+}
+.rslt{
+    
+    font-size: 0.5rem;
+   
+}
+
+
+.rec{
+    
+    font-size: 0.5rem;
+
+}
+
+.recl{
+    
+    font-size: 0.5rem;
+   
+}
+
+.bc{
+   
+    font-size: 0.5rem;
+   
+}
+
+.bcl{
+    font-size: 0.5rem;
+   
+}
+
+
+.ic{
+   
+    font-size: 0.5rem;
+   ;
+}
+
+.icl{
+  
+    font-size: 0.5rem;
+    
+}
 }

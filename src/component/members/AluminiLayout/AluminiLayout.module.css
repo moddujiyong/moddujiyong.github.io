@@ -17,7 +17,7 @@
     margin-left:50px;
     margin-bottom: 23.5px;
     font-weight: 700;
-    font-size: 25px;
+    font-size: 1rem;
     font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;
     
 }
@@ -59,10 +59,10 @@
     margin-bottom: 22.6px;
 }
 .aluImg{
-    width: 100%;
+    width: 50%;
     justify-self: center;
-    border-style:none;
     display: flex;
+    margin-bottom: 30px;
    
 }
 
@@ -79,7 +79,7 @@
 }
 .alu_name{
    
-    font-size:26px;
+    font-size:1rem;
     font-weight: 700;
     font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;
     margin-left: 10px;
@@ -88,14 +88,14 @@
 
 }
 .alu_pos{
-    font-size:23px;
+    font-size:1rem;
     
     
  
 }
 .alu_eng{
     margin-left: 20px;
-    font-size: 23px;
+    font-size: 1rem;
 }
 
 .alu_field{
@@ -115,74 +115,74 @@
 
 .alu_edu{
     margin-left: 10px;
-    font-size: 20px;
+    font-size: 1rem;
     color:#002650;
     opacity: 1;
     font-weight: 700;
-    margin-bottom: 29px;
+    margin-bottom: 19px;
     font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;
 }
 
 .alu_edul1{
     margin-left: 10px;
-    font-size: 20px;
-    margin-bottom: 29px;
+    font-size: 1rem;
+    margin-bottom: 19px;
     font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;   ;
-    margin-bottom: 29px;
+    margin-bottom: 19px;
 }
 
 .alu_aff{
     margin-left: 10px;
   
-    font-size: 20px;
+    font-size: 1rem;
     color:#002650;
     opacity: 1;
     font-weight: 700;
-    margin-bottom: 29px;
+    margin-bottom: 19px;
     font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;
 }
 
 .alu_affl{
     margin-left: 10px;
-    font-size: 20px;
+    font-size: 1rem;
     font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;   ;
-    margin-bottom: 29px;
+    margin-bottom: 19px;
     text-decoration:none;
 }
 .alu_dis{
     margin-left: 10px;
   
-    font-size: 20px;
+    font-size: 1rem;
     color:#002650;
     opacity: 1;
     font-weight: 700;
-    margin-bottom: 29px;
+    margin-bottom: 19px;
     font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;
 }
 
 .alu_disl{
     margin-left: 10px;
-    font-size: 20px;
+    font-size: 1rem;
     font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;   ;
-    margin-bottom: 29px;
+    margin-bottom: 19px;
 }
 
 .alu_contact{
     margin-left: 10px;
   
-    font-size: 20px;
+    font-size: 1rem;
     color:#002650;
     opacity: 1;
     font-weight: 700;
-    margin-bottom: 29px;
+    margin-bottom: 19px;
     font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;
 }
 
 .alu_contactl{
     margin-left: 10px;
-    font-size: 20px;
+    font-size: 1rem;
     font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;   ;
-    margin-bottom: 29px;
+    margin-bottom: 19px;
 }
 
 
@@ -194,7 +194,7 @@
     }
 
     .aluImg{
-        width: 80%;
+        width: 30%;
         justify-self: center;
         border-style:none;
         display: flex;
@@ -204,13 +204,13 @@
 
 .alu_header{
     
-    font-size: 2rem;
+    font-size: 1rem;
    
    
 }
 .alu_title{
  
-    font-size: 1.5rem;
+    font-size: 0.8rem;
     
     
 }
@@ -218,74 +218,84 @@
 .alu_course{
 
     
-    font-size:1.5rem;
+    font-size:1rem;
    
 }
 
 .alu_name{
    
-    font-size:1.5rem;
+    font-size:1rem;
+    margin-bottom: 10px;
 
 
 }
 .alu_pos{
-    font-size:1rem;
+    font-size:0.8rem;
     
     
  
 }
 .alu_eng{
    
-    font-size: 1rem;
+    font-size: 0.8rem;
+    margin-bottom: 10px;
 }
 
 
 
 .alu_edu{
     
-    font-size: 1rem;
+    font-size: 0.8rem;
+    margin-bottom: 10px;
    
 }
 
 .alu_edul1{
    
-    font-size: 1rem;
+    font-size: 0.8rem;
+    margin-bottom: 10px;
   
 }
 
 .alu_aff{
 
   
-    font-size: 1rem;
+    font-size: 0.8rem;
+    margin-bottom: 10px;
    
 }
 
 .alu_affl{
     
-    font-size: 1rem;
+    font-size: 0.8rem;
+    margin-bottom: 10px;
 
 }
 .alu_dis{
   
-    font-size: 1rem;
+    font-size: 0.8rem;
+    margin-bottom: 10px;
   
 }
 
 .alu_disl{
     
-    font-size: 1rem;
+    font-size: 0.8rem;
+    margin-bottom: 10px;
     
 }
 
 .alu_contact{
 
-    font-size: 1rem;
+    font-size: 0.8rem;
+    margin-bottom: 10px;
    
 }
 
 .alu_contactl{
  
-    font-size: 1rem;
+    font-size: 0.8rem;
+    margin-bottom: 10px;
    
 }
 
@@ -293,3 +303,105 @@
     
     
     }
+
+
+@media (max-width: 576px) {
+
+
+.alu_header{
+    
+    font-size: 0.8rem;
+   
+   
+}
+.alu_title{
+ 
+    font-size: 0.5rem;
+    
+    
+}
+
+.alu_course{
+
+    
+    font-size:0.5rem;
+   
+}
+
+.alu_name{
+   
+    font-size:0.5rem;
+    margin-bottom: 10px;
+
+
+}
+.alu_pos{
+    font-size:0.5rem;
+    
+    
+ 
+}
+.alu_eng{
+   
+    font-size: 0.5rem;
+    margin-bottom: 10px;
+}
+
+
+
+.alu_edu{
+    
+    font-size: 0.5rem;
+    margin-bottom: 10px;
+   
+}
+
+.alu_edul1{
+   
+    font-size: 0.5rem;
+    margin-bottom: 10px;
+  
+}
+
+.alu_aff{
+
+    font-size: 0.5rem;
+    margin-bottom: 10px;
+   
+}
+
+.alu_affl{
+    
+    font-size: 0.5rem;
+    margin-bottom: 10px;
+
+}
+.alu_dis{
+  
+    font-size: 0.5rem;
+    margin-bottom: 10px;
+  
+}
+
+.alu_disl{
+    
+    font-size: 0.5rem;
+    margin-bottom: 10px;
+    
+}
+
+.alu_contact{
+
+    font-size: 0.5rem;
+    margin-bottom: 10px;
+   
+}
+
+.alu_contactl{
+ 
+    font-size: 0.5rem;
+    margin-bottom: 10px;
+   
+}
+
+}

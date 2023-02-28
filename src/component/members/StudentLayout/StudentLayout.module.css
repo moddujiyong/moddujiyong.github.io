@@ -28,7 +28,7 @@
 
     display:flex;
     justify-content: start;
-    font-size: 22px;
+    font-size: 1rem;
     font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;  ;
     color: #002650;
     opacity: 1;
@@ -118,7 +118,6 @@
 .stu_edul1{
     margin-left: 10px;
     font-size: 1rem;
-    margin-bottom: 19px;
     font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;   ;
     margin-bottom: 19px;
 }
@@ -173,63 +172,70 @@
     
     .stu_course{
 
-        font-size: 1.5rem;
+        font-size: 0.8rem;
         
     }
     .stu_name{
    
-        font-size:1rem;
+        font-size:0.8rem;
        
     }
     .stu_pos{
-        font-size:1rem;         
+        font-size:0.8rem;         
     }
     
     .stu_eng{
         
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
     
   
     .stu_edu{
       
-        font-size: 1rem;
+        font-size: 0.8rem;
+        margin-bottom: 10px;
        
     }
     
     .stu_edul1{
        
-        font-size: 1rem;
+        font-size: 0.8rem;
+        margin-bottom: 10px;
         
     }
     
     .stu_edul2{
        
-        font-size: 1rem;
+        font-size: 0.8rem;
+        margin-bottom: 10px;
       
     }
     
     .stu_ri{
   
-        font-size: 1rem;
+        font-size: 0.8rem;
+        margin-bottom: 10px;
         
     }
     
     .stu_ril{
 
-        font-size: 1rem;
+        font-size: 0.8rem;
+        margin-bottom: 10px;
         
     }
     
     .stu_contact{
 
-        font-size: 1rem;
+        font-size: 0.8rem;
+        margin-bottom: 10px;
      
     }
     
     .stu_contactl{
    
-        font-size: 1rem;
+        font-size: 0.8rem;
+        margin-bottom: 10px;
        
     }
 
@@ -239,7 +245,7 @@
 }
 .stuImg{
 
-    width: 50%;
+    width: 30%;
     justify-self: center;
     display: flex;
     
@@ -251,3 +257,85 @@
     
     
     }
+
+@media (max-width: 576px) {
+
+    .stu_course{
+
+        font-size: 0.5rem;
+        
+    }
+    .stu_name{
+   
+        font-size:0.5rem;
+       
+    }
+    .stu_pos{
+        font-size:0.5rem;         
+    }
+    
+    .stu_eng{
+        
+        font-size: 0.5rem;
+    }
+    
+  
+    .stu_edu{
+      
+        font-size: 0.5rem;
+       
+    }
+    
+    .stu_edul1{
+       
+        font-size: 0.5rem;
+        
+    }
+    
+    .stu_edul2{
+       
+        font-size: 0.5rem;
+      
+    }
+    
+    .stu_ri{
+  
+        font-size: 0.5rem;
+        
+    }
+    
+    .stu_ril{
+
+        font-size: 0.5rem;
+        
+    }
+    
+    .stu_contact{
+
+        font-size: 0.5rem;
+     
+    }
+    
+    .stu_contactl{
+   
+        font-size: 0.5rem;
+       
+    }
+
+.stu_profile{
+    
+    flex-direction: column;
+}
+.stuImg{
+
+    width: 30%;
+    justify-self: center;
+    display: flex;
+    
+   
+}
+
+    
+  
+
+}

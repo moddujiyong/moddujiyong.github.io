@@ -56,7 +56,7 @@ justify-content: start;
  
 }
 .staffsImg{
-    width:100%;
+    width:50%;
     justify-self: center;
     display: flex;
 }
@@ -76,7 +76,7 @@ justify-content: start;
     flex-direction: column;
 }
 .staffs_name{
-    font-size: 26px;
+    font-size: 1rem;
     font-weight: 700;
     font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;  ;
     margin-left: 10px;
@@ -85,14 +85,14 @@ justify-content: start;
 
 }
 .staffs_pos{
-    font-size:23px;
+    font-size:1rem;
     
     
  
 }
 .staffs_eng{
     margin-left: 20px;
-    font-size: 23px;
+    font-size: 1rem;
 }
 
 .staffs_field{
@@ -111,7 +111,7 @@ justify-content: start;
 
 .staffs_edu{
     margin-left: 10px;
-    font-size: 20px;
+    font-size: 1rem;
     color:#002650;
     opacity: 1;
     font-weight: 700;
@@ -120,7 +120,7 @@ justify-content: start;
 
 .staffs_edul1{
     margin-left: 10px;
-    font-size: 20px;
+    font-size: 1rem;
     margin-bottom: 29px;
     font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;   ;
     margin-bottom: 29px;
@@ -129,7 +129,7 @@ justify-content: start;
 .staffs_ri{
     margin-left: 10px;
   
-    font-size: 20px;
+    font-size: 1rem;
     color:#002650;
     opacity: 1;
     font-weight: 700;
@@ -138,7 +138,7 @@ justify-content: start;
 
 .staffs_ril{
     margin-left: 10px;
-    font-size: 20px;
+    font-size: 1rem;
     font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;   ;
     margin-bottom: 29px;
 }
@@ -146,7 +146,7 @@ justify-content: start;
 .staffs_contact{
     margin-left: 10px;
   
-    font-size: 20px;
+    font-size: 1rem;
     color:#002650;
     opacity: 1;
     font-weight: 700;
@@ -155,7 +155,7 @@ justify-content: start;
 
 .staffs_contactl{
     margin-left: 10px;
-    font-size: 20px;
+    font-size: 1rem;
     font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;   ;
     margin-bottom: 29px;
 }
@@ -168,12 +168,12 @@ justify-content: start;
     }
 
     .staffsImg{
-        width:80%;
+        width:30%;
  
     }
 
     .staffs_name{
-        font-size: 1rem;
+        font-size: 0.8rem;
        
        
     
@@ -181,62 +181,67 @@ justify-content: start;
 
     .staffs_header{
 
-        font-size: 1.5rem;
+        font-size: 1rem;
         
     }
 
     .staffs_course{
         
-         font-size: 1.5rem;
+         font-size: 1rem;
       
         }
 
         .staffs_pos{
-            font-size:1rem;
+            font-size:0.8rem;
             
             
          
         }
         .staffs_eng{
            
-            font-size: 1rem;
+            font-size: 0.8rem;
         }
         
        
         
         .staffs_edu{
             
-            font-size: 1rem;
+            font-size: 0.8rem;
+            margin-bottom: 10px;
            
         }
         
         .staffs_edul1{
            
-            font-size: 1rem;
-            
+            font-size: 0.8rem;
+            margin-bottom: 10px;
         }
         
         .staffs_ri{
            
-            font-size: 1rem;
+            font-size: 0.8rem;
+            margin-bottom: 10px;
       
         }
         
         .staffs_ril{
             
-            font-size: 1rem;
+            font-size: 0.8rem;
+            margin-bottom: 10px;
           
         }
         
         .staffs_contact{
          
-            font-size: 1rem;
+            font-size: 0.8rem;
+            margin-bottom: 10px;
            
         }
         
         .staffs_contactl{
         
-            font-size: 1rem;
+            font-size: 0.8rem;
+            margin-bottom: 10px;
             
         }
         
@@ -245,3 +250,77 @@ justify-content: start;
     
     
     }
+
+@media (max-width: 576px){
+
+
+
+    .staffs_name{
+        font-size: 0.5rem;
+       
+       
+    
+    }
+
+    .staffs_header{
+
+        font-size: 0.8rem;
+        
+    }
+
+    .staffs_course{
+        
+         font-size: 0.5rem;
+      
+        }
+
+        .staffs_pos{
+            font-size:0.5rem;
+            
+            
+         
+        }
+        .staffs_eng{
+           
+            font-size: 0.5rem;
+        }
+        
+       
+        
+        .staffs_edu{
+            
+            font-size: 0.5rem;
+           
+        }
+        
+        .staffs_edul1{
+           
+            font-size: 0.5rem;
+            
+        }
+        
+        .staffs_ri{
+           
+            font-size: 0.5rem;
+      
+        }
+        
+        .staffs_ril{
+            
+            font-size: 0.5rem;
+          
+        }
+        
+        .staffs_contact{
+         
+            font-size: 0.5rem;
+           
+        }
+        
+        .staffs_contactl{
+        
+            font-size: 0.5rem;
+            
+        }
+        
+}

@@ -192,7 +192,7 @@
   
 .contact_header{
   
-  font-size:1.5rem;
+  font-size:1.2rem;
   
 }
 
@@ -200,24 +200,24 @@
 
 .address_icon{
   
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 .email_icon{
 
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 .application_icon{
   
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 .department_icon{
 
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 
 .address_title{
-  font-size: 1.5rem;
+  font-size: 1rem;
   
 
 }
@@ -225,28 +225,28 @@
 
 .address_content{
  
-  font-size: 1rem;
+  font-size: 0.8rem;
  
 }
 
 
 .email_title{
-  font-size: 1.5rem;
+  font-size: 1rem;
 
 }
 .email_content{
   
-  font-size: 1rem;
+  font-size: 0.8rem;
 
 }
 
 .application_title{
-  font-size: 1.5rem;
+  font-size: 1rem;
  
 }
 .application_content{
  
-  font-size: 1rem;
+  font-size: 0.8rem;
  
 
 }
@@ -254,19 +254,19 @@
 
 
 .department_title{
-  font-size: 1.5rem;
+  font-size: 1rem;
  
 }
 .department_content{
  
-  font-size: 1rem;
+  font-size: 0.8rem;
   
  
 }
 
 .department_content_mdi{
   padding:18px;
-  font-size: 1rem;
+  font-size: 0.8rem;
   color: #707070;
   cursor: pointer;
  
@@ -276,7 +276,87 @@
 @media (max-width: 576px) {
   
 
+  .contact_header{
   
+    font-size:1rem;
+    
+  }
+  
+  
+  
+  .address_icon{
+    
+    font-size: 1rem;
+  }
+  .email_icon{
+  
+    font-size: 1rem;
+  }
+  .application_icon{
+    
+    font-size: 1rem;
+  }
+  .department_icon{
+  
+    font-size: 1rem;
+  }
+  
+  
+  .address_title{
+    font-size: 0.8rem;
+    
+  
+  }
+  
+  
+  .address_content{
+   
+    font-size: 0.5rem;
+   
+  }
+  
+  
+  .email_title{
+    font-size: 0.8rem;
+  
+  }
+  .email_content{
+    
+    font-size: 0.5rem;
+  
+  }
+  
+  .application_title{
+    font-size: 0.8rem;
+   
+  }
+  .application_content{
+   
+    font-size: 0.5rem;
+   
+  
+  }
+  
+  
+  
+  .department_title{
+    font-size: 0.8rem;
+   
+  }
+  .department_content{
+   
+    font-size: 0.5rem;
+    
+   
+  }
+  
+  .department_content_mdi{
+    padding:18px;
+    font-size: 0.5rem;
+    color: #707070;
+    cursor: pointer;
+   
+  }
 
   
 }

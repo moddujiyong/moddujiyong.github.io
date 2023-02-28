@@ -25,7 +25,7 @@
 
 .title_research{
     display:flex;
-    font-size: 27px;
+    font-size: 1.5rem;
     opacity:1;
     font-weight:1000;
     flex-direction: column;
@@ -55,7 +55,7 @@
 
 .pub_menuTitle{
     display:flex;
-    font-size: 27px;
+    font-size: 1.5rem;
     opacity: 1;
     font-weight: 1000;
     flex-direction: column;
@@ -91,7 +91,7 @@
 .pub_item{
   display:flex;
   width:90%;
-  font-size:22px;
+  font-size:1.2rem;
   margin-bottom: 33px;
   font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;  
   font-weight: 700;
@@ -137,7 +137,7 @@
     font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif; 
     margin-left:50px;
     margin-bottom: 23.5px;
-    font-size: 27px;
+    font-size: 1.5rem;
 
 }
 
@@ -146,7 +146,7 @@
   
   display:flex;
   justify-content: start;
-  font-size:22px;
+  font-size:1.5rem;
   font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif; 
   color: #002650;
   opacity: 1;
@@ -160,7 +160,7 @@
   display:flex;
   flex-direction: column;
 
-   font-size:22px;
+   font-size:1rem;
    margin-bottom:60px;
    margin-left:38px;
    
@@ -174,7 +174,7 @@
 
   display:flex;
   justify-content: start;
-  font-size:22px;
+  font-size:1rem;
   font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;
   color: #002650;
   opacity: 1;
@@ -188,7 +188,7 @@
 
   display:flex;
   justify-content: start;
-  font-size:22px;
+  font-size:1rem;
   font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;
   color: #002650;
   opacity: 1;
@@ -199,7 +199,7 @@
 }
 
 .conference_content{
-  font-size:22px;
+  font-size:1rem;
   display:flex;
   flex-direction: column;
   margin-bottom:60px;
@@ -211,7 +211,7 @@
 
   display:flex;
   justify-content: start;
-  font-size:22px;
+  font-size:1rem;
   font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif; 
   color: #002650;
   opacity: 1;
@@ -225,7 +225,7 @@
 
   display:flex;
   justify-content: start;
-  font-size:22px;
+  font-size:1rem;
   font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;
   color: #002650;
   opacity: 1;
@@ -238,7 +238,7 @@
 .patent_content{
   display:flex;
   flex-direction: column;
-  font-size:22px;
+  font-size:1rem;
   margin-bottom:60px;
   margin-left:38px;
   margin-right: 47px;
@@ -248,7 +248,7 @@
 
   display:flex;
   justify-content: start;
-  font-size:22px;
+  font-size:1rem;
   font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif; 
   color: #002650;
   opacity: 1;
@@ -261,7 +261,7 @@
 .book_content{
   display:flex;
   flex-direction: column;
-  font-size:22px;
+  font-size:1rem;
   margin-bottom:60px;
   margin-left:38px;
   margin-right: 47px;
@@ -289,125 +289,33 @@
 
 
 
-@media (max-width: 768px){
+@media (max-width: 992px){
 
     
   .title_research{
-      font-size: 1.5rem;
+      font-size: 1.2rem;
   
   
   }
 
   .pub_title{
 
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 
 }
 
   
-  .pub_item{
+  
+.pub_item{
       
-      font-size:1rem;
-    
-    
-  }
-
-
-
-
-.international_journal{
-  
-  
-  font-size: 1.5rem;
-  
-}
-
- .journal_content{
-
-   font-size:1rem;
-   
- }
- 
-
-
-
-.domestic_journal{
-
- 
-  font-size:1.5rem;
-
-}
-
-.international_conference{
-
- 
-  font-size:1.5rem;
-  
-}
-
-.conference_content{
-  font-size:1rem;
-}
-
-.domestic_conference{
-
-  
-  font-size: 1.5rem;
-  
-}
-
-.patent{
-
-
-  font-size: 1.5rem;
-
-}
-
-.patent_content{
-  
-  font-size:1rem;
-  
-}
-
-.book{
-
-  
-  font-size: 1.5rem;
-  
-}
-
-.book_content{
-  
-  font-size: 1rem;
-  
+  font-size:0.7rem;
+  /* width:208px; */
+  margin-bottom: 23px;
+  height: 15px;
 }
 
 
 
-  
-
-  }
-  
-  @media (max-width: 576px) {
-      
-  .title_research{
-      font-size: 1rem;
-  }
-
-  .pub_title{
-
-    font-size: 1rem;
-
-}
-  
-  
-  .pub_item{
-      
-      font-size:0.5rem;
-      /* width:208px; */
-      margin-bottom: 13px;
-      height: 25px;
-  }
 
 
 .international_journal{
@@ -474,6 +382,102 @@
 .book_content{
   
   font-size: 0.8rem;
+  
+}
+
+
+
+  
+
+  }
+  
+  @media (max-width: 576px) {
+      
+  .title_research{
+      font-size: 0.8rem;
+  }
+
+  .pub_title{
+
+    font-size: 0.8rem;
+
+}
+
+
+
+  .pub_item{
+      
+      font-size:0.5rem;
+      /* width:208px; */
+      margin-bottom: 8px;
+      height: 15px;
+  }
+
+
+.international_journal{
+  
+  
+  font-size: 0.8rem;
+  
+}
+
+ .journal_content{
+
+   font-size:0.5rem;
+   
+ }
+ 
+
+
+
+.domestic_journal{
+
+ 
+  font-size:0.8rem;
+
+}
+
+.international_conference{
+
+ 
+  font-size:0.8rem;
+  
+}
+
+.conference_content{
+  font-size:0.5rem;
+}
+
+.domestic_conference{
+
+  
+  font-size: 0.8rem;
+  
+}
+
+.patent{
+
+
+  font-size: 0.8rem;
+
+}
+
+.patent_content{
+  
+  font-size:0.5rem;
+  
+}
+
+.book{
+
+  
+  font-size: 0.8rem;
+  
+}
+
+.book_content{
+  
+  font-size: 0.5rem;
   
 }
 

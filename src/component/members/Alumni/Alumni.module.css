@@ -6,7 +6,7 @@
 
 .alu_header{
     display: flex;
-    font-size: 26px;
+    font-size: 1.5rem;
     flex-direction: column;
    
 }
@@ -47,7 +47,7 @@
 
     display:flex;
     justify-content: start;
-    font-size:22px;
+    font-size:1rem;
     font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;  
     color: #002650;
     opacity: 1;
@@ -58,7 +58,6 @@
 }
 .aluImg{
     width:212px;
-    height: 276px;
     justify-self: center;
     border-style:none;
     display: flex;
@@ -78,7 +77,7 @@
 }
 .alu_name{
    
-    font-size:26px;
+    font-size:1rem;
     font-weight: 700;
     font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;  ;
     margin-left: 10px;

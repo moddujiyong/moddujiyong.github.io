@@ -79,7 +79,7 @@
 
 .memberSmallItem{
     font-size: 20px;
-    margin-left: 38px;
+    margin-left: 18px;
     margin-bottom:26px;
     border-style: solid;
     border-top-width: 0;
@@ -92,27 +92,27 @@
     font-weight: 600;
     cursor:pointer;
 }
-@media (max-width: 768px){
+@media (max-width: 992px){
 
     
 .title_member{
-    font-size: 1.5rem;
+    font-size: 1rem;
 
 
 }
 
 .memberListItem{
     
-    font-size:1rem;
+    font-size:0.7rem;
     /* width:208px; */
     width: 100%;
-    margin-bottom: 33px;
+    margin-bottom: 23px;
     font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;  ;
     font-weight: 700;
     opacity: 1;
     cursor:pointer;
     border-style: solid;
-    height: 25px;
+    height: 15px;
     border-top-width: 0;
     border-left-width:0;
     border-right-width:0;
@@ -124,7 +124,8 @@
 }
 
 .memberSmallItem{
-    font-size: 1rem;
+    font-size: 0.7rem;
+    margin-bottom:16px;
     
 }
 }
@@ -132,19 +133,20 @@
 @media (max-width: 576px) {
     
 .title_member{
-    font-size: 1rem;
+    font-size: 0.7rem;
 }
 
 .memberListItem{
     
-    font-size:0.8rem;
+    font-size:0.5rem;
     /* width:208px; */
-    margin-bottom: 13px;
-    height: 25px;
+    margin-bottom: 8px;
+    height: 15px;
 }
 
 .memberSmallItem{
-    font-size: 1rem;
+    font-size: 0.5rem;
+    margin-bottom:6px;
     
 }
     
