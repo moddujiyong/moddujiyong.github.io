@@ -18,24 +18,24 @@ export default function Home() {
   }
 
   useEffect(() => {
-    window.addEventListener("scroll", onScroll);
+    window.addEventListener(&qoutscroll&qout, onScroll);
     return () => {
-      window.removeEventListener("scroll", onScroll);
+      window.removeEventListener(&qoutscroll&qout, onScroll);
     }
   },[])
 
  
 
-  const introText='We do "Design & Development" and "Research & Evaluation" focusing on "Practical Healthcare Industry" within "Medical Device Regulation".';
+  const introText='We do &qoutDesign & Development&qout and &qoutResearch & Evaluation&qout focusing on &qoutPractical Healthcare Industry&qout within &qoutMedical Device Regulation&qout.';
   return (
     <div>
-    <div style ={{position : "relative", padding : "0 2rem",}}>
+    <div style ={{position : &qoutrelative&qout, padding : &qout0 2rem&qout,}}>
       <Head>
         <title>
           Home | mddu
         </title>
-        <link rel="shortcut icon" href="/favicon.ico" />
-        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <link rel=&qoutshortcut icon&qout href=&qout/favicon.ico&qout />
+        <meta name=&qoutviewport&qout content=&qoutinitial-scale=1.0, width=device-width&qout />
       </Head>
 
 
@@ -63,7 +63,7 @@ export default function Home() {
                 <div className = {styles.back} style = {{backgroundPositionY : position /1.2, opacity : 0.9 +  position/3}}>
 
                 </div>
-                {/* <img style={{display: 'flex', width: '100%', height: '100%', objectFit: "contain"}} src="images/main_design_img.png" alt=""/> */}
+                {/* <img style={{display: 'flex', width: '100%', height: '100%', objectFit: &qoutcontain&qout}} src=&qoutimages/main_design_img.png&qout alt=&qout/> */}
                 
                 
             </div>
@@ -80,26 +80,26 @@ export default function Home() {
                 </div>
                
                
-           <img style={{ display: 'flex', opacity: (position - 20)/50 + 0.9, width: '100%', height: '100%', objectFit:"contain", zIndex: -1}} src="images/upGo.jpeg" alt=""/>
+           <img style={{ display: 'flex', opacity: (position - 20)/50 + 0.9, width: '100%', height: '100%', objectFit:&qoutcontain&qout, zIndex: -1}} src=&qoutimages/upGo.jpeg&qout alt=&qout/>
                 
                 
-                <div style ={{ position : "relative",
-  padding : "0 2rem"}}>
+                <div style ={{ position : &qoutrelative&qout,
+  padding : &qout0 2rem&qout}}>
                 <div className = {styles.listContainer}>
                 <ul className = {styles.links}>
                     <li className = {styles.li} style ={{backgroundColor:'#00489a' ,opacity: (position - 30)/50 + 0.95,  }} >
-                    <Link href = {{pathname: 'research', query: { id : "clinical"}}} style = {{textAlign:'center'}}><contents className = {styles.contents} >Clinical Study Design</contents></Link>
+                    <Link href = {{pathname: 'research', query: { id : &qoutclinical&qout}}} style = {{textAlign:'center'}}><contents className = {styles.contents} >Clinical Study Design</contents></Link>
                     </li>
                     <li className = {styles.li} style = {{ backgroundColor:'#003979',opacity: (position - 30)/50+ 0.95}}>
-                    <Link href = {{pathname: 'research', query: { id : "uxui"}}} style = {{textAlign:'center'}}><contents className = {styles.contents}>UX/UI Design & Usability</contents> 
+                    <Link href = {{pathname: 'research', query: { id : &qoutuxui&qout}}} style = {{textAlign:'center'}}><contents className = {styles.contents}>UX/UI Design & Usability</contents> 
                       </Link>
                       </li>
                     <li  className = {styles.li} style ={{ backgroundColor: '#005d8a',opacity: (position - 30)/50+ 0.95}}>
-                    <Link href = {{pathname: 'research', query: { id : "industry"}}} style = {{textAlign:'center'}}><contents className = {styles.contents}>Medical Device Industry Policy</contents> 
+                    <Link href = {{pathname: 'research', query: { id : &qoutindustry&qout}}} style = {{textAlign:'center'}}><contents className = {styles.contents}>Medical Device Industry Policy</contents> 
                       </Link>
                     </li>
                     <li  className = {styles.li} style = {{backgroundColor: '#0086c4',opacity: (position - 30)/50+ 0.95}}>
-                    <Link href = {{pathname: 'research', query: { id : "bio"}}} style = {{textAlign:'center'}}> <contents className = {styles.contents}>Bio-Signal Processing & AI</contents> 
+                    <Link href = {{pathname: 'research', query: { id : &qoutbio&qout}}} style = {{textAlign:'center'}}> <contents className = {styles.contents}>Bio-Signal Processing & AI</contents> 
                       </Link>
                       </li>
                     
@@ -114,31 +114,31 @@ export default function Home() {
             </div>
 
 
-            <div style = {{display: 'flex', flexDirection:'column', position : "relative" , marginTop: '100px', marginBottom: '100px', width: '100%', height: '100%',  justifyContent:'center', alignSelf:'center', marginBottom: '300px'}}>
+            <div style = {{display: 'flex', flexDirection:'column', position : &qoutrelative&qout , marginTop: '100px', marginBottom: '100px', width: '100%', height: '100%',  justifyContent:'center', alignSelf:'center', marginBottom: '300px'}}>
               
             <p className = {styles.textContainer1} style = {{opacity: (position-100)/100}}>
               We do 
             </p>
             <p className = {styles.textContainer2} style = {{opacity: (position-140)/100}}>
-            "Design & Development"  
+            &qout;Design &amp; Development&qout;
             </p>
             <p className = {styles.textContainer3} style = {{opacity: (position-180)/100}}>
             and...
             </p>
             <p className = {styles.textContainer4} style = {{opacity: (position-220)/50}}>
-            "Research & Evaluation"
+            &qout;Research &amp; Evaluation&qout;
             </p>
             <p className = {styles.textContainer5} style = {{opacity: (position-260)/50}}>
             focusing on
             </p>
             <p className = {styles.textContainer6} style = {{opacity: (position-300)/50}}>
-            "Practical Healthcare Industry"
+            &qout;Practical Healthcare Industry&qout;
             </p>
             <p className = {styles.textContainer7} style = {{opacity: (position-340)/100}}>
             within
             </p>
             <p className = {styles.textContainer8} style = {{opacity: (position-380)/100}}>
-            "Medical Device Regulation"
+            &qout;Medical Device Regulation&qout;
             </p>
             </div>
 
