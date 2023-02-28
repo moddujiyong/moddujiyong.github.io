@@ -4,9 +4,13 @@ const Footer = () => {
 
     return (
         <div style= {{position : "relative", padding : "0 2rem"}}>
-        <div style = {{width:'100%', flexDirection:'column', bottom:'0', backgroundColor: '#002650'}}>
+        <div style = {{width:'100%', flexDirection:'column', bottom:'0', backgroundColor: '#002650',
+         maxWidth : '1200px', margin: '0 auto',
+         
+    
+    }}>
             <div style = {{width:'100%', display:'flex', justifyContent:'center', alignSelf:'center'}}>
-            <img style= {{width: '50%'}} src = "/images/LogoDesign_Eng.png" alt ="logo"/>
+            <img style= {{width: '40%'}} src = "/images/LogoDesign_Eng.png" alt ="logo"/>
             </div>
 
             <div className = {styles.text}>

@@ -60,7 +60,7 @@ export default function Home() {
                     <span className={styles.headerTitleSmaller}>Medical Device Design & Usability Lab</span>
 
                 </div>
-                <div className = {styles.back} style = {{backgroundPositionY : position /1.2}}>
+                <div className = {styles.back} style = {{backgroundPositionY : position /1.2, opacity : 0.9 +  position/3}}>
 
                 </div>
                 {/* <img style={{display: 'flex', width: '100%', height: '100%', objectFit: "contain"}} src="images/main_design_img.png" alt=""/> */}
@@ -113,20 +113,47 @@ export default function Home() {
               
             </div>
 
-           
+
+            <div style = {{display: 'flex', flexDirection:'column', position : "relative" , marginTop: '100px', marginBottom: '100px', width: '100%', height: '100%',  justifyContent:'center', alignSelf:'center', marginBottom: '300px'}}>
+              
+            <p className = {styles.textContainer1} style = {{opacity: (position-100)/100}}>
+              We do 
+            </p>
+            <p className = {styles.textContainer2} style = {{opacity: (position-140)/100}}>
+            "Design & Development"  
+            </p>
+            <p className = {styles.textContainer3} style = {{opacity: (position-180)/100}}>
+            and...
+            </p>
+            <p className = {styles.textContainer4} style = {{opacity: (position-220)/50}}>
+            "Research & Evaluation"
+            </p>
+            <p className = {styles.textContainer5} style = {{opacity: (position-260)/50}}>
+            focusing on
+            </p>
+            <p className = {styles.textContainer6} style = {{opacity: (position-300)/50}}>
+            "Practical Healthcare Industry"
+            </p>
+            <p className = {styles.textContainer7} style = {{opacity: (position-340)/100}}>
+            within
+            </p>
+            <p className = {styles.textContainer8} style = {{opacity: (position-380)/100}}>
+            "Medical Device Regulation"
+            </p>
+            </div>
+
+            <div>
+
+            </div>
+
             
+          
           
         </div>
         
     </div>
 
-<div style = {{display: 'flex', position : "relative", padding : "0 2rem" , marginTop: '100px', marginBottom: '100px', width: '100%', height: '100%',  justifyContent:'center'}}>
-<div className = {styles.textContainer}>
 
-  {introText}
-  
-</div>
-</div>
 </div>
   )
 }

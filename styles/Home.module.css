@@ -1,7 +1,9 @@
 .header {
   display: flex;
   width: 100%;
-
+  max-width: 1200px;
+ 
+  margin: 0 auto;
   flex-direction: column;
 }
 
@@ -21,19 +23,20 @@
   position: absolute;
   flex-direction: column;
   margin : 120px;
+  z-index: 100;
 
 }
 
 .headerTitleSmall{
   color: #fff;
-  font-size:  35px;
+  font-size:  2rem;
   font-weight: 700;
   font-family:  'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;  
 }
 
 .headerTitleSmaller{
   color: #fff;
-  font-size: 28px;
+  font-size: 1.5rem;
   font-family:  'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif ;
   
 }
@@ -80,9 +83,55 @@
 }
 
 
-.textContainer{
-  width: 80%;
+.textContainer1{
+  padding: 10px;
   font-size: 3rem;
+  font-family:  'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;
+  text-align: center;
+}
+.textContainer2{
+  padding: 10px;
+  font-size: 2.5rem;
+  color : #00489a;
+  font-family:  'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;
+  text-align: center;
+}
+.textContainer3{
+  padding: 10px;
+  font-size: 2rem;
+  font-family:  'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;
+  text-align: center;
+}
+.textContainer4{
+  padding: 10px;
+  font-size: 2.8rem;
+  color : #005d8a;
+  font-family:  'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;
+  text-align: center;
+}
+.textContainer5{
+  padding: 10px;
+  font-size: 2.4rem;
+  font-family:  'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;
+  text-align: center;
+}
+.textContainer6{
+  padding: 10px;
+  font-size: 3rem;
+  color : #003979;
+  font-family:  'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;
+  text-align: center;
+}
+.textContainer7{
+  padding: 10px;
+  font-size: 2.7rem;
+  font-family:  'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;
+  text-align: center;
+}
+.textContainer8{
+  padding: 10px;
+  font-size: 3rem;
+  color : #0086c4;
   font-family:  'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;
   text-align: center;
 }
@@ -124,9 +173,11 @@
 .back{
   display: flex;
   background: url(../public/images/main_design_img.webp);
-  background-size: cover;
+  background-size:contain;
+  background-repeat: no-repeat;
   width: 100%;
-  height: 500px;
+  height: 300px;
+  
 }
 
 
@@ -155,12 +206,14 @@
   }
 
   .textContainer{
-    font-size: 2rem;
+    font-size: 1.6rem;
   }
 
-  .back{
-    height: 200px;
+  .back {
+    height: 250px;
   }
+
+  
   
   
 }
@@ -187,9 +240,7 @@
   .textContainer{
     font-size: 0.8rem;
   }
-  .back{
-    height: 100px;
-  }
+  
 
   .listContainer{
     position: absolute;
@@ -215,6 +266,10 @@
  
   
     
+  }
+
+  .back {
+    height: 200px;
   }
   
   
