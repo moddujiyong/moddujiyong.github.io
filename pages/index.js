@@ -18,24 +18,23 @@ export default function Home() {
   }
 
   useEffect(() => {
-    window.addEventListener(&qoutscroll&qout, onScroll);
+    window.addEventListener('scroll', onScroll);
     return () => {
-      window.removeEventListener(&qoutscroll&qout, onScroll);
+      window.removeEventListener('scroll', onScroll);
     }
   },[])
 
  
 
-  const introText='We do &qoutDesign & Development&qout and &qoutResearch & Evaluation&qout focusing on &qoutPractical Healthcare Industry&qout within &qoutMedical Device Regulation&qout.';
   return (
     <div>
-    <div style ={{position : &qoutrelative&qout, padding : &qout0 2rem&qout,}}>
+    <div style ={{position : 'relative', padding : '0 2rem',}}>
       <Head>
         <title>
-          Home | mddu
+          mddu | 의료기기 설계 및 사용적합성 연구실
         </title>
-        <link rel=&qoutshortcut icon&qout href=&qout/favicon.ico&qout />
-        <meta name=&qoutviewport&qout content=&qoutinitial-scale=1.0, width=device-width&qout />
+        <link rel='shortcut icon' href='/favicon.ico' />
+        <meta name='viewport' content='initial-scale=1.0, width=device-width' />
       </Head>
 
 
@@ -80,26 +79,26 @@ export default function Home() {
                 </div>
                
                
-           <img style={{ display: 'flex', opacity: (position - 20)/50 + 0.9, width: '100%', height: '100%', objectFit:&qoutcontain&qout, zIndex: -1}} src=&qoutimages/upGo.jpeg&qout alt=&qout/>
+           <img style={{ display: 'flex', opacity: (position - 20)/50 + 0.9, width: '100%', height: '100%', objectFit:'contain', zIndex: -1}} src='images/upGo.jpeg' alt=''/>
                 
                 
-                <div style ={{ position : &qoutrelative&qout,
-  padding : &qout0 2rem&qout}}>
+                <div style ={{ position : 'relative',
+  padding : '0 2rem'}}>
                 <div className = {styles.listContainer}>
                 <ul className = {styles.links}>
                     <li className = {styles.li} style ={{backgroundColor:'#00489a' ,opacity: (position - 30)/50 + 0.95,  }} >
-                    <Link href = {{pathname: 'research', query: { id : &qoutclinical&qout}}} style = {{textAlign:'center'}}><contents className = {styles.contents} >Clinical Study Design</contents></Link>
+                    <Link href = {{pathname: 'research', query: { id : 'clinical'}}} style = {{textAlign:'center'}}><contents className = {styles.contents} >Clinical Study Design</contents></Link>
                     </li>
                     <li className = {styles.li} style = {{ backgroundColor:'#003979',opacity: (position - 30)/50+ 0.95}}>
-                    <Link href = {{pathname: 'research', query: { id : &qoutuxui&qout}}} style = {{textAlign:'center'}}><contents className = {styles.contents}>UX/UI Design & Usability</contents> 
+                    <Link href = {{pathname: 'research', query: { id : 'uxui'}}} style = {{textAlign:'center'}}><contents className = {styles.contents}>UX/UI Design & Usability</contents> 
                       </Link>
                       </li>
                     <li  className = {styles.li} style ={{ backgroundColor: '#005d8a',opacity: (position - 30)/50+ 0.95}}>
-                    <Link href = {{pathname: 'research', query: { id : &qoutindustry&qout}}} style = {{textAlign:'center'}}><contents className = {styles.contents}>Medical Device Industry Policy</contents> 
+                    <Link href = {{pathname: 'research', query: { id : 'industry'}}} style = {{textAlign:'center'}}><contents className = {styles.contents}>Medical Device Industry Policy</contents> 
                       </Link>
                     </li>
                     <li  className = {styles.li} style = {{backgroundColor: '#0086c4',opacity: (position - 30)/50+ 0.95}}>
-                    <Link href = {{pathname: 'research', query: { id : &qoutbio&qout}}} style = {{textAlign:'center'}}> <contents className = {styles.contents}>Bio-Signal Processing & AI</contents> 
+                    <Link href = {{pathname: 'research', query: { id : 'bio'}}} style = {{textAlign:'center'}}> <contents className = {styles.contents}>Bio-Signal Processing & AI</contents> 
                       </Link>
                       </li>
                     
@@ -114,7 +113,7 @@ export default function Home() {
             </div>
 
 
-            <div style = {{display: 'flex', flexDirection:'column', position : &qoutrelative&qout , marginTop: '100px', marginBottom: '100px', width: '100%', height: '100%',  justifyContent:'center', alignSelf:'center', marginBottom: '300px'}}>
+            <div style = {{display: 'flex', flexDirection:'column', position : 'relative' , marginTop: '100px', marginBottom: '100px', width: '100%', height: '100%',  justifyContent:'center', alignSelf:'center', marginBottom: '300px'}}>
               
             <p className = {styles.textContainer1} style = {{opacity: (position-100)/100}}>
               We do 
