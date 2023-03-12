@@ -37,3 +37,30 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 # nextLab
+
+
+
+# Docs
+
+### Environment Setting
+1. Download repository.
+2. Install libray
+   ```bash
+   npm install
+   ```
+3. run dev environment
+   ```bash
+   npm run dev
+   ```
+
+### Deploy
+1. Delete gh-pages branch
+  ```bash
+  git push origin --delete gh-pages
+  ```
+2. Deploy
+  ```bash
+  npm run deploy
+  ```
+
+
