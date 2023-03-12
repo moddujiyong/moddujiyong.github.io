@@ -55,7 +55,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 ### Deploy
 1. Delete gh-pages branch
-   ```bash
+  ```bash
   git push origin --delete gh-pages
   ```
 2. Deploy
