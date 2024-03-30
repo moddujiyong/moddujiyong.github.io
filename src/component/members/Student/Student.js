@@ -130,7 +130,7 @@ edu2 = {null}
 int = {'Medical Device Clinical Study Design, Medical Regulatory Affairs'}
 con = {'wlals2qj@naver.com / jmson1707@yonsei.ac.kr'}
 />
-
+ {/* 
 <StudentLayout 
 course = {'MS course'}
 photo = {"images/kanghyeon.png"}
@@ -140,7 +140,7 @@ edu1 = {'Bachelor in Healthcare Industry, Cha University (2021)'}
 edu2 = {null} 
 int = {'Medical Device Industry Policy, Medical Regulatory Affairs'}
 con = {'hap2boy@naver.com / hap2boy@yonsei.ac.kr'}
-rphoto={BarImgStu}/>
+rphoto={BarImgStu}/>*/}
 
 <StudentLayout 
 lphoto={BarImgStu}
