@@ -145,6 +145,53 @@ export default function Alumni() {
     affilation = {"Siemens Healthineers"} 
     con = {"chy980423@naver.com"}   />
 
+    <AluminiLayout
+    course = {'MS'}
+    photo = {"images/jimin.jpg"}
+    name = {'Jimin Son'}
+    edu1 = {'Master in Medical Device Engineering & Management (2023)'}
+    dissertation ={'Medical Device Clinical Study Design, Medical Regulatory Affairs'}
+    affilation = {"Siemens Healthineers"} 
+    con = {'wlals2qj@naver.com / jmson1707@yonsei.ac.kr'}
+   />
+
+    <AluminiLayout
+    course = {'MS'}
+    photo = {"images/kanghyeon.png"}
+    name = {'Kanghyeon You'}
+    edu1 = {'Master in Medical Device Engineering & Management (2023)'} 
+    dissertation = {'A study on developing a separate compensation model for AI-based medical device software \t A Study on the Improvement of Domestic Medical Device Product Classification through Analysis of Medical Device Classification System in the U.S. and Europe'} 
+    affilation = {"Synex"} 
+    con = {'khyou@synex.co.kr'}
+    />
+
+    <AluminiLayout
+    course = {'MS'}
+    photo = {"images/jeonghwa.png"}
+    name = {'Jeonghwa Lim'}
+    edu1 = {'Master in Medical Device Engineering & Management (2023)'}
+    dissertation={'Bio-signal processing, AI & Deep learning'}
+    con = {'lim9234@hanmail.net'}
+    />
+
+    <AluminiLayout
+    course = {'MS'}
+    photo = {"images/gyeongmin.png"}
+    name = {'Gyeongmin Kwon'}
+    edu1 = {'Master in Medical Device Engineering & Management (2024)'}
+    dissertation = {'Usability/Human Factors Engineering, Medical Regulatory Affairs'}
+    con = {'kdskkm12@naver.com'}
+    />
+
+    <AluminiLayout
+    course = {'MS'}
+    photo = {"images/yujeong.jpg"}
+    name = {'Yujeong Ma'} 
+    edu1 = {'Master in Medical Device Engineering & Management (2024)'}
+    dissertation = {'Medical Device Clinical Study Design, Clinical Effectiveness Evaluation'}
+    affilation = {"Abbott"} 
+    con = {'lemontree1235@naver.com'}
+    />
 
   </div>
    

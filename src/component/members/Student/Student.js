@@ -118,7 +118,7 @@ con = {'chy980423@naver.com / hyeong0423@yonsei.ac.kr'}
 rphoto={BarImgStu}/> */}
 
 
-
+{/*
 <StudentLayout 
 lphoto={BarImgStu}
 course = {'MS course'}
@@ -129,7 +129,7 @@ edu1 = {'Bachelor in Biomedical Engineering, Dongguk University (2021)'}
 edu2 = {null} 
 int = {'Medical Device Clinical Study Design, Medical Regulatory Affairs'}
 con = {'wlals2qj@naver.com / jmson1707@yonsei.ac.kr'}
-/>
+/>*/}
  {/* 
 <StudentLayout 
 course = {'MS course'}
@@ -142,6 +142,7 @@ int = {'Medical Device Industry Policy, Medical Regulatory Affairs'}
 con = {'hap2boy@naver.com / hap2boy@yonsei.ac.kr'}
 rphoto={BarImgStu}/>*/}
 
+{/*
 <StudentLayout 
 lphoto={BarImgStu}
 course = {'MS course'}
@@ -152,9 +153,9 @@ edu1 = {'Bachelor in Biomedical Engineering, Yonsei University (2021)'}
 edu2 = {null} 
 int = {'Bio-signal processing, AI & Deep learning'}
 con = {'lim9234@hanmail.net'}/>
+*/}
 
-
-
+{/*
 <StudentLayout 
 
 course = {'MS course'}
@@ -166,14 +167,12 @@ edu2 = {null}
 int = {'Usability/Human Factors Engineering, Medical Regulatory Affairs'}
 con = {'kdskkm12@naver.com'}
 rphoto={BarImgStu}/>
-
-
+*/}
 
 
 
 <StudentLayout 
-lphoto={BarImgStu}
-course = {'MS course'}
+course = {'MS / Ph.D course'}
 photo = {"images/seunghee.png"}
 name = {'Seunghee Kim'}
 EName = {null} 
@@ -183,6 +182,7 @@ int = {'Usability/Human Factors Engineering, Medical Device Industry Policy'}
 con = {'sshee0710@naver.com'}
 />
 
+{/*
 <StudentLayout 
 
 course = {'MS course'}
@@ -195,7 +195,7 @@ int = {'Medical Device Clinical Study Design, Clinical Effectiveness Evaluation'
 con = {'lemontree1235@naver.com'}
 rphoto={BarImgStu}
 />
-
+*/}
 
 
 <StudentLayout 
@@ -211,7 +211,6 @@ con = {'cowjy0427@yonsei.ac.kr'}
 />
 
 <StudentLayout 
-lphoto={BarImgStu}
 course = {'MS course'}
 photo = {"images/jiyoon.jpeg"}
 name = {'Jiyoon Oh'}
@@ -223,6 +222,61 @@ con = {'5wldbs27@naver.com'}
 
 />
 
+<StudentLayout
+lphoto={BarImgStu}
+course = {'MS course'}
+photo = {"images/hyo.jpg"}
+name = {'Hyo Son'}
+EName = {null} 
+edu1 = {`Bachelor in Biomedical Engineering, Yonsei University (2012)`} 
+edu2 = {null} 
+int = {null}
+con = {'rackky0210cg@gmail.com / muyohyo@yonsei.ac.kr'}
+/>
+
+<StudentLayout
+course = {'MS course'}
+photo = {"images/hyungmin.jpg"}
+name = {'Hyungmin Kim'}
+EName = {null} 
+edu1 = {`Bachelor in Biomedical Engineering, Yonsei University (2023)`} 
+edu2 = {null} 
+int = {null}
+con = {'mahoyo-_0412@naver.com / hmkim@yonsei.ac.kr'}
+/>
+
+<StudentLayout
+lphoto={BarImgStu}
+course = {'MS course'}
+photo = {"images/soyeon.png"}
+name = {'So Yeon Noh'}
+EName = {null} 
+edu1 = {`Bachelor in Biomedical Engineering, Konyang University (2023)`} 
+edu2 = {null} 
+int = {null}
+con = {'nsy4094@naver.com'}
+/>
+<StudentLayout
+course = {'MS course'}
+photo = {"images/gayoung.jpg"}
+name = {'Ga Young Lee'}
+EName = {null} 
+edu1 = {`Bachelor in Biomedical Engineering, Konyang University (2023)`} 
+edu2 = {null} 
+int = {null}
+con = {'gy090733@naver.com'}
+/>
+<StudentLayout
+lphoto={BarImgStu}
+course = {'MS course'}
+photo = {"images/jisoo.png"}
+name = {'Ji Soo Hyun'}
+EName = {null} 
+edu1 = {`Bachelor in Biomedical Engineering, Yonsei University (2023)`} 
+edu2 = {null} 
+int = {null}
+con = {'ywltn0421@yonsei.ac.kr'}
+/>
 
 <div className={styles.stu_profile}>
 
@@ -329,8 +383,19 @@ con = {'5wldbs27@naver.com'}
         edu2 = {null} 
         int = {'Usability/Human Factors Engineering '}
         con = {'cowjy0427@yonsei.ac.kr'}
-        rphoto={BarImgStu}
+        
         />
+
+      <StudentLayout 
+        course = {'MS / Ph.D course'}
+        photo = {"images/seunghee.png"}
+        name = {'Seunghee Kim'}
+        EName = {null} 
+        edu1 = {'Bachelor in Healthcare Industry, Cha University (2021)'} 
+        edu2 = {null} 
+        int = {'Usability/Human Factors Engineering, Medical Device Industry Policy'}
+        con = {'sshee0710@naver.com'}
+/>
      
         <div className={styles.stu_profile}>
      
@@ -383,7 +448,7 @@ con = {'5wldbs27@naver.com'}
         int = {'Medical Device Clinical Study Design, Clinical Effectiveness Evaluation, \nMedical Regulatory Affairs'}
         con = {'chy980423@naver.com / hyeong0423@yonsei.ac.kr'}/> */}
 
-        <StudentLayout 
+        {/*<StudentLayout 
        course = {'MS course'}
        photo = {"images/jimin.jpg"}
        name = {'Jimin Son'}
@@ -458,6 +523,7 @@ int = {'Medical Device Clinical Study Design, Clinical Effectiveness Evaluation'
 con = {'lemontree1235@naver.com'}
 
 />
+      */}
 
 <StudentLayout 
 lphoto={BarImgStu}
@@ -471,7 +537,61 @@ int = {' Medical Device Clinical Study Design, Medical Regulatory Affairs'}
 con = {'5wldbs27@naver.com'}
 
 />
+<StudentLayout
+lphoto={BarImgStu}
+course = {'MS course'}
+photo = {"images/hyo.jpg"}
+name = {'Hyo Son'}
+EName = {null} 
+edu1 = {`Bachelor in Biomedical Engineering, Yonsei University (2012)`} 
+edu2 = {null} 
+int = {null}
+con = {'rackky0210cg@gmail.com / muyohyo@yonsei.ac.kr'}
+/>
 
+<StudentLayout
+course = {'MS course'}
+photo = {"images/hyungmin.jpg"}
+name = {'Hyungmin Kim'}
+EName = {null} 
+edu1 = {`Bachelor in Biomedical Engineering, Yonsei University (2023)`} 
+edu2 = {null} 
+int = {null}
+con = {'mahoyo-_0412@naver.com / hmkim@yonsei.ac.kr'}
+/>
+
+<StudentLayout
+lphoto={BarImgStu}
+course = {'MS course'}
+photo = {"images/soyeon.png"}
+name = {'So Yeon Noh'}
+EName = {null} 
+edu1 = {`Bachelor in Biomedical Engineering, Konyang University (2023)`} 
+edu2 = {null} 
+int = {null}
+con = {'nsy4094@naver.com'}
+/>
+<StudentLayout
+course = {'MS course'}
+photo = {"images/gayoung.jpg"}
+name = {'Ga Young Lee'}
+EName = {null} 
+edu1 = {`Bachelor in Biomedical Engineering, Konyang University (2023)`} 
+edu2 = {null} 
+int = {null}
+con = {'gy090733@naver.com'}
+/>
+<StudentLayout
+lphoto={BarImgStu}
+course = {'MS course'}
+photo = {"images/jisoo.png"}
+name = {'Ji Soo Hyun'}
+EName = {null} 
+edu1 = {`Bachelor in Biomedical Engineering, Yonsei University (2023)`} 
+edu2 = {null} 
+int = {null}
+con = {'ywltn0421@yonsei.ac.kr'}
+/>
 
 
 <div className={styles.stu_profile}>
