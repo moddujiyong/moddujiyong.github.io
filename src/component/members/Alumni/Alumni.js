@@ -147,7 +147,7 @@ export default function Alumni() {
 
     <AluminiLayout
     course = {'MS'}
-    photo = {"images/jimin.jpg"}
+    photo = {"jimin.jpg"}
     name = {'Jimin Son'}
     edu1 = {'Master in Medical Device Engineering & Management (2023)'}
     dissertation ={'Medical Device Clinical Study Design, Medical Regulatory Affairs'}
@@ -157,7 +157,7 @@ export default function Alumni() {
 
     <AluminiLayout
     course = {'MS'}
-    photo = {"images/kanghyeon.png"}
+    photo = {"kanghyeon.png"}
     name = {'Kanghyeon You'}
     edu1 = {'Master in Medical Device Engineering & Management (2023)'} 
     dissertation = {'A study on developing a separate compensation model for AI-based medical device software \t A Study on the Improvement of Domestic Medical Device Product Classification through Analysis of Medical Device Classification System in the U.S. and Europe'} 
@@ -167,7 +167,7 @@ export default function Alumni() {
 
     <AluminiLayout
     course = {'MS'}
-    photo = {"images/jeonghwa.png"}
+    photo = {"jeonghwa.png"}
     name = {'Jeonghwa Lim'}
     edu1 = {'Master in Medical Device Engineering & Management (2023)'}
     dissertation={'Bio-signal processing, AI & Deep learning'}
@@ -176,7 +176,7 @@ export default function Alumni() {
 
     <AluminiLayout
     course = {'MS'}
-    photo = {"images/gyeongmin.png"}
+    photo = {"gyeongmin.png"}
     name = {'Gyeongmin Kwon'}
     edu1 = {'Master in Medical Device Engineering & Management (2024)'}
     dissertation = {'Usability/Human Factors Engineering, Medical Regulatory Affairs'}
@@ -185,7 +185,7 @@ export default function Alumni() {
 
     <AluminiLayout
     course = {'MS'}
-    photo = {"images/yujeong.jpg"}
+    photo = {"yujeong.jpg"}
     name = {'Yujeong Ma'} 
     edu1 = {'Master in Medical Device Engineering & Management (2024)'}
     dissertation = {'Medical Device Clinical Study Design, Clinical Effectiveness Evaluation'}

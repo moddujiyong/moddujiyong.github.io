@@ -269,7 +269,7 @@ con = {'gy090733@naver.com'}
 <StudentLayout
 lphoto={BarImgStu}
 course = {'MS course'}
-photo = {"images/jisoo.png"}
+photo = {"images/jisoo.jpg"}
 name = {'Ji Soo Hyun'}
 EName = {null} 
 edu1 = {`Bachelor in Biomedical Engineering, Yonsei University (2023)`} 
@@ -584,7 +584,7 @@ con = {'gy090733@naver.com'}
 <StudentLayout
 lphoto={BarImgStu}
 course = {'MS course'}
-photo = {"images/jisoo.png"}
+photo = {"images/jisoo.jpg"}
 name = {'Ji Soo Hyun'}
 EName = {null} 
 edu1 = {`Bachelor in Biomedical Engineering, Yonsei University (2023)`} 
