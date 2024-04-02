@@ -30,7 +30,7 @@ const Footer = () => {
             </div>
             {/* <span className={styles.department_content_mdi}  onClick={toHomepage} > http://mdi.yonsei.ac.kr/</span> */}
             <div className = {styles.textCopy}>
-                Copyright {" "}
+                Copyright {"  "}
                 
                 <span  className={styles.his} onClick = {toHomepage} style ={{}}>© hisstoryxx.</span> 
                 All rights reserved.
