@@ -31,6 +31,6 @@
     "three": "0.150.0"
   },
   "devDependencies": {
-    "gh-pages": "5.0.0"
+    "gh-pages": "^5.0.0"
   }
 }
