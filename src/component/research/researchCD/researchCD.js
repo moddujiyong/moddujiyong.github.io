@@ -6,7 +6,7 @@ import styles from "./researchCD.module.css"
 import React, {useState} from 'react';
 // import Cd1Photo from "../../../components/img/cd01.jpg";
 // import Cd2Photo from "../../../components/img/cd02.jpg";
-// import Cd3Photo from "../../../components/img/cd03.JPG";
+ import Cd3Photo from "../../../components/img/cd03.jpg";
 // import Cd4Photo from "../../../components/img/cd04.jpg";
 // import Cd5Photo from "../../../components/img/cd05.JPG";
 // import Cd6Photo from "../../../components/img/cd06.jpg";
@@ -23,7 +23,7 @@ export default function ResearchCD() {
 
   const Cd1Photo = "images/cd01.jpg"
   const Cd2Photo = "images/cd02.jpg"
-  const Cd3Photo = "images/cd03.jpg"
+  //const Cd3Photo = "images/cd03.jpg"
   const Cd4Photo = "images/cd04.jpg"
   const Cd5Photo = "images/cd05.jpg"
   const Cd6Photo = "images/cd06.jpg"
