@@ -76,7 +76,6 @@ export default function ResearchCD() {
           choose==='Progressing'?
          <div className={styles.csd_all}>
           <ResearchLayout title={'인공지능 기반 중증악화 예측 가능한 고성능 환자감시장치 시스템 개발'} img={Cd1Photo}bar={BarImgR}/>
-      
           <ResearchLayout barl={BarImgR} title={'고령자 만성질환, 현장형 진단 및 치료 시스템 임상시험 지원'} img={Cd2Photo}/>
          </div>
          : 
