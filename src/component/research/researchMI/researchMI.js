@@ -5,7 +5,7 @@ import React, {useState} from 'react';
 // import Mi2Photo from "../../../components/img/mi02.JPG";
 // import Mi3Photo from "../../../components/img/mi03.JPG";
 // import Mi4Photo from "../../../components/img/mi04.jpg";
-import ResearchLayout from '../researchLayout/ResearchLayout';
+import ResearchLayout from '../ResearchLayout/researchLayout';
 import StudentLayout from '../../members/studentLayout/StudentLayout';
 // import BarImgR from "../../../components/img/design_bar.png";
 
