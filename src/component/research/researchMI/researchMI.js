@@ -15,10 +15,10 @@ export default function ResearchMI() {
 
   const [choose,setChoose]=useState('All')
 
-  const Mi1Photo = "images/mi01.jpg"
-  const Mi2Photo = "images/mi02.jpg"
-  const Mi3Photo = "images/mi03.jpg"
-  const Mi4Photo = "images/mi04.jpg"
+  const Mi1Photo = "images/mi01.png"
+  const Mi2Photo = "images/mi02.png"
+  const Mi3Photo = "images/mi03.png"
+  const Mi4Photo = "images/mi04.png"
 
   const BarImgR = "images/design_bar.png"
 

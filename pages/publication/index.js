@@ -106,7 +106,9 @@ export default function Publication() {
             <div className={styles.journal_content}>
 
             <ul >
-                <li className ={styles.conl} >Ko, S., Jang, W. S., Jeong, J. H., Ahn, J. W., Kim, Y. H., Kim, S., ... & Chung, S. (2021). (−)-Gallocatechin gallate from green tea rescues cognitive impairment through restoring hippocampal silent synapses in post-menopausal depression. Scientific reports, 11(1), 1-20.</li>
+                <li className ={styles.conl}>Choi, H. K., Kim, S. H., & Jang, W. S. (2024). User Experience Evaluation of a Spinal Surgery Robot : Workload, Usability, and Satisfaction Study. JMIR Human Factors,  11, e54425.</li>
+                <li className ={styles.conl}>Kim, Y., Son, J. M., & Jang, W. S. (2023). A Usability Study on Patient Monitoring Systems : An Evaluation of a User Interface Based on User Experience and Preference. Medical Science Monitor, 29, e938570-1.</li>
+                <li className ={styles.conl}>Ko, S., Jang, W. S., Jeong, J. H., Ahn, J. W., Kim, Y. H., Kim, S., ... & Chung, S. (2021). (−)-Gallocatechin gallate from green tea rescues cognitive impairment through restoring hippocampal silent synapses in post-menopausal depression. Scientific reports, 11(1), 1-20.</li>
                 <li className ={styles.conl}>Song, I., Yoon, J., Kang, J., Kim, M., Jang, W. S., Shin, N. Y., & Yoo, Y. (2019). Design and implementation of a new wireless carotid neckband doppler system with wearable ultrasound sensors: preliminary results. Applied Sciences, 9(11), e2202.</li>
                 <li className ={styles.conl}>Kang, J., Jang, W., and Yoo, Y. (2018). High PRF ultrafast sliding compound doppler imaging: fully qualitative and quantitative analysis of blood flow, Physics in Medicine & Biology, 63(4), 045004</li>
                 <li className ={styles.conl}>Kim, J. Y., Yoo, S. K., Jang, W. S., Park, B. E., Park, W., & Kim, K. D. (2017). Tooth segmentation using gaussian mixture model and genetic algorithm. Journal of Medical Imaging and Health Informatics, 7(6), 1271-1276.</li>
@@ -134,7 +136,11 @@ export default function Publication() {
             <div className={styles.journal_content}>
 
             <ul >
-                <li className ={styles.conl} >Kim, Y. R., Yu, W. J., Park, H. J., & Jang, W. S. (2019). A Study on Safety, Performance and Clinical effectiveness Test Guideline of Versatile Ophthalmic Laser System. Journal of Biomedical Engineering Research, 40(6), 250–259.</li>
+                <li className ={styles.conl}>Chung, J. Y., Kim, Y. R., & Jang, W. S. (2023). Summative Usability Assessment of Software for Ventilator Central Monitoring System. Journal of Biomedical Engineering Research, 44(6), 99–108.</li>
+                <li className ={styles.conl}>Chung, J. Y., Kim, Y. R., & Jang, W. S. (2023). Software Risk Management and Cyber Security for Development of Integrated System Remotely Monitoring and Controlling Ventilators. Journal of Biomedical Engineering Research, 44(2), 99–108.</li>
+                <li className ={styles.conl}>You, K. H., Son, J. M., Kwon, G. M., Kim, Y. R., Lee., H. S., & Jang, W. S. (2023). A Study on the Improvement of Domestic Medical Device Product Classification through Analysis of Medical Device Classification System in the U.S. and Europe. Journal of Biomedical Engineering Research, 44(1), 73–79.</li>
+                <li className ={styles.conl}>Son, J. M., You, K. H., Kim, Y. R., Kwon, G. M., Lee., H. S., & Jang, W. S. (2023). A Study on the Improvement of Domestic Medical Device Device Classification System through the Analysis of Major Foreign Countries. Journal of Biomedical Engineering Research, 44(1), 41–52.</li>
+                <li className ={styles.conl}>Kim, Y. R., Yu, W. J., Park, H. J., & Jang, W. S. (2019). A Study on Safety, Performance and Clinical effectiveness Test Guideline of Versatile Ophthalmic Laser System. Journal of Biomedical Engineering Research, 40(6), 250–259.</li>
                 <li className ={styles.conl}>Kim, Y. R., Jeon, S. W., & Jang, W. S. (2019). A Study on Development of Guideline for Clinical Trial Standard Protocol of Endoscopic Marking System . Regulatory Research on Food, Drug and Cosmetic, 14(1), 43-49.</li>
                 <li className ={styles.conl}>Kim, H., Kim, B., Lee, J., Jang, W. S., & Yoo, S. K. (2017). Performance Improvement of Convolutional Neural Network for Pulmonary Nodule Detection. Journal of Biomedical Engineering Research, 38(5), 237–241.</li>
                 <li className ={styles.conl}>Lim, H. J., Yoo, S. K., & Jang, W. S. (2017). Analysis of Galvanic Skin Response Signal for High-Arousal Negative Emotion Using Discrete Wavelet Transform. Science of Emotion & Sensibility, 20(3), 13-22.</li>
@@ -173,13 +179,18 @@ export default function Publication() {
 
              <div className={styles.conference_content}>
               <ul>
+                <li className={styles.conl}>Choi, H., Kim, S., & Jang, W. (2024, Apr). Design of orthotic (helmet) for the treatment of infants with plagiocephaly. Human Facotrs and Ergonomics Society. </li>
+                <li className={styles.conl}>Kim, Y., Choi, H., & Jang, W. (2023, Apr). Design of Multifunctional Smart Incubator for Preterm Infants. Earl E. Bakken Medical Devices Center.  </li>
+                <li className={styles.conl}>Kim, Y. & Jang, W. (2023, Mar). Application of Human Factor Engineering to Design of Wireless Ultrasound Solution for Point-of-Care Applications. Human Factors and Ergonomics Society. </li>
+                <li className={styles.conl}>Choi, H., Kwon, G., & Jang, W. (2023, Mar). User Interface Analysis of Central Monitoring System in ICU Using Human Factors Engineering. Human Factors and Ergonomics Society. </li>
+                <li className={styles.conl}>Choi, H., Kim S., & Jang, W. (2023, Mar). Design of Multi-Purpose Neonatal Incubator based on human factor engineering. Human Factors and Ergonomics Society.</li>
+                <li className={styles.conl}>Chung, J. & Jang, W. (2023, Mar). Usability Evaluation of Integrated System Remotely Monitoring and Controlling Ventilators. Human Factors and Ergonomics Society.</li>
                 <li className={styles.conl}>Jeong, J., Park, S., & Jang, W. (2022, Mar). Human Factors Engineering Methods for Risk Analysis of the Breast Imaging Diagnostic System. International Symposium on Human Factors and Ergonomics in Health Care.</li>
                 <li className={styles.conl}>Choi, H., Park, S., & Jang, W. (2022, Mar). Human Factors Analysis to Design of User Interface for Multi-Purpose Neonatal Incubator. International Symposium on Human Factors and Ergonomics in Health Care.</li>
                 <li className={styles.conl}>Jeong, J., Park, S., & Jang, W. (2021, Nov). Applying Human Factor Engineering Methods for Risk Analysis of the Breast Imaging Diagnostic System. International Biomedical Engineering Conference and International Conference on Biomedical and Health Informatics.</li>
                 <li className={styles.conl}>Choi, H., Park, S., & Jang, W. (2021, Nov). User needs analysis for multi-purpose smart neonatal incubator, International Biomedical Engineering Conference and International Conference on Biomedical and Health Informatics.</li>
                 <li className={styles.conl}>Choi, J., Park, S., & Jang, W. (2021, June). Usability Testing of Ultrasonic Surgical System for Lower Eyelid Fat Removal. In Proceedings of the International Symposium on Human Factors and Ergonomics in Health Care (Vol. 10, No. 1, pp. 251-256). Sage CA: Los Angeles, CA: SAGE Publications.</li>
-                <li className={styles.conl}>Park, S., Oh, H., choi, J., & Jang, W. (2020, September). A Design of Mobile Application for Ultrasound Bladder Monitoring System Based on Usability Engineering. In Proceedings of the International Symposium on Human Factors and Ergonomics in Health Care (Vol. 9, No. 1, pp. 177-180). Sage CA: Los Angeles, CA: SAGE Publications.</li>
-                
+                <li className={styles.conl}>Park, S., Oh, H., choi, J., & Jang, W. (2020, May). A Design of Mobile Application for Ultrasound Bladder Monitoring System Based on Usability Engineering. In Proceedings of the International Symposium on Human Factors and Ergonomics in Health Care (Vol. 9, No. 1, pp. 177-180). Sage CA: Los Angeles, CA: SAGE Publications.</li>
                 </ul>
               {/* <span className={styles.conl}>Jeong, J., Park, S., & Jang, W. (2022, Mar). Human Factors Engineering Methods for Risk Analysis of the Breast Imaging Diagnostic System. International Symposium on Human Factors and Ergonomics in Health Care.</span>
               <span className={styles.conl}>Choi, H., Park, S., & Jang, W. (2022, Mar). Human Factors Analysis to Design of User Interface for Multi-Purpose Neonatal Incubator. International Symposium on Human Factors and Ergonomics in Health Care.</span>
@@ -196,12 +207,17 @@ export default function Publication() {
             <div className={styles.conference_content}>
 
               <ul>
+                <li className={styles.conl}>임정화, 박영준, 장원석, 주성훈 심전도 Precordial Lead 데이터 증강 기법 - SimVEA : Simple Vector Addition, 대한의용생체공학회, 2022 </li>
+                <li className={styles.conl}>임정화, 김경근, 박영준, 장원석, 주성훈 심전도 데이터 증강 기법 - Graph Data Augmentation, 대한의용생체공학회, 2022 </li>
+                <li className={styles.conl}>이슬비, 장원석, & 정욱진 현장진단용 무선 심장초음파 영상기기의 임상시험 프로토콜 개발 연구, 대한의용생체공학회, 2022 </li>
+                <li className={styles.conl}>이슬비, 장원석, & 정욱진 뇌졸중 모니터링을 위한 스마트 혈류진단 패치 시스템의 임상시험 프로토콜 개발 연구, 대한의용생체공학회, 2022 </li>
+                <li className={styles.conl}>이슬비, 강기호, & 장원석 ISO 13485:2016 및 GMP 제도 도입에 따른 국내 의료기기업체 인식조사를 통한 교육프로그램 개발 연구, 한국품질경영학회, 2022 </li>
                 <li className={styles.conl}>Choi, C. R., & Jang, W. S. Design for prediction of Preterm using Preprocessing and CNN-LSTM Network, The Institute of Electronics and Information Engineers Summer Annual Conference of IEIE, 2021</li>
-                <li className={styles.conl}>Choi, C. R., Jung, Y. J., Kim, Y. H., Choi, J. W., Park, S. E., Kim, Y. R., & Jang, W. S. Analysis of Uterine Contraction Using K-means algorithm, The Institute of Electronics and Information Engineers Summer Annual Conference of IEIE, 2020, GEP-672</li>
                 <li className={styles.conl}>Choi, C. R., Jang, W. S., Jung, Y. J., & Kim, Y. H. Extraction Parameter of Non-Contraction Interval using Unsupervised Learning for Predicting Preterm Birth, The Korean Society Of Perinatology, Fall Conference, 2020, 20-3312</li>
-                <li className={styles.conl}>Park. S. E., Oh, H. K., Lim, I. S., & Jang, W. S. A Design of Mobile Application for Ultrasound Bladder Monitoring System Based on Usability Engineering., The Korean Society of Medical & Biological Engineering, Spring Conference 2019, 2-22 </li>
-                <li className={styles.conl}>Choi, C. R., Jung, Y. J., Kim, Y. H., & Jang, W. S. Simulation and Analysis of Pattern Recognition Neural Network Algorithm for Detection of High risk Uterine Contractions based on Electrohysterogram Frequency analysis, The Korean Society of Medical & Biological Engineering, Fall Conference 2019, PS2-01</li>
+                <li className={styles.conl}>Choi, C. R., Jung, Y. J., Kim, Y. H., Choi, J. W., Park, S. E., Kim, Y. R., & Jang, W. S. Analysis of Uterine Contraction Using K-means algorithm, The Institute of Electronics and Information Engineers Summer Annual Conference of IEIE, 2020, GEP-672</li>
                 <li className={styles.conl}>Jang, I. J., Choi, H. W., Kang, D. J., Choi C. R., Jang, W. S., Jung Y. J., & Kim, Y. H. Development of Wireless Fetal Monitoring System based on Uterine EMG and Analysis of Uterine Contraction, The Korean Society Of Perinatology, Fall Conference, 2019 - 135</li>
+                <li className={styles.conl}>Choi, C. R., Jung, Y. J., Kim, Y. H., & Jang, W. S. Simulation and Analysis of Pattern Recognition Neural Network Algorithm for Detection of High risk Uterine Contractions based on Electrohysterogram Frequency analysis, The Korean Society of Medical & Biological Engineering, Fall Conference 2019, PS2-01</li>
+                <li className={styles.conl}>Park. S. E., Oh, H. K., Lim, I. S., & Jang, W. S. A Design of Mobile Application for Ultrasound Bladder Monitoring System Based on Usability Engineering., The Korean Society of Medical & Biological Engineering, Spring Conference 2019, 2-22 </li>
                 </ul>
 {/* 
             <span className={styles.conl}>Choi, C. R., & Jang, W. S. Design for prediction of Preterm using Preprocessing and CNN-LSTM Network, The Institute of Electronics and Information Engineers Summer Annual Conference of IEIE, 2021</span>
