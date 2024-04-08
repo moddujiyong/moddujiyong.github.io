@@ -23,7 +23,7 @@ export default function ResearchCD() {
 
   const Cd1Photo = "images/cd01.jpg"
   const Cd2Photo = "images/cd02.jpg"
-  //const Cd3Photo = "images/cd03.png"
+  const Cd3Photo = "images/cd03.png"
   const Cd4Photo = "images/cd04.jpg"
   //const Cd5Photo = "images/cd05.jpg"
   const Cd5Photo = "images/cd05.png"
